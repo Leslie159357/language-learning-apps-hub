@@ -1,0 +1,17 @@
+AVAsynchronousKeyValueLoading
+AVSpeechSynthesizerDelegate
+NSObject
+NSURLSessionDelegate
+NSURLSessionDownloadDelegate
+NSURLSessionTaskDelegate
+NSXMLParserDelegate
+UICollectionViewDataSource
+UICollectionViewDelegate
+UICollectionViewDelegateFlowLayout
+UICollectionViewDragDelegate
+UICollectionViewDropDelegate
+UICollectionViewDropItem
+UIScrollViewDelegate
+WKNavigationDelegate
+WKScriptMessageHandler
+WKUIDelegate

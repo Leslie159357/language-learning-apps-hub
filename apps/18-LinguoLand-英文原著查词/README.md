@@ -14,5 +14,8 @@
 | `recon/source_files.txt` | 145 条应用源文件 + 47 条内嵌库源文件（编译期 `#file` 路径） |
 | `recon/endpoints.txt` | 2 条 URL + 0 条接口路径 + 1 个自有域名 + 20 个依赖域名 |
 | `recon/swift_types.txt` | Swift 类型分类（class/struct/enum/protocol） |
+| `recon/objc_classes.txt` | 899 个 Mach-O 内定义的 ObjC 类（含父类） |
+| `recon/objc_methods.txt` | 5061 条 ObjC 方法选择器（467 个类） |
+| `recon/objc_protocols.txt` | 150 个 ObjC 协议 |
 | `app_graph.yaml` | REA 6.8.0 投影的 Application Graph 证据链 |
 | `全功能零遗漏规格说明书.md` | 按功能维度的组件分布与职责 |

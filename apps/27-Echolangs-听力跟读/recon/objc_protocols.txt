@@ -1,0 +1,12 @@
+ASWebAuthenticationPresentationContextProviding
+AVAudioPlayerDelegate
+AVAudioRecorderDelegate
+NSObject
+NSURLSessionDelegate
+NSURLSessionDownloadDelegate
+NSURLSessionTaskDelegate
+UIApplicationDelegate
+UNUserNotificationCenterDelegate
+WKNavigationDelegate
+WKScriptMessageHandler
+WKUIDelegate
