@@ -4,14 +4,14 @@
 - **版本**: `1.5.11`    **最低系统**: `17.0`
 - **技术栈**: `Native Swift/ObjC`
 - **主二进制**: `13.22 MB`，包内文件 `214` 个，动态库 `0` 个
-- **提取规模**: 原生类 `446` 个 / 应用源文件路径 `116` 条 / 接口 `38` 条 / 自有域名 `3` 个
+- **提取规模**: 原生类 `901` 个 / 应用源文件路径 `116` 条 / 接口 `38` 条 / 自有域名 `3` 个
 - **扩展**: `StudyReminderNotificationContent`
 
 ## 资产清单
 
 | 文件 | 内容 |
 |---|---|
-| `recon/all_classes.txt` | 446 个原生类/控制器全表 |
+| `recon/all_classes.txt` | 901 个原生类/控制器全表 |
 | `recon/source_files.txt` | 116 条应用源文件 + 0 条内嵌库源文件（编译期 `#file` 路径） |
 | `recon/endpoints.txt` | 38 条 URL + 0 条接口路径 + 3 个自有域名 + 140 个依赖域名 |
 | `recon/swift_types.txt` | Swift 类型分类（class/struct/enum/protocol） |

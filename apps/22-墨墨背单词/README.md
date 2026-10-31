@@ -4,14 +4,14 @@
 - **版本**: `5.6.08`    **最低系统**: `13.0`
 - **技术栈**: `FFmpegKit`
 - **主二进制**: `94.18 MB`，包内文件 `1211` 个，动态库 `52` 个
-- **提取规模**: 原生类 `2686` 个 / 应用源文件路径 `1110` 条 / 接口 `120` 条 / 自有域名 `37` 个
+- **提取规模**: 原生类 `3949` 个 / 应用源文件路径 `1110` 条 / 接口 `120` 条 / 自有域名 `37` 个
 - **扩展**: `ShareExtension, momo_ios_widgetExtension`
 
 ## 资产清单
 
 | 文件 | 内容 |
 |---|---|
-| `recon/all_classes.txt` | 2686 个原生类/控制器全表 |
+| `recon/all_classes.txt` | 3949 个原生类/控制器全表 |
 | `recon/source_files.txt` | 1110 条应用源文件 + 205 条内嵌库源文件（编译期 `#file` 路径） |
 | `recon/endpoints.txt` | 120 条 URL + 0 条接口路径 + 37 个自有域名 + 329 个依赖域名 |
 | `recon/swift_types.txt` | Swift 类型分类（class/struct/enum/protocol） |
