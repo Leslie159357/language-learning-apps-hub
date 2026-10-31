@@ -1,0 +1,1506 @@
+evidence_id: ev_b12be4324a85a29d85e006657347f3f169865a60b5c6e259703ad93482778699
+subject:
+  name: 6760810997_decrypted.ipa
+  digest:
+    sha256: 5e962a62a7dd382811cd661f88c38e4948ae85cd2db180de0e6bd03708137489
+  local_path: /opt/data/downloads/batch_decrypt/6760810997_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_ec8c896a711632b32b9e6d50ecdf5b11571d9709085260d669581e120a73c76e
+raw_result: null
+normalized_result:
+  projection_id: aap_58e722ee74b2b6eeb83d39193838582b9e461225030f56c8a43a1f10ca3d8e7e
+  root_sha256: 5e962a62a7dd382811cd661f88c38e4948ae85cd2db180de0e6bd03708137489
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_ec8c896a711632b32b9e6d50ecdf5b11571d9709085260d669581e120a73c76e
+  application_roots:
+    - Payload/Echo.app
+  bundles:
+    - path: Payload/Echo.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Echo
+      signing_paths:
+        - Payload/Echo.app/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Alamofire_Alamofire.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Alamofire_Alamofire.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/AppAuth_AppAuth.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/AppAuth_AppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/AppAuth_AppAuthCore.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/AppAuth_AppAuthCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseABTesting.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseABTesting.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseCore.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseCoreExtension.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseCoreInternal.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseCrashlytics.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseCrashlyticsSwift.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseCrashlyticsSwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseInstallations.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseInstallations.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Firebase_FirebaseRemoteConfig.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Firebase_FirebaseRemoteConfig.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+      signing_paths:
+        - Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+      signing_paths:
+        - Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+      signing_paths:
+        - Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+      signing_paths:
+        - Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/UMAPM.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/UMAPM.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/UMAPM.framework/UMAPM
+      signing_paths:
+        - Payload/Echo.app/Frameworks/UMAPM.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/UMCommon.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/UMCommon.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/UMCommon.framework/UMCommon
+      signing_paths:
+        - Payload/Echo.app/Frameworks/UMCommon.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/UMDevice.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/UMDevice.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/UMDevice.framework/UMDevice
+      signing_paths:
+        - Payload/Echo.app/Frameworks/UMDevice.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/UYuMao.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/UYuMao.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/UYuMao.framework/UYuMao
+      signing_paths:
+        - Payload/Echo.app/Frameworks/UYuMao.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/ffmpegkit.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/ffmpegkit.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      signing_paths:
+        - Payload/Echo.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/libavcodec.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/libavcodec.framework/libavcodec
+      signing_paths:
+        - Payload/Echo.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/libavdevice.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/libavdevice.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/libavdevice.framework/libavdevice
+      signing_paths:
+        - Payload/Echo.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/libavfilter.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/libavfilter.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/libavfilter.framework/libavfilter
+      signing_paths:
+        - Payload/Echo.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/libavformat.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/libavformat.framework/libavformat
+      signing_paths:
+        - Payload/Echo.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/libavutil.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/libavutil.framework/libavutil
+      signing_paths:
+        - Payload/Echo.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/libswresample.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/libswresample.framework/libswresample
+      signing_paths:
+        - Payload/Echo.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/Frameworks/libswscale.framework
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Frameworks/libswscale.framework/Info.plist
+      executable_candidates:
+        - Payload/Echo.app/Frameworks/libswscale.framework/libswscale
+      signing_paths:
+        - Payload/Echo.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+    - path: Payload/Echo.app/GTMAppAuth_GTMAppAuth.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleDataTransport_GoogleDataTransport.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleSignIn_GoogleSignIn.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Environment.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Logger.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-NSData.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Network.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Reachability.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Kingfisher_Kingfisher.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Kingfisher_Kingfisher.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Promises_FBLPromises.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Promises_FBLPromises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/Promises_Promises.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/Promises_Promises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/RevenueCat_RevenueCat.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/RevenueCat_RevenueCat.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/RevenueCat_RevenueCatUI.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/RevenueCat_RevenueCatUI.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/SwiftStreamingMarkdown_SwiftStreamingMarkdown.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/SwiftStreamingMarkdown_SwiftStreamingMarkdown.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/UMCommonLog.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/YoutubeKit_YoutubeKit.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/YoutubeKit_YoutubeKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/alibabacloud-oss-swift-sdk-v2_AlibabaCloudOSS.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/alibabacloud-oss-swift-sdk-v2_AlibabaCloudOSS.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/iosMath_iosMath.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/iosMath_iosMath.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/nanopb_nanopb.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/nanopb_nanopb.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Echo.app/swift-crypto_Crypto.bundle
+      parent_path: Payload/Echo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Echo.app/swift-crypto_Crypto.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/Echo.app/Alamofire_Alamofire.bundle/Info.plist
+        artifact_id: art_3bf4bb572e60ffd6723f89481d551305fef89c4664fbab388e4eb084de70c4bb
+        sha256: 48768f594503ae09df22a38e92b2f696ae54f7122154e02e03b934b735cf276a
+        format: plist
+      - path: Payload/Echo.app/AppAuth_AppAuth.bundle/Info.plist
+        artifact_id: art_d4eda320abb219818d451a5830371bc635b0a5748d0437beea4e8855031f6dce
+        sha256: 7e546b8fd803fb39eefce84941729d4461d7bb57e97678c7b41a2c6e19e2d5d9
+        format: plist
+      - path: Payload/Echo.app/AppAuth_AppAuthCore.bundle/Info.plist
+        artifact_id: art_3d8b17ae964f9d7f89680e07147d15215118077734d2f8d8621a2f9ae59feb3f
+        sha256: 4f538ff2237dd266850e3eee259f0b5b2540b4fe02d8e53b8e8b3774a99e7d5e
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseABTesting.bundle/Info.plist
+        artifact_id: art_c853c3c5e83415d759c8f87769514d421e673016e3003ffb770daf442fc88a8b
+        sha256: e06a4cbd5c196c5261982f83a133bd1a4a9ed8279badbeaa4be0f1ed7dcfb62d
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseCore.bundle/Info.plist
+        artifact_id: art_d225b585edf6b8b7b904eea9cc0959aeb23d87827239a7a1abbfa9e7a71d84cf
+        sha256: 384c24d1a5f4799b2929138e7520ecaddec082f004ccd142a7712b0ea398dd98
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+        artifact_id: art_2ee16f0c222b069a9db9867625c3353f75c75b859304c9d50f16b5b82c2973fe
+        sha256: 7c14158b2921d3a95b1da2927b2d78cfe8064d6172d3a32ee394a6517dc5ab13
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+        artifact_id: art_98947757448f65fb16243f012b2f14fc5833df1cee6beeebcb200669819241db
+        sha256: 4f56ca9e60500fcdc6061dd27972b52c5a51efdb966c8f12e59d685166804a0f
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+        artifact_id: art_48175fe26541d199608ddfb6fecef3ea2455bcfd09bc84f32dbdee4286a21937
+        sha256: 12fc84b254976562627db20ae48a0c932fd572a4734295c79a6f1b5c28754b66
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseCrashlyticsSwift.bundle/Info.plist
+        artifact_id: art_70cb18583ca13c47df6fb1579708a3a33c27530e47584481fea164095ccd6b8d
+        sha256: 36c797b97125e3596470884810778bfce51cdf28266cc97f7c4ef2c017363ba8
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseInstallations.bundle/Info.plist
+        artifact_id: art_3052f085fde0aad642ec1903012f56e8f50302490672bb12408c6811340fb3b2
+        sha256: 98bebb31b5b4edc3504830bfb8ed259d16d2858f500ccbe039ad8c9649360821
+        format: plist
+      - path: Payload/Echo.app/Firebase_FirebaseRemoteConfig.bundle/Info.plist
+        artifact_id: art_56bd7957221b85cd0d880a94e7db628823c0c228ba5c7767cc94b4756deabd95
+        sha256: f1ff9516238dfe8e54f412952dcac833ca6e8ec47ae8cf6a38122f64bb3c5f1c
+        format: plist
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+        artifact_id: art_434ddfac1cf1bd217caa0262cd4a00c73cf97ed6774c22c5531189340646f245
+        sha256: 6968c9366303826a4a9ee8b04864f112976956720e329d5ba292efe1057f2587
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+        artifact_id: art_8a57c2fa87466476e59f82daafdc74b54f2244e900c322054d147020243d031a
+        sha256: 81ac8b1f336c521c781855ad80dd8e87b3adce496f8dbc0a00b74ad4131b5345
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+        artifact_id: art_556176824d0798365b6d09fe638dd12c3ffdb122944fa0094c475b68f8ca2629
+        sha256: b5e9289362bf9bf3e6f5ce077b1af1c976ee106b42ec8905d185b0d52f1fd29f
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+        artifact_id: art_c4084cf83615f3b16baf54f96632a141bd695906de98d13d5fc78fb4aecb8705
+        sha256: 1d6e97e9fecb782942606d79de5373429c951b64f4abab49ffa3363ad96524fe
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/Info.plist
+        artifact_id: art_3bab9ef6d9385cb9ef960e4aa35b39b0cbf2a86a91cc6d7f306831fa61f06d92
+        sha256: 67fcf55c39e3ecd4be11835643045edb1e6c622c3e86851f815e804e3d60dd52
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/Info.plist
+        artifact_id: art_70e0bfc37c833574f915f66059c51e5f93b86337f1b223633c252db079594650
+        sha256: ebeec7b633a529c8e6567243e0188d68b438832a41495acbacee44090b848bd0
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/Info.plist
+        artifact_id: art_7a29f73a34f9d10ce053d8759e753ecfb12a3e018a176dc2e461dd84b027de7b
+        sha256: 767df83e414c76e3885ce4cd80dbd1d2f68abe6ef953478d81e9d26a10aba517
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/Info.plist
+        artifact_id: art_2b33e660b25b4da76d0ffad80d35c05283989b35bc4667dbf6c8558ef2807bd5
+        sha256: 2dd32b2217136525efc9f5245a1b05534844e8b8c6ec7a17f29857f56fdbc491
+        format: plist
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_3667f80f6d24d8e68fafb9291e6d995526d212ca8915c16bbc88572efd3c10ec
+        sha256: 20491240974d96412df396c821a1cc96eec2bb05791abf3c2171a98afe4b79c5
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_b167f5fe79b7240bcfbf52c48003a24fddf9f11bc06a25e2f674de974676a435
+        sha256: 6288ae08a36daccfc5994509eb44ecd6d8d864706e3ad7a86a4e42353984c70d
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_19e6aa020ff09fbe5166cc086a75c657adbbb7c5d4a3352fa5bc343d83a8d2bd
+        sha256: 0c7776cad37a2f52582fabfa63a8a9b0af277015232083c81778dfaf25b110ad
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_c361594da0971a72056ea80d57b2545f4b882bf4dd2e48d50cd785411e645d41
+        sha256: 1e144713da92030db6c3ed30a9873c112f8e5218e484b515426f242637fb9e90
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_8652d1ae6ca01841f511d322c7a158c77ffed0dcfdbf1a9da6ea896d8831c3d5
+        sha256: 549ec61892afed6ed3a6733160e9f5bf94e796cb57e383176cd4076f7b7d1bbc
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_2b3c14c90e45ec92ff1dcad519ea188e9219a1dfb81d8358c9681c1d8282084f
+        sha256: acf3ab97fbc1507c0b43055c35b81c71cd293a5abb4dfca6ee69facd05da0b4e
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_c97cfd91fef5b9ddddff8910f580bca5a7ada1bd05f24c574b72d81f36cf2563
+        sha256: 9f3e8ad579c4f088e9c41a9cf23c4a0d2d1f72420d536732b29457838603f21f
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_a95a5cd2d0a9ca7ba5c547669184c99c88c1f7318104440e81a5dec61cf9bde0
+        sha256: 9f980fcf939eb9f23271c3e1be417724f4c1644c51f49d580aa99ea70be440d5
+        format: plist
+      - path: Payload/Echo.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+        artifact_id: art_c6e6eed04c487cb5ca6700ff2cf97c38ec17156ad5d94e02820033ee7c8d12e3
+        sha256: 0d4de023d4de3bbc004bcec46a444c02744489dedce52b9969586e6d9613d857
+        format: plist
+      - path: Payload/Echo.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+        artifact_id: art_b1d4625530f5ce8520d0eb25b8b8a1dc05aa4ab2bdf6874ac5f772e8f3c8b957
+        sha256: 3f204bb562946aadb2091ec41410e5f9e0fc74a8463594bf12d90c37ccf4e557
+        format: plist
+      - path: Payload/Echo.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+        artifact_id: art_1567fcf7a59827adc98488f6345bbf2e17a94363ada4e44b6d5d5af0fc27f4cb
+        sha256: 3668e5a3b5ea9e94172c0f9c87d4909581159966fe6bfe772a8e2d5d3232bfed
+        format: plist
+      - path: Payload/Echo.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+        artifact_id: art_c6bbebafc009470b6c300430322ea58be4e866b9da3b01a8423dfb2f31d8b042
+        sha256: 4a3da77dc387ed29a03e027bd84d4eabd1ff10cbdd51806b5cadeaea0913b328
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+        artifact_id: art_bbda1065f661035b8ab9580c02d212346557831cb7965a6194db6c78f839ecc8
+        sha256: da9ecd3e52a9f3265060acc72229326018b2d7d596e423b727358ea74fef102f
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+        artifact_id: art_5647a45342adb4c96b94f903650a20b392e97b27a5d64e7041d287f200890b36
+        sha256: 8945f31de795407b6373c542fa755c69ba2d9db989102502f643f6dc718d4f55
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+        artifact_id: art_bac9f60bc8ac5faf7dce4610df90325c474cdc16ac86f08a4a0af9cec1f43dd5
+        sha256: ce372a9dbfeac8a65b0c2d0c294c05b7b6373facb0955ac2943456a9caba3de4
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+        artifact_id: art_f34aaeec1f5827f027523ed5c85e5e828da3090bc69d643c97056e34d891aba7
+        sha256: e522ee4580bc79a981bb0cd2237dde78df6c2bfe7709b7668a2c33c711856c85
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+        artifact_id: art_137fc7ff0d017a75cb91356f11cf773e15ee9422c62ea2a8c10d6f7a46855253
+        sha256: 099d96beeefc712605eb450943911ebb4e95e2777cf1e40cc30d8e9b8805291c
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+        artifact_id: art_68770ea0a8d7a8afd3ecd466e5713ee34e39a7d6c0085ba20fc46857da85a6d2
+        sha256: 7ada2d30fbe87c3537637d991af745c5a98020456a6f3d7cc793c9f2f581202c
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+        artifact_id: art_fbdb6f28e814437dca85bc87db080369b349596d09283754aeda98e4b1c34d1d
+        sha256: f3648e08092a5b1ab623d500162fb95d55cd46f9ed20d13ff3ddc37984c33cf8
+        format: plist
+      - path: Payload/Echo.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+        artifact_id: art_00a19b5dc9d7f32a55c3c31c2ccaadf41afbbea1213da368be91fe18ff18daa8
+        sha256: f25b3b1d1522b9076288f44ee6219d1b5517217280e6f1d2851e326f799ef0da
+        format: plist
+      - path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/Info.plist
+        artifact_id: art_894d55ee7db168c82c3f8d200540ce03b48a7359da4dd2fe285ea81d8243ee93
+        sha256: ca1830169bf9aec4fcb2273d6a2b098092889483d9dc61cfcb05c8a53f3c46f7
+        format: plist
+      - path: Payload/Echo.app/Info.plist
+        artifact_id: art_e17b4f66f748c01d5bd63842a09aa442774f194e24b6a4db988bb886c98b4224
+        sha256: 8789115e8a9a947ef8a343b83d48ba650aa0d0adf72a58a3818794ef4051d8d1
+        format: plist
+      - path: Payload/Echo.app/Kingfisher_Kingfisher.bundle/Info.plist
+        artifact_id: art_c52bfc4ff9147ae026d140bcae6e95829b2a0103d4ffbaeb97567537424dd28d
+        sha256: df45a18c6e9ee7143793e96f15eb0e6e96c34437f55a318803d0f512eb64b285
+        format: plist
+      - path: Payload/Echo.app/Launch Screen.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/Echo.app/Promises_FBLPromises.bundle/Info.plist
+        artifact_id: art_097c0dc12569017b81d6e46c657117f0cf6e1bec9d2b18cdfdfd20a114b34b6b
+        sha256: 41f03cbe10d155fd8d8b44f16ed25404b5f781e4ac2744d8153b944a141ebb4f
+        format: plist
+      - path: Payload/Echo.app/Promises_Promises.bundle/Info.plist
+        artifact_id: art_a70fb71ae7912ab3a5ec25dbf198b49f71057c25fe7cad681bb01ac4952a5f8c
+        sha256: 54866972ccbf753c6a296d3e13eb7151c00b17b012300dfb1a9cfd9ed81f2952
+        format: plist
+      - path: Payload/Echo.app/RevenueCat_RevenueCat.bundle/Info.plist
+        artifact_id: art_c2209c299be6ab0b7b5ac938e672bc4683e1a8ecf228bb368808ed13e7ff2403
+        sha256: 7246b884bd8f36f607a9312823ce64a096c602d4b9ea76aa210f289c8e977ef2
+        format: plist
+      - path: Payload/Echo.app/RevenueCat_RevenueCatUI.bundle/Info.plist
+        artifact_id: art_da0579ae328faa83518a99f66dc9960a647a9d3fdba9edb1b465be0c3a8b8000
+        sha256: 4ab808ce9d81b66d08e22ec22d15fe85cd12571871da8ac3109c472fa0dd0eff
+        format: plist
+      - path: Payload/Echo.app/SwiftStreamingMarkdown_SwiftStreamingMarkdown.bundle/Info.plist
+        artifact_id: art_e4fe85601e49ab21c94f036f082b8354cca461e9c0e113741cbfdd1974d9757e
+        sha256: 21785c0f6778f317cd2ddb451c818ccd5a0a5ab537b1807946133ead1125732e
+        format: plist
+      - path: Payload/Echo.app/YoutubeKit_YoutubeKit.bundle/Info.plist
+        artifact_id: art_d87ca7b7aa0827e110fbbfdfcdff31c790baeff72fd63eabb01564a9c6bb4eb1
+        sha256: 807790501ca105065ffe2df8ea92deaee3869a443d2253e5765d9f27c142ad88
+        format: plist
+      - path: Payload/Echo.app/alibabacloud-oss-swift-sdk-v2_AlibabaCloudOSS.bundle/Info.plist
+        artifact_id: art_74f3ef442878b1309bc07d0a9dac36dd722937e05dd42b98da5b67ef395af90b
+        sha256: 1fc31c14346c03993979e342c4cf80decbabb85fbdcb0be58874136414987f32
+        format: plist
+      - path: Payload/Echo.app/iosMath_iosMath.bundle/Info.plist
+        artifact_id: art_3ed6b27a419f00effce1eabfefd2e1c119d8d1929540b79d3ae436b9889e569e
+        sha256: 018cfd0891ff74941a4d1c6eb3e6d0b20fd8e744b800feabdb9e64ca38760396
+        format: plist
+      - path: Payload/Echo.app/nanopb_nanopb.bundle/Info.plist
+        artifact_id: art_077f23baa4b64e6dae3cc02590c5c5a0d4fd3352d2571a541fb27a3ee8d65e11
+        sha256: 83013c2c8b90b21685cc38eaf47a18fbb0f8526e671fc45e65a91c887b209165
+        format: plist
+      - path: Payload/Echo.app/swift-crypto_Crypto.bundle/Info.plist
+        artifact_id: art_b05b1e19d7b91c26e400c5f915519ef7f3ee7c70fd7cdc7c57760dc3aafac8c6
+        sha256: be3d8d46e9a2ed52830bc532aee379c9e76966b129030cf000290ad63b70c45d
+        format: plist
+    executables:
+      - path: Payload/Echo.app/Echo
+        artifact_id: art_75dfebc94e782562037dbc161d89149da2d618089fe01f58372510766770e18b
+        sha256: 760ad2c8ef9ca7f5a98a2bc4fb69e04e812cd122c3112aa17dc26af69299e6de
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+        artifact_id: art_ca7377271fafb1b4aae934a9cfe7b59983b28a1f6b32e3ee353c0c05d9b18783
+        sha256: 39d0030311d2a498e1cd0e0dd109f8205a56a48227b0aaca12e723aabbe9e180
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+        artifact_id: art_5d8a9b120ea69e192189bf4ee1a90dc7e7895d972ea3812ad546ff710da6979d
+        sha256: 4e07aa646b679f6fdd0cf13ac579ede36906bca85d0018da512436874c50d8c9
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+        artifact_id: art_83adc049462a65d007ed119160f98a44e438e54ee8d0cabe229fdea6608688b7
+        sha256: 0483e402d3109fe9a3ee3a2c51e1419b764574c089890a84b80d4b8ecb1f717f
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+        artifact_id: art_73d96b55b78de5f7cc9220cd999ef7d0b3c498a595e213d10d6c095c0a4bb23f
+        sha256: ea7aeda3581ba1711013a37b1c6a4c1448dbaff2bb121619d0d18bf066447c15
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/UMAPM
+        artifact_id: art_0b0d735913f4b80d62d3b6de01191e313ff3917063a7032473f37fa64f82216c
+        sha256: 24c04d2ea3c0163b8f5a877c5e574595e9c18a3d7372ef6f6c46360ff9553fc8
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/UMCommon
+        artifact_id: art_82e69eac4147f715838d0a485c0b01ba54854fa993fe892ae3e2b51801e48a6a
+        sha256: 7c38ca31bb363203cf36086a1016c0b928d919df0ce98c47a632f64e6639d8bd
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/UMDevice
+        artifact_id: art_50fd95df24354eab247d8e34aa096dc180361b65571cfd5e08bf2bac9fd95ae4
+        sha256: a755474daaaad0664c17f46d54091a1c56152ed8db87554160abfd464ed22252
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/UYuMao
+        artifact_id: art_25ed3d842336ac854fc06860a89b0c8454f55a18f373dfb333bf12081c46402e
+        sha256: 6ca0fe872bd601ddd999bd4d9f7ad62432eaa6548e7c27ae9ad854783e7dca49
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_2254b9243b234d537315467cc15731d1f5107044513c9e89454c62c97287f41d
+        sha256: c5021a341bc9b3f78dc58875675de215ee18004a2c422afd72e14dbad5a02a5c
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_239b39b10bde6b51f8e812bc748b5c084e67a0524df23877d9642fa309f0e3aa
+        sha256: c821218442dc022c2f4c168d1a9fa03f46f2ed2ea87fc4f8b605de646f653e21
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_edbdeb8668c708e81db23d367b09394f09877be7975065d4bec098a58ac8bbe0
+        sha256: 6d37422d75508ee62c71d725fbc6a490ddeb79fb286f381b55c21adbb493acb8
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_8931eb40417296258d3ee651a7e2bf2fbadfe0a37edd88a2bde54b9c46fab94e
+        sha256: a3edf893fce4935b477344cd323a99a52d7a8a1b2cd1c48709b043e040fc7a4e
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_fd5952322f734330a6c5c469e1bb78beb1806540dc9860ae80a50bab6f9fd02c
+        sha256: d159049d41226c9e168c7d3fcbf0fec01db607e68e99e4a4f8234d5be6715526
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_fc3215b524afe8b15e68fae72709ed5a3039467f7970babac2ebe54c3eed6caf
+        sha256: 08a65a8b91e210f5de21f233176c63070a97790fb2c5998772ceb371d22d5d08
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_a900d326ae238c80fa21a668b6be4baadb7c2ac9f3dfb3901de8a5a93bfbb1d5
+        sha256: 95c117b0406d1feabf0d96aac82655eb1031d6dbf1be78c91b35ebb121e1b22b
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_6fea742b8c8c077bbe01333f9bee96303f84088722eca15875366629fb52d2f4
+        sha256: 07f88b44e25fac2a45bbdd090bdc2f4898702bb1b508fd3458efb303c14d8d73
+        format: mach-o-universal
+    frameworks:
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+        artifact_id: art_ca7377271fafb1b4aae934a9cfe7b59983b28a1f6b32e3ee353c0c05d9b18783
+        sha256: 39d0030311d2a498e1cd0e0dd109f8205a56a48227b0aaca12e723aabbe9e180
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+        artifact_id: art_434ddfac1cf1bd217caa0262cd4a00c73cf97ed6774c22c5531189340646f245
+        sha256: 6968c9366303826a4a9ee8b04864f112976956720e329d5ba292efe1057f2587
+        format: plist
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.v4.supp
+        artifact_id: art_1557feed12415e76da115be0a8f0eda2ed60692d03aadd759dd556b78b365de1
+        sha256: c9aa9ec67cf18f7cee2df75334b735a8c45dd1b09b6d9ddccc2e1e7379a9c12f
+        format: file
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.v5.supf
+        artifact_id: art_cc935e835b3a37b5e7a0511183e8e489e2e55f01a7ef26c0251f2d71aac07add
+        sha256: dcadcb07f15341dcf7dd5c792acd14648e7a019550a82b993add18277f7ceb73
+        format: file
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_76c55265719f15041a4468f1bc97c98b5364fe2260aa90e71597ddab142fff84
+        sha256: 7b956a6f8355360f0e73796ce24de7946495d331c12e479461a9d92a4b5dbf41
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+        artifact_id: art_5d8a9b120ea69e192189bf4ee1a90dc7e7895d972ea3812ad546ff710da6979d
+        sha256: 4e07aa646b679f6fdd0cf13ac579ede36906bca85d0018da512436874c50d8c9
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+        artifact_id: art_8a57c2fa87466476e59f82daafdc74b54f2244e900c322054d147020243d031a
+        sha256: 81ac8b1f336c521c781855ad80dd8e87b3adce496f8dbc0a00b74ad4131b5345
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.v4.supp
+        artifact_id: art_dbdfa09f6b9b54cfe6a82d5c1c3f2e8ad0015433d9b8c80f6f390c77b50013b8
+        sha256: 7246be6f33fbcc7de8dc1da9837848c17316c357238d2d008aff4984df69c90b
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.v5.supf
+        artifact_id: art_3cc4a9c51c31e2135be1c1c24bcf40a5e10c6c4521efd0208e710fc511d061fd
+        sha256: 87451abff893e166db85dc5258cf30fd009aea72e325469c6644bd19b4bc051e
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+        artifact_id: art_43b7cfbb578fff844a82c4e02820fe178e911286a54cf88910f07ed0bb4e4c7f
+        sha256: b62a2c4cb5660414cf6d1180fd0282d46125a1149c7bdd8dea03fd1b5273924d
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+        artifact_id: art_83adc049462a65d007ed119160f98a44e438e54ee8d0cabe229fdea6608688b7
+        sha256: 0483e402d3109fe9a3ee3a2c51e1419b764574c089890a84b80d4b8ecb1f717f
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+        artifact_id: art_556176824d0798365b6d09fe638dd12c3ffdb122944fa0094c475b68f8ca2629
+        sha256: b5e9289362bf9bf3e6f5ce077b1af1c976ee106b42ec8905d185b0d52f1fd29f
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.v4.supp
+        artifact_id: art_ba030378862a514dc77dde3bc773a787f7e3891bf4e3897e824aee512501ac20
+        sha256: f10aa22416d3e1293b1f45f210c01f830188afddad85f10352f704819a09bb0d
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.v5.supf
+        artifact_id: art_ce204c6284cbaffba6f6457d6afb1f7d9a13cf0c364c2c7b978a68a941cd8ec2
+        sha256: d20d81e8aa385bcbb025de6e02eeacfaf6c09413c09609414dc278170aa01f99
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+        artifact_id: art_64d2aa2a2e702e349df070980ae595d3c995dacb066fc9d77843bf18c9ff7ad8
+        sha256: 095e0359bf27aadbf5ccd7f885e06c1b0c8bc3d66df7cf354514f9ea885af94f
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+        artifact_id: art_73d96b55b78de5f7cc9220cd999ef7d0b3c498a595e213d10d6c095c0a4bb23f
+        sha256: ea7aeda3581ba1711013a37b1c6a4c1448dbaff2bb121619d0d18bf066447c15
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+        artifact_id: art_c4084cf83615f3b16baf54f96632a141bd695906de98d13d5fc78fb4aecb8705
+        sha256: 1d6e97e9fecb782942606d79de5373429c951b64f4abab49ffa3363ad96524fe
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.v4.supp
+        artifact_id: art_dbcec2cdbde0427f2e22c07d20d7d9892d6addb8c41b7e05d37a6b4f80765872
+        sha256: 164e6f49bfaff05e132094eedd8a1c8cf3c314baa38d79d41d3eaecb2f05cbd6
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.v5.supf
+        artifact_id: art_2b33b289be97f7b26f951865dcb2f2edb57dea3b4064b5109a44c88cce9a8c51
+        sha256: 036498be1b16892e05597033b6e7b39f45a899a04c718b4c78294fc4c2eabe26
+        format: file
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+        artifact_id: art_95d86f69e9c5604719cc13859072a9629b0dd65c31c5e5b44392b4bf93a6ac9a
+        sha256: 198d7ad244d44ac18d162d05826fdce3386277f09ff5020b9d35d769f1616add
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/Info.plist
+        artifact_id: art_3bab9ef6d9385cb9ef960e4aa35b39b0cbf2a86a91cc6d7f306831fa61f06d92
+        sha256: 67fcf55c39e3ecd4be11835643045edb1e6c622c3e86851f815e804e3d60dd52
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_05a9480b3dbb03eacedb46b6096b51a76e760658577e83f4c5a33102d6fe3ff6
+        sha256: 00dfb8d5c47c2a1e1316593111795cf8a3e2a1841676c567a1a08b8b1426052e
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/SC_Info/UMAPM.supf
+        artifact_id: art_0ebbfcd324e41fa27899a1301a8cc6b52e5d8ec475cd6d1394293c2a698ae140
+        sha256: cb0acfc0fe0e64341257e4bbf71fb1f902964ce92ef28293c66b4e39c59f54ae
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/SC_Info/UMAPM.supp
+        artifact_id: art_37078b0afbc91c7fe47d7f0b4cc925daa6c0ff6d3655ec2048388137b2a459df
+        sha256: d9ea24dd43f24141a090b916d00ed15b707544d723b78fb692e98621e763977a
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/SC_Info/UMAPM.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/SC_Info/UMAPM.v4.supp
+        artifact_id: art_d72e19a370454a870c673d4e1ed107fea8a320563040a137e0f5d13bf5411d14
+        sha256: 9f3a03074f3f8de02dcc75101de004b40714337c6af8d55ae66221931f7d51b8
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/SC_Info/UMAPM.v5.supf
+        artifact_id: art_8602258415f893222f978e5d759b27a9978c56f1a2a54457774e08a818941d2f
+        sha256: fabc7542091b1cd92d82adcf8433db3d2a38118581231f532669b79bc17b306c
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/UMAPM
+        artifact_id: art_0b0d735913f4b80d62d3b6de01191e313ff3917063a7032473f37fa64f82216c
+        sha256: 24c04d2ea3c0163b8f5a877c5e574595e9c18a3d7372ef6f6c46360ff9553fc8
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/_CodeSignature/CodeResources
+        artifact_id: art_70fbbf211a965672e7ba1102b959d8f9ae7eed7e7e45c658dab4c8d20e2a9d56
+        sha256: 56048b40c46238bfaf6ea81146b644f623cc784c15c42a41bab0f92d40de4f6c
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/Info.plist
+        artifact_id: art_70e0bfc37c833574f915f66059c51e5f93b86337f1b223633c252db079594650
+        sha256: ebeec7b633a529c8e6567243e0188d68b438832a41495acbacee44090b848bd0
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_ffd99aed80da9c1d96d5ec951560a2f4d4518856f3da405281c00d85e34605b1
+        sha256: 1e9e60d67d99037e2ede547daf71ef392c30d415302f5412feb7ed2bd82be421
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/SC_Info/UMCommon.supf
+        artifact_id: art_6e3ac68bdbb6fc0e856b972b6cec56fda224c9b714bfca8946b4da77a8fc6eea
+        sha256: 1b0b5becc544614d5ec44f24b7cfef7546c2e8763ecb777ecae6f8bb9c1d7fd6
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/SC_Info/UMCommon.supp
+        artifact_id: art_162bf553097c59e779af5a9a6644a43a5dde08ea6948813bc229f355eddb0a02
+        sha256: d5389ec1ee081856e4fa0d866a56f06648dd7df0caf1f4ac836e721e3d67181a
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/SC_Info/UMCommon.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/SC_Info/UMCommon.v4.supp
+        artifact_id: art_2e1faace15bc9f6e5591b67a21d7ebef280df9c95ecaec7cd18c3e542f155b04
+        sha256: 089e8bdfdbd6b89123c50e37646b863c053271e6c7d63022d6707ad45c133486
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/SC_Info/UMCommon.v5.supf
+        artifact_id: art_2b33b289be97f7b26f951865dcb2f2edb57dea3b4064b5109a44c88cce9a8c51
+        sha256: 036498be1b16892e05597033b6e7b39f45a899a04c718b4c78294fc4c2eabe26
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/UMCommon
+        artifact_id: art_82e69eac4147f715838d0a485c0b01ba54854fa993fe892ae3e2b51801e48a6a
+        sha256: 7c38ca31bb363203cf36086a1016c0b928d919df0ce98c47a632f64e6639d8bd
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/_CodeSignature/CodeResources
+        artifact_id: art_9b8edfe6126c57adc586411faac0eaba3c1fc8656f8b9cbcc081ec77afb40a67
+        sha256: ffb7629da988af7978a22359b1610008e8fc1d038e00604bb2ea122867e7cc46
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/Info.plist
+        artifact_id: art_7a29f73a34f9d10ce053d8759e753ecfb12a3e018a176dc2e461dd84b027de7b
+        sha256: 767df83e414c76e3885ce4cd80dbd1d2f68abe6ef953478d81e9d26a10aba517
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_b93bb3338ecef6227d56f2e99415df3cec8b7b3c03e23906411229526cc08bf8
+        sha256: ab9fc8e00b19972b1e5050637de44a53a1668e3b984f3e5e5b01adada24a115b
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/SC_Info/UMDevice.supf
+        artifact_id: art_85a9c985876edc2ef0eceac943066a2a9ec04223f5f55ea287fe792ae6c02427
+        sha256: b68cc997f8d81540476b99f9982769bfc7b05a065909f59addd7f48597c29a52
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/SC_Info/UMDevice.supp
+        artifact_id: art_2505feddd50e6f6cb1535a4c39dd344d01fbe2dee82ed18a73bcc27c0b8a92da
+        sha256: a9c62bd04f60a54722ab2603de390a54f946e26e7dc07d2a70f23343ebea517d
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/SC_Info/UMDevice.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/SC_Info/UMDevice.v4.supp
+        artifact_id: art_ba030378862a514dc77dde3bc773a787f7e3891bf4e3897e824aee512501ac20
+        sha256: f10aa22416d3e1293b1f45f210c01f830188afddad85f10352f704819a09bb0d
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/SC_Info/UMDevice.v5.supf
+        artifact_id: art_c4f879434c1c07d68fc83461e16bdcd4d437a4bc611a3b1f6fdd6f83620ea627
+        sha256: 7aac237dc61a0aea91e8fc3acad14d2ffa602abd40a4e2a123d2a57d86991f09
+        format: file
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/UMDevice
+        artifact_id: art_50fd95df24354eab247d8e34aa096dc180361b65571cfd5e08bf2bac9fd95ae4
+        sha256: a755474daaaad0664c17f46d54091a1c56152ed8db87554160abfd464ed22252
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_4e068038fa9af3453a9c5003945256f36f98b79aba59d04b006d377ef9c9a2e6
+        sha256: 09c7e2cb12fd9580cb6cae7b575ae6a8332acd9bcaa8ad739de8cfd145cbb90c
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/Info.plist
+        artifact_id: art_2b33e660b25b4da76d0ffad80d35c05283989b35bc4667dbf6c8558ef2807bd5
+        sha256: 2dd32b2217136525efc9f5245a1b05534844e8b8c6ec7a17f29857f56fdbc491
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_327f0d9aaf9c296f3763d0c5de18270c015f694e1928e2831ab814693b411dcd
+        sha256: 746729725fcfae60fe0577560bc3b3477eed37c2098f950bbd323460544702e4
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/SC_Info/UYuMao.supf
+        artifact_id: art_0455f8d32bb774f0f798a0ed8604443193dcecc25fec9607c6d90004e5f856f7
+        sha256: 5641705b4e73ca4ec99b1295b4783230a15f05a2c39d7ac4003e14f3d078be5b
+        format: file
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/SC_Info/UYuMao.supp
+        artifact_id: art_b32090551afe4ef09d2b5b78a6553854e761f20d456199e09e30bd6311812b4c
+        sha256: 167d79b03e18d33cf4aef1ca36cd875de9387512aadd9a82aadc488bf9af40a1
+        format: file
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/SC_Info/UYuMao.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/SC_Info/UYuMao.v4.supp
+        artifact_id: art_ba030378862a514dc77dde3bc773a787f7e3891bf4e3897e824aee512501ac20
+        sha256: f10aa22416d3e1293b1f45f210c01f830188afddad85f10352f704819a09bb0d
+        format: file
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/SC_Info/UYuMao.v5.supf
+        artifact_id: art_3cc4a9c51c31e2135be1c1c24bcf40a5e10c6c4521efd0208e710fc511d061fd
+        sha256: 87451abff893e166db85dc5258cf30fd009aea72e325469c6644bd19b4bc051e
+        format: file
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/UYuMao
+        artifact_id: art_25ed3d842336ac854fc06860a89b0c8454f55a18f373dfb333bf12081c46402e
+        sha256: 6ca0fe872bd601ddd999bd4d9f7ad62432eaa6548e7c27ae9ad854783e7dca49
+        format: mach-o
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/_CodeSignature/CodeResources
+        artifact_id: art_bca97100430b1d228adae2b2d24f183d67fe077edc973ea1b880d6f85365e2f3
+        sha256: 63af04d79a5e118a6479f0ad1580696e0949ca701a3feaf8e8781eca0f95923b
+        format: plist
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_3667f80f6d24d8e68fafb9291e6d995526d212ca8915c16bbc88572efd3c10ec
+        sha256: 20491240974d96412df396c821a1cc96eec2bb05791abf3c2171a98afe4b79c5
+        format: plist
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supf
+        artifact_id: art_b9f8fa6e38afb0738fedd96252ef99e52a2a62307607e0333e033e834e72fb2d
+        sha256: efba09087fdb1da71cbd3e2a6f74d70a261e118c4aeff8031b82e038b0ed4a3d
+        format: file
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supp
+        artifact_id: art_8633e66ecbff8a9351add3a5949ddd0a2a8225a7f2411307abeb499559721503
+        sha256: b0d551bf9107df7a6fb4a63cc2feb005bfb0535b699385574b3607a4113cdfe3
+        format: file
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.v4.supp
+        artifact_id: art_c00e24a44c0db6435a3cd426218057a35cbe98519a8f86c43161dbb53f5676e1
+        sha256: 6e40f91d132547b53ad14a76392c4e5c7653296ec6c1b0f9dd8eaa6287c1db61
+        format: file
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.v5.supf
+        artifact_id: art_b44b549f1197775ded13a5d28618e45986b4cdaa9c3998ac75b753d678a4fb70
+        sha256: 4030ebbe3827861c39d5fb8e9a01c8d62c5beb206395e5187fc8374f76a65170
+        format: file
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/SOURCE
+        artifact_id: art_f18995a5babaf0bcda7b6bcf04d9963565a940e01dcd62ae3eeaa5b4557c822f
+        sha256: abf82e6ec062e51a4b590c5d7dad15907f96c48158f46cd99b2c28e7fef9541b
+        format: file
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_30ab23109637dde0ccb5552660567d38f09fadc6e3ac1a6ead883d278da87420
+        sha256: 236e7e4e9fdb8d0c5ed8d62b69eb5995e9dfab0147d59105ae9add079e1c6ded
+        format: plist
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_2254b9243b234d537315467cc15731d1f5107044513c9e89454c62c97287f41d
+        sha256: c5021a341bc9b3f78dc58875675de215ee18004a2c422afd72e14dbad5a02a5c
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/strip-frameworks.sh
+        artifact_id: art_de87c0cf3a769bee342b17e37a0042919ec31b33294980d5459476bfafe55431
+        sha256: 10505db2020a91c07f656e4081c9e72f7fe8d01a62bfa5e23e2dec3d931a3dd8
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_b167f5fe79b7240bcfbf52c48003a24fddf9f11bc06a25e2f674de974676a435
+        sha256: 6288ae08a36daccfc5994509eb44ecd6d8d864706e3ad7a86a4e42353984c70d
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supf
+        artifact_id: art_e8fd3c11a715768951ad4f327d6058d4ada5ab40a27a39447bcc644769f85ad5
+        sha256: fd9bdbba2726e8bf7be3a1be14ac7f9debdebcb1940d19a3bd815bb055ad42e5
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supp
+        artifact_id: art_25d7a0f5ab96f53a0bf1548f744ab82d4213bd05330633ad9bb6aa93a6a8113e
+        sha256: de12e88951c7fbc012b8ea816fbb7b28ffa5aed5c3c0ba2b27c50b1f2d24f4f6
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v4.supp
+        artifact_id: art_0f8ada3d1b829b0dc15882fcae1239265a6ca6a0ab5e58140d2db6cfd6ae6d53
+        sha256: ab82e07362928293ad252ceca960a3efb82ecdc3b1f9d75e1ee60e7e7fb7775a
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v5.supf
+        artifact_id: art_7cce38183056592c6e3f16bf3e7fb0ab52c4e35dea47d8235ee5404bd856abe8
+        sha256: 3074daf68d5b05fff9e2a00a30bf5c02d74b069b9207dc76d8b58166562c29da
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_1e84567c75bc15bcbd3a34176bfd745e2d6441ec7442a5f5b63376d12e232ec4
+        sha256: d6165ea3d126333cd5c2252c04fecda8d1a866f0bddc6df5473d67eab1445156
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_239b39b10bde6b51f8e812bc748b5c084e67a0524df23877d9642fa309f0e3aa
+        sha256: c821218442dc022c2f4c168d1a9fa03f46f2ed2ea87fc4f8b605de646f653e21
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_19e6aa020ff09fbe5166cc086a75c657adbbb7c5d4a3352fa5bc343d83a8d2bd
+        sha256: 0c7776cad37a2f52582fabfa63a8a9b0af277015232083c81778dfaf25b110ad
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supf
+        artifact_id: art_2d61d08b56f510ec2c6e4ada31c4f89014cc4057a62691774d4adb452fc28318
+        sha256: 5e01329da62bd4fb54297bb0d757e1aa30e820b26ec125b8329be9ef22c0621b
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supp
+        artifact_id: art_fd47901e4073f707a0ebf063353e9c045e786e7590f53f36b1f8be3b565f49bd
+        sha256: 34d68e65675f2a22c622b32cd9b409889bbfb1bd1f3dca13b29febb3618b5fbe
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v4.supp
+        artifact_id: art_4f63b58fe487eb22bc15ab618da7a9d9494d7f51c6837a2c7344e374ef14e6f7
+        sha256: ff3eeed72dbfc79dcfe723100d028e2a6a8cadd63d3f283f820de4cf90a5150f
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v5.supf
+        artifact_id: art_0384fefde1ae6fd072df85384f3220e71943d1ae8983a7d4d01a15a9bdc853fe
+        sha256: 354a5cb1d913129681f383f969fd04a6174a0c3616ec4360d1abda4697d906b2
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_e31352cc5e63be21a2f77eeff00605c01e8fefbf3ef4583591c07cf4e743f630
+        sha256: 3e13cf1820310d69ab0e05ea748d00de934bb0dad690aa51eef70ae3adc65b23
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_edbdeb8668c708e81db23d367b09394f09877be7975065d4bec098a58ac8bbe0
+        sha256: 6d37422d75508ee62c71d725fbc6a490ddeb79fb286f381b55c21adbb493acb8
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_c361594da0971a72056ea80d57b2545f4b882bf4dd2e48d50cd785411e645d41
+        sha256: 1e144713da92030db6c3ed30a9873c112f8e5218e484b515426f242637fb9e90
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supf
+        artifact_id: art_6cb31a7700bb35e3101be09bc32cd243528e628acc2e946f28f53ae710af2193
+        sha256: 910a2514cdb245838f20c6386f810a0ad9134c69473d23230588999a6a06e8d7
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supp
+        artifact_id: art_74ab6cf6aeb232ae69761b3c6bd5ae87138786ade928f0104c1dc20e0c0c9160
+        sha256: c971b1238aef50213e08e1b2ce65959c40118172062b5b93b7be89198c969cda
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v4.supp
+        artifact_id: art_7a091ea435d90eb9273a67982dc49379af82cb58817d5485db67678ba98980bc
+        sha256: 3291c32acbd25ee790b58d131415c82a1b948769c482ac8dd20421554b66c65f
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v5.supf
+        artifact_id: art_b4a475db249655156a47911be26b818b896b45273972bbd2c7402673fdb535f7
+        sha256: 5d1290f19311036dbaceb79c404a4155d633d22fe5fac7c18dece45b8c8cffdc
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_0fc8e2695f08c846bef578fa8215147cbccb738e442c7b8feb72ce60a9102e36
+        sha256: a9645e4921b51640b403d31dc475ac204af1c79334b93727b6deee10cf97bb68
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_8931eb40417296258d3ee651a7e2bf2fbadfe0a37edd88a2bde54b9c46fab94e
+        sha256: a3edf893fce4935b477344cd323a99a52d7a8a1b2cd1c48709b043e040fc7a4e
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_8652d1ae6ca01841f511d322c7a158c77ffed0dcfdbf1a9da6ea896d8831c3d5
+        sha256: 549ec61892afed6ed3a6733160e9f5bf94e796cb57e383176cd4076f7b7d1bbc
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/SC_Info/libavformat.supf
+        artifact_id: art_42797d6a8be44fb2f4d4e0bd26dfdb798a45eeb3ff3ec97ba1b510d856a94bf3
+        sha256: e95903f5641150e78aa4e23af8a3fb9270a0f11f4f9193c7a90254fa85254c13
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/SC_Info/libavformat.supp
+        artifact_id: art_0e3932ac82772734ef0fe114c38248f292fe44f6803bdafed9bb169034523474
+        sha256: 19583345cab851c4c06db7c450344aedb64636af5391321e9c1b5b4b4292844a
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/SC_Info/libavformat.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/SC_Info/libavformat.v4.supp
+        artifact_id: art_71befa8db8bd361b7ae279ef4a0ed167a6762d0a74406128fe958a8ba3c21c0d
+        sha256: 1657ccdf96d0181c4d6a797298a719fc9eaddb5f74a6fa360d50fc39069dee14
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/SC_Info/libavformat.v5.supf
+        artifact_id: art_6fd5323155159f0b9ab494b5554dedae7e559a162b1097df87a8679e0f39239d
+        sha256: 834d01877b5ca94d9d42301121c1534db52dd1b5698754f93e9b6860a5c8942f
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_4cb54d5c6eafb23db509e36055202306d50e5a53df40df8331c21101a07ac1ec
+        sha256: 9e30a8ddcbd126a1bfc097e5f7b932f02a14992a3215672f0e31719269e8d5f8
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_fd5952322f734330a6c5c469e1bb78beb1806540dc9860ae80a50bab6f9fd02c
+        sha256: d159049d41226c9e168c7d3fcbf0fec01db607e68e99e4a4f8234d5be6715526
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_2b3c14c90e45ec92ff1dcad519ea188e9219a1dfb81d8358c9681c1d8282084f
+        sha256: acf3ab97fbc1507c0b43055c35b81c71cd293a5abb4dfca6ee69facd05da0b4e
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/SC_Info/libavutil.supf
+        artifact_id: art_3b7b5cbaab729341f1df10d1368944def6267692f20057db0d597cf79550484b
+        sha256: 7c50575f28fa575dee3b9b25582333e8fbab2492ad286808899ec1f400738b95
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/SC_Info/libavutil.supp
+        artifact_id: art_d0834a511943d15c4db04ac48d134ff25deb0a722b8999c39477bfccb7baac50
+        sha256: 76c1824d662e52c6255065d6b4ec8f9616018014fc09f2a40fcbd47f110b9f17
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/SC_Info/libavutil.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/SC_Info/libavutil.v4.supp
+        artifact_id: art_8a8a617f35c56b8ec3d281dffbfa87f1b059d64a8c52cbb2f392a8889d31fc82
+        sha256: 0a814d181622c749d54e838634cb5ba57b314161b99ffca36fc9f4e2beef1c04
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/SC_Info/libavutil.v5.supf
+        artifact_id: art_545e2c286f49a35d1ef5cdf01f868ea8da22f375c5d9a9278bdf9acdfea4134e
+        sha256: 9b2fedf989c3207230566fb0c8f17a42798225d815b140b69e0dbc856dc53066
+        format: file
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_57828251fafbb93c59fc6bf25d13b07e2c006b92f28c76a79067767f7c724faa
+        sha256: af391f7ce3886f3dcdcf829c60cc2363e650f10645b26b6790992c4278b37b3b
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_fc3215b524afe8b15e68fae72709ed5a3039467f7970babac2ebe54c3eed6caf
+        sha256: 08a65a8b91e210f5de21f233176c63070a97790fb2c5998772ceb371d22d5d08
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_c97cfd91fef5b9ddddff8910f580bca5a7ada1bd05f24c574b72d81f36cf2563
+        sha256: 9f3e8ad579c4f088e9c41a9cf23c4a0d2d1f72420d536732b29457838603f21f
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/SC_Info/libswresample.supf
+        artifact_id: art_95e00bfd4a02c9bd5456f44d9f60492f97dcc9ed59ec84a159171d753eeeac25
+        sha256: 3dfa117fc46d8f95923ea9ce0719091cb81e45dfd2de034c67199bd8e544b47e
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/SC_Info/libswresample.supp
+        artifact_id: art_f0deee81e1e554982c0d51340ccad4d8e3bc0665d2516eedc8c070fbb81280ab
+        sha256: 37cc62432e94dc07cc8fa5c3cf5ab601b7f1153745490b6927f91ca696e0f543
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/SC_Info/libswresample.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/SC_Info/libswresample.v4.supp
+        artifact_id: art_335b875e7b55ad7db06a839d4ff1a30bc5e702f9361f86a4e8da9a964f0ed15f
+        sha256: 5b7d14854af67a7a668a836491210de72e71a217d00a9560589c5738bf494bbd
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/SC_Info/libswresample.v5.supf
+        artifact_id: art_8135f7249559bb9d2f785315fa1603bbdfd2c01280b070aee052871cac58cfd7
+        sha256: 8d20bf533e7c44f7364c6862cc77cce8815e70a33c9dc36ad7039812480f46e4
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_c2b1a0c53ef6fe7f1ab5abcb0f0e102a8a409bacd3681b1247c66242f2940e17
+        sha256: 2b382f60e8fd1ed646129d8b641d81048c60db884b05b71a834796d343157eed
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_a900d326ae238c80fa21a668b6be4baadb7c2ac9f3dfb3901de8a5a93bfbb1d5
+        sha256: 95c117b0406d1feabf0d96aac82655eb1031d6dbf1be78c91b35ebb121e1b22b
+        format: mach-o-universal
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_a95a5cd2d0a9ca7ba5c547669184c99c88c1f7318104440e81a5dec61cf9bde0
+        sha256: 9f980fcf939eb9f23271c3e1be417724f4c1644c51f49d580aa99ea70be440d5
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/SC_Info/libswscale.supf
+        artifact_id: art_5a0c278f4c91833fbcca1885a028dcc1d8599dd171d32e0afd3412a52c47b19f
+        sha256: a5122547a6b6adbcd021370225813acc85c4c82e777ac90e64f937e5b84c8b94
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/SC_Info/libswscale.supp
+        artifact_id: art_4b9b86009fcb33344a9624a2723b82787c75ed68ef89ba5cacb1266d3273353d
+        sha256: 831fbaa40f344e3e8f1e5ae116c03d412abb386513ba558d86626fb603c4717b
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/SC_Info/libswscale.supx
+        artifact_id: art_7e75de65ba16d7886793857989c892a244c07b197c8294bbc26622c93d12e667
+        sha256: 4e177cc01f817cc3ce13eaa7e4f56477e1a46ee4f341679ef9fad72d02f863f9
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/SC_Info/libswscale.v4.supp
+        artifact_id: art_5e7f07d2f9dfaacba87112aeef87ffc2055dcf12be3d17edcaf766681164b53e
+        sha256: 7c23f7e36924630289fd7e897556b6b6033ef2e0dde24185a5492ce237b60c4a
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/SC_Info/libswscale.v5.supf
+        artifact_id: art_9c9ee40db48241b3d23eacd4b4a6e5367ed64ac38c92f928336ec600cc627de6
+        sha256: 9fec4de6f45fb8f831c65ec63c150f7e1133b619bd6d20d4977028f9b4c84427
+        format: file
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_060ba26bdffe004c50bf1a4c5e9a3c2599e4006f8c9a79eedf5f2f8e6c3779b5
+        sha256: 53d129edfe533081921c3830eb9f3e3954980f9e8c3c24339c2662144c233cdb
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_6fea742b8c8c077bbe01333f9bee96303f84088722eca15875366629fb52d2f4
+        sha256: 07f88b44e25fac2a45bbdd090bdc2f4898702bb1b508fd3458efb303c14d8d73
+        format: mach-o-universal
+    native_libraries: []
+    javascript:
+      - path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+        artifact_id: art_cafff5c27bffc83b5bc803f4e0737fbced14864e7304f269a3f13afd051a5d78
+        sha256: 4ab731941d5fe8b943a615b512e342d912b0f7bed5f9c4aef37e2c60f7fc91d3
+        format: javascript-bundle
+    signing:
+      - path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_76c55265719f15041a4468f1bc97c98b5364fe2260aa90e71597ddab142fff84
+        sha256: 7b956a6f8355360f0e73796ce24de7946495d331c12e479461a9d92a4b5dbf41
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+        artifact_id: art_43b7cfbb578fff844a82c4e02820fe178e911286a54cf88910f07ed0bb4e4c7f
+        sha256: b62a2c4cb5660414cf6d1180fd0282d46125a1149c7bdd8dea03fd1b5273924d
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+        artifact_id: art_64d2aa2a2e702e349df070980ae595d3c995dacb066fc9d77843bf18c9ff7ad8
+        sha256: 095e0359bf27aadbf5ccd7f885e06c1b0c8bc3d66df7cf354514f9ea885af94f
+        format: plist
+      - path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+        artifact_id: art_95d86f69e9c5604719cc13859072a9629b0dd65c31c5e5b44392b4bf93a6ac9a
+        sha256: 198d7ad244d44ac18d162d05826fdce3386277f09ff5020b9d35d769f1616add
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMAPM.framework/_CodeSignature/CodeResources
+        artifact_id: art_70fbbf211a965672e7ba1102b959d8f9ae7eed7e7e45c658dab4c8d20e2a9d56
+        sha256: 56048b40c46238bfaf6ea81146b644f623cc784c15c42a41bab0f92d40de4f6c
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMCommon.framework/_CodeSignature/CodeResources
+        artifact_id: art_9b8edfe6126c57adc586411faac0eaba3c1fc8656f8b9cbcc081ec77afb40a67
+        sha256: ffb7629da988af7978a22359b1610008e8fc1d038e00604bb2ea122867e7cc46
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UMDevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_4e068038fa9af3453a9c5003945256f36f98b79aba59d04b006d377ef9c9a2e6
+        sha256: 09c7e2cb12fd9580cb6cae7b575ae6a8332acd9bcaa8ad739de8cfd145cbb90c
+        format: plist
+      - path: Payload/Echo.app/Frameworks/UYuMao.framework/_CodeSignature/CodeResources
+        artifact_id: art_bca97100430b1d228adae2b2d24f183d67fe077edc973ea1b880d6f85365e2f3
+        sha256: 63af04d79a5e118a6479f0ad1580696e0949ca701a3feaf8e8781eca0f95923b
+        format: plist
+      - path: Payload/Echo.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_30ab23109637dde0ccb5552660567d38f09fadc6e3ac1a6ead883d278da87420
+        sha256: 236e7e4e9fdb8d0c5ed8d62b69eb5995e9dfab0147d59105ae9add079e1c6ded
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_1e84567c75bc15bcbd3a34176bfd745e2d6441ec7442a5f5b63376d12e232ec4
+        sha256: d6165ea3d126333cd5c2252c04fecda8d1a866f0bddc6df5473d67eab1445156
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_e31352cc5e63be21a2f77eeff00605c01e8fefbf3ef4583591c07cf4e743f630
+        sha256: 3e13cf1820310d69ab0e05ea748d00de934bb0dad690aa51eef70ae3adc65b23
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_0fc8e2695f08c846bef578fa8215147cbccb738e442c7b8feb72ce60a9102e36
+        sha256: a9645e4921b51640b403d31dc475ac204af1c79334b93727b6deee10cf97bb68
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_4cb54d5c6eafb23db509e36055202306d50e5a53df40df8331c21101a07ac1ec
+        sha256: 9e30a8ddcbd126a1bfc097e5f7b932f02a14992a3215672f0e31719269e8d5f8
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_57828251fafbb93c59fc6bf25d13b07e2c006b92f28c76a79067767f7c724faa
+        sha256: af391f7ce3886f3dcdcf829c60cc2363e650f10645b26b6790992c4278b37b3b
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_c2b1a0c53ef6fe7f1ab5abcb0f0e102a8a409bacd3681b1247c66242f2940e17
+        sha256: 2b382f60e8fd1ed646129d8b641d81048c60db884b05b71a834796d343157eed
+        format: plist
+      - path: Payload/Echo.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_060ba26bdffe004c50bf1a4c5e9a3c2599e4006f8c9a79eedf5f2f8e6c3779b5
+        sha256: 53d129edfe533081921c3830eb9f3e3954980f9e8c3c24339c2662144c233cdb
+        format: plist
+      - path: Payload/Echo.app/_CodeSignature/CodeResources
+        artifact_id: art_a10987278bb3c40b2eacca9b223eb6630d32ec05fdafe526fac3a1ae49302aa7
+        sha256: c86f84cb003a6e436ac0d894327d5b4916cb16ebd64b01107e005dd0649e584d
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+  bridge_candidates:
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Echo
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/UMAPM.framework/UMAPM
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/UMCommon.framework/UMCommon
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/UMDevice.framework/UMDevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/UYuMao.framework/UYuMao
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Echo.app/HighlightSwift_HighlightSwift.bundle/highlight.min.js
+      native_path: Payload/Echo.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 17
+    emitted_candidates: 17
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_ec8c896a711632b32b9e6d50ecdf5b11571d9709085260d669581e120a73c76e

@@ -1,0 +1,828 @@
+evidence_id: ev_56905bce9dd9862482e54dccd07a9c26c8d18b5055f6a346f84c6eca045bd70f
+subject:
+  name: 6745854999_decrypted.ipa
+  digest:
+    sha256: 00c8a8a19b48e2d09b682e22176619cf68de13291ab1b2ad2aeb93dcfe3f5e15
+  local_path: /opt/data/downloads/batch_decrypt/6745854999_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_4344a93da31159df3e7da60a762b382d1ce3cfcb64c323a93c961ce44069572d
+raw_result: null
+normalized_result:
+  projection_id: aap_d68143bcbdb1e481125da12a67e4bbbd048e464198eba8e8939f4ddc75ba5f77
+  root_sha256: 00c8a8a19b48e2d09b682e22176619cf68de13291ab1b2ad2aeb93dcfe3f5e15
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_4344a93da31159df3e7da60a762b382d1ce3cfcb64c323a93c961ce44069572d
+  application_roots:
+    - Payload/UNIEFA0466.app
+  bundles:
+    - path: Payload/UNIEFA0466.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/UNIEFA0466.app/Info.plist
+      executable_candidates:
+        - Payload/UNIEFA0466.app/UNIEFA0466
+      signing_paths:
+        - Payload/UNIEFA0466.app/_CodeSignature/CodeResources
+    - path: Payload/UNIEFA0466.app/DCMediaEditingController.bundle
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/UNIEFA0466.app/DCTZImagePickerController.bundle
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/Info.plist
+      executable_candidates:
+        - Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      signing_paths:
+        - Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/_CodeSignature/CodeResources
+    - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/Info.plist
+      executable_candidates:
+        - Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      signing_paths:
+        - Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/_CodeSignature/CodeResources
+    - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/Info.plist
+      executable_candidates:
+        - Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      signing_paths:
+        - Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/_CodeSignature/CodeResources
+    - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/Info.plist
+      executable_candidates:
+        - Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      signing_paths:
+        - Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/_CodeSignature/CodeResources
+    - path: Payload/UNIEFA0466.app/PandoraApi.bundle
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/UNIEFA0466.app/uni-prompt.bundle
+      parent_path: Payload/UNIEFA0466.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/UNIEFA0466.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/UNIEFA0466.app/Base.lproj/LaunchScreenAD.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/Info.plist
+        artifact_id: art_f20e1115718081573f23c0651d85380ab2efa50bbdc504441006c69a81069e18
+        sha256: 28dfc5623389ea099620808cb90b3a32f8c0bf7250d8308841eefac5d8ddcc49
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/Info.plist
+        artifact_id: art_4ad35c58da545ed74b9ba8da73a7201c9eba811ab9acd434ca7f04ba503a7d25
+        sha256: c3f7ac5ac1d30251e8ef45d126a1cd5ccfd9f723ed09c7b0081e5665eb5f0c1b
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/Info.plist
+        artifact_id: art_d90374ff27894f916b809d9e44d103dca549c7f1542a778544c0bc9b8fa0b9ee
+        sha256: 29c5c3dcf6594ddccfea4d3892bbc523b3ca421250bdb4e7a1b1a51fdb15b02a
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/Info.plist
+        artifact_id: art_f36bed80b53d76498c274fdc9e08fc4b7755bfe02ba61d28ee5720c22ffeea01
+        sha256: 450a9a18f4b7a7592c1ce635ca2b3ee1b843cd5046181b495372537717901b95
+        format: plist
+      - path: Payload/UNIEFA0466.app/Info.plist
+        artifact_id: art_51c314e419560c8f948c8bc250270227816a8d97f79ab73a089a73173d0edeee
+        sha256: 12e4c723ea88deba0ae2d0239d2beb1fda3d436dde2b0f9399a4febdee8e8016
+        format: plist
+    executables:
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+        artifact_id: art_19d85020275ec0274676fb8647d21ebd1cfbf24cc0631e3852003678346aff5a
+        sha256: cd6106deb560b5d23f8a20a16ca60a0480d24dbb26505acfb15f8c6b97573afb
+        format: mach-o
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+        artifact_id: art_e0d3186d5d41354bbf7cc1255187b135e3ee55a8e47cdb323ad8afbe8002b1ab
+        sha256: 89449e49609741ed56b0174d891cfe5a8af06a59ae503f92be6c13ce5d3daf2e
+        format: mach-o
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+        artifact_id: art_c221c9a5fb7dfb4a77dc7aae544c9b232205af2152c1af201040d19bea62d726
+        sha256: 37fe07b508fa043a77c7dc43d05ec8f69f23110af8984fe497ffb96a0d512d12
+        format: mach-o
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+        artifact_id: art_2d09ed3da618c16d0f8e859b6234fa3897d4b782f7f5cd91826cc37c130b424d
+        sha256: a9e7d1dfb2b25bb0b8622593acd2af5d60fd19c2f6fecde8929a47a71fd9391f
+        format: mach-o
+      - path: Payload/UNIEFA0466.app/UNIEFA0466
+        artifact_id: art_254b31ad73923b9a9ebfb5293ffe20220954966959cef93e61991d195daf709a
+        sha256: 97f894659ed42b70ce1ead123d006eb7a5e49008dc438cc3ac9c2c3d94cc9c21
+        format: mach-o
+    frameworks:
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+        artifact_id: art_19d85020275ec0274676fb8647d21ebd1cfbf24cc0631e3852003678346aff5a
+        sha256: cd6106deb560b5d23f8a20a16ca60a0480d24dbb26505acfb15f8c6b97573afb
+        format: mach-o
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/Info.plist
+        artifact_id: art_f20e1115718081573f23c0651d85380ab2efa50bbdc504441006c69a81069e18
+        sha256: 28dfc5623389ea099620808cb90b3a32f8c0bf7250d8308841eefac5d8ddcc49
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_8e54f0131b220ce9a01a34ea2ca3ca180415760a5019ff66c8028f26311c39eb
+        sha256: 7afce012a5680998d994a17a9a3259b4f810230a8705153250f21d345bed2e28
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/SC_Info/DCUniBase.supf
+        artifact_id: art_8fb8c0b2e165836700d0ea7faf2a32fb104954e30438bbb6464f515005342a1a
+        sha256: f28c77433dac7df17c5e2b8dff3fca440f77c195c1634ed5bd87c68efe20f75d
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/SC_Info/DCUniBase.supp
+        artifact_id: art_f1c74b8c37ee34a644a91c6cf3d16ffc07850e825e5f81668ad53af7b9689724
+        sha256: 08458c1cce731c67a93dff05ad7886b5775c253a993b7591dda280aec9a515cb
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/SC_Info/DCUniBase.supx
+        artifact_id: art_194e4f2883557a1ff1803321d7afced31aa26d24d4fdee823d7261d336d8b742
+        sha256: 3abc17f0a9fc10eef47dd95017ef4676ef7e02d4849ffeb4cc3acbd1b34acfe5
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/SC_Info/DCUniBase.v4.supp
+        artifact_id: art_2199c03d5bac83829396030bb6cbc2293b024a7ea3cf40149b6a68c015be1caa
+        sha256: d6dd1160225136048e4e2998744ff4544fff7dad7ee9b6eed4038d7254c60dfc
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/SC_Info/DCUniBase.v5.supf
+        artifact_id: art_c1ac5423aeb32080bd4dfbf111c6800b409473e1f50d5f2d4469f7ba4adcd26e
+        sha256: 91221949188c2b6811ce6bb52ec1f23e20f78edc4831f96afdb6a82ef50ce03b
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/_CodeSignature/CodeResources
+        artifact_id: art_a06fb39af36a6309505353748efb78ad9afa066ee7893102891bcbdd482f08f2
+        sha256: 08177607f1d0c0e8704832821801c921603fe72c7f38e1bd1218bd0e8f5a3965
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+        artifact_id: art_e0d3186d5d41354bbf7cc1255187b135e3ee55a8e47cdb323ad8afbe8002b1ab
+        sha256: 89449e49609741ed56b0174d891cfe5a8af06a59ae503f92be6c13ce5d3daf2e
+        format: mach-o
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/Info.plist
+        artifact_id: art_4ad35c58da545ed74b9ba8da73a7201c9eba811ab9acd434ca7f04ba503a7d25
+        sha256: c3f7ac5ac1d30251e8ef45d126a1cd5ccfd9f723ed09c7b0081e5665eb5f0c1b
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_c93a0a2b9bad4baabe34736ea5a6401118d8a1ee31d2aaf228ea0eddffd8d19b
+        sha256: 74b0cd72fc23c1ef302f22ee2753f61817cdc5af0ff7a7f2d0632b524fb8acea
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/SC_Info/DCloudUTSExtAPI.supf
+        artifact_id: art_41f9ae86eccd860e0ab0cee76edcfdae78c94afc76990148040cf6a8fb16e28a
+        sha256: 589e7e7c1405ebe861859f07c39ad99e0f7f8847130fb3e7309fabb2ad667f36
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/SC_Info/DCloudUTSExtAPI.supp
+        artifact_id: art_b4faf20bb129d543250b0b5717ad3a263a5499dd987809148baafc88d8afb9ad
+        sha256: 8863e196a13f54bd5ba16ab76617a7c70b4b325f079ba013ef02f8e4633fb1ff
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/SC_Info/DCloudUTSExtAPI.supx
+        artifact_id: art_194e4f2883557a1ff1803321d7afced31aa26d24d4fdee823d7261d336d8b742
+        sha256: 3abc17f0a9fc10eef47dd95017ef4676ef7e02d4849ffeb4cc3acbd1b34acfe5
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/SC_Info/DCloudUTSExtAPI.v4.supp
+        artifact_id: art_ee81e4b8f18b48fc3d260c2dfa20d509f8feefd1507c15d67fb0e209ac558ccf
+        sha256: 1813de37dcff57383f2e091c9cb88847bd9b95f699568ddade61d888ca64e6e0
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/SC_Info/DCloudUTSExtAPI.v5.supf
+        artifact_id: art_6c282b7845b699df3d4959ecf0003e1fa3f5b01884e7298adc625ca57e1d9946
+        sha256: 9c583bd5d39f0d8d7f2541e8762662fa686be5c8540f5344e160a0c5244fbbb0
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/_CodeSignature/CodeResources
+        artifact_id: art_6fe9bf8e3dc452d58c8c01b20daa432d5f2a8805ec82807dab495246fd843002
+        sha256: 4276c096fd81315071ae07cf92b848813404065b4609e899e234cfaa7f5efc8f
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+        artifact_id: art_c221c9a5fb7dfb4a77dc7aae544c9b232205af2152c1af201040d19bea62d726
+        sha256: 37fe07b508fa043a77c7dc43d05ec8f69f23110af8984fe497ffb96a0d512d12
+        format: mach-o
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/Info.plist
+        artifact_id: art_d90374ff27894f916b809d9e44d103dca549c7f1542a778544c0bc9b8fa0b9ee
+        sha256: 29c5c3dcf6594ddccfea4d3892bbc523b3ca421250bdb4e7a1b1a51fdb15b02a
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_c93a0a2b9bad4baabe34736ea5a6401118d8a1ee31d2aaf228ea0eddffd8d19b
+        sha256: 74b0cd72fc23c1ef302f22ee2753f61817cdc5af0ff7a7f2d0632b524fb8acea
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/SC_Info/DCloudUTSFoundation.supf
+        artifact_id: art_69b12344e38bab51859d4047b5f3aecaa4bb16fb64ee2d3919271a3c73a67919
+        sha256: 433042bf0b947f6adc8956453c65261bedd9bff32a8d8e1d4c29904dfa2a2ced
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/SC_Info/DCloudUTSFoundation.supp
+        artifact_id: art_f2d965932171b537cdb6cfa9701b638b0d1366dd0bd6299c9bca493df9b0d128
+        sha256: a5022674e7b785403d9692a224fa07c378d5e56b3d4c1f3a8993fa38a87cd89d
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/SC_Info/DCloudUTSFoundation.supx
+        artifact_id: art_194e4f2883557a1ff1803321d7afced31aa26d24d4fdee823d7261d336d8b742
+        sha256: 3abc17f0a9fc10eef47dd95017ef4676ef7e02d4849ffeb4cc3acbd1b34acfe5
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/SC_Info/DCloudUTSFoundation.v4.supp
+        artifact_id: art_39abccc8c63bf1aca83588c70c204f0bae83bbcc822cccd8437d49159c8b1207
+        sha256: fed74d16d522d16ddd248961a64f29b705ec6e5555f9757aaca959c64434e782
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/SC_Info/DCloudUTSFoundation.v5.supf
+        artifact_id: art_a29d3dfcecfba6509710a663f0e543c9e8fe91b02c918eb5e9d4a29a7e51f943
+        sha256: 3f5dbda62f3b0b2a7ae8e14fc132c4cec975554556705ae3ed7e6e22588e1baf
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/_CodeSignature/CodeResources
+        artifact_id: art_50bf68599a2296daae45f2aadd5b0c569ffe085f377134cca2c7471af01f906f
+        sha256: 90dc710b87187312d0cd98a216ca0741de86f22342f34a24b3c6c2f2d6b56568
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/uts-info.json
+        artifact_id: art_fbc072d43beafcf798fbcf6329b2af23cb54fb2fff542718a9f3b92c6a49e2c1
+        sha256: f900df0ac39fbdeca0a918110164c1cf4502fa9abb563c8532681a536a6b8a21
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/Info.plist
+        artifact_id: art_f36bed80b53d76498c274fdc9e08fc4b7755bfe02ba61d28ee5720c22ffeea01
+        sha256: 450a9a18f4b7a7592c1ce635ca2b3ee1b843cd5046181b495372537717901b95
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_90017b0ffffec2535877ab9f85e85457853d5956dd97e8a3bd17d348c746ca99
+        sha256: eb3e34b9f01617c18f3649d97c7d927c71da5872052b3168a9f88c5c263eda4e
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/SC_Info/unimoduleUniRequestMerchantTransfer.supf
+        artifact_id: art_eea44a47a865b723d0539b8e32f43d3677442d031b48174a81dd22b53c689146
+        sha256: 7ea7a15d7bb01d4fcfbb194c499795b1ac0c8a7afe66a54a0042ddeed6a745a6
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/SC_Info/unimoduleUniRequestMerchantTransfer.supp
+        artifact_id: art_c8735304811e7547635ce66b9e642696ae10465529abd180de786b249e7b5198
+        sha256: 45c3d992fbc81a0b1cd5e7cbb92465cf8980a39d76c052deffd71a8e388bc5e1
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/SC_Info/unimoduleUniRequestMerchantTransfer.supx
+        artifact_id: art_194e4f2883557a1ff1803321d7afced31aa26d24d4fdee823d7261d336d8b742
+        sha256: 3abc17f0a9fc10eef47dd95017ef4676ef7e02d4849ffeb4cc3acbd1b34acfe5
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/SC_Info/unimoduleUniRequestMerchantTransfer.v4.supp
+        artifact_id: art_222eb4d385fe5f9812cae06ea39409f3bfed5ee184e9f28b6ccb953fce3e3c74
+        sha256: 3cb7bd2600961a7890f870b9b2e86b0b8ae2e337c2193addba7e6b6ede618386
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/SC_Info/unimoduleUniRequestMerchantTransfer.v5.supf
+        artifact_id: art_bd4d7feca2122eb0b4782171019d237c0708bfe4f11531bfa4ff764a5c61d08a
+        sha256: 60f9f5a089a2c07a348fc14d0d0107fee0d19652c021fcb759dd351f812d15f0
+        format: file
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/_CodeSignature/CodeResources
+        artifact_id: art_df9fdb1baede0f315265e161d6486381b8ab27d5db5b81916caaff489db06c76
+        sha256: 787abcd44cc2d8a1e8f631574b8a6706dd4479399a62176a0ae253ca2f62b31c
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+        artifact_id: art_2d09ed3da618c16d0f8e859b6234fa3897d4b782f7f5cd91826cc37c130b424d
+        sha256: a9e7d1dfb2b25bb0b8622593acd2af5d60fd19c2f6fecde8929a47a71fd9391f
+        format: mach-o
+    native_libraries: []
+    javascript:
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappautomator.js
+        artifact_id: art_8cd46392a54488001e3562c03c3bb428ea2ab2e180c0d9ec6a540a4619e01349
+        sha256: 89f2f105bc96bc2c1db1c73a98bb5cdba5b4c387f698a92fd8ebe9613ccdefc8
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappchooselocation.js
+        artifact_id: art_3550394bc97cd1da2a7950b692774c506c97e386c5e67969f3c6fdac70445007
+        sha256: 1fe3f6de4940638148eced7cd011f6a66cc51ce004168418a83d6013702dcf88
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappopenlocation.js
+        artifact_id: art_6a6d39043a1d66beb2b8278c40097f86210c9f9fe0e4736f2177ff55aa342c42
+        sha256: ab1d65abbb467814a21b060446873a05c3488a4d3a3aa4c3c7db81f6f004d849
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniapppicker.js
+        artifact_id: art_1ae6ce3a5ec00064d9d0c365e6a189e7a3223cbc53c01126e032c7f069804e0c
+        sha256: 0225bf57d33dd83703ef357c998be1e4d29b9cb210bfc15b09aea227939afc27
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquill.js
+        artifact_id: art_96eba8e4964d13f6ddee480fe181f8bf5eba9258b4f89425da8f581b1c22f224
+        sha256: b2b5a0dad8c86305b22721b61817ad46a03cdb4f3cc1f1b57d4dbac12b3461cd
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillhighlight.js
+        artifact_id: art_92609009c87cd3d9cfaab3e21c0ba07b390770b22be25d1f1e6f3309dea7a37a
+        sha256: 0d94ca02f4c7cd2187c18cb435d66ccf69c859f6084a6c5a1c54b6f9f7b35777
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillimageresize.js
+        artifact_id: art_c4f7737f7d8cfffd25d7160fb53d25efa8ca85a8756689d6956df3093f072b71
+        sha256: 0ced3f913300f4c8177e1953dbf78c740d29b6bfb6ef2094ae1d881855d84ebf
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappscan.js
+        artifact_id: art_97437f24b4a9be95221a9324c8bbc30682178a3cedf7ac5ca2cac5049634fd4c
+        sha256: 68ecdd7a6289f286f84f864047096d427ec844c0edb7738a6ea4934bd20104f9
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config-service.js
+        artifact_id: art_cf119d74976feab6b827d0e148d84bd2525f9f839abca5070f794388f3e0c517
+        sha256: 50816c5aa2e1ddcf2a5cb2aea898b5d9e7f2cd6e0045255cc0947b0043888ec2
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config.js
+        artifact_id: art_46cf53101e5184bbe03b10da440f55abdfebc24f168c1cce2038c6f1c5e777d5
+        sha256: 0df9a681956d3517ba546fb467fb16450db50fbe22a87f318e12789161f3b78f
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-service.js
+        artifact_id: art_b47b474470674e28084221e0f207fda93ff1996c89c967b92b46ebdd8f136dfe
+        sha256: da093281dfe55d59746c17fa2e2a773959efb5aac9ff165bd17439ad47ca3772
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/uni-app-view.umd.js
+        artifact_id: art_89bb217efce2f1e8420262edc1db7d012e80e02be2381f41d1379e3be55536be
+        sha256: 6ea5df5bab5fba09f4335b70f3dfac29746d092e54ce529075c012259c4f0abb
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/PandoraApi.bundle/all.js
+        artifact_id: art_909a645d1469c4a2bf3c23af60e1d0d6629f8cb143c6d0a5a5388231d1822a4c
+        sha256: 02b013cfdd15b65e74a53a8b4fc937649685534c91a01a55d9d61671e6c9cfdf
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/PandoraApi.bundle/pulltorefresh.js
+        artifact_id: art_73643c88c154da4a88365777ea25cfdde7b616fc9651efbe5e7b60b69e7c5863
+        sha256: a81e496042355e6933c97fc5eaf60e4225295ddcbf56d828bad99290a12bd486
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__shortcut.js
+        artifact_id: art_b843fe8d1760f38213cdfd3fd05cc18d6be2c74e9f9738520b4b4294e3f15ef8
+        sha256: 6826c28854139464994b086893d965a8668b85aec6a72a9ef485a009b0e41691
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2app.js
+        artifact_id: art_41ca2b36aa2990c9b37f25633002106e187447f87c74cae76620e2155f37f064
+        sha256: cda09b3d9fd9e311a849e87d5393699d48585734946cc8fe4fccb29996597229
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appplayer.js
+        artifact_id: art_337e0d6f3bb09eadddedebd49cbdd93ebdf7d101771ac717d333e0e9a4e74a44
+        sha256: 1568c28619d664b01549e63ffbc18e7b5c624f8228aa38260220a89743071231
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appquit.js
+        artifact_id: art_e559196648be7160bf1dc655217b5613741ada97a3dddd157050fc0b6c070701
+        sha256: c696c1be41c1ef2bea3bb2baf68cd2a52b22ba46aa1f34f9c90d51e943174c0b
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2apptabbar.js
+        artifact_id: art_aadcc5d85b81b2630618282acab31a8abf552147907d993be6f3224d58c4cee4
+        sha256: 74f86605265a03be3a48a7db37e4dc8a16acf660c92716f77f3740c3f7610ac3
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/__uniappes6.js
+        artifact_id: art_8cf05702bb5edb36131a4a94ddca2c956410cf3a62e394944a2f5381c30a024b
+        sha256: dee953e53bd2039a40f75e2bc911a777527e601795b3391bec771790aa75d6a9
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/uni-jsframework-vue3.js
+        artifact_id: art_6dde6ab7268b00acd65138e583b5f7c37cc4a338a71ad8d5e7879105f0e4bcc7
+        sha256: 9e8528bd5d54281bcb726e8faf669e5fd65a90d95df135eb1b3c2a145a56639b
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/weex-polyfill.js
+        artifact_id: art_4e2a79373cc491eab3dfbe1181d00b449feee91c8b6ff80d099fc90beb67d2ad
+        sha256: 34d8c55b9017273aa579cd445bc5f96c3e66824c2928062b17720943be47e37e
+        format: javascript-bundle
+      - path: Payload/UNIEFA0466.app/weexUniJs.js
+        artifact_id: art_96220d248c1b55701d19c5db96aeba30f85af6a37f81b52551af45b4aca33c81
+        sha256: 668d9927b5a026e9cc8c178dfb785a4e6cf4152f9bfe22b0197272849e6c92f4
+        format: javascript-bundle
+    signing:
+      - path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/_CodeSignature/CodeResources
+        artifact_id: art_a06fb39af36a6309505353748efb78ad9afa066ee7893102891bcbdd482f08f2
+        sha256: 08177607f1d0c0e8704832821801c921603fe72c7f38e1bd1218bd0e8f5a3965
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/_CodeSignature/CodeResources
+        artifact_id: art_6fe9bf8e3dc452d58c8c01b20daa432d5f2a8805ec82807dab495246fd843002
+        sha256: 4276c096fd81315071ae07cf92b848813404065b4609e899e234cfaa7f5efc8f
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/_CodeSignature/CodeResources
+        artifact_id: art_50bf68599a2296daae45f2aadd5b0c569ffe085f377134cca2c7471af01f906f
+        sha256: 90dc710b87187312d0cd98a216ca0741de86f22342f34a24b3c6c2f2d6b56568
+        format: plist
+      - path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/_CodeSignature/CodeResources
+        artifact_id: art_df9fdb1baede0f315265e161d6486381b8ab27d5db5b81916caaff489db06c76
+        sha256: 787abcd44cc2d8a1e8f631574b8a6706dd4479399a62176a0ae253ca2f62b31c
+        format: plist
+      - path: Payload/UNIEFA0466.app/_CodeSignature/CodeResources
+        artifact_id: art_5b91f628ffa8e511afe8f81fc61d344f019f271c5156fccbbf3f09548d7944ec
+        sha256: ced0a1e4bf91f25f6b87ddcc2e5460dabd7ee224979258d27a06f85639d72b2a
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+  bridge_candidates:
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappautomator.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappautomator.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappautomator.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappautomator.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappautomator.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappchooselocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappchooselocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappchooselocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappchooselocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappchooselocation.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappopenlocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappopenlocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappopenlocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappopenlocation.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappopenlocation.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniapppicker.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniapppicker.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniapppicker.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniapppicker.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniapppicker.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquill.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillhighlight.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillhighlight.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillhighlight.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillhighlight.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillhighlight.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillimageresize.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillimageresize.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillimageresize.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillimageresize.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappquillimageresize.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappscan.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappscan.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappscan.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappscan.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/__uniappscan.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config-service.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-config.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-service.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/app-service.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/uni-app-view.umd.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/uni-app-view.umd.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/uni-app-view.umd.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/uni-app-view.umd.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/Pandora/apps/__UNI__EFA0466/www/uni-app-view.umd.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/all.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/all.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/all.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/all.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/all.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/pulltorefresh.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/pulltorefresh.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/pulltorefresh.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/pulltorefresh.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/pulltorefresh.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__shortcut.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__shortcut.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__shortcut.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__shortcut.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__shortcut.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2app.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2app.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2app.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2app.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2app.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appplayer.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appplayer.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appplayer.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appplayer.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appplayer.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appquit.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appquit.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appquit.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appquit.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2appquit.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2apptabbar.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2apptabbar.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2apptabbar.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2apptabbar.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/PandoraApi.bundle/wap2app/__wap2apptabbar.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/__uniappes6.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/__uniappes6.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/__uniappes6.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/__uniappes6.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/__uniappes6.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/uni-jsframework-vue3.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/uni-jsframework-vue3.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/uni-jsframework-vue3.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/uni-jsframework-vue3.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/uni-jsframework-vue3.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weex-polyfill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weex-polyfill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weex-polyfill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weex-polyfill.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weex-polyfill.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weexUniJs.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCUniBase.framework/DCUniBase
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weexUniJs.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weexUniJs.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weexUniJs.js
+      native_path: Payload/UNIEFA0466.app/Frameworks/unimoduleUniRequestMerchantTransfer.framework/unimoduleUniRequestMerchantTransfer
+      basis: javascript-and-native-content
+    - source_path: Payload/UNIEFA0466.app/weexUniJs.js
+      native_path: Payload/UNIEFA0466.app/UNIEFA0466
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 115
+    emitted_candidates: 115
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_4344a93da31159df3e7da60a762b382d1ce3cfcb64c323a93c961ce44069572d

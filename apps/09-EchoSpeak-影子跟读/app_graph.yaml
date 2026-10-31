@@ -1,0 +1,2636 @@
+evidence_id: ev_7c07b2e5b31fcc83b4f5b56743b018f97d2f1873c024d0e16db373e294722fd5
+subject:
+  name: 1242679392_decrypted.ipa
+  digest:
+    sha256: 2e91c711c020a2c001d1b1ea4de729311bd865effc37df8a422be0086fdfce20
+  local_path: /opt/data/downloads/batch_decrypt/1242679392_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_9ab406a1f2642ec8d1b3be977ffb108e862a120e46388e0131ee9c4ac3293f66
+raw_result: null
+normalized_result:
+  projection_id: aap_71fea8147c7a9966a0d5212092261bc98e37508376bc6761d296cbf40849f026
+  root_sha256: 2e91c711c020a2c001d1b1ea4de729311bd865effc37df8a422be0086fdfce20
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_9ab406a1f2642ec8d1b3be977ffb108e862a120e46388e0131ee9c4ac3293f66
+  application_roots:
+    - Payload/Player.app
+  bundles:
+    - path: Payload/Player.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Player
+      signing_paths:
+        - Payload/Player.app/_CodeSignature/CodeResources
+    - path: Payload/Player.app/CryptoSwift_CryptoSwift.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/CryptoSwift_CryptoSwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/CryptoSwift_CryptoSwift.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/FlagKit_FlagKit.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/FlagKit_FlagKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/FlagKit_FlagKit.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/Armchair.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/Armchair.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      signing_paths:
+        - Payload/Player.app/Frameworks/Armchair.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/Bolts.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/Bolts.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      signing_paths:
+        - Payload/Player.app/Frameworks/Bolts.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/GCDWebServer.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/GCDWebServer.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      signing_paths:
+        - Payload/Player.app/Frameworks/GCDWebServer.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle
+      parent_path: Payload/Player.app/Frameworks/GCDWebServer.framework
+      layout: macos-deep
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Player.app/Frameworks/MobileVLCKit.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      signing_paths:
+        - Payload/Player.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      signing_paths:
+        - Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/Parse.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/Parse.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/Parse.framework/Parse
+      signing_paths:
+        - Payload/Player.app/Frameworks/Parse.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/Parse.framework/Parse.bundle
+      parent_path: Payload/Player.app/Frameworks/Parse.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/Parse.framework/Parse.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Player.app/Frameworks/Wrenchs.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/Wrenchs.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      signing_paths:
+        - Payload/Player.app/Frameworks/Wrenchs.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/ffmpegkit.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/ffmpegkit.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      signing_paths:
+        - Payload/Player.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/libavcodec.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      signing_paths:
+        - Payload/Player.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/libavdevice.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/libavdevice.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      signing_paths:
+        - Payload/Player.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/libavfilter.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/libavfilter.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      signing_paths:
+        - Payload/Player.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/libavformat.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      signing_paths:
+        - Payload/Player.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/libavutil.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      signing_paths:
+        - Payload/Player.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/libswresample.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      signing_paths:
+        - Payload/Player.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Frameworks/libswscale.framework
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Frameworks/libswscale.framework/Info.plist
+      executable_candidates:
+        - Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      signing_paths:
+        - Payload/Player.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+    - path: Payload/Player.app/GRDB_GRDB.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/GRDB_GRDB.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/GRDB_GRDB.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/Kingfisher_Kingfisher.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/Kingfisher_Kingfisher.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/Kingfisher_Kingfisher.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/PINCache_PINCache.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PINCache_PINCache.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/PINCache_PINCache.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/PINOperation_PINOperation.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PINOperation_PINOperation.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/PINOperation_PINOperation.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/PKHUD_PKHUD.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PKHUD_PKHUD.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/PKHUD_PKHUD.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/PlayerWebUploader.bundle
+      parent_path: Payload/Player.app
+      layout: macos-deep
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/Info.plist
+      executable_candidates:
+        - Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      signing_paths:
+        - Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/_CodeSignature/CodeResources
+    - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/SnapKit_SnapKit.bundle
+      parent_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/SnapKit_SnapKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/SnapKit_SnapKit.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/Info.plist
+      executable_candidates:
+        - Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      signing_paths:
+        - Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/_CodeSignature/CodeResources
+    - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/SnapKit_SnapKit.bundle
+      parent_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/SnapKit_SnapKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/SnapKit_SnapKit.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/SnapKit_SnapKit.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/SnapKit_SnapKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/SnapKit_SnapKit.bundle/_CodeSignature/CodeResources
+    - path: Payload/Player.app/whisper_whisper.bundle
+      parent_path: Payload/Player.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Player.app/whisper_whisper.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/Player.app/whisper_whisper.bundle/_CodeSignature/CodeResources
+  components:
+    bundle_metadata:
+      - path: Payload/Player.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/Player.app/CryptoSwift_CryptoSwift.bundle/Info.plist
+        artifact_id: art_c15da2e815979bc5f75ac6fcacea4b2eed9a40c37eb04e39cc122124686c91c5
+        sha256: 834ce139521b0a79f06f6f3e91cd1ae42ef55fe56348bca75293f48828c2e499
+        format: plist
+      - path: Payload/Player.app/FlagKit_FlagKit.bundle/Info.plist
+        artifact_id: art_57f6d8a5cc1d8a60c2d3744951c96aeea2ca5af0cd5fec3067edae6eb0d7eb65
+        sha256: e8fd62fd9645266491654b2a5ba774261fe537c7ab021139aecd715557280827
+        format: plist
+      - path: Payload/Player.app/Frameworks/Armchair.framework/Info.plist
+        artifact_id: art_e447cce90d7519e0bee9f18092095a23b142f8462e880f391ed38f26b3d7a54c
+        sha256: a979f1a07c2ae70df0d0f751f2048c3ea5bd70b86bfbc1948f0afe5f92e5137b
+        format: plist
+      - path: Payload/Player.app/Frameworks/Bolts.framework/Info.plist
+        artifact_id: art_0bdc5f664ecc2231988d9be5fb67d3f282ce062d86fb91a3b6032e2999a75bc9
+        sha256: b23a26895b4557fc0e535afab5750ad6f2405520eefd2a696703d28e51edfa11
+        format: plist
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Info.plist
+        artifact_id: art_a09b3b31e9e5fa30dcef74e885d97320df0f8dfccc639f824e51956c5f520954
+        sha256: 01f4aae6f996811486228e2d1d85e7f58cc7c08280a659df2c3032c7ab4a3d15
+        format: plist
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/Info.plist
+        artifact_id: art_56cc4037afb4c00293042a2d1a285f7c4b258142855087cbcab9065ce4a3d3b3
+        sha256: 4b6ec1baf0b48d781e27db49fbf7e624905eeca79d95688973c8de6129b54d73
+        format: plist
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/Info.plist
+        artifact_id: art_9a4abc8307898f2380ba57f877a5754f7c49934e4f76109ae724e39a5948ff1d
+        sha256: 002114cca76c48562031c84f29a299ed0e9495e3abd1dd99bfadfb273359b31e
+        format: plist
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/Info.plist
+        artifact_id: art_8ac31193237b90fd19cba816c8a2a47dcea30a2817719dd3af4793c9e1eb0cac
+        sha256: efb7511f1bfe2c3da37f666208410239ca706efa8481df301f398707018fff37
+        format: plist
+      - path: Payload/Player.app/Frameworks/Parse.framework/Info.plist
+        artifact_id: art_20fdf43a7f64f20c81ee5f7cc32a1ac9e6b2de8122fdf2d3c02f40de67e539eb
+        sha256: ac1f90b58fdf7021f690ac5d8b3f379e5ffff2859fb16fcd1394e904d02a9208
+        format: plist
+      - path: Payload/Player.app/Frameworks/Parse.framework/Parse.bundle/Info.plist
+        artifact_id: art_8ece40fc68e78e8d14bc7eac1363b072b729402ee8a47bad4ae01c1e7c714a9c
+        sha256: d4f535e6be56be4ad49f1e37065209d25c4ecf9dbbf6d915b1297fd5cca33885
+        format: plist
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/Info.plist
+        artifact_id: art_951d93599f09cfc76666b477d96342ad304fe508d883636888b94d8f52e7372b
+        sha256: d6521330257627a297f81f745f4713f41c1b6f405fa48085d36bfd60bbcb190b
+        format: plist
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_52df86bb678344cf56ebb35549d12c212da066c8d598c3dfd62f0c31f35444a4
+        sha256: 3d0e676e021d0dfe864013cab96138120385a0ce0d8b8b774cce22e7437ff07a
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_13fcfcedf186fc6edc0290ad59ab448380dd322f0f07ea3e349f73a7dcb20d3c
+        sha256: 7690acec7521d408f060b23b7ad0daa0896a14b3e772029b74a81e8c31d90667
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_83d28654ee26f6a10f1dca558ab1b21d601bcda1730fe51ebad015118a9ee822
+        sha256: be2ed3efc643d24a73f4c460fea757fdae701fc9e9aaf6af391fed699ce12179
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_6b5301b0760a903af26d5c063c9c34519175f74f3a69777bbdae113eb002ab7e
+        sha256: c78e0c5f692bc822c6355b7f8ca3ee247534fd10de69fbdb2109d5e9346cce01
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_51857f00f23a4e70ee8e9ddd99bab3f50628d1cde0a91230611c58c6eb321e94
+        sha256: ef99ee72ad04633a3bd4e56e46b4a8dcd5fe36c28914ebcf1cdff0eb0d721be3
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_7def5cb1a4fc2a153162eab3c96dbcbe1cd62ab796db46d0ec81dda98ba6b34e
+        sha256: 81ea0005d017e5f276da21a2550bc0db41ef0476ccca255ea146ea1f2585a179
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_69b9d10eea9233018bb8dd12662a4c03001b68d21c12f11998e5a20a940c435a
+        sha256: e6a1c63f46583eeea0a553d0b0286ab10a9b45c0d60f055e4335f4fe73b31b9a
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_ee0a8dc75f7d1bb5104162439420405e1ee456aa784358c1dbfaeaf4a2818e28
+        sha256: ffeb9b39fbf5a21254e3cb5561e44fe3fe00a6ae323a2b1f4877aa351a628e7d
+        format: plist
+      - path: Payload/Player.app/GRDB_GRDB.bundle/Info.plist
+        artifact_id: art_02d6988cb5e9d5282d7b2ec87c4f099fa0fd9dace00f17d0d1695d1452a4ccdf
+        sha256: 2f04edf1036a660e108b78447199af03da051090486ebaa0c25f7bb1576afddd
+        format: plist
+      - path: Payload/Player.app/Info.plist
+        artifact_id: art_1d7dea98208b71541d4dd314645162d335f0a255df6bab1b21ee7ddf362994d2
+        sha256: 373cef0f650bb427bebf34173f43668915ec26b92e8963133866949a44623683
+        format: plist
+      - path: Payload/Player.app/Kingfisher_Kingfisher.bundle/Info.plist
+        artifact_id: art_08c30e924e29f15e89a7996e63fa961c20661e51562508a56d7b5f36781289bb
+        sha256: a4f40cf290df3f91d294ac24d8c4e2a7a3a81ab5386652bcad8501da5f0b85e5
+        format: plist
+      - path: Payload/Player.app/PINCache_PINCache.bundle/Info.plist
+        artifact_id: art_f577140435dbfb172a8fd433932156155fd6a5c6f6611a60ca3823ac11d36913
+        sha256: f55f337551bd0a06951a37794dccb69c63040e7cfbfd1565dedb74b6e9f61dfd
+        format: plist
+      - path: Payload/Player.app/PINOperation_PINOperation.bundle/Info.plist
+        artifact_id: art_94bcfd85414c3da11375bef83df905de2930a9b9d6ae862805b39d9290eb7a24
+        sha256: 314fe697627d605a6ab377db326d07763af00471fa7385d2765df6dc74df1e57
+        format: plist
+      - path: Payload/Player.app/PKHUD_PKHUD.bundle/Info.plist
+        artifact_id: art_6b41fd444d8e848237ba7fce3dd16b2fbb55f4a2e3616013a7d40b8254c3306c
+        sha256: 5f4dc588ac5ece1cdc59efce3f286ada8ee0d434ce79676767e0a5c7c85d550b
+        format: plist
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Info.plist
+        artifact_id: art_ac5915c3b108407185ac0fbcb5b15a9eb3c49bc9fa72d78c9d303e830c9def66
+        sha256: 95a9bcf910c4ab1a4beb9858a9aac6819dc8cc113b785a1c064b11c4070b04e7
+        format: plist
+      - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/Base.lproj/MainInterface.storyboardc/Info.plist
+        artifact_id: art_6d3518e5b97c0a4aed42096d130972b8409a1ab18184eca263293ada57caf328
+        sha256: f599288fe6bb36ff864f7f6badb834e49d98ece40785b6999052d9a38e07d2ca
+        format: plist
+      - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/Info.plist
+        artifact_id: art_cf8863f3178d84161e2c97e234a29772396e73716ab3aa68ea09bd6302fe6b50
+        sha256: 9228b19f111c5cfd1f4d4dd88207e8c382747d25033f99fb536bc378acf6218e
+        format: plist
+      - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/SnapKit_SnapKit.bundle/Info.plist
+        artifact_id: art_7bf2db66c77a980238568c1afe66e92f3736ce413f81ca1e82fbfb0add8624c4
+        sha256: eed714dea14f023c2bbae64258d69836cf1dc9084845ea8e8a4961c8b9083394
+        format: plist
+      - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/Info.plist
+        artifact_id: art_8906bf2f5adfa7b3402d8f1c42a3c2ff29d2d0d609d91269db36acd8a5188e20
+        sha256: 4cf723605fd31e742b712a0a2b10346af86015b7547903c11d79204b9aa573ad
+        format: plist
+      - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/MainInterface.storyboardc/Info.plist
+        artifact_id: art_a93243fc6df0bed0306650a4e57334263d9d68818babf8e3b2480569e338042a
+        sha256: 427a79a55a8bfe54424842120d866cd5504bc5f7049dfa4ecc783a5a07202e09
+        format: plist
+      - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/SnapKit_SnapKit.bundle/Info.plist
+        artifact_id: art_7bf2db66c77a980238568c1afe66e92f3736ce413f81ca1e82fbfb0add8624c4
+        sha256: eed714dea14f023c2bbae64258d69836cf1dc9084845ea8e8a4961c8b9083394
+        format: plist
+      - path: Payload/Player.app/SnapKit_SnapKit.bundle/Info.plist
+        artifact_id: art_7bf2db66c77a980238568c1afe66e92f3736ce413f81ca1e82fbfb0add8624c4
+        sha256: eed714dea14f023c2bbae64258d69836cf1dc9084845ea8e8a4961c8b9083394
+        format: plist
+      - path: Payload/Player.app/whisper_whisper.bundle/Info.plist
+        artifact_id: art_ebab1e60b45b255c1cb05cba8faacbfd14475e8b8c1b4ee5b0eb516bd2e80f54
+        sha256: 5bcdc7a977e8a3e4ca79c55c2e46f0b98ffea4e25af330463b9a338d672dccaa
+        format: plist
+    executables:
+      - path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+        artifact_id: art_b67a2737abf7660b4ddccbe18de6e804944733f75ea7f3cb4a0a8da437252394
+        sha256: 07811881c19f93c8a2585e20bcd561bc16dc260fe6d5b3bdf4f7d0d683f36c06
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+        artifact_id: art_030396de90109018af13271b04253e6c5ee231c833edee77916eef994941877c
+        sha256: 1c2bba146db30081e5a1875c5ea469de2592f9a308000342c56ce79bfd6c266d
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+        artifact_id: art_f8a1636850a1754890f34f1dd0a7d2e979f8330501a4c058a0e6d680ba15590b
+        sha256: 723ac7453ef9b465537b7868881993cc5f0b0c7c90b511b0186c78a208a9bd8b
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+        artifact_id: art_2c04b3083210e2409f4674041b6417623c4073d61832da6c2a320fa359aeb0c2
+        sha256: a62e5716ccdde44d137e52a83a0f5e5ffdb7663bca68d9ec5cf6167ec57356af
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+        artifact_id: art_1cac7d8eeb2d4b5f781db398508136369dc9608d2d36c62c8a86506c69fdcdae
+        sha256: 01c3ab937ee7a65089e3b87d0074b19fcaeed23164f766e60fd26c9f1ea4a331
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/Parse.framework/Parse
+        artifact_id: art_1acf9a88f4687f3f9596b49cfb5956a556580b88d00e56c8348a48c845e9877b
+        sha256: bb064df037393ef7142e01371217ecb202a786d9c0b9a5aa7e97f54895f69f4b
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+        artifact_id: art_ed894d9f5671dc33d00cf87d8c20b1559fd5d1c2cf29e1433481f0ff9e17d4ba
+        sha256: 41d13f6defb872f0349c86f458078c44058c0d239c643a30846e36ca9c3c0c58
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_cfda0f4d5a4becc69036827136d2d5e0de7b8561190e6a8d0a1b22a8a5b081bc
+        sha256: f6a85024f27fa42d2ff56e1bb741da9828bea140fbd87f79da51cbd53716c7d4
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_d4fd73390d1ffdc3b630c36b2e6e4cb257426c6978ef325b7dcb12872d902c2e
+        sha256: 27058ad0b4ef88ea8b23aef4ceaa26d6a3a998e1ba8891e09a39ae6ccbd0b33e
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_46ccbb3594a7c2a844b4116e52fe99f22b76f418e43a9bb5528e914fea90a27d
+        sha256: 897a6d6303f2165bcf94dd1ab95d42e6ba53ce3ce2a6f1769a9d86803fab41f4
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_ffbdd16022016321a4a0f60ea4568fb0a32df55f1d84d82da08c0bfb24376233
+        sha256: d29165999ea352f15fc7b31101c9b3761cec8b9e3e6eb033185203a12f6e5f4e
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_b48574c62eca9b7f9578f99983ca6d88da0c17f2f8714f45787fe7ffd3a8ffb8
+        sha256: 67834f3bf9fcbcf5ea6dfd75d1bc22e628209d58ce7094dd11a7c65e24687ddb
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_ec5ed87868d0c075569631ef6ef37e48b908b88967b8d62a9af9503e52a8f438
+        sha256: dbace148437e60b4f73c4c61cb541cf492e95cd63d71f6f58dea89e8936bf4a5
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_83468d8dc0b23804a0a49a329e6b816e06f1f8ad52c811d5da71cac1044d4c9f
+        sha256: cb58719419292226c1cfbed51f8f44d1cf97459d9a60245ee599b688348ed241
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_02bc96034549b0a021c08ac452af02a5fa2d777976e1d167aa06b2e7cb685e59
+        sha256: 0d07e2084e04591fb9dff8b87815b5d220d86e15caceb52aa48629b5fa909e0f
+        format: mach-o
+      - path: Payload/Player.app/Player
+        artifact_id: art_cc0be8b65cc34a7c60df123846800cf18fbcacda062d50a556001183057b9a70
+        sha256: 0c130af9fe8d9478fe1adcdf23f5f02eae479bedbe2c431bbdaed1b362737c91
+        format: mach-o
+      - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+        artifact_id: art_dda65b486dd302ff08a5fc59d495873e4098cc45690c2fbfe2b09afb0c3f8b6d
+        sha256: 8e6b9373eab3253efae9bfc745e6f7487875db9b23dc3e187afeebd469a3827e
+        format: mach-o
+      - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+        artifact_id: art_4b625c769ff391275ea48a931a0ba694c0fd2472b06991ef6ecbfdebc55af496
+        sha256: 18b1a9375aa63b572264c1f5417a1b0263af8bc24697de2566a406fe4f0fe9f4
+        format: mach-o
+    frameworks:
+      - path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+        artifact_id: art_b67a2737abf7660b4ddccbe18de6e804944733f75ea7f3cb4a0a8da437252394
+        sha256: 07811881c19f93c8a2585e20bcd561bc16dc260fe6d5b3bdf4f7d0d683f36c06
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/Armchair.framework/Info.plist
+        artifact_id: art_e447cce90d7519e0bee9f18092095a23b142f8462e880f391ed38f26b3d7a54c
+        sha256: a979f1a07c2ae70df0d0f751f2048c3ea5bd70b86bfbc1948f0afe5f92e5137b
+        format: plist
+      - path: Payload/Player.app/Frameworks/Armchair.framework/SC_Info/Armchair.supf
+        artifact_id: art_31abaf55fd2a5ab57c78b44bd4f0aec2304f9d519d24a96c8356ebf3a86c6540
+        sha256: 5e25777f52d089b737bb72ff30e93d2fbc84908728f6c7bab0e0b2aa9973b55b
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/SC_Info/Armchair.supp
+        artifact_id: art_2e38b611a6ff980951cd7d2ef0f959b6367b85c8798c77769dbbafe77e9ec459
+        sha256: 2059636ef6b194c1ade99a10da6767dd2348848770b59e7f5afb158a72186636
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/SC_Info/Armchair.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/_CodeSignature/CodeResources
+        artifact_id: art_ac1cdfb417fb5e7c1a17b524438baf17673a74743e504a1370f8a313e86759ed
+        sha256: 3c08e3f611e802efc72fa5a7b616c109e8dab79cb96187e3e2bd645d919dc3d6
+        format: plist
+      - path: Payload/Player.app/Frameworks/Armchair.framework/ar.lproj/ArmchairLocalizable.strings
+        artifact_id: art_9bc226f31464cc7943a86b435f6bf4a0ae87b4ca89ff24ca5a14ef7c909fde58
+        sha256: bc77a524b3943381a0e715bc97903a62d70b1115ea67bd7902d40c359704e309
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/arm.lproj/ArmchairLocalizable.strings
+        artifact_id: art_ae56552e09770303ace91a7945e971f4e12145301e74338677be09e565fff1fb
+        sha256: fdc9cd677992f4bdf2a93ce47d6d4665f65f9010b946101aa4cc9cb10fe1ddd5
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/ca.lproj/ArmchairLocalizable.strings
+        artifact_id: art_7daace274c3c7a44909d2540490a8d6d26ade625fa25ef356383ea7f9e90933a
+        sha256: 872936423e23a601fda6828929f02541787fd5cad488e7879343615205c6def2
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/cs.lproj/ArmchairLocalizable.strings
+        artifact_id: art_cb024dae8e36d2fec95156ab0a6e415b9d0d6fe1edfcb35b52c151d26bf1caa5
+        sha256: 75f148a78510ea79558e561c0f8ee9ab7a55152acbb9c0b138efc7df84741e95
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/da.lproj/ArmchairLocalizable.strings
+        artifact_id: art_b450625e3659286648469db2690825b2d5eec7362e0c755d80e6d76f9b93a0c5
+        sha256: 55afd0de45fa810820e483a4539bc438d70b56711b30c71f4e600da4933c6d14
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/de.lproj/ArmchairLocalizable.strings
+        artifact_id: art_7ff6c8343d25b1b061ac081f6fa4913f4354eac5f6a10714475cf1b0c48829f1
+        sha256: 8a4fb03cd8b398403b12a59374fa88171d81542464218d616bb05c1fbc279a32
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/el.lproj/ArmchairLocalizable.strings
+        artifact_id: art_78172b419722e35c1d4ecd1d91343a0d47dd658a5e733e8b77496601ee57cc5f
+        sha256: d61cdd55483b52b3b71619f0d128799aa903139004dc65432643babc9953c9c5
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/en.lproj/ArmchairLocalizable.strings
+        artifact_id: art_0f52e8d98462c7bd246b6952437e699025a4653cc76f531615f34dd1a64ad9bd
+        sha256: da78291f5ffeb8e048b8253e7cab5a9a50a553ebda22b799c2bd337e3504ed09
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/es.lproj/ArmchairLocalizable.strings
+        artifact_id: art_564c5350d39a9efeab8d3255bae14164e2c7a0e5deb16b1912b0dbc9f5079b45
+        sha256: 1e282447d7272fce30fd1d3648de00c22bbb041c08e7c2332ad65aa823876cb7
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/fi.lproj/ArmchairLocalizable.strings
+        artifact_id: art_404aaaeb0f1031764a23e83ec217f2cd4d02ab1af7220806d91abcaab3a0ba26
+        sha256: 5d8b14ca0d82c73d1b2350bbc115f73c9a5b5486eb90548ba5e8c38351f0b161
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/fr.lproj/ArmchairLocalizable.strings
+        artifact_id: art_bbf48fe384b54c2d279b9c5986bfa7b649afa5f9e69e8c6938cdf826a8ebdc08
+        sha256: 6c24dde6b77178f30a071ba899e67e010ede635e9a28c17364479023032a487d
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/he.lproj/ArmchairLocalizable.strings
+        artifact_id: art_cb23dd3496dbdc5c89eeb4d526270fd8b1945118a817450f1fff42bda7a3a1c7
+        sha256: b282a72caceef16d024ea3962a6120eee6da50ce11d5c9ca3aad12db6d0abcd5
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/hu.lproj/ArmchairLocalizable.strings
+        artifact_id: art_d2fee76f5cbc82055f0af08f412711cbeb53c2179535adaa06450c6f3bfce266
+        sha256: 4e9aa05dc211bb047b7518f0c65f0e02b20224e9e466486fa8d4a6be66b2407b
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/id.lproj/ArmchairLocalizable.strings
+        artifact_id: art_56200fa7d3578bc45645aaf3980d4b88626449180e4a2b6b0b5180d5460d3fe0
+        sha256: a4491727d2d4903569419cc1e9081731d742c2de6a499640fa4daed15ca74d87
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/it.lproj/ArmchairLocalizable.strings
+        artifact_id: art_cc22340bd65ca63e227abf5c8a32e8d7c189b9a1f8a3bf5af83d79103519f164
+        sha256: 90dd13bd0672ee3f0798a92e38e42274e54bec437aabc92ee4e47e76bd4a68da
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/ja.lproj/ArmchairLocalizable.strings
+        artifact_id: art_c74952ffd0a8d3eb153b49256abbd2163271c1e831256fde76286a8a82fcf682
+        sha256: 8ff2b0407f3b001ccb74fad5638f3217d7c0ea3baa420022171fc87964655245
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/ko.lproj/ArmchairLocalizable.strings
+        artifact_id: art_5a7afb479b082ce26c962a69ff8d39689d4e6e765a3473e7fff5da886fb15b72
+        sha256: 292496ec289a682aec01e1d6ce7ed9571c0856e59ae9b7acbeda18ed761db092
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/ms.lproj/ArmchairLocalizable.strings
+        artifact_id: art_dfbfaa6f2da49ad2b1fbbc84602c4794d79bbf246b67120b16ecda0a792aa826
+        sha256: 7b79e772f853f3744945d568e7a0b31bbd5b421c6d19b0b07bc3eb6cb7073f29
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/nb.lproj/ArmchairLocalizable.strings
+        artifact_id: art_b854ecdf4b30b251fe18d8bbabef1766c2a339b796c98e53d9af1a7e6fde08d2
+        sha256: 18d31fb07f7723fd0bd2fbb8fb4fdb52be632a17c7dffa9089693b80e9f79fce
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/nl.lproj/ArmchairLocalizable.strings
+        artifact_id: art_11ec27e15e5b878042b1828e6915253f1ce598eee499fd0c1aace30d8eb092a4
+        sha256: 642bb447ae0c545380364e55a75410b3f853421dee4666a07dba2d9d0f3a02e2
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/pl.lproj/ArmchairLocalizable.strings
+        artifact_id: art_2ac231a153676cd6ad33f166951314dbbc28c5dc2a25f05334def4e82b1a29a5
+        sha256: 2d8231ad41b8ce656ae7aef45224e3a38d7eefcdf981cf9426d3d40d188ce44e
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/pt-BR.lproj/ArmchairLocalizable.strings
+        artifact_id: art_e599461c8b5628f70f918f8e533dcf099e47ea41af710ed3220181cc6b70d160
+        sha256: 68e14308a16dc259444fb1761ca4c698afee4ff5d1ea0c5a1c6976d502c5466b
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/pt.lproj/ArmchairLocalizable.strings
+        artifact_id: art_44f05175b6187183cb8cfae6ed28ae32c641bb645dc5720f2cf37bcc7a9dd099
+        sha256: fb14ad5e7baab4657bc855f5c401b908cf107485538a2ad1abb5cc7ad0ef77a3
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/ro.lproj/ArmchairLocalizable.strings
+        artifact_id: art_f9466415270fe6a022b7969fedfa3dce206c1c4eb1d2b2d48c315e5bbc760ac7
+        sha256: 34f534cbe08529cb3ac9f669cafb0ac89785924c7b40a4e69058531c28a3e122
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/ru.lproj/ArmchairLocalizable.strings
+        artifact_id: art_5f2f227b1c7d6e82ab025b7fdb2a722b7214ce5c864c7a75a33e7a9a6a79dd6b
+        sha256: 486a58f4acab444686b0ef43fa4dc64043c1fca3fcaf354bf4adaf17dc9cebca
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/sk.lproj/ArmchairLocalizable.strings
+        artifact_id: art_b8bf5cd6065ca7afbca3f87446a958a53604c2fa5edd74e08293e9acb7206bdc
+        sha256: 5e56dca42ed6ac58527c94b5f0f501f355de94651738fe523f760600b047fb37
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/sv.lproj/ArmchairLocalizable.strings
+        artifact_id: art_93d3e57c1867b4d6529a6edc54039c737cd345cd7157c1f596adff7e65468f9b
+        sha256: 34cdd04901fe3e7389937addad062ed41400bfb5fbee9ed0d3d267bb1daff4fd
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/th.lproj/ArmchairLocalizable.strings
+        artifact_id: art_15155692b0faf2497e5a17940ca536410a538d059bfd605289255de6d8a7115a
+        sha256: 8319a32666183e8dd8c4aa960f9e2e532e4866b8cdfd32a380217ebb8a59ed1d
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/tr.lproj/ArmchairLocalizable.strings
+        artifact_id: art_107dc09fe1e7bab106450769a1ce421b5c943de4b03712b9fa05e8fa7f15ab0d
+        sha256: b1f6d5142b6f86e3ed60a9ac6a896e2e539f865c72552dadcbf486e1f19c01e5
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/vi.lproj/ArmchairLocalizable.strings
+        artifact_id: art_bff68acbc1411ccebea1baee00da0defa1784050e51edd5b49426cfaf846dfba
+        sha256: 39c891cf6c1b4db16ae9f02870ae519fa41eabf6aafb6a6128076b4e636c79ab
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/zh-Hans.lproj/ArmchairLocalizable.strings
+        artifact_id: art_b0ba926a9807c3903b825b66ef402b8689a14b34ea13a67f45bc79cec7541155
+        sha256: a5aac0576e1a284c070fb96afa84ba1c63ec0bcc5d1df1cc7153e0cca1601d93
+        format: file
+      - path: Payload/Player.app/Frameworks/Armchair.framework/zh-Hant.lproj/ArmchairLocalizable.strings
+        artifact_id: art_0cc766eba0eae0249b0daf86ee3f3a513d9d5bb594edd0908d7ac35afd71e88c
+        sha256: 59c6caa016f1b4c483a31090c574fc6f9310ce5301de36b7a00397786f7ec79a
+        format: file
+      - path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+        artifact_id: art_030396de90109018af13271b04253e6c5ee231c833edee77916eef994941877c
+        sha256: 1c2bba146db30081e5a1875c5ea469de2592f9a308000342c56ce79bfd6c266d
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/Bolts.framework/Info.plist
+        artifact_id: art_0bdc5f664ecc2231988d9be5fb67d3f282ce062d86fb91a3b6032e2999a75bc9
+        sha256: b23a26895b4557fc0e535afab5750ad6f2405520eefd2a696703d28e51edfa11
+        format: plist
+      - path: Payload/Player.app/Frameworks/Bolts.framework/SC_Info/Bolts.supf
+        artifact_id: art_63003c6a883319d314ec8a5cabb0b0b389b17ee49062cca3aa105f7d4824fa88
+        sha256: 9fdb4e42e076b300877e78ef08418957dde7aa9894a90d245f33c5d4ee1df209
+        format: file
+      - path: Payload/Player.app/Frameworks/Bolts.framework/SC_Info/Bolts.supp
+        artifact_id: art_1bd12c7bbeae5c116c6759bff62adf7e2291793bab1173845c123554340effa3
+        sha256: a609ebdcee5f21cd887ebdb9ee0390b4ed576f5042ea2bb826ee6c1349783221
+        format: file
+      - path: Payload/Player.app/Frameworks/Bolts.framework/SC_Info/Bolts.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/Bolts.framework/_CodeSignature/CodeResources
+        artifact_id: art_d8486fa3f89577b4a6f17a61495f7fd84ab108dffd6cd9ef5552c19dc8114249
+        sha256: 0a3758fcf8177978e24b8a5eef70b3f90c14bef5446e0c50226bbe3d8062c4d2
+        format: plist
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+        artifact_id: art_f8a1636850a1754890f34f1dd0a7d2e979f8330501a4c058a0e6d680ba15590b
+        sha256: 723ac7453ef9b465537b7868881993cc5f0b0c7c90b511b0186c78a208a9bd8b
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Info.plist
+        artifact_id: art_a09b3b31e9e5fa30dcef74e885d97320df0f8dfccc639f824e51956c5f520954
+        sha256: 01f4aae6f996811486228e2d1d85e7f58cc7c08280a659df2c3032c7ab4a3d15
+        format: plist
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css
+        artifact_id: art_7f7c2854d34065b47c38020836cb0540b01cdf52cb4d2acf2ff7eefb4f24febf
+        sha256: 382a4120b748eaf656e422f2f27c8778d311fabb97a644db97011ec176c130bf
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css
+        artifact_id: art_a98ece9059b3f351dfc51a995ab42e7c26cc1d5fff5a12d603793d297f3b2990
+        sha256: 0e430441e9833f9e3b9219b4837068670afbb50171678365b95f45de9291b632
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css
+        artifact_id: art_2f14ad0d22fefd5765298d7dc2bcbbe3277606593492e029b1aff5f25ee97728
+        sha256: cf300e45d917b61f9f36fed6edf0205f2cc42e79b7e39e3da976a0df3e585065
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css
+        artifact_id: art_08b4115f33d6e82208970b844d149a0d638790f10d9fbf157ab6a686dfb02525
+        sha256: 8e49019c2903d7a88be4d6748ad01511cd70bdebe4587eb3eff79d28d4522f65
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings
+        artifact_id: art_2e266571e2f5941c5582643cc8e86511d9bb455825575802c9f0144c8f47c049
+        sha256: d6441c5186acb672cff495bb687dbc9908c9f60875f24751767ce8c4a6eb74d3
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.eot
+        artifact_id: art_c481144287e3792a13de28b4d7440e523ab51866f3c56e204d9cfa26a40ea350
+        sha256: f495f34e4f177cf0115af995bbbfeb3fcabc88502876e76fc51a4ab439bc8431
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.svg
+        artifact_id: art_fd6e0254752a66ed64f46e8f269fa5fe028e075450a46d9321c2bc39b1ffafb1
+        sha256: d168d50a88c730b4e6830dc0da2a2b51dae4658a77d9619943c27b8ecfc19d1a
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.ttf
+        artifact_id: art_e6a13295c4e3f1e31a8a312112ecfcd133defb0b4e75adda465823daed18cb59
+        sha256: bd18efd3efd70fec8ad09611a20cdbf99440b2c1d40085c29be036f891d65358
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.woff
+        artifact_id: art_0e74a409a2c2463ff201dcd2f54dfd29547dc3ce44b383ac8a7c81e0684742e8
+        sha256: fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/index.html
+        artifact_id: art_2e8b676d4bd9fffd144392c3c747949ed665c1fe133808b2331d210d8461ee39
+        sha256: 39e6976c8ef0f10866a909378344c18593397430b71f860aa1fd5f096d9326a6
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+        artifact_id: art_fdac6e26161599322fab1907a9edb33408cdbef667a8b514e7b358d32b0f6b7a
+        sha256: 898d05a17f2cfc5120ddcdba47a885c378c0b466f30f0700e502757e24b403a1
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+        artifact_id: art_555c64646f2655a786ac6c7ad38ecd5768a52e07e2542114f511fc1706beedb1
+        sha256: 8c7a9c0470563367ab00307b4fb9bb3052d0a27f0b94e63b9dc0bb8c369449cb
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+        artifact_id: art_0b686489239fe049f4ed10b392d0ce054e283b0d41b10fe67fef0cc2894d6e71
+        sha256: edf7e4454a7f9400ba1c84f8b69588dde8ad9cc10051e204fd5915d320659546
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+        artifact_id: art_bb1217154d7bf7f87f6b05d42c3ae02b54c6905a8cbef92ad17e66b10a81af85
+        sha256: 2b3df6d6dbe0c03ec7724dba14bd98f38cf0b4cfb4737e3fff7ff0594d103056
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+        artifact_id: art_da680b09fad9261e2facadc12f2ef9124a2df24931db270dd30a617e7b9ec135
+        sha256: e127082f8c4e76952f5a8e1e9a0c2731372ca3f7d800fa9a5ec1bed0a516c2a9
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+        artifact_id: art_18c738c3dafa70543b3e6ebe26ce3dbb3fc89070161ac5f4c40395e1ba79124e
+        sha256: 882892a2c0ecb30e180f4305c2e04d7f8f24968681473ee8f9e48aad45c36587
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+        artifact_id: art_0370b58b4892028657a28b23a4842bf34fff22da8f98d663371177a4852a56a1
+        sha256: b294e973896f8f874e90a8eb1a8908ac790980d034c4c4bdf0fc3d37b8abf682
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+        artifact_id: art_4c3578b5489df80aec0e132afb38380b3ef3da36e2e9be792c469100b9d67a02
+        sha256: 30e522d238f9e84ad8289ab5b43ee396ffbd1e96c8eab77157fbc6fa30edaacd
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+        artifact_id: art_b828ec803c5566d2f57fec2c511f9cff243d08c31cc11cafd1d2d0e8499fe5b0
+        sha256: 83a8807ef669fa70d0d9375347f5552897f76c6ae8e2e6f97ef592595462d8d1
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+        artifact_id: art_986ff69c4a01db426e5e74c19f9a93a69e4cddd6f0f8e5f85e0fcbd787e573a0
+        sha256: 8e882ad3513da790ead8b75161f03780a134a0dde5cbbae7ded807915bc23aa9
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/Info.plist
+        artifact_id: art_56cc4037afb4c00293042a2d1a285f7c4b258142855087cbcab9065ce4a3d3b3
+        sha256: 4b6ec1baf0b48d781e27db49fbf7e624905eeca79d95688973c8de6129b54d73
+        format: plist
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/SC_Info/GCDWebServer.supf
+        artifact_id: art_5814c972c4bcdfd9f74dccabf2f36684dae18411e32e8f99be690b379c175678
+        sha256: f05d147fecea363085f212e1fac34af3e6c824cf229b4ed688007aa5c8339c26
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/SC_Info/GCDWebServer.supp
+        artifact_id: art_a1eb60d6b482044cd0ca65a011ef34de2dbeb46ffdd259cd5e730d5f8248ca0e
+        sha256: e48b3acf5972b89cb38dbee8fbf4b659f74ba73706f35ae114cfeb31b07387a4
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/SC_Info/GCDWebServer.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/_CodeSignature/CodeResources
+        artifact_id: art_1d88f6d45c80781975d1955863879c18948dc0c95ee85f7fcba4a3ec820144e5
+        sha256: 58530c9e7d4d9ef877a2b648b21058bb5d0c9b95642549e83cc929a1e88d47a0
+        format: plist
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/Info.plist
+        artifact_id: art_9a4abc8307898f2380ba57f877a5754f7c49934e4f76109ae724e39a5948ff1d
+        sha256: 002114cca76c48562031c84f29a299ed0e9495e3abd1dd99bfadfb273359b31e
+        format: plist
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+        artifact_id: art_2c04b3083210e2409f4674041b6417623c4073d61832da6c2a320fa359aeb0c2
+        sha256: a62e5716ccdde44d137e52a83a0f5e5ffdb7663bca68d9ec5cf6167ec57356af
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.supf
+        artifact_id: art_67a609854e31b389bbd8f310c9971859d9a493e1b341e98744a54c9c9be43f0d
+        sha256: f6bcadc632744edb98756d3f37ac75e4f9061ebbfa45c10c1156a81bc06bdf3e
+        format: file
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.supp
+        artifact_id: art_946e95f7dea2e252ff7e92ba9c801a137cdb8317dcbf5f0e6e58ac6e28daa152
+        sha256: 7717301014a88afd5f8c23eb3e7456177cbc9f167e3c601b82a30d8653849604
+        format: file
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_c861db8537b4e6f904e5c9fafe1a88060578e21e58f4f8fed701f811e8e0c866
+        sha256: 59789b7c7d1ca1bfe2eced70497af283454e8dc9565d611048b9292aac5f053e
+        format: plist
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/Info.plist
+        artifact_id: art_8ac31193237b90fd19cba816c8a2a47dcea30a2817719dd3af4793c9e1eb0cac
+        sha256: efb7511f1bfe2c3da37f666208410239ca706efa8481df301f398707018fff37
+        format: plist
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+        artifact_id: art_1cac7d8eeb2d4b5f781db398508136369dc9608d2d36c62c8a86506c69fdcdae
+        sha256: 01c3ab937ee7a65089e3b87d0074b19fcaeed23164f766e60fd26c9f1ea4a331
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/SC_Info/ObjectiveDropboxOfficial.supf
+        artifact_id: art_fb19cdef9c5abde32febd97211e734cd13652a6ec11141568b28e4f7d969010a
+        sha256: 2321485818ff7d9f81360126bb2fe61d38baf222567894907cf2c6cf251c266c
+        format: file
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/SC_Info/ObjectiveDropboxOfficial.supp
+        artifact_id: art_722cd65eb488be0788536a9996891099b8695aee289f23d7b3387d31a4cec57c
+        sha256: b6f0d03ff01007a4b893c615f7d2251fe83940af297e352ee76ab6117b2af7f4
+        format: file
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/SC_Info/ObjectiveDropboxOfficial.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/_CodeSignature/CodeResources
+        artifact_id: art_1c0ecb7c76a6989f2e0face4be043de6146b805d39b43664ff2a3cc0c2ecd3a6
+        sha256: 4bfe3f3abfa7e4efda4539805fcf33ed048a6e7b4c2150b2f2d8d21d766bd2a9
+        format: plist
+      - path: Payload/Player.app/Frameworks/Parse.framework/Info.plist
+        artifact_id: art_20fdf43a7f64f20c81ee5f7cc32a1ac9e6b2de8122fdf2d3c02f40de67e539eb
+        sha256: ac1f90b58fdf7021f690ac5d8b3f379e5ffff2859fb16fcd1394e904d02a9208
+        format: plist
+      - path: Payload/Player.app/Frameworks/Parse.framework/Parse
+        artifact_id: art_1acf9a88f4687f3f9596b49cfb5956a556580b88d00e56c8348a48c845e9877b
+        sha256: bb064df037393ef7142e01371217ecb202a786d9c0b9a5aa7e97f54895f69f4b
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/Parse.framework/Parse.bundle/Info.plist
+        artifact_id: art_8ece40fc68e78e8d14bc7eac1363b072b729402ee8a47bad4ae01c1e7c714a9c
+        sha256: d4f535e6be56be4ad49f1e37065209d25c4ecf9dbbf6d915b1297fd5cca33885
+        format: plist
+      - path: Payload/Player.app/Frameworks/Parse.framework/Parse.bundle/en.lproj/Parse.strings
+        artifact_id: art_88e9a388637c573cbb6c1c3e3598d47df6fc5d19661c2a7a3461c310760dcc3e
+        sha256: 4bb27e449ffc7027981d9e55a1c135e2f64879b200fa07afbb41d1befacb61d6
+        format: file
+      - path: Payload/Player.app/Frameworks/Parse.framework/SC_Info/Parse.supf
+        artifact_id: art_15de970c555e86f694863b662e7b3bc7ccfe96f44797166b48c5f8561ce5f9ed
+        sha256: 721aff6019d8c7818ffb99b692ea31bef0a5bd8943089a698b25e74c15a55dd7
+        format: file
+      - path: Payload/Player.app/Frameworks/Parse.framework/SC_Info/Parse.supp
+        artifact_id: art_d3b0e0542f3556c4eebfa60a7313990b06108dd8f13cec70eb5522bc5631ea5b
+        sha256: c4418e634a40c1ae8b2368643381b69d9aefe9a9c0e7699fdf9167e992e3e08b
+        format: file
+      - path: Payload/Player.app/Frameworks/Parse.framework/SC_Info/Parse.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/Parse.framework/_CodeSignature/CodeResources
+        artifact_id: art_a890dbb619f9126ea3d65368183d54bccbd11cc68569a622beccd62a5ff20f5b
+        sha256: 85aa148f443e546e2e252ebdfa52e0f14b327860d9962b4efa9290cd240b8989
+        format: plist
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/Info.plist
+        artifact_id: art_951d93599f09cfc76666b477d96342ad304fe508d883636888b94d8f52e7372b
+        sha256: d6521330257627a297f81f745f4713f41c1b6f405fa48085d36bfd60bbcb190b
+        format: plist
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/SC_Info/Wrenchs.supf
+        artifact_id: art_06ba9b48bea17f4ba5c46d29ac0e703d0d0c95d749eecad664af8412fd3b0bfc
+        sha256: 06b569f8a588476cdba4068f619ee044c30a66451cf92d212f49603d91515a00
+        format: file
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/SC_Info/Wrenchs.supp
+        artifact_id: art_35d6383578c37e6d08ab57d023297f558b2b30677ed4d3876f98be21205b4fcf
+        sha256: a0f7276732ea0dbeff3566dad754ac5aa39c5a8acca2188739954bea21d60e1b
+        format: file
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/SC_Info/Wrenchs.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+        artifact_id: art_ed894d9f5671dc33d00cf87d8c20b1559fd5d1c2cf29e1433481f0ff9e17d4ba
+        sha256: 41d13f6defb872f0349c86f458078c44058c0d239c643a30846e36ca9c3c0c58
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/_CodeSignature/CodeResources
+        artifact_id: art_9b62fc9e4de05b81831e73085a1757700c2f57ce547ac9ef5f41d153bb293423
+        sha256: f01f1870e6cff4ead6e284835995d494f65929f9870fa15842e94c2db3ebaa87
+        format: plist
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_52df86bb678344cf56ebb35549d12c212da066c8d598c3dfd62f0c31f35444a4
+        sha256: 3d0e676e021d0dfe864013cab96138120385a0ce0d8b8b774cce22e7437ff07a
+        format: plist
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supf
+        artifact_id: art_14455db89d724476f2f39099e824a821e02514d865f6c7592f449ad6a11c3d6a
+        sha256: b530f58955bb4c8c3bea9410c0664853d655d8509c658549610ec3bd6d016ae8
+        format: file
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supp
+        artifact_id: art_e1c4e29ff110855029e9991641b3aad04fd99af5fe4c42fcae57449cadff6b5d
+        sha256: 06b95c2b984d83cbda44614d5e80293a6a67eba736d49bbb9d99eb9e7d4310d0
+        format: file
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/SOURCE
+        artifact_id: art_f18995a5babaf0bcda7b6bcf04d9963565a940e01dcd62ae3eeaa5b4557c822f
+        sha256: abf82e6ec062e51a4b590c5d7dad15907f96c48158f46cd99b2c28e7fef9541b
+        format: file
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_65669820bec7ace87c63b2ca47beabb71ae0aa9405e09549985f795cbe17f8cd
+        sha256: 2723ad3fe571ece5ff557a902a234feff797287cc80b2737fc459c3440485d44
+        format: plist
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_cfda0f4d5a4becc69036827136d2d5e0de7b8561190e6a8d0a1b22a8a5b081bc
+        sha256: f6a85024f27fa42d2ff56e1bb741da9828bea140fbd87f79da51cbd53716c7d4
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/strip-frameworks.sh
+        artifact_id: art_de87c0cf3a769bee342b17e37a0042919ec31b33294980d5459476bfafe55431
+        sha256: 10505db2020a91c07f656e4081c9e72f7fe8d01a62bfa5e23e2dec3d931a3dd8
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_13fcfcedf186fc6edc0290ad59ab448380dd322f0f07ea3e349f73a7dcb20d3c
+        sha256: 7690acec7521d408f060b23b7ad0daa0896a14b3e772029b74a81e8c31d90667
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.DAV1D
+        artifact_id: art_e2c1c03d2c5ddff39372881e36c14d9f6376695e504ec037be308d0605249e7c
+        sha256: b327887de263238deaa80c34cdd2ff3e0ba1d35db585ce14a37ce3e74ee389e9
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.EXPAT
+        artifact_id: art_3dd6863642bd2bc2ba43fd49c1ec8b058f1722ef385b7f95dbb2dd62f0c63879
+        sha256: 122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.FONTCONFIG
+        artifact_id: art_e09a673f5198cb4ca270a4213a1802c5ee614fcf16bc9e76882cd0a28b3398d9
+        sha256: 51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.FREETYPE
+        artifact_id: art_95f79aca44139621d5ec3b9361be96c064e0ab4a36bfee0ffdf4fa2c066413bc
+        sha256: 2e3bbb7d7c5c396368dd0853a790ec29ce5b8647163dde42a0493fb0d6556b2b
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.FRIBIDI
+        artifact_id: art_6b1c49e190a85e9ebd0e2b45dc3232f92f1226f117cdeb9bb3a6653f27a3303c
+        sha256: 32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.GIFLIB
+        artifact_id: art_2d13f99426732cfca755b73b5917a6ab4cc99569849a140ccad6123b1b0c40dd
+        sha256: 0c9b7990ecdca88b676db232c226548ac408b279f550d424d996f0d83591dd8e
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.GMP
+        artifact_id: art_1ed4ccdb23ea7b5c84eb6d3dc03c27a0c4cabdca3d5aad46c0a86270a515ef96
+        sha256: a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.GNUTLS
+        artifact_id: art_c8abffe2c46924c1315cdfd27921d09753a2139f110ebfe0ce552b554c661bd1
+        sha256: 3e043d77917e48e262301b8f880812fcd82236482630a421d555a38804eee643
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.HARFBUZZ
+        artifact_id: art_e4944517ffa357858b6cbb8f1c8ca6e12e63ae71acbe0b54405a7ef6a7404e33
+        sha256: ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.JPEG
+        artifact_id: art_fbe2552d4813256e7367803e6832eb3ca150cd141dd0cd90c3e31c00080c0025
+        sha256: 60c756742db3ad1913304e8b13f0e86e22e51adb50cc0b3333c163f7e45ceec1
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.KVAZAAR
+        artifact_id: art_9a7cf8ce7735e75300218b8485d1ce806f272bae7ba5b17af740fee9bf9a2967
+        sha256: 3c1dc3d7f8a3d08c14f4fbe9942f45764d8a21a3296e8d83446f33fd65f21c38
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LAME
+        artifact_id: art_1e32d93e989de60a8540bf7bba13a5f84f75a634a8a6752e4eebfaf54a85e9a7
+        sha256: bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBASS
+        artifact_id: art_d3d86fda96d1c71d8a5cd7ae7d90aef7c8fce192e94ee6759d8409bb18817407
+        sha256: f7e30699d02798351e7f839e3d3bfeb29ce65e44efa7735c225464c4fd7dfe9c
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBILBC
+        artifact_id: art_691fe30d8ec706a3f00738c8eaac577345d15c9dc4db8ead19c02ef827e29e09
+        sha256: 3082da3b4b80a1359a3a281da7849fdb8845b3e6cf308a5d47d0b743725b2481
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBOGG
+        artifact_id: art_14634f27546579f92794271b9cd2d6cbb2aa27a77d2f35ab4d830abdec22b1f6
+        sha256: d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBPNG
+        artifact_id: art_f1cc52808fe9727de66b70b8bb3869412a4bb00ea492330788f2faf4ad3be3de
+        sha256: 5c0bb4b05b1354ae7c173532b6702ea68b611047ff9b91c4d3af77da39c195d9
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBSNDFILE
+        artifact_id: art_be2e88cbedbc388ccf5dc5280cda5eaba0292a1f087b7235411d89a0541ef896
+        sha256: ad01ea5cd2755f6048383c8d54c88459cd6fcb17757c5c8892f8c5ea060f6140
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBTHEORA
+        artifact_id: art_46280b1b3f8481e2ec9ea0f1367100f58bf79f09bec46fb57f0ab0a674ce2f30
+        sha256: 8417fad7da775735564e209484a2e011e0fa201e94f01fdbee6e4977e478e6fc
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBVORBIS
+        artifact_id: art_f904f8b9a32f0116cd9f2f7d6ff9855af2e1728730566501220f750b1f967e02
+        sha256: ec1815db59fcd302846df949d7424876cb2e2dc5ed1606c5fb0b36787b1cf43a
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBVPX
+        artifact_id: art_12ee093ba289b73d9bba76d7eeb67edcc07731d9a96a517471b659a019c35613
+        sha256: 8267348d5af1262c11d1a08de2f5afc77457755f1ac658627dd9acf71011d615
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBWEBP
+        artifact_id: art_46d9f6d8a77b6922a3f7051f2bb2900c664095686f693c22ae37126c91e84372
+        sha256: 5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.LIBXML2
+        artifact_id: art_2edafb1846e2726503d2af50e928864564a552866455407e4c75c71f24868b12
+        sha256: c5c63674f8a83c4d2e385d96d1c670a03cb871ba2927755467017317878574bd
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.NETTLE
+        artifact_id: art_1ed4ccdb23ea7b5c84eb6d3dc03c27a0c4cabdca3d5aad46c0a86270a515ef96
+        sha256: a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.OPENCORE-AMR
+        artifact_id: art_bdd917fd47b4353efce227752fb003b7445c6a61b46126b7f5810c74451eba0b
+        sha256: 8b3f1762349248d444ab9acbafe73941254e36e1064954da56bb9ddbd5873ddb
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.OPUS
+        artifact_id: art_97becfbf62f0cd28e80d36b32bf7213415367a18323034fdb4dd2593beefc970
+        sha256: 8338ce8d922bb4416ce3dd1e5680173332435e3f0755007ac7801ccd674fe682
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.SHINE
+        artifact_id: art_5ee03ccda58c539f9eed1e4b20df7017c8db8b01b822a58bed5eec1344371186
+        sha256: 517c8bbea53e7257be86efaaba4c0b83effc386e4d84e0b6a33e025266ddb74e
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.SNAPPY
+        artifact_id: art_27b5c0227af49d84faf18322f267c3bcf723df1c9b22f56936a72eda210030b6
+        sha256: 55172044f7e241207117448a4d9d6ba1d0925c8ad66b5d4c08c70adfa9cc3de6
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.SOXR
+        artifact_id: art_63161373bd7ae8e1364a8bcf551021d599ea964e7af64a70f3a6e6bb76e09a5d
+        sha256: f2f118b9029ec1871b953639ecc46651b2fc7b62e295e6cf3ef2ac4c9a058b33
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.SPEEX
+        artifact_id: art_dfaa95de114dca6bcaff1451067977a130865ab6cf88f271b3ef33179fb33a15
+        sha256: 2654a4264b2bfe298dedc508748d140111840c315cc8eb646a3a68c13fa75b01
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.TIFF
+        artifact_id: art_07fff2ae687d7bbe32f58b0a9c9791f77e914bbd0cde2bf8cac23ab303135687
+        sha256: fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.TWOLAME
+        artifact_id: art_07e9aff3da9059d40419a3ed78796feedda183af0b01b324eababfca07642ff3
+        sha256: 257a842724705950b07da76ce0e22ffa80ec77b3e9dfc6702522ac342409da0f
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.VO-AMRWBENC
+        artifact_id: art_bdd917fd47b4353efce227752fb003b7445c6a61b46126b7f5810c74451eba0b
+        sha256: 8b3f1762349248d444ab9acbafe73941254e36e1064954da56bb9ddbd5873ddb
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/LICENSE.ZIMG
+        artifact_id: art_67f480be0a5681a2537959e20a10614d0173fc0a9e68fb47bc49c8b4dc8a560c
+        sha256: 7637386b5f81e8a719ca336233149005e5fa28b5e6054ea7b67de49355b0ad40
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supf
+        artifact_id: art_7b8f569e34b3bacc18f3328bad48987a27ab974a6eb6b1e70c0bd41d0a338486
+        sha256: 0978e8e7ce8d57d5b242096257255cd8276805878842e9e92e30089e3188a5c0
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supp
+        artifact_id: art_9fcd9642732d3e7401d2e489471e5a662addbd9b63c13174c12e098b9539c847
+        sha256: 684b0b5828c92f0173675751a11a0880d4c547e0b32001146e9e5b1614e7496e
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_a55c11aeb1714c25c6592e5dc260c96a2e9573b877b5bea1ed028069d3e6183f
+        sha256: 9bb7644764202a0bc7bccb74ac471aa81f7e3aeb9b5354008a40b902f1561638
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_d4fd73390d1ffdc3b630c36b2e6e4cb257426c6978ef325b7dcb12872d902c2e
+        sha256: 27058ad0b4ef88ea8b23aef4ceaa26d6a3a998e1ba8891e09a39ae6ccbd0b33e
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_83d28654ee26f6a10f1dca558ab1b21d601bcda1730fe51ebad015118a9ee822
+        sha256: be2ed3efc643d24a73f4c460fea757fdae701fc9e9aaf6af391fed699ce12179
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supf
+        artifact_id: art_3acdb759fe7061fe17f35e551946527b1baa8fcbb80c8fec49ec5cc1b39745bf
+        sha256: a7870b070b487bfd130f3874a8e1ccea6e6e2d2d55f194c38476f7956685b949
+        format: file
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supp
+        artifact_id: art_2d4b44da7970df269efdc0aedca75cfcfef30118b0aa01fddf9941ea6d80745a
+        sha256: 6f3815a82f1cdcfa27fd39861492f5f3b7acd8785e3eeda49ab4eb4ee84438e6
+        format: file
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_674fea78953e91c9d018525fd952a2cf108c6b749f6f720a5c7ae7250a3b0f6a
+        sha256: 1424c401a0947ad744149753f7aec4c9bf29fa13c2761355583933a395213c54
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_46ccbb3594a7c2a844b4116e52fe99f22b76f418e43a9bb5528e914fea90a27d
+        sha256: 897a6d6303f2165bcf94dd1ab95d42e6ba53ce3ce2a6f1769a9d86803fab41f4
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_6b5301b0760a903af26d5c063c9c34519175f74f3a69777bbdae113eb002ab7e
+        sha256: c78e0c5f692bc822c6355b7f8ca3ee247534fd10de69fbdb2109d5e9346cce01
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supf
+        artifact_id: art_f2ff16b8704ad9d2602ea035e38248aa1ff6ecec950d2b805bb217ee26e8eec0
+        sha256: 89e4999f8ad1c871985ad8939727a34d2f14c7243e875535f9c8c75d5989140e
+        format: file
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supp
+        artifact_id: art_fa3e2d34c24426c6fce8502eda080bf9c7034e3fe9c9283a3a8c0617d016f35d
+        sha256: 8148164c9d60a59f4691b5ef7fe375be2d78ac3541f024ad9de2bb9364d121ee
+        format: file
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_36958965b75b86ec15e6004a1dcbaed11420ddab8adfe7130c688323d85b42f5
+        sha256: ec571ab1a5de85c3f210681b810a600b2e2280f48406224e9efb973b4bf90d31
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_ffbdd16022016321a4a0f60ea4568fb0a32df55f1d84d82da08c0bfb24376233
+        sha256: d29165999ea352f15fc7b31101c9b3761cec8b9e3e6eb033185203a12f6e5f4e
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_51857f00f23a4e70ee8e9ddd99bab3f50628d1cde0a91230611c58c6eb321e94
+        sha256: ef99ee72ad04633a3bd4e56e46b4a8dcd5fe36c28914ebcf1cdff0eb0d721be3
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavformat.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/libavformat.framework/SC_Info/libavformat.supf
+        artifact_id: art_72e89818f907300d79e9db93b969c289facdb196d73abcb8941096360c2d5a10
+        sha256: a9f544e31162a441d3e14e9a80f33bab4b7442151e371fd674a5d37df9816cfd
+        format: file
+      - path: Payload/Player.app/Frameworks/libavformat.framework/SC_Info/libavformat.supp
+        artifact_id: art_d7a8be9ccc56196bfb97b3bba111d61a4e402da06dbe658af74269df6ba0529c
+        sha256: 8526253a00f1be8a3f06a288322ab5e5ad3dfaef8d57ed9dc19be19c15a0608c
+        format: file
+      - path: Payload/Player.app/Frameworks/libavformat.framework/SC_Info/libavformat.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_d98f6578464f3b867c65440f80135984f4197d6f0d518ac6c7afee797c14934b
+        sha256: 32488f6832003029744f5f3bf3113861e39ef0fedadbe01b797bc23e433b8989
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_b48574c62eca9b7f9578f99983ca6d88da0c17f2f8714f45787fe7ffd3a8ffb8
+        sha256: 67834f3bf9fcbcf5ea6dfd75d1bc22e628209d58ce7094dd11a7c65e24687ddb
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_7def5cb1a4fc2a153162eab3c96dbcbe1cd62ab796db46d0ec81dda98ba6b34e
+        sha256: 81ea0005d017e5f276da21a2550bc0db41ef0476ccca255ea146ea1f2585a179
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavutil.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/libavutil.framework/SC_Info/libavutil.supf
+        artifact_id: art_7cef32f675672cbecce757b17881f25bad0c1e0ad9ba5f007a28406e67349959
+        sha256: 2581c266152968800ca8b4d8463098634a2c3f47ad14a1700e3d1cb6578c02db
+        format: file
+      - path: Payload/Player.app/Frameworks/libavutil.framework/SC_Info/libavutil.supp
+        artifact_id: art_2a71231628d76a575ceb7ff77a98b3a8fd1c2877115720ff74f4763aed6c4164
+        sha256: 36b08afb28606436112b1d9b669f1c53cbf7639131e5bad422fb874598e76ced
+        format: file
+      - path: Payload/Player.app/Frameworks/libavutil.framework/SC_Info/libavutil.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_00102b6c57c1c9b0312fdb3a623ea95488a6a2a2a5d1e63c326f41069d26140d
+        sha256: 16b6d3372db39b87f2e22ace1d77b613abdeb080a8b4bebb9142ccc45407df7b
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_ec5ed87868d0c075569631ef6ef37e48b908b88967b8d62a9af9503e52a8f438
+        sha256: dbace148437e60b4f73c4c61cb541cf492e95cd63d71f6f58dea89e8936bf4a5
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_69b9d10eea9233018bb8dd12662a4c03001b68d21c12f11998e5a20a940c435a
+        sha256: e6a1c63f46583eeea0a553d0b0286ab10a9b45c0d60f055e4335f4fe73b31b9a
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswresample.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/libswresample.framework/SC_Info/libswresample.supf
+        artifact_id: art_c1f84238e89f9043ee7918c11292b4e138554254c49752349ade5ea632f4c6e6
+        sha256: 5527e0280101149406a6e376c082db5e26faa060dd10f69334edff3764ce3d0c
+        format: file
+      - path: Payload/Player.app/Frameworks/libswresample.framework/SC_Info/libswresample.supp
+        artifact_id: art_d936386fff5a5b09f54cab00c6290defd0572a07932bc7a835f4dd4c19b01362
+        sha256: 7972522264f84976defd234ba352e7891548cb7300dd16cd5390ab39b7cf2f3a
+        format: file
+      - path: Payload/Player.app/Frameworks/libswresample.framework/SC_Info/libswresample.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_76bdfe18bf282953a04a1924336a61297000c0c0d316eb4c3316df284c0fa1f3
+        sha256: e9c29e178d60cfc08607e66ceb884a2adbb084b9a9fca4dd207bb0c996b3777b
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_83468d8dc0b23804a0a49a329e6b816e06f1f8ad52c811d5da71cac1044d4c9f
+        sha256: cb58719419292226c1cfbed51f8f44d1cf97459d9a60245ee599b688348ed241
+        format: mach-o
+      - path: Payload/Player.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_ee0a8dc75f7d1bb5104162439420405e1ee456aa784358c1dbfaeaf4a2818e28
+        sha256: ffeb9b39fbf5a21254e3cb5561e44fe3fe00a6ae323a2b1f4877aa351a628e7d
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswscale.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Player.app/Frameworks/libswscale.framework/SC_Info/libswscale.supf
+        artifact_id: art_b5f689784880cffdfb4d8a545c3b2a3de5139b6f3e5058afd38d7a0a6913463f
+        sha256: a4d2e2f5e701920cf38e9c23192a0b7e7b988c13cf7559870f02d238d1831f8b
+        format: file
+      - path: Payload/Player.app/Frameworks/libswscale.framework/SC_Info/libswscale.supp
+        artifact_id: art_b33fd472aeac56337819aed4bb939861b3a060d98be510b1fdf3f0a16f9a3275
+        sha256: df9645a92ca64e1b5b071d94c26dc0ae87096990ca5e462d23e186f07c98e0fb
+        format: file
+      - path: Payload/Player.app/Frameworks/libswscale.framework/SC_Info/libswscale.supx
+        artifact_id: art_396e85fbac7ba1d4282dbecfb7dee9a3826d9c3143429859fa8b81611414b34f
+        sha256: ab8bf7ede5ff2472dcf26c10137044896671f4931012313eec307004b09427f0
+        format: file
+      - path: Payload/Player.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_ca94edd67c0a205000bd11f86ac24c35b467ae842ad2c2be97ff38dffd04510c
+        sha256: 877a86fc17316d44cca707b37a1f7fdb47d1f0b1e97d56c4ae94f99af1535715
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_02bc96034549b0a021c08ac452af02a5fa2d777976e1d167aa06b2e7cb685e59
+        sha256: 0d07e2084e04591fb9dff8b87815b5d220d86e15caceb52aa48629b5fa909e0f
+        format: mach-o
+    native_libraries: []
+    javascript:
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+        artifact_id: art_fdac6e26161599322fab1907a9edb33408cdbef667a8b514e7b358d32b0f6b7a
+        sha256: 898d05a17f2cfc5120ddcdba47a885c378c0b466f30f0700e502757e24b403a1
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+        artifact_id: art_555c64646f2655a786ac6c7ad38ecd5768a52e07e2542114f511fc1706beedb1
+        sha256: 8c7a9c0470563367ab00307b4fb9bb3052d0a27f0b94e63b9dc0bb8c369449cb
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+        artifact_id: art_0b686489239fe049f4ed10b392d0ce054e283b0d41b10fe67fef0cc2894d6e71
+        sha256: edf7e4454a7f9400ba1c84f8b69588dde8ad9cc10051e204fd5915d320659546
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+        artifact_id: art_bb1217154d7bf7f87f6b05d42c3ae02b54c6905a8cbef92ad17e66b10a81af85
+        sha256: 2b3df6d6dbe0c03ec7724dba14bd98f38cf0b4cfb4737e3fff7ff0594d103056
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+        artifact_id: art_da680b09fad9261e2facadc12f2ef9124a2df24931db270dd30a617e7b9ec135
+        sha256: e127082f8c4e76952f5a8e1e9a0c2731372ca3f7d800fa9a5ec1bed0a516c2a9
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+        artifact_id: art_18c738c3dafa70543b3e6ebe26ce3dbb3fc89070161ac5f4c40395e1ba79124e
+        sha256: 882892a2c0ecb30e180f4305c2e04d7f8f24968681473ee8f9e48aad45c36587
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+        artifact_id: art_0370b58b4892028657a28b23a4842bf34fff22da8f98d663371177a4852a56a1
+        sha256: b294e973896f8f874e90a8eb1a8908ac790980d034c4c4bdf0fc3d37b8abf682
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+        artifact_id: art_4c3578b5489df80aec0e132afb38380b3ef3da36e2e9be792c469100b9d67a02
+        sha256: 30e522d238f9e84ad8289ab5b43ee396ffbd1e96c8eab77157fbc6fa30edaacd
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+        artifact_id: art_b828ec803c5566d2f57fec2c511f9cff243d08c31cc11cafd1d2d0e8499fe5b0
+        sha256: 83a8807ef669fa70d0d9375347f5552897f76c6ae8e2e6f97ef592595462d8d1
+        format: javascript-bundle
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+        artifact_id: art_986ff69c4a01db426e5e74c19f9a93a69e4cddd6f0f8e5f85e0fcbd787e573a0
+        sha256: 8e882ad3513da790ead8b75161f03780a134a0dde5cbbae7ded807915bc23aa9
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+        artifact_id: art_fdac6e26161599322fab1907a9edb33408cdbef667a8b514e7b358d32b0f6b7a
+        sha256: 898d05a17f2cfc5120ddcdba47a885c378c0b466f30f0700e502757e24b403a1
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+        artifact_id: art_555c64646f2655a786ac6c7ad38ecd5768a52e07e2542114f511fc1706beedb1
+        sha256: 8c7a9c0470563367ab00307b4fb9bb3052d0a27f0b94e63b9dc0bb8c369449cb
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+        artifact_id: art_b6c351761ca6b74b0ea7320d4193434d808a8af99cb50ea6b0e5e7292fa72268
+        sha256: a85f0d17f08b8853b057e399f5aac2f947a93c9550073c27389b9b3f29a26b3a
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+        artifact_id: art_9cf93534f491e8fcdaf97d869ab236cb0b9bda9d330cbbbaaef4c83e085c5b62
+        sha256: cf2a2eb88b4e2a15099941c88178b10c0171960c3413bfb27fc1aee20d9a273c
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+        artifact_id: art_da680b09fad9261e2facadc12f2ef9124a2df24931db270dd30a617e7b9ec135
+        sha256: e127082f8c4e76952f5a8e1e9a0c2731372ca3f7d800fa9a5ec1bed0a516c2a9
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+        artifact_id: art_18c738c3dafa70543b3e6ebe26ce3dbb3fc89070161ac5f4c40395e1ba79124e
+        sha256: 882892a2c0ecb30e180f4305c2e04d7f8f24968681473ee8f9e48aad45c36587
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+        artifact_id: art_0370b58b4892028657a28b23a4842bf34fff22da8f98d663371177a4852a56a1
+        sha256: b294e973896f8f874e90a8eb1a8908ac790980d034c4c4bdf0fc3d37b8abf682
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+        artifact_id: art_4c3578b5489df80aec0e132afb38380b3ef3da36e2e9be792c469100b9d67a02
+        sha256: 30e522d238f9e84ad8289ab5b43ee396ffbd1e96c8eab77157fbc6fa30edaacd
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+        artifact_id: art_b828ec803c5566d2f57fec2c511f9cff243d08c31cc11cafd1d2d0e8499fe5b0
+        sha256: 83a8807ef669fa70d0d9375347f5552897f76c6ae8e2e6f97ef592595462d8d1
+        format: javascript-bundle
+      - path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+        artifact_id: art_986ff69c4a01db426e5e74c19f9a93a69e4cddd6f0f8e5f85e0fcbd787e573a0
+        sha256: 8e882ad3513da790ead8b75161f03780a134a0dde5cbbae7ded807915bc23aa9
+        format: javascript-bundle
+    signing:
+      - path: Payload/Player.app/CryptoSwift_CryptoSwift.bundle/_CodeSignature/CodeResources
+        artifact_id: art_0c83cfff1efff4c84af6ebece3fc35840514744cfa22a32d3ae39fcfbe7eabc9
+        sha256: 223798573ec84033080f2dc0dd77862685f8b778b3d3cbed6044821a3ad83d31
+        format: plist
+      - path: Payload/Player.app/FlagKit_FlagKit.bundle/_CodeSignature/CodeResources
+        artifact_id: art_0d0ad5ce3c0b989af1de120e48758457b4c3574bcd4cb142d80bada1073ae26f
+        sha256: 011d559bc705a50ddf4bc00d272f9aa73232b7192e09f40938be614ecd2945ef
+        format: plist
+      - path: Payload/Player.app/Frameworks/Armchair.framework/_CodeSignature/CodeResources
+        artifact_id: art_ac1cdfb417fb5e7c1a17b524438baf17673a74743e504a1370f8a313e86759ed
+        sha256: 3c08e3f611e802efc72fa5a7b616c109e8dab79cb96187e3e2bd645d919dc3d6
+        format: plist
+      - path: Payload/Player.app/Frameworks/Bolts.framework/_CodeSignature/CodeResources
+        artifact_id: art_d8486fa3f89577b4a6f17a61495f7fd84ab108dffd6cd9ef5552c19dc8114249
+        sha256: 0a3758fcf8177978e24b8a5eef70b3f90c14bef5446e0c50226bbe3d8062c4d2
+        format: plist
+      - path: Payload/Player.app/Frameworks/GCDWebServer.framework/_CodeSignature/CodeResources
+        artifact_id: art_1d88f6d45c80781975d1955863879c18948dc0c95ee85f7fcba4a3ec820144e5
+        sha256: 58530c9e7d4d9ef877a2b648b21058bb5d0c9b95642549e83cc929a1e88d47a0
+        format: plist
+      - path: Payload/Player.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_c861db8537b4e6f904e5c9fafe1a88060578e21e58f4f8fed701f811e8e0c866
+        sha256: 59789b7c7d1ca1bfe2eced70497af283454e8dc9565d611048b9292aac5f053e
+        format: plist
+      - path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/_CodeSignature/CodeResources
+        artifact_id: art_1c0ecb7c76a6989f2e0face4be043de6146b805d39b43664ff2a3cc0c2ecd3a6
+        sha256: 4bfe3f3abfa7e4efda4539805fcf33ed048a6e7b4c2150b2f2d8d21d766bd2a9
+        format: plist
+      - path: Payload/Player.app/Frameworks/Parse.framework/_CodeSignature/CodeResources
+        artifact_id: art_a890dbb619f9126ea3d65368183d54bccbd11cc68569a622beccd62a5ff20f5b
+        sha256: 85aa148f443e546e2e252ebdfa52e0f14b327860d9962b4efa9290cd240b8989
+        format: plist
+      - path: Payload/Player.app/Frameworks/Wrenchs.framework/_CodeSignature/CodeResources
+        artifact_id: art_9b62fc9e4de05b81831e73085a1757700c2f57ce547ac9ef5f41d153bb293423
+        sha256: f01f1870e6cff4ead6e284835995d494f65929f9870fa15842e94c2db3ebaa87
+        format: plist
+      - path: Payload/Player.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_65669820bec7ace87c63b2ca47beabb71ae0aa9405e09549985f795cbe17f8cd
+        sha256: 2723ad3fe571ece5ff557a902a234feff797287cc80b2737fc459c3440485d44
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_a55c11aeb1714c25c6592e5dc260c96a2e9573b877b5bea1ed028069d3e6183f
+        sha256: 9bb7644764202a0bc7bccb74ac471aa81f7e3aeb9b5354008a40b902f1561638
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_674fea78953e91c9d018525fd952a2cf108c6b749f6f720a5c7ae7250a3b0f6a
+        sha256: 1424c401a0947ad744149753f7aec4c9bf29fa13c2761355583933a395213c54
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_36958965b75b86ec15e6004a1dcbaed11420ddab8adfe7130c688323d85b42f5
+        sha256: ec571ab1a5de85c3f210681b810a600b2e2280f48406224e9efb973b4bf90d31
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_d98f6578464f3b867c65440f80135984f4197d6f0d518ac6c7afee797c14934b
+        sha256: 32488f6832003029744f5f3bf3113861e39ef0fedadbe01b797bc23e433b8989
+        format: plist
+      - path: Payload/Player.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_00102b6c57c1c9b0312fdb3a623ea95488a6a2a2a5d1e63c326f41069d26140d
+        sha256: 16b6d3372db39b87f2e22ace1d77b613abdeb080a8b4bebb9142ccc45407df7b
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_76bdfe18bf282953a04a1924336a61297000c0c0d316eb4c3316df284c0fa1f3
+        sha256: e9c29e178d60cfc08607e66ceb884a2adbb084b9a9fca4dd207bb0c996b3777b
+        format: plist
+      - path: Payload/Player.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_ca94edd67c0a205000bd11f86ac24c35b467ae842ad2c2be97ff38dffd04510c
+        sha256: 877a86fc17316d44cca707b37a1f7fdb47d1f0b1e97d56c4ae94f99af1535715
+        format: plist
+      - path: Payload/Player.app/GRDB_GRDB.bundle/_CodeSignature/CodeResources
+        artifact_id: art_4b01524a21d1e4dcbcd439635689b1d0def6d53a88a5976ccb02a601f2b08c25
+        sha256: c96f20aa88498932239a3f82620add84755f0ad0ed33ef7e9ae4db8328f91e0e
+        format: plist
+      - path: Payload/Player.app/Kingfisher_Kingfisher.bundle/_CodeSignature/CodeResources
+        artifact_id: art_1cfb38ba2438b0ab1d80f6a5ec5de8e0b5df97ea90c60b7b7cc094ace4fb7a99
+        sha256: 96e485e5f441e09d53d8ad15af3984ce817f1cda71974bd9e48955c16786b7d0
+        format: plist
+      - path: Payload/Player.app/PINCache_PINCache.bundle/_CodeSignature/CodeResources
+        artifact_id: art_d93a68da2b6d29aab73eb63e144ecdefc4143b0384e6626a1d9675b530400ffc
+        sha256: 681f75f195c01dd34c542688d6cbc8d3fc74d5ee8756fb0e666ea4670631ade2
+        format: plist
+      - path: Payload/Player.app/PINOperation_PINOperation.bundle/_CodeSignature/CodeResources
+        artifact_id: art_0c83cfff1efff4c84af6ebece3fc35840514744cfa22a32d3ae39fcfbe7eabc9
+        sha256: 223798573ec84033080f2dc0dd77862685f8b778b3d3cbed6044821a3ad83d31
+        format: plist
+      - path: Payload/Player.app/PKHUD_PKHUD.bundle/_CodeSignature/CodeResources
+        artifact_id: art_e3e49b2d7a8df2c253b84ca85abf0de2f65ca6510abf1937e54d9e50861000bd
+        sha256: f6f50f3e7afabff489cf88de8923a595bc475b66fa82937baf9904c5daada6c4
+        format: plist
+      - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/SnapKit_SnapKit.bundle/_CodeSignature/CodeResources
+        artifact_id: art_d06ea14686f204f9df5d0675a3bdc284fb8a6cdbf56711dc8fb963507fddeb45
+        sha256: 4dbd75dd6ecfc7dee138859716714fa5b2897c54f7956eb11286e43d2e8c3678
+        format: plist
+      - path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/_CodeSignature/CodeResources
+        artifact_id: art_072b7aaffee35589a7e75ff19a146b58075dbd928de09500d4ae374ae886d893
+        sha256: 73b5c715b1c73fca087518c3d8d54d22734c40320c9150387289cd1cf0c4d2a2
+        format: plist
+      - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/SnapKit_SnapKit.bundle/_CodeSignature/CodeResources
+        artifact_id: art_d06ea14686f204f9df5d0675a3bdc284fb8a6cdbf56711dc8fb963507fddeb45
+        sha256: 4dbd75dd6ecfc7dee138859716714fa5b2897c54f7956eb11286e43d2e8c3678
+        format: plist
+      - path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/_CodeSignature/CodeResources
+        artifact_id: art_dad1ef4ac90f3a50d22e1f8b0548f4fc1284429f4bd8b657a6e861f779bcb129
+        sha256: 471b727ae687545a21461d047153c8d9a434b4062cc344cc6242b2ef304cf8cb
+        format: plist
+      - path: Payload/Player.app/SnapKit_SnapKit.bundle/_CodeSignature/CodeResources
+        artifact_id: art_d06ea14686f204f9df5d0675a3bdc284fb8a6cdbf56711dc8fb963507fddeb45
+        sha256: 4dbd75dd6ecfc7dee138859716714fa5b2897c54f7956eb11286e43d2e8c3678
+        format: plist
+      - path: Payload/Player.app/_CodeSignature/CodeResources
+        artifact_id: art_453ec7fb8a67403ff796223f4ce70524438f64f0f16e8464b2beee60807ccdfe
+        sha256: c1907c01ca7cb994cc16ccabf73f76c3a695ac425dd5217376a5dc99f4404270
+        format: plist
+      - path: Payload/Player.app/whisper_whisper.bundle/_CodeSignature/CodeResources
+        artifact_id: art_10cc5af014053dd2bf69f6ed4e47a1b31b2e0749127a516a66f2c7d767c15315
+        sha256: 91bda8755ecc4a32a2752f9fbcca693e28d499a2ae9777bfae7fa6e012eafc44
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+  bridge_candidates:
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/index.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/respond.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Armchair.framework/Armchair
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Bolts.framework/Bolts
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/GCDWebServer.framework/GCDWebServer
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Parse.framework/Parse
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/Wrenchs.framework/Wrenchs
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/Player
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/PlugIns/CopyToEchoSpeak.appex/CopyToEchoSpeak
+      basis: javascript-and-native-content
+    - source_path: Payload/Player.app/PlayerWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+      native_path: Payload/Player.app/PlugIns/ShareToEchoSpeak.appex/ShareToEchoSpeak
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 360
+    emitted_candidates: 360
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_9ab406a1f2642ec8d1b3be977ffb108e862a120e46388e0131ee9c4ac3293f66

@@ -1,0 +1,114 @@
+evidence_id: ev_4278b5ed459df98127823cd0274f02d54129fe335e4e5e4bf3064b660cc2c4ba
+subject:
+  name: 6806027593_decrypted.ipa
+  digest:
+    sha256: 72d38f0eacbcdae6e9a32d6725a53a4bf9ffb975aa64599621147f4fd6133375
+  local_path: /opt/data/downloads/batch_decrypt/6806027593_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_9dd17a511cee1bf29c013dd8a3df15f44c04224bb012fc01c3c6ba2160936d46
+raw_result: null
+normalized_result:
+  projection_id: aap_c8f9bb2725af982be35ecfc189d9965f04ca508ffffa2c93a4b098fabe4b38b4
+  root_sha256: 72d38f0eacbcdae6e9a32d6725a53a4bf9ffb975aa64599621147f4fd6133375
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_9dd17a511cee1bf29c013dd8a3df15f44c04224bb012fc01c3c6ba2160936d46
+  application_roots:
+    - Payload/Echotter.app
+  bundles:
+    - path: Payload/Echotter.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Echotter.app/Info.plist
+      executable_candidates:
+        - Payload/Echotter.app/Echotter
+      signing_paths:
+        - Payload/Echotter.app/_CodeSignature/CodeResources
+  components:
+    bundle_metadata:
+      - path: Payload/Echotter.app/Info.plist
+        artifact_id: art_b70c4d679b5523480c4b44375a9773a714f755965d0f85f1a5fca33970b1a086
+        sha256: 6b564ce7fc24367761bf74c9c8b5ada61d51d1cc22ab338a3adb1e1706e10615
+        format: plist
+    executables:
+      - path: Payload/Echotter.app/Echotter
+        artifact_id: art_0b96d0836ca3e8471f4699398e5819007fc80bbe21301985c784568d12ff365e
+        sha256: da33f8c1d6e65955a2b136b77ab386c2409e0835d6b1215caf00ae8d6e59d022
+        format: mach-o
+    frameworks: []
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/Echotter.app/_CodeSignature/CodeResources
+        artifact_id: art_b910955070ed8cb7e7c98580dbc1df40dac426aec7d5cf5ab87ef432b088d284
+        sha256: efa89e3ab99aa1d74d66f4e85eadd654bcad74000c91f1cddd1fc9c3a8ee56bc
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_9dd17a511cee1bf29c013dd8a3df15f44c04224bb012fc01c3c6ba2160936d46

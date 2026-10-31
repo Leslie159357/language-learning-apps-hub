@@ -1,0 +1,1114 @@
+evidence_id: ev_e33902226bef3a1417412dab5d6a28744219ce67b4dda5a7f00edf3ad512549b
+subject:
+  name: 6769086372_decrypted.ipa
+  digest:
+    sha256: 9cb4bddc442f712ab6e1248cbee49c60735504bc68b7688225300a5a11a1c9fe
+  local_path: /opt/data/downloads/batch_decrypt/6769086372_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_04cb8140cad802ddcb59594553a70f019e19b3d5cd01c034e470e3fcbcb0653a
+raw_result: null
+normalized_result:
+  projection_id: aap_e63b8412179ce294353276237e1a6c210392d1ddb455f60830db5018d0d34c05
+  root_sha256: 9cb4bddc442f712ab6e1248cbee49c60735504bc68b7688225300a5a11a1c9fe
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_04cb8140cad802ddcb59594553a70f019e19b3d5cd01c034e470e3fcbcb0653a
+  application_roots:
+    - Payload/LingoReactor.app
+  bundles:
+    - path: Payload/LingoReactor.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/LingoReactor
+      signing_paths:
+        - Payload/LingoReactor.app/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/Alamofire.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/FirebaseRemoteConfigInterop
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/FirebaseSessions
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/Kingfisher.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/Promises.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/Promises.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/Promises.framework/Promises
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/Promises.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Promises_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/Promises.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/Promises.framework/Promises_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LingoReactor.app/Frameworks/nanopb.framework
+      parent_path: Payload/LingoReactor.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/nanopb.framework/Info.plist
+      executable_candidates:
+        - Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb
+      signing_paths:
+        - Payload/LingoReactor.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+    - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb_Privacy.bundle
+      parent_path: Payload/LingoReactor.app/Frameworks/nanopb.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire.bundle/Info.plist
+        artifact_id: art_f2b682c2e92c5c997c98f8ff8e7d0696cfeb8f5ec497eb4eeebf4dfbcfa80c98
+        sha256: fcf033a34a977be49359366951e863a10411942d9a260c611fd5a64622d2570d
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Info.plist
+        artifact_id: art_3816446a61d39bb90ed7eb19139c91f8775fe2c63d3c5e912d28358d1cfeb695
+        sha256: e740f6e22dcec04144fbe8e6f7a406f89e14de57481d07b49156c2f0261f6be3
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises_Privacy.bundle/Info.plist
+        artifact_id: art_1ebd531c99820d9336883ec768425420efa71655540895a58f446eb395524af8
+        sha256: 956ede605502426c5b413f9c287d75853d44359eb617c249055afc3c4d0bbc44
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/Info.plist
+        artifact_id: art_fc820daf1158fe48be264cab0cddf5cf23adfede6ee38190d81d24ae808d10d7
+        sha256: 7222395bdfff5e53a00b160e5cf51cbc77f1562be3389cb62ccf024d7ba84f63
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore_Privacy.bundle/Info.plist
+        artifact_id: art_dc52a4c0751bb9aff0ca96560425433c4914ba908f9d29c9f3e56a9c25fff3ff
+        sha256: 4c5c838537ae3308cb7c453f27eecab5be321ccddc9fd38f68968fa0acb3bace
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/Info.plist
+        artifact_id: art_eecf1e5f5717d8c3216f5e46902640451c662818129246c442e3ab498cf000ff
+        sha256: 2ce2144c2ae9c437291296863cab111863e8c907bbba9173095da6442adf7c2d
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension_Privacy.bundle/Info.plist
+        artifact_id: art_c61e3d2a02881c8dc4909f4aed2fb4702f6a076ac8059a3ec7bda2c4af13d963
+        sha256: 8a3ef79b32a780094d582a8f5d01150c151e4f75319b5327784e12f30e521f0a
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/Info.plist
+        artifact_id: art_be75fb1f3a77d7d6b1ad2e0242c4adb71a4aa6c1d4fbb06e59f857315dd51cd4
+        sha256: 2cdd5438b7bc460fceb04e10e53a2d744b56df4c76bd73127d5cec00c8284f9f
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal_Privacy.bundle/Info.plist
+        artifact_id: art_dc2ba8a8fc501c7a5bd0d10985fc963d341073734919c7a434a085182e7725e5
+        sha256: 421ca2562cadd6cbd5516a5bf55299e85534c12128899532a8ed8e67c36ddfc5
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/Info.plist
+        artifact_id: art_8ac16f5dae72b517748eab663d78ef9baf52c9c743e7a0e4f7e29bef5efbd615
+        sha256: 91add129f48c0791462d4442e038c1b90dca422bb7bfeb21a75ac1d56bb172e0
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics_Privacy.bundle/Info.plist
+        artifact_id: art_ff0699f85d8027a39a5a779f45d55bf147f99468aed6e7459d801c730eda22a7
+        sha256: 958ab1b8eed6044c3e290c9ec7649a5f3306f7badb9ed5c3fde20590d24b21e4
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/Info.plist
+        artifact_id: art_ad1f41ad5ce9c1cd724a2c9f797b29b7925620cc5315b4f1b97ea2e49095648f
+        sha256: 2b6c38b5ad87e1968910b7d45ebaac71312acfbecd9be751d76089d00479b84a
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/Info.plist
+        artifact_id: art_45d2d7c244866bb956d25a5003aa383d70f35b08782cecd3071bc7b08d49045d
+        sha256: 0fdd7fbe43d132b93a4eea571000e12fa2f55953da2ce784e622f55fefb4993c
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/Info.plist
+        artifact_id: art_1174caf5cb247fd5f3f94c6ab0ea291e1f2987ab1d2fe14c22f489bfb5d741fa
+        sha256: 72e52cab3f4cca0d9b81ff19582bf2359dbe07788d59fde19384d10b36c9ed01
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/Info.plist
+        artifact_id: art_fffaacd77dee0c0dcf821a8a5124fc0069ad95204823f5a584fcd55ebe7bc756
+        sha256: 0a0c0b731b3f54f709274598208d9c9d677359b46e6da313ff6ac395109813d5
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/Info.plist
+        artifact_id: art_5350126908cd7c14bcef55b528b5601ab452cafa22284fe4a7a7926f1cb4b6ae
+        sha256: ce3109426a6f28e70013aa5b722ff3894f30309d7c8ba5d975fe9155df11f2cf
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport_Privacy.bundle/Info.plist
+        artifact_id: art_11e6550868ab7578fee684e6ddd50153aa2d6b60fdbec4ee6f50a4feef07f6d8
+        sha256: b1002b896ed51c6f62558207b25456bf86fc05ce45228df3bf1b1a54e4eb884d
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/Info.plist
+        artifact_id: art_e1ed8d4e57c62968e7bd14c251126bac21363a0a9915f74fb75f3edd21b8f224
+        sha256: c8347f5e1d13a08b00da2f08bf36f3e2834588b096d136f570dd41e6b6dbf976
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities_Privacy.bundle/Info.plist
+        artifact_id: art_20ea54163a821fbe24f006f944235fd4167b835f462f4451019c53b89868f842
+        sha256: ec7862ae86376a4528906beeaa0d0b07440438b96d144ba7be957eabad8a0439
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/Info.plist
+        artifact_id: art_497ee00df43e88ee256d75e5a8b2c16e72438da1988d6ee02f71b131d8e44d61
+        sha256: b96ffa16543d6f8e0091479ad09b6dfd0dfd6f8a141038d28873b65ef20be85e
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Info.plist
+        artifact_id: art_a406872924d19cc7ccdabe837524c13fce4722880acd576a91e3d4d2f073081d
+        sha256: 8f95944742aba9e4627de68b574b6e42075efe772b497f5164495b704bd88b24
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/Info.plist
+        artifact_id: art_28e21d45b10b0bbf20a40849fc8c06cc75862abc96292781f99b71dd1caee92e
+        sha256: bed5ccab87bea8f94d6db015233acaa0d598b862c3b5d13d90780e2dea34c062
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Info.plist
+        artifact_id: art_cc3d333c6cd63bb9812d9f193c71cee7baa37143031ece6697a142591e5e7806
+        sha256: fda7520e479616f5972cc15d1c6361fac4a89547aed67fc9df9a9a07f0f32c6a
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Promises_Privacy.bundle/Info.plist
+        artifact_id: art_80de91305c692da9a1110f854949ed67d70e789f3be75cec7b601e4ef219cbaa
+        sha256: a2d7b1533279b215f06eb38677cc92bd768a2bd13a7696f886fbd0e0233f2528
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/Info.plist
+        artifact_id: art_be3620e398c771ec42e01207fc31d566a3b260aae66062b8702db5c656ffd204
+        sha256: 512ea3a0394cecf376c1ee583608e0801ddae21933d8a0ae7882634964faf807
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb_Privacy.bundle/Info.plist
+        artifact_id: art_75bfe60bba4f927b8e951740e081894543be935447ca746b41c5580170ac6570
+        sha256: 5d92d0f48c012802d5faf7e296a9dba98adae68d51f3fd76f4148327ee974bac
+        format: plist
+      - path: Payload/LingoReactor.app/Info.plist
+        artifact_id: art_932f12b7b696bb732e76b65e354da71808799fd1f59742bf097e6cec3dacc914
+        sha256: b2e2354624f90471eea0b9b588511a5f0206ea3f4f872f9ba68c358a3827c7cf
+        format: plist
+      - path: Payload/LingoReactor.app/LaunchScreen.storyboardc/Info.plist
+        artifact_id: art_2828f995b8d99da772f8eea19479b22339b30569226a256fa4eef1a856922cc5
+        sha256: c9bc192a3990fc8c531260a55b210e05cb6d193be1470043186f7eb54cd14085
+        format: plist
+    executables:
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire
+        artifact_id: art_e3679d11f5c718ccc77820e218dd2608aea731de0719fed740445d98a8a2a030
+        sha256: 15b340fbe03e491522eaf430acd4ae7edd225bef166707e2d4401727aac5eb71
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises
+        artifact_id: art_0aabbd9b300e1bb20016e1c8566ac731547b9b661afe80d0720ab144723952e8
+        sha256: 239cebe1a727a9d6953a42e4ae89742a99255e6058ee6e01db241a453f170cae
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore
+        artifact_id: art_968e2ff8dc43d6e2150fbebcbe4da968f6eabb3f87a071f2c3ea393ad35c8493
+        sha256: 8628029ed5de40be2eb9f14ebad07fbb2735771aade1026a885b0e9893b79e04
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension
+        artifact_id: art_8ffb729265e8632c884c8fedaba4506cabc21bfa50465e2ab19412ae752a7a45
+        sha256: 4c8509a5ae90598d7281924b0327e8ff4c61e6e381ed4e33a186469158258c44
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal
+        artifact_id: art_b79dee7633fb0500bc662128bfe3c24727640162b6c3dd3519079087263ce70e
+        sha256: 3012835c10629d6a2b75b11fe431d40334ffecb6c2868d67491442ccc1aad43d
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics
+        artifact_id: art_5e6c538510c0e347c073cb1a8d9b08a5fe60a706b88ce79af06179d19ee8e1db
+        sha256: 8f1a02ac21e34e3114af7150091bcfc28ad3fcaf0ddbbbfc99d252624a45c59b
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations
+        artifact_id: art_70c44a20d1ae95e72556c367a67fdc5022674629c88cc9bb739a453add3cc087
+        sha256: 615cdd12fe6e3c232445dcf7276b0369ad58a457b62ab04d5828ab35f5746820
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/FirebaseRemoteConfigInterop
+        artifact_id: art_eac845f95b78071762d77744640f7c3e0d1136c2c6e51d7c9db394d2e4f64e30
+        sha256: fe0b40ae7c872ba7504a89ebbdb3a4a1e7e3da019fc2aa65cfe3ee0b13f19188
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/FirebaseSessions
+        artifact_id: art_27b06d7eb1c3748aeaa48a4d18fa9d8933225bcae13428c02544a72728f0cc7e
+        sha256: 9e989f43673b4e1b136a7be18f1cd4b167ac3206c0d36a6173332b47c541a491
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport
+        artifact_id: art_97be93b6c4ea66a268c0d09bdc75ff1102161f3136a3b7f3febe90968d56584c
+        sha256: c1fb0b5289638476faee4bcc03544bca50e7c6dfdcbed787341e984a3071387c
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+        artifact_id: art_81260230cff8185980e2e8d41e251574613955125b5fe5f837824b32e8e8b6e3
+        sha256: 08a93c5948d61af216eb70a315d1de33c0f3d09eac62ef2b9e2b9cfc87c69ce5
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher
+        artifact_id: art_ba4960ce41f80bcd30ae7bec608199daf6c6144dae9c90d60e953136364788a4
+        sha256: 62fc48417a889629cfb770317f6e4a949e82a187eb8ed96d8ebebb9814f2ffae
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Promises
+        artifact_id: art_8b0fbc24801220bc1daeaab89ff6045115813477073a0c74b99a4b8c50e1478c
+        sha256: 5ecde004b1c9678e5c06f9057d87d3c43e554e1a4dc65269d260dc00ea861d9a
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb
+        artifact_id: art_bb3249a42a70136c5e9d2ecb6b9fe51561a031a7f2f0c96c0221b26e879d22e0
+        sha256: 09e1019e263f463ba86a68c32b1481c0c125daee152fb3eea82353ebcc580239
+        format: mach-o
+      - path: Payload/LingoReactor.app/LingoReactor
+        artifact_id: art_d072d9fee76dd86ef075ccf9148f50b2589272c2a28bb4eb7345c5c4689d236d
+        sha256: 7e734605327ca9161c378f7feeeb99dc1870948ed922303aaa1ba27acac3bdc5
+        format: mach-o
+    frameworks:
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire
+        artifact_id: art_e3679d11f5c718ccc77820e218dd2608aea731de0719fed740445d98a8a2a030
+        sha256: 15b340fbe03e491522eaf430acd4ae7edd225bef166707e2d4401727aac5eb71
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire.bundle/Info.plist
+        artifact_id: art_f2b682c2e92c5c997c98f8ff8e7d0696cfeb8f5ec497eb4eeebf4dfbcfa80c98
+        sha256: fcf033a34a977be49359366951e863a10411942d9a260c611fd5a64622d2570d
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Alamofire.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_1c1d0e355e23fd87dc7023b01caa7bf6776e55676beb95f773887dd09aa28b5f
+        sha256: 08d90e6946dbfea0d0b5b17fb659d77eed23e443b745d8e7b5b9fa378cb74477
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/Info.plist
+        artifact_id: art_3816446a61d39bb90ed7eb19139c91f8775fe2c63d3c5e912d28358d1cfeb695
+        sha256: e740f6e22dcec04144fbe8e6f7a406f89e14de57481d07b49156c2f0261f6be3
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/SC_Info/Alamofire.supf
+        artifact_id: art_95deeca2e98b71500a958d97df550909379285d8e1bc10fb0abc38509a34ba44
+        sha256: 74b081f836424060a3feea14f205844da45963cac1a53badd7f5328550e2866a
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/SC_Info/Alamofire.supp
+        artifact_id: art_bbfd789795c6ed6d66ae3dd79e71f12ed00de819d8f21956ef31d7c17169a239
+        sha256: 98f9399244ea04abee3e2c66ef12ad5994d083ffee23073f9058d8e1dbcb3dfc
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/SC_Info/Alamofire.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/SC_Info/Alamofire.v4.supp
+        artifact_id: art_f98a959774d83addd39224266caf29f900dcbab5e39d66d833bf1b4a9cf08181
+        sha256: 53c72930fda4a9c28bf6ca63133b241d5e7bde65cbbf836285f3df293c16cd07
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/SC_Info/Alamofire.v5.supf
+        artifact_id: art_b845a7219c45b520ab731fa8584524d7426be019c260aeb02d03e902ffc842a3
+        sha256: 4687851127aeca6f29b43840839f38e1976e961f67470c9ccede607cf3d2b4ec
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+        artifact_id: art_ec1df90f2ddad6b0a36f8f74eed0354a70376c1249236823a4e43e48971bbdfa
+        sha256: 1b0d4948bfbd40b514f9f48301220d9d4d5a4a421c99ed34b053952d19aa858b
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises
+        artifact_id: art_0aabbd9b300e1bb20016e1c8566ac731547b9b661afe80d0720ab144723952e8
+        sha256: 239cebe1a727a9d6953a42e4ae89742a99255e6058ee6e01db241a453f170cae
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises_Privacy.bundle/Info.plist
+        artifact_id: art_1ebd531c99820d9336883ec768425420efa71655540895a58f446eb395524af8
+        sha256: 956ede605502426c5b413f9c287d75853d44359eb617c249055afc3c4d0bbc44
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_c93a0a2b9bad4baabe34736ea5a6401118d8a1ee31d2aaf228ea0eddffd8d19b
+        sha256: 74b0cd72fc23c1ef302f22ee2753f61817cdc5af0ff7a7f2d0632b524fb8acea
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/Info.plist
+        artifact_id: art_fc820daf1158fe48be264cab0cddf5cf23adfede6ee38190d81d24ae808d10d7
+        sha256: 7222395bdfff5e53a00b160e5cf51cbc77f1562be3389cb62ccf024d7ba84f63
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/SC_Info/FBLPromises.supf
+        artifact_id: art_59a5740f2f604665d6969356ee228bea31ed1c2f62cacf11bff4d6664310d75c
+        sha256: 5cee416dcbcb01833be3d4d84c74e3c2cd12c42a0a3361612956959a080c883c
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/SC_Info/FBLPromises.supp
+        artifact_id: art_131074964b673ba946435228397d3e720be99ec0c304afc792fe618db245daaf
+        sha256: d55714fd20b9d3599b23b865b24756725b0302e823a57231a0e5765dc093bd4b
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/SC_Info/FBLPromises.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/SC_Info/FBLPromises.v4.supp
+        artifact_id: art_49002efa0542abef4e0f30a333c45d13b5ba515f4ad681d5dea0bf0f04934338
+        sha256: cb56a900883eec0b7cf321eb04f345df06a50f42befb6672acfe021c926c3adb
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/SC_Info/FBLPromises.v5.supf
+        artifact_id: art_cf614b1c045f68313ec81b1a72e82b2bae9477c0e9064913e85ba6274ac7b698
+        sha256: 6b7ab1aafc449492265bb316e6a032bcdf4e8e8a32325a7457f8a1527fc441b7
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+        artifact_id: art_9b186dcc82367cf14faf1d08f7cdef81f36644fe381d96adb7cb0d39f062e5a6
+        sha256: c0588d309e1c3e7b30985fbabd39320a8dff3f7d13f4c1ce5856565a966f4878
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore
+        artifact_id: art_968e2ff8dc43d6e2150fbebcbe4da968f6eabb3f87a071f2c3ea393ad35c8493
+        sha256: 8628029ed5de40be2eb9f14ebad07fbb2735771aade1026a885b0e9893b79e04
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore_Privacy.bundle/Info.plist
+        artifact_id: art_dc52a4c0751bb9aff0ca96560425433c4914ba908f9d29c9f3e56a9c25fff3ff
+        sha256: 4c5c838537ae3308cb7c453f27eecab5be321ccddc9fd38f68968fa0acb3bace
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_63f06c77689c0b4cf75895a08bc96a34c6b24cafdd82f76233f646f48258acd0
+        sha256: 11e31f5f6b60e80ebd5901549fce5043f9af3e683f874022945000b405306c3f
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/Info.plist
+        artifact_id: art_eecf1e5f5717d8c3216f5e46902640451c662818129246c442e3ab498cf000ff
+        sha256: 2ce2144c2ae9c437291296863cab111863e8c907bbba9173095da6442adf7c2d
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/SC_Info/FirebaseCore.supf
+        artifact_id: art_f332822a7229456c806eb347a37056a4468a4c6c5ab8e98159c077ad9a177287
+        sha256: 03376e55a27a477576e758867e01069252e71f7cf0eaba1a2e8094690711c9de
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/SC_Info/FirebaseCore.supp
+        artifact_id: art_6fe9a8dea9f8b30619f9a3ffb37b7f17d5857766555928dd6ca227bff568e92c
+        sha256: 1bb009b34e190ed076466027877e60e6b2571a97b137a6824e8d5698e4344fc1
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/SC_Info/FirebaseCore.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/SC_Info/FirebaseCore.v4.supp
+        artifact_id: art_c1b9bad9380a244bd9c313e426d7880f03a995ab37cab09b817a02bbd501bf2f
+        sha256: 634bda646ad4dce5b9c5418d538839f0db9b50febd44728eba9857a81d86c8a6
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/SC_Info/FirebaseCore.v5.supf
+        artifact_id: art_e1db93694198058829d71dd7672110572fe5987116430f084a221b3445f57ace
+        sha256: 88ecca0e3b5b11d05f1174c0ef5d2a1498c40853c8ea427bb47251d36c422b7a
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/_CodeSignature/CodeResources
+        artifact_id: art_f43bbc4b5dcb5ab5b7c80fb525125949082d0ee0c347729cd08b02b572226ad2
+        sha256: 9ecdb9c678c4e542a9edad97cb8f3613b9a627964c91ff784e5cad2b87870b48
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension
+        artifact_id: art_8ffb729265e8632c884c8fedaba4506cabc21bfa50465e2ab19412ae752a7a45
+        sha256: 4c8509a5ae90598d7281924b0327e8ff4c61e6e381ed4e33a186469158258c44
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension_Privacy.bundle/Info.plist
+        artifact_id: art_c61e3d2a02881c8dc4909f4aed2fb4702f6a076ac8059a3ec7bda2c4af13d963
+        sha256: 8a3ef79b32a780094d582a8f5d01150c151e4f75319b5327784e12f30e521f0a
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_420c484856cf1db68d8b78635ff8d04749853a0e9cccc4aa4b13bf37ca8e85f1
+        sha256: 1377eccedff8f8320f78040e9c9d3e17ecc0ea569594b56af0ef17be44197c7a
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/Info.plist
+        artifact_id: art_be75fb1f3a77d7d6b1ad2e0242c4adb71a4aa6c1d4fbb06e59f857315dd51cd4
+        sha256: 2cdd5438b7bc460fceb04e10e53a2d744b56df4c76bd73127d5cec00c8284f9f
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/SC_Info/FirebaseCoreExtension.supf
+        artifact_id: art_5934870c52ba7eee7c542c4255d468af3dc6c57a3198e3d171c5f3ad2141c88a
+        sha256: 4a2c178d75f24a7c46fb4225f081c12a53c14d4a2686e5a0d21210d9c8b05556
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/SC_Info/FirebaseCoreExtension.supp
+        artifact_id: art_5857aa5853a1c90c9891bafe675645a975ed84e1bbba2308aec1612ed8ed9a03
+        sha256: 93a55cfb063866d646eed2c7a0dd2b268330b3654bbc75f83f985364fecf831c
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/SC_Info/FirebaseCoreExtension.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/SC_Info/FirebaseCoreExtension.v4.supp
+        artifact_id: art_43ba2bfac67afe75f3d02dea20d3df5d8d7ac9bd3a1b806fcf47df6db871cd06
+        sha256: 26a92344734f5e91d5aeedb2454cd591ff4bfac8a405b9d9df4f129392c8c1e1
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/SC_Info/FirebaseCoreExtension.v5.supf
+        artifact_id: art_92d5faf13c381de250148f1263730d680c364f70fb4beff826c2624300cabc4a
+        sha256: 9da2fff0a7a8d3117c2608dbf04db03f1ff5f0edb55dacdd7bd0a3bc999d0ff3
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/_CodeSignature/CodeResources
+        artifact_id: art_ce860e1f1b54ded075869786bec929a43217421939684e9e3b0198e8cac78f3d
+        sha256: 23c0800b0b2946c346db058597c715a3e48677b94448a6cf58bf61ad258a3036
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal
+        artifact_id: art_b79dee7633fb0500bc662128bfe3c24727640162b6c3dd3519079087263ce70e
+        sha256: 3012835c10629d6a2b75b11fe431d40334ffecb6c2868d67491442ccc1aad43d
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal_Privacy.bundle/Info.plist
+        artifact_id: art_dc2ba8a8fc501c7a5bd0d10985fc963d341073734919c7a434a085182e7725e5
+        sha256: 421ca2562cadd6cbd5516a5bf55299e85534c12128899532a8ed8e67c36ddfc5
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_7e934538badfde2ba4628f0e68b1a5eb91347b1e4ae456b4e6f6fd333c30f54a
+        sha256: 5b7fe979423dede3e08afc29a42f00f6086275dc548a84c29774235863eed3ef
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/Info.plist
+        artifact_id: art_8ac16f5dae72b517748eab663d78ef9baf52c9c743e7a0e4f7e29bef5efbd615
+        sha256: 91add129f48c0791462d4442e038c1b90dca422bb7bfeb21a75ac1d56bb172e0
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/SC_Info/FirebaseCoreInternal.supf
+        artifact_id: art_ff0d196334809abe3bdac2f7d2905c057ba24c4780aa124ead35298bfa3c8ed0
+        sha256: 8e76ff7d3e2f6bf5853c2c42e1551be348884d1e4cd63b076fbb4e8c7687309c
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/SC_Info/FirebaseCoreInternal.supp
+        artifact_id: art_291aa1e67e18f2967174e6050472883214040dd574afcaa63d96b41177205d87
+        sha256: 90a91bb832794d107321852e6f353257af50b39cf6a7ba996ab7e52c5fcf17d8
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/SC_Info/FirebaseCoreInternal.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/SC_Info/FirebaseCoreInternal.v4.supp
+        artifact_id: art_31ba09fdf70f281e556c6c4d944ed6c91e1736cac54017de35375c8b1a0f81a1
+        sha256: fe9b77f0d626ea3375396be507297369398c89fd329e704a828eda52183da062
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/SC_Info/FirebaseCoreInternal.v5.supf
+        artifact_id: art_2a860f24e3ccd55fb12d7fbf01f4a380b16c95238b50b32b719a521655317f4b
+        sha256: 5f1c4147d85523864d957bdc3f4ac09e81fbcf7b63eb60d90515cfb754c6173b
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/_CodeSignature/CodeResources
+        artifact_id: art_0d169051e9ddc9e716fe0e8916e72f9d5b82c5035d44c0b8e40623523a0c6923
+        sha256: d0b0577068ee0f8fd84eec2dce10101e30e5052c33905c27a0e7ac1705fd4104
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics
+        artifact_id: art_5e6c538510c0e347c073cb1a8d9b08a5fe60a706b88ce79af06179d19ee8e1db
+        sha256: 8f1a02ac21e34e3114af7150091bcfc28ad3fcaf0ddbbbfc99d252624a45c59b
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics_Privacy.bundle/Info.plist
+        artifact_id: art_ff0699f85d8027a39a5a779f45d55bf147f99468aed6e7459d801c730eda22a7
+        sha256: 958ab1b8eed6044c3e290c9ec7649a5f3306f7badb9ed5c3fde20590d24b21e4
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_67fd5472a0f64ac4c18a607e7eb8684cfe2f792b93e0eff843e09e3477571e42
+        sha256: e9bcc6e9c7382bf506cadabe74cfd4ed155686806ba81c195a634b86aa5fcce0
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/Info.plist
+        artifact_id: art_ad1f41ad5ce9c1cd724a2c9f797b29b7925620cc5315b4f1b97ea2e49095648f
+        sha256: 2b6c38b5ad87e1968910b7d45ebaac71312acfbecd9be751d76089d00479b84a
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/SC_Info/FirebaseCrashlytics.supf
+        artifact_id: art_f66f5333231aa4026bbfd14cdf56513cfa99678b7fb6b344db7bc210a6e76cf4
+        sha256: d4d6e57b96916fa98ad2f5951466cd47ade30e34dca25e0af742e246194a5cb7
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/SC_Info/FirebaseCrashlytics.supp
+        artifact_id: art_7617fc8fd698873fe7177df02655d4ca749aa1b538f83b94f0828c15edcea7a5
+        sha256: a64d7a3f9ccf0fc1441df3958b44dd27e1b4ed8e6224df8eca54c2f92cbc1250
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/SC_Info/FirebaseCrashlytics.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/SC_Info/FirebaseCrashlytics.v4.supp
+        artifact_id: art_c2e6b876ba2d865641d219442c55b0d23aac74efd37a38248e0766cff6b12fb5
+        sha256: 3c4fe8308f22b1f658b43786bfbdf5aa8edddafd2bc8b9fa159151a1f1217bb5
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/SC_Info/FirebaseCrashlytics.v5.supf
+        artifact_id: art_b04d56c606a811316e213eb53f866e5230327d077974f8b7e0679eb8552e62c4
+        sha256: 906f0d212d00882483a674b4f0f2012075eb88b2beda7e71fca99b0fc5749614
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_169b3e5a6f5cfeeffcdb4d3c24d6b0b1baa2e5a6341acdff651117475f1d58f4
+        sha256: 9c7f8b6552242b8f1d8d25899d4fcf33c0d532fd7bcbda4d66d45f72dc475537
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations
+        artifact_id: art_70c44a20d1ae95e72556c367a67fdc5022674629c88cc9bb739a453add3cc087
+        sha256: 615cdd12fe6e3c232445dcf7276b0369ad58a457b62ab04d5828ab35f5746820
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/Info.plist
+        artifact_id: art_45d2d7c244866bb956d25a5003aa383d70f35b08782cecd3071bc7b08d49045d
+        sha256: 0fdd7fbe43d132b93a4eea571000e12fa2f55953da2ce784e622f55fefb4993c
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_e4ca6b90c8a5694c934fd5edf8050a3bf34644f9a5096c639f75a516bcaa972d
+        sha256: cfbb3c4f76a66d53698bae91f7110c00f2148e6e6f13ad7d32592909bc010e51
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/Info.plist
+        artifact_id: art_1174caf5cb247fd5f3f94c6ab0ea291e1f2987ab1d2fe14c22f489bfb5d741fa
+        sha256: 72e52cab3f4cca0d9b81ff19582bf2359dbe07788d59fde19384d10b36c9ed01
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/SC_Info/FirebaseInstallations.supf
+        artifact_id: art_0479c3225261c642d390bf5c7edf2840f6b369b0375c81977fedeba0a6b1fdb1
+        sha256: aae4d82949a3f60b1281ed46044c37783ee6b9ca30aaf523c6a5867641ca6636
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/SC_Info/FirebaseInstallations.supp
+        artifact_id: art_003d6ecb83b85a8d8b9999af6bbf79f01425350d1fee567b64d429b966d567ec
+        sha256: e5ded7a04395ed443e431d9fcd7ac61d96f85b60f89b53fd69b0b1d429c2f867
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/SC_Info/FirebaseInstallations.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/SC_Info/FirebaseInstallations.v4.supp
+        artifact_id: art_db1658dc7c502affd41c4298067d9f786156308f64866ded0cbc16d05c445129
+        sha256: 1e1dcd91fcb2c2d21ab40866a0be4378312ff1972055900a5ba2f4188e353a53
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/SC_Info/FirebaseInstallations.v5.supf
+        artifact_id: art_49ebe07787beb28c1e5d2e74eb5b9d20ab289890718cc79d276d6e01b01bbf26
+        sha256: 60c3f47e8c992df2c2a67110cead22333d8d094d352a7a3df0d6af94ce228c0d
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/_CodeSignature/CodeResources
+        artifact_id: art_ca744f972799e051434d667db5d8a5f46f582d016458ba4f419d692beb4ac0f8
+        sha256: b5b38e0fa8630692b0edb329490cce2b6d4c7d8d82ac4c056a0dc2786aa83839
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/FirebaseRemoteConfigInterop
+        artifact_id: art_eac845f95b78071762d77744640f7c3e0d1136c2c6e51d7c9db394d2e4f64e30
+        sha256: fe0b40ae7c872ba7504a89ebbdb3a4a1e7e3da019fc2aa65cfe3ee0b13f19188
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/Info.plist
+        artifact_id: art_fffaacd77dee0c0dcf821a8a5124fc0069ad95204823f5a584fcd55ebe7bc756
+        sha256: 0a0c0b731b3f54f709274598208d9c9d677359b46e6da313ff6ac395109813d5
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/SC_Info/FirebaseRemoteConfigInterop.supf
+        artifact_id: art_addc64a901f3da8ffe0c4ee5d90501a4b7cd55d198e6bde4643acdfba4ce02b2
+        sha256: acd744f8d59de1de09895f92c0a0ec323c349cd50f152f7281e865765e446a01
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/SC_Info/FirebaseRemoteConfigInterop.supp
+        artifact_id: art_123edd0850a309a3109ce613ceacab5e456c6490e2980b70f8e3f7e32e8f9499
+        sha256: 4acda0e395c7a2b93d0ff603c6b053e8ed1f8ab38d1f9e2598a97a1e3d7cb836
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/SC_Info/FirebaseRemoteConfigInterop.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/SC_Info/FirebaseRemoteConfigInterop.v4.supp
+        artifact_id: art_ef0b3c60aba4a06b6d9bb3f154d1301996f93cedf911cedb80e6c48079ad1be4
+        sha256: b151f25711374b16111d8ba02dcd160a2a25bfcedceb0481b420c7312d05d16d
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/SC_Info/FirebaseRemoteConfigInterop.v5.supf
+        artifact_id: art_f16a828cd8487757e09bb61cf06d9b30631ebed7db56d46152cfdd10970338f9
+        sha256: a1ccdbce20231443c0b00135c9c7e68c11ab5eff3a883d231e948156eae82992
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/_CodeSignature/CodeResources
+        artifact_id: art_56e8f87d1a66f9d3223a4eca008d00fb54a2626dfaf597840e8f251abc42b5ce
+        sha256: 5fef2bf9b0d400b8d5de61f2c14689798eafdd947c7bff12a605faf018f37357
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/FirebaseSessions
+        artifact_id: art_27b06d7eb1c3748aeaa48a4d18fa9d8933225bcae13428c02544a72728f0cc7e
+        sha256: 9e989f43673b4e1b136a7be18f1cd4b167ac3206c0d36a6173332b47c541a491
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/Info.plist
+        artifact_id: art_5350126908cd7c14bcef55b528b5601ab452cafa22284fe4a7a7926f1cb4b6ae
+        sha256: ce3109426a6f28e70013aa5b722ff3894f30309d7c8ba5d975fe9155df11f2cf
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/SC_Info/FirebaseSessions.supf
+        artifact_id: art_b7d007d7a7068151b231a96b491effcce71498bce13b79f1f7f5bdba0e306532
+        sha256: 340dd2cd8eb461772994c71ba81cd25605c3a1e5c3a107b45195a657a754f865
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/SC_Info/FirebaseSessions.supp
+        artifact_id: art_58c26d92bad4133a1a2df49aa56b96b92ed8706f91bee533382eb7bbd9db8e9a
+        sha256: d8fc9eb4003844cf5bb0ce7ec4280e9cbaa903c5a044b7434402332c2c087e70
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/SC_Info/FirebaseSessions.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/SC_Info/FirebaseSessions.v4.supp
+        artifact_id: art_202c5d89b477df0a87787fbbdaae105e2eadefb9ac1af782a8f61c364c09b851
+        sha256: ad539557944d35cc984ed96371798eb899b2da670ab733f93be632f177534f81
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/SC_Info/FirebaseSessions.v5.supf
+        artifact_id: art_b8271d7dfb8f91789b54375bb2d031474b6221ce5c475d95f12bd8c5e3d706a7
+        sha256: 87c5d3e357a669a3facf058cd3061095c710e873b30831c85db094811582f6fa
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/_CodeSignature/CodeResources
+        artifact_id: art_ef91b9f160c88d7e1dc7c3879b98540a6d330fe63c61452f440a0379e87539fc
+        sha256: 24e6d0acb8024041e464251500dca26a0ce451efc41e83cc81321209e265673c
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport
+        artifact_id: art_97be93b6c4ea66a268c0d09bdc75ff1102161f3136a3b7f3febe90968d56584c
+        sha256: c1fb0b5289638476faee4bcc03544bca50e7c6dfdcbed787341e984a3071387c
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport_Privacy.bundle/Info.plist
+        artifact_id: art_11e6550868ab7578fee684e6ddd50153aa2d6b60fdbec4ee6f50a4feef07f6d8
+        sha256: b1002b896ed51c6f62558207b25456bf86fc05ce45228df3bf1b1a54e4eb884d
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_e4ca6b90c8a5694c934fd5edf8050a3bf34644f9a5096c639f75a516bcaa972d
+        sha256: cfbb3c4f76a66d53698bae91f7110c00f2148e6e6f13ad7d32592909bc010e51
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/Info.plist
+        artifact_id: art_e1ed8d4e57c62968e7bd14c251126bac21363a0a9915f74fb75f3edd21b8f224
+        sha256: c8347f5e1d13a08b00da2f08bf36f3e2834588b096d136f570dd41e6b6dbf976
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/SC_Info/GoogleDataTransport.supf
+        artifact_id: art_1276a2d207df57d8b5ba1dd139d08509d5cae2fbd4bddb5638cc09e82ce37d52
+        sha256: 9af3253654bccb82d62c7e94d492228c521233d3556c7547a6d49ba90d931ffb
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/SC_Info/GoogleDataTransport.supp
+        artifact_id: art_60538adc82e914a4c9ff2ae647d862edc7d275b0a803109e2bd2ea44e30ee004
+        sha256: 9a1f448d7faad785a689d622eafb1fd5172ac89002a6195c857ba06f3f6b5015
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/SC_Info/GoogleDataTransport.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/SC_Info/GoogleDataTransport.v4.supp
+        artifact_id: art_7b8e394b9c5f7e3d6f4467b352dfab48f528c6b9879c6f29f892b63e3c5ae9de
+        sha256: 4512edb43a61a57198cd901e96b2e7ed1ee7b939f2885fce0c96a36f95e9ffb2
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/SC_Info/GoogleDataTransport.v5.supf
+        artifact_id: art_37fbddc5c3dabbf92deda6dd7353054280616c06b31f45a9014cde1968776e7c
+        sha256: 1ba129f0a7687f5fc047c91bdf1fce0b19edacd945d9a6424988c7bec1bacb8d
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/_CodeSignature/CodeResources
+        artifact_id: art_b23942218c04bc1a45c620583f1a4e5df980d7fd54553b8f5560a562d25948bb
+        sha256: c15aa248757f8fa83d7ef84d0cdea24256d2381419f491133b91c3d263cf3edd
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+        artifact_id: art_81260230cff8185980e2e8d41e251574613955125b5fe5f837824b32e8e8b6e3
+        sha256: 08a93c5948d61af216eb70a315d1de33c0f3d09eac62ef2b9e2b9cfc87c69ce5
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities_Privacy.bundle/Info.plist
+        artifact_id: art_20ea54163a821fbe24f006f944235fd4167b835f462f4451019c53b89868f842
+        sha256: ec7862ae86376a4528906beeaa0d0b07440438b96d144ba7be957eabad8a0439
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_64ebd1a5b44b32cc0b1395d40e4158aa013c74b4f038ec24682a1952419f541f
+        sha256: f81b5cf8f043662712eca9e9785767264cf190025fe7bdb49777296c068de53c
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/Info.plist
+        artifact_id: art_497ee00df43e88ee256d75e5a8b2c16e72438da1988d6ee02f71b131d8e44d61
+        sha256: b96ffa16543d6f8e0091479ad09b6dfd0dfd6f8a141038d28873b65ef20be85e
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/SC_Info/GoogleUtilities.supf
+        artifact_id: art_b924e5d6eab9c745424f1b24a43bbb8d4bf7d4986567f48e59c4cb64bb0de2c0
+        sha256: b2f3c04783f4967303138c93d359b07b97b63dc440b79f14aaab0b5154b91b2a
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/SC_Info/GoogleUtilities.supp
+        artifact_id: art_decb1fb039f3510f40e48095562c680f3c486b8479e12d53596893d0a589fe17
+        sha256: 80306ba510829b23265e00ac7195a7e5deb74d4ff152762d0d319affc268fb8a
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/SC_Info/GoogleUtilities.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/SC_Info/GoogleUtilities.v4.supp
+        artifact_id: art_c2af70e5d791191d5587d7eaef63937966b073dfaaf9b2b566d89889c6878337
+        sha256: 22c274de5b21b3bd9eb07d51fc260dbaa72ccecd1cca4374467a2ebe012d32db
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/SC_Info/GoogleUtilities.v5.supf
+        artifact_id: art_684d97be6b8564d64e2c493a01defbfeb7480a73a5debf6515e426306e005bb1
+        sha256: 568d5f6048fe7f17b368e46b58994f68a3fe23c96092256ccf4ec88e55ec529b
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+        artifact_id: art_608e734b7387d653e28b6327aeac98433051939f09847f7fbb0ed34e6472ff43
+        sha256: 7c0a563d1ac2b76f43bf02adbb47f196b141b08c2c3be96c2d466d48cea76752
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Info.plist
+        artifact_id: art_a406872924d19cc7ccdabe837524c13fce4722880acd576a91e3d4d2f073081d
+        sha256: 8f95944742aba9e4627de68b574b6e42075efe772b497f5164495b704bd88b24
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher
+        artifact_id: art_ba4960ce41f80bcd30ae7bec608199daf6c6144dae9c90d60e953136364788a4
+        sha256: 62fc48417a889629cfb770317f6e4a949e82a187eb8ed96d8ebebb9814f2ffae
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/Info.plist
+        artifact_id: art_28e21d45b10b0bbf20a40849fc8c06cc75862abc96292781f99b71dd1caee92e
+        sha256: bed5ccab87bea8f94d6db015233acaa0d598b862c3b5d13d90780e2dea34c062
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_602656c8dab245d2e7d13c480365504bf6a8e02168aaae2002c4615247e4c57d
+        sha256: c858b743c639e7bf644354de41d128c0ee4af13d348f5cd4e60492a4b287dbf9
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/SC_Info/Kingfisher.supf
+        artifact_id: art_0e3be82554b4d0accf452f4ec75c36043bf109e083525f89e60e2190a2261cd8
+        sha256: c58172ab98186b0902060920edf3615109145f5759baa2e063036396a4ca4a72
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/SC_Info/Kingfisher.supp
+        artifact_id: art_74a2242b5b6b8767da7c79b72ad281121a8473d57bd97852c60c026899852984
+        sha256: d1df25ce95a713387055d0933a6a4cabc0c00988e028ab9e294e853b5b92b82f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/SC_Info/Kingfisher.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/SC_Info/Kingfisher.v4.supp
+        artifact_id: art_226dbfa19c6b7204f3827e71204ba8b7a70bf49d275785bac8b6073d9dd95adb
+        sha256: a8e296161859124e965b8d4173bfc56bd85f9b19829876ebf757e51c66e7b521
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/SC_Info/Kingfisher.v5.supf
+        artifact_id: art_e39dd5af3b8fa44a294c3b956891e5866b24a43632077517197f84734b789dcd
+        sha256: dafd3958627ba98df856361d7d020773cd9e02926b2cce9bb870f6552d84e62a
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/_CodeSignature/CodeResources
+        artifact_id: art_a020b8e46a2caaa40826e6da4f48569481a1e619a701482c0fda2d3ea7943506
+        sha256: 2a541dfcf8e27149a12c45d510e129229e227b80fa6109abd8d046e158341730
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Info.plist
+        artifact_id: art_cc3d333c6cd63bb9812d9f193c71cee7baa37143031ece6697a142591e5e7806
+        sha256: fda7520e479616f5972cc15d1c6361fac4a89547aed67fc9df9a9a07f0f32c6a
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Promises
+        artifact_id: art_8b0fbc24801220bc1daeaab89ff6045115813477073a0c74b99a4b8c50e1478c
+        sha256: 5ecde004b1c9678e5c06f9057d87d3c43e554e1a4dc65269d260dc00ea861d9a
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Promises_Privacy.bundle/Info.plist
+        artifact_id: art_80de91305c692da9a1110f854949ed67d70e789f3be75cec7b601e4ef219cbaa
+        sha256: a2d7b1533279b215f06eb38677cc92bd768a2bd13a7696f886fbd0e0233f2528
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/Promises_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_c93a0a2b9bad4baabe34736ea5a6401118d8a1ee31d2aaf228ea0eddffd8d19b
+        sha256: 74b0cd72fc23c1ef302f22ee2753f61817cdc5af0ff7a7f2d0632b524fb8acea
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/SC_Info/Promises.supf
+        artifact_id: art_f3fba85d3182eb23e90b4622801fb075b671ed426413d45f071200de3f52250f
+        sha256: 91b32b47b90616bbc7fb3f6f7fe96e79f7bb0fbc0a581bff38a88a775913e37b
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/SC_Info/Promises.supp
+        artifact_id: art_a1c3a0c80f85ace196c4dfe2120deef3bef3e5870b95e4d39a7583175e3251f9
+        sha256: e03e92fe2f83a7e0f46e121b0f2c9e141c3b16dedeb1a3b36e0bbad74ee3f7c7
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/SC_Info/Promises.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/SC_Info/Promises.v4.supp
+        artifact_id: art_a73252065bcf7ef9811dc9098273286eb8cec47f3595b13bb2c99d6b796ec1ec
+        sha256: 30c3c46e8cb57cbb3824df91122251418d92b3925bf2716b7630cd9136c439f9
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/SC_Info/Promises.v5.supf
+        artifact_id: art_a7e413e39dfc793ce7c0f719a653627c3dc42edcccc2a9888cf87d8b70974ecc
+        sha256: f6411a64e0f0eb8bbc0b6d2ee2fdb950eb2e1bb3ce7b5a582bb531f1500e2310
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/_CodeSignature/CodeResources
+        artifact_id: art_b17c2853a4ce7e5e77d78762cabe743614411d399a5cd057b96ff8b556052e51
+        sha256: 8edd729f6aef2a2f7f3b168e3f98aa73d0c24781dfa34e7ae39ad1ae93718149
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/Info.plist
+        artifact_id: art_be3620e398c771ec42e01207fc31d566a3b260aae66062b8702db5c656ffd204
+        sha256: 512ea3a0394cecf376c1ee583608e0801ddae21933d8a0ae7882634964faf807
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/SC_Info/nanopb.supf
+        artifact_id: art_6ecee4b0c846ea65cd75d5201657e9d2bb3e19fb13e91cfc9af1f2c6042d8833
+        sha256: c1df7ea3dfa23aca21d1f9f4b6e14c5600b3cd5775deaceb5891820a96ad55e6
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/SC_Info/nanopb.supp
+        artifact_id: art_d07233c0bf0be668516c062bab85295bd813cdf94baa732a89d78df467e1c206
+        sha256: 38c66b81deae28f4b60ff5caec5f2d2e1b6ee8cece2fe1bfcc0d782572ec1d97
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/SC_Info/nanopb.supx
+        artifact_id: art_08fd2348f17a90d4a048f079d982df627c98c8a96264fc55fe9523d8e8f646d7
+        sha256: 294cbb20bf9a713daf6503f3fe0ac999a3c25ee7849490980e2fbe41f2dcb24f
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/SC_Info/nanopb.v4.supp
+        artifact_id: art_6f028db1e225cbaba28c8ca9bf186f32dbbc5ccf3851bb746906f61297061251
+        sha256: 857bd4cdb4eb966459fe960aafdb0b539ccecba3b0e369ecc2ab0f606eb9a38e
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/SC_Info/nanopb.v5.supf
+        artifact_id: art_1fc20f353f78f2d5128e15206b42bec76a6b9c99e3061d50c317d8711502a110
+        sha256: 3471fd034f4992996357ac09fa2bfdd1bbb643dead2bc0dc475a045bc5c12cfb
+        format: file
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+        artifact_id: art_06c9b9124af52c842b0e7b744f100728eb7081ddf1b418b6074ed6809bf74954
+        sha256: 02f0e404350282d9de81c57e5496c2967b9d235242333977367c249cc450e55b
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb
+        artifact_id: art_bb3249a42a70136c5e9d2ecb6b9fe51561a031a7f2f0c96c0221b26e879d22e0
+        sha256: 09e1019e263f463ba86a68c32b1481c0c125daee152fb3eea82353ebcc580239
+        format: mach-o
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb_Privacy.bundle/Info.plist
+        artifact_id: art_75bfe60bba4f927b8e951740e081894543be935447ca746b41c5580170ac6570
+        sha256: 5d92d0f48c012802d5faf7e296a9dba98adae68d51f3fd76f4148327ee974bac
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/nanopb_Privacy.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_58b89874ac546335a031afc77e6c6411938c6e7afc009a829bd5d48ee1d9c3e4
+        sha256: 729ba3cbd0f458c78cd61edf17350edafe0e34ca86e314ec64c8cb22ccd21b54
+        format: plist
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/LingoReactor.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+        artifact_id: art_ec1df90f2ddad6b0a36f8f74eed0354a70376c1249236823a4e43e48971bbdfa
+        sha256: 1b0d4948bfbd40b514f9f48301220d9d4d5a4a421c99ed34b053952d19aa858b
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+        artifact_id: art_9b186dcc82367cf14faf1d08f7cdef81f36644fe381d96adb7cb0d39f062e5a6
+        sha256: c0588d309e1c3e7b30985fbabd39320a8dff3f7d13f4c1ce5856565a966f4878
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCore.framework/_CodeSignature/CodeResources
+        artifact_id: art_f43bbc4b5dcb5ab5b7c80fb525125949082d0ee0c347729cd08b02b572226ad2
+        sha256: 9ecdb9c678c4e542a9edad97cb8f3613b9a627964c91ff784e5cad2b87870b48
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreExtension.framework/_CodeSignature/CodeResources
+        artifact_id: art_ce860e1f1b54ded075869786bec929a43217421939684e9e3b0198e8cac78f3d
+        sha256: 23c0800b0b2946c346db058597c715a3e48677b94448a6cf58bf61ad258a3036
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCoreInternal.framework/_CodeSignature/CodeResources
+        artifact_id: art_0d169051e9ddc9e716fe0e8916e72f9d5b82c5035d44c0b8e40623523a0c6923
+        sha256: d0b0577068ee0f8fd84eec2dce10101e30e5052c33905c27a0e7ac1705fd4104
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseCrashlytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_169b3e5a6f5cfeeffcdb4d3c24d6b0b1baa2e5a6341acdff651117475f1d58f4
+        sha256: 9c7f8b6552242b8f1d8d25899d4fcf33c0d532fd7bcbda4d66d45f72dc475537
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseInstallations.framework/_CodeSignature/CodeResources
+        artifact_id: art_ca744f972799e051434d667db5d8a5f46f582d016458ba4f419d692beb4ac0f8
+        sha256: b5b38e0fa8630692b0edb329490cce2b6d4c7d8d82ac4c056a0dc2786aa83839
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseRemoteConfigInterop.framework/_CodeSignature/CodeResources
+        artifact_id: art_56e8f87d1a66f9d3223a4eca008d00fb54a2626dfaf597840e8f251abc42b5ce
+        sha256: 5fef2bf9b0d400b8d5de61f2c14689798eafdd947c7bff12a605faf018f37357
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/FirebaseSessions.framework/_CodeSignature/CodeResources
+        artifact_id: art_ef91b9f160c88d7e1dc7c3879b98540a6d330fe63c61452f440a0379e87539fc
+        sha256: 24e6d0acb8024041e464251500dca26a0ce451efc41e83cc81321209e265673c
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleDataTransport.framework/_CodeSignature/CodeResources
+        artifact_id: art_b23942218c04bc1a45c620583f1a4e5df980d7fd54553b8f5560a562d25948bb
+        sha256: c15aa248757f8fa83d7ef84d0cdea24256d2381419f491133b91c3d263cf3edd
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+        artifact_id: art_608e734b7387d653e28b6327aeac98433051939f09847f7fbb0ed34e6472ff43
+        sha256: 7c0a563d1ac2b76f43bf02adbb47f196b141b08c2c3be96c2d466d48cea76752
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Kingfisher.framework/_CodeSignature/CodeResources
+        artifact_id: art_a020b8e46a2caaa40826e6da4f48569481a1e619a701482c0fda2d3ea7943506
+        sha256: 2a541dfcf8e27149a12c45d510e129229e227b80fa6109abd8d046e158341730
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/Promises.framework/_CodeSignature/CodeResources
+        artifact_id: art_b17c2853a4ce7e5e77d78762cabe743614411d399a5cd057b96ff8b556052e51
+        sha256: 8edd729f6aef2a2f7f3b168e3f98aa73d0c24781dfa34e7ae39ad1ae93718149
+        format: plist
+      - path: Payload/LingoReactor.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+        artifact_id: art_06c9b9124af52c842b0e7b744f100728eb7081ddf1b418b6074ed6809bf74954
+        sha256: 02f0e404350282d9de81c57e5496c2967b9d235242333977367c249cc450e55b
+        format: plist
+      - path: Payload/LingoReactor.app/_CodeSignature/CodeResources
+        artifact_id: art_4198eee68e52af9600654a5a95994e6c24748f4180ae60db84077de49ff0b5fb
+        sha256: fa682938b124d7fa7531789ee6fe61587c3608ed9a50f84ba0cfd4d349103895
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_04cb8140cad802ddcb59594553a70f019e19b3d5cd01c034e470e3fcbcb0653a

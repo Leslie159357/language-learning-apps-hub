@@ -1,0 +1,1095 @@
+evidence_id: ev_76d016aca44f8e1ab9378549a63cbd604e4ca0c2e57d273c6a603cc04fffce78
+subject:
+  name: Aisten_decrypted.ipa
+  digest:
+    sha256: 6c7ef65b91fae24d2dfb5c63eec774a6a38c9d531f540ac6ac6a70a2ac2c58cb
+  local_path: /opt/data/downloads/auto_decrypt/Aisten_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_90b946887fb4478cddc52724732b26b534d242f8a35273a36721e0dfb72f78d5
+raw_result: null
+normalized_result:
+  projection_id: aap_a069998e2ba6b1b887a836e791285a369686a2deb7300db1d979a678a4ce6bac
+  root_sha256: 6c7ef65b91fae24d2dfb5c63eec774a6a38c9d531f540ac6ac6a70a2ac2c58cb
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_90b946887fb4478cddc52724732b26b534d242f8a35273a36721e0dfb72f78d5
+  application_roots:
+    - Payload/Aisten.app
+  bundles:
+    - path: Payload/Aisten.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Aisten
+      signing_paths:
+        - Payload/Aisten.app/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Alamofire_Alamofire.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Alamofire_Alamofire.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/CloudKitSyncMonitor_CloudKitSyncMonitor.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/CloudKitSyncMonitor_CloudKitSyncMonitor.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/Defaults_Defaults.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Defaults_Defaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/FluidAudio_FluidAudio.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/FluidAudio_FluidAudio.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/Frameworks/Sentry.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/Sentry.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/Sentry.framework/Sentry
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/Sentry.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/libavcodec.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/libavcodec.framework/libavcodec
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/libavdevice.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/libavdevice.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/libavdevice.framework/libavdevice
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/libavfilter.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/libavfilter.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/libavfilter.framework/libavfilter
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/libavformat.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/libavformat.framework/libavformat
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/libavutil.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/libavutil.framework/libavutil
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/libswresample.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/libswresample.framework/libswresample
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/libswscale.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/libswscale.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/libswscale.framework/libswscale
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/Frameworks/whisper.framework
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Frameworks/whisper.framework/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Frameworks/whisper.framework/whisper
+      signing_paths:
+        - Payload/Aisten.app/Frameworks/whisper.framework/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/GRDB_GRDB.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/GRDB_GRDB.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/Kingfisher_Kingfisher.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Kingfisher_Kingfisher.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/Mixpanel_Mixpanel.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Mixpanel_Mixpanel.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/PlugIns/AistenShare.appex
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/PlugIns/AistenShare.appex/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/PlugIns/AistenShare.appex/AistenShare
+      signing_paths:
+        - Payload/Aisten.app/PlugIns/AistenShare.appex/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/AistenWidgetExtension
+      signing_paths:
+        - Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Defaults_Defaults.bundle
+      parent_path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Defaults_Defaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Kingfisher_Kingfisher.bundle
+      parent_path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Kingfisher_Kingfisher.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/RevenueCat_RevenueCat.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/RevenueCat_RevenueCat.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/RevenueCat_RevenueCatUI.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/RevenueCat_RevenueCatUI.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/SwiftCloudDrive_SwiftCloudDrive.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/SwiftCloudDrive_SwiftCloudDrive.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/SwiftyJSON_SwiftyJSON.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/SwiftyJSON_SwiftyJSON.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/Watch/AistenWatch Watch App.app
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: nested-application
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/Watch/AistenWatch Watch App.app/Info.plist
+      executable_candidates:
+        - Payload/Aisten.app/Watch/AistenWatch Watch App.app/AistenWatch Watch
+          App
+      signing_paths:
+        - Payload/Aisten.app/Watch/AistenWatch Watch
+          App.app/_CodeSignature/CodeResources
+    - path: Payload/Aisten.app/YTDLP_YTDLP.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Aisten.app/ZIPFoundation_ZIPFoundation.bundle
+      parent_path: Payload/Aisten.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Aisten.app/ZIPFoundation_ZIPFoundation.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/Aisten.app/Alamofire_Alamofire.bundle/Info.plist
+        artifact_id: art_48c5c96cd2fbdeaf240b0053217d021e9fdac305087d68f4b8dba2e06c129418
+        sha256: 5dc932cedd38a3a8ea82705641e4d8028912af452495e5e80a91a74c0b4a0d5f
+        format: plist
+      - path: Payload/Aisten.app/CloudKitSyncMonitor_CloudKitSyncMonitor.bundle/Info.plist
+        artifact_id: art_541b2a81d433a71351ac1a22ecfcb4465b846afc86fa3f63d5556c5522e006a6
+        sha256: 7cf9d2927870bef598ba528542d50dd8b2fa86e285c99919b05947e5c11e5f10
+        format: plist
+      - path: Payload/Aisten.app/Defaults_Defaults.bundle/Info.plist
+        artifact_id: art_3a4a569542f9326203adf00ed0ac4463837d5ad5c3894e7275bc4cf17f6921bd
+        sha256: 529cf5fc8c73b510037f2c4fe10897b21f0904e944d86ae8f0f0221c799e9720
+        format: plist
+      - path: Payload/Aisten.app/FluidAudio_FluidAudio.bundle/Info.plist
+        artifact_id: art_a2cc310767654ba616d7406cd583024ed400a19214b9819f1d3dbea39f619eed
+        sha256: 21708514e80628dbe4626e0c2168f238c451f7123e74beff9d5ab1ab20f27341
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/Info.plist
+        artifact_id: art_8a47fb94e280d3f98c16ebf6866fb2684519a80fafab3a52b6b356c91c9d82fd
+        sha256: 213b911d504c3eaaca696a2c337d5f59b50c3f1d14348652ad7a773c7b83320e
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_13dbf665d8212e63642b0229f8de66c9e417179c6e98a0b5a392f4402b2fa29c
+        sha256: 34a581280c38bedf6bc2eac382595f9af89638c3aa00c225060b3ea73fcf3313
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_125d5cd306acec10e0f073c66a24cf0efc043bea96b6ef8020cda4b996642657
+        sha256: 4fddfbb52f2b840acfef3e9df5d302e78e076c1447366ae756fd7be64e9b8147
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_c25ad98a3e047d5ef7a271e8d5bb4836023de7ff72c3ec41fd2d84cfb1ca3644
+        sha256: e0b5cf63d777a23f79411bb48ef6f6472c04afb1b1aa7ceec157ac21a43044c6
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_6a48a5ef03c6fd2bb1cc17bbd4602f049fbbf7aa4ce27e82ad2b85ee7a152a55
+        sha256: bcdbb3a7cff7d71cf48e7c4f9699c53248a746b3ebfd7dc6ead6df5b1bc778df
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_bc31fc29bd69857c1f5c34486e01b89999129fb37c35693dccc15024ec556be0
+        sha256: 3999097593a0b185b5211f6f06a0885f5f9e9a7d712e27b6c66200385db53116
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_640a8176a58aa59435bd4b68a520de70d82c02d804b38c0d101a0bf34754f8e1
+        sha256: da42c4108160d25163c730de72831898ea4f33ac5d097bf2092db20d7587fd92
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_114ca1280af85ce530c2cd30c0e4cdada2905bf0276b5be26498c379912a81cf
+        sha256: 9e6455b11f1879f16535f032305ae22cb190bb1949b20f1713f028817d7ee39c
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_ff95d65987df7f85181e1676eff64622c60f3377740cf79a09a9bbb2b6b27b51
+        sha256: ad42b48bbcced4483dfb21e75a5d7a7bd5469b1f37dba2edf222591185c74bcf
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/Info.plist
+        artifact_id: art_11f382391bc24396d387b88ed333f9f9f8036ce3ebacf3f227e115cad9598574
+        sha256: 6b20085e83c35d65f76ba79e2a154f7ea7e2a2fafe6703ec713af4535364cbca
+        format: plist
+      - path: Payload/Aisten.app/GRDB_GRDB.bundle/Info.plist
+        artifact_id: art_da0709b0287a210017114f0954496eae6d32f207c1c858fa1ab17ff994041c6f
+        sha256: f3a67fd8426d07572c2bc818b4dfceaa4db99d0355ddfca0db8130cd020ecdba
+        format: plist
+      - path: Payload/Aisten.app/Info.plist
+        artifact_id: art_206338b74a2bb1175ef0aeece52a444333977c2a32e620d440b761940d27bec3
+        sha256: 610e1c5949b6e0bfb22128d15c819ca01fe3e0f2ea0f8238bf9551504ae31aa3
+        format: plist
+      - path: Payload/Aisten.app/Kingfisher_Kingfisher.bundle/Info.plist
+        artifact_id: art_18a44752845b3f1673d797f4e211e8657d0cf2ceba1ed1835093911a0c5f04c6
+        sha256: 66ee4c59e947c499c8d8bb6e807cdb9e41404e3ff108e27eee27e9067edf6fea
+        format: plist
+      - path: Payload/Aisten.app/Mixpanel_Mixpanel.bundle/Info.plist
+        artifact_id: art_6b9d6cef6cf8e599319d3690acaa79c2f2c7077f842991e2f8866d45253e2bdc
+        sha256: 98159489fc4f31589e07175270d4bab59bf4e82f4ea48a92cf8d7ab369e4fe74
+        format: plist
+      - path: Payload/Aisten.app/PlugIns/AistenShare.appex/Info.plist
+        artifact_id: art_6a7b6352aefa6ee9d603187b0968ab43b19e0e6e9301a7d8095f1a14923d7fd1
+        sha256: 49575ca899a0748e0623459299da459006718ba2041947ff6d32ca14d9165900
+        format: plist
+      - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Defaults_Defaults.bundle/Info.plist
+        artifact_id: art_3a4a569542f9326203adf00ed0ac4463837d5ad5c3894e7275bc4cf17f6921bd
+        sha256: 529cf5fc8c73b510037f2c4fe10897b21f0904e944d86ae8f0f0221c799e9720
+        format: plist
+      - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Info.plist
+        artifact_id: art_b72640cee0904c5c07c1f596eb0c9f7dfe9865e5fe6c5912b159003b4a431804
+        sha256: 3bae1c2cb3c53f0f091f378b3be2bddece0e1c4745daa48a0a8d18430afa3ffc
+        format: plist
+      - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/Kingfisher_Kingfisher.bundle/Info.plist
+        artifact_id: art_18a44752845b3f1673d797f4e211e8657d0cf2ceba1ed1835093911a0c5f04c6
+        sha256: 66ee4c59e947c499c8d8bb6e807cdb9e41404e3ff108e27eee27e9067edf6fea
+        format: plist
+      - path: Payload/Aisten.app/RevenueCat_RevenueCat.bundle/Info.plist
+        artifact_id: art_6b92d36611dbdf6d45d7da98f9ec9e96e37a45020d1158e3ce25e8b1a17cee1b
+        sha256: 13cfe9342193c048c9b464b38c1ff5bdb682a0a375fbf2d831726339f07d08ce
+        format: plist
+      - path: Payload/Aisten.app/RevenueCat_RevenueCatUI.bundle/Info.plist
+        artifact_id: art_d27d5b19c449b17ec261ff083c85de46b7958aac3f7666068e4ee51db3917198
+        sha256: f02871ffb0c34d279c86c6b7804f48f3be0d6d2ce87cb733c71e6ae1f56b48d9
+        format: plist
+      - path: Payload/Aisten.app/SwiftCloudDrive_SwiftCloudDrive.bundle/Info.plist
+        artifact_id: art_7b218bc97f4146cc1eedda8b286231cc813817b0535d2f8f22ca5e4a5266a199
+        sha256: c4e3543f80de36e626cc4b150ea9f89ec9c7862a0bf7b7a051119c45ebe95dc5
+        format: plist
+      - path: Payload/Aisten.app/SwiftyJSON_SwiftyJSON.bundle/Info.plist
+        artifact_id: art_d9ef4701a6cbc79c3556cb100dda850601e64a99631542e445820f7cee692f0f
+        sha256: 2189f5809d7336253540bc255c4343a0a4027ebe0f2ba3d59d6725eff78f2579
+        format: plist
+      - path: Payload/Aisten.app/Watch/AistenWatch Watch App.app/Info.plist
+        artifact_id: art_574780c3ed6cb132c499c7a9a1df4cdff27a24955784e765847971d99105515a
+        sha256: d30f96062619507812410ba7fa3a8ec7aa74b16f509e23453ef6b514acfc95b1
+        format: plist
+      - path: Payload/Aisten.app/YTDLP_YTDLP.bundle/Info.plist
+        artifact_id: art_ec7b34db2ee20a1eaca03eda333d218ff255abbb9924ab27ac87d73c22524725
+        sha256: 0fe558cdea8ea117cc3843ddcb2cea6498ee719c6045ffbf9c8cd3243611ca7d
+        format: plist
+      - path: Payload/Aisten.app/ZIPFoundation_ZIPFoundation.bundle/Info.plist
+        artifact_id: art_8344acf5d47f257c4bfb76160e036671ab86b891c5532650a1a4a28c73c49e0c
+        sha256: 61f5fc464a65eaadd078041d4d5ec43c3a316c6e4f68c807df0a1ec944c6ae84
+        format: plist
+    executables:
+      - path: Payload/Aisten.app/Aisten
+        artifact_id: art_e7ff167c0faf78ee9dd4a97bee428420835760f45d2d7195c89e3f58c427701d
+        sha256: 3f553ccf26bacbe28f6175cc924a37ffef513c258acf1c6a40c68be52cd7ffd3
+        format: mach-o
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/Sentry
+        artifact_id: art_37b9ca63037f5f03c189f722cda57c4ddd801e2e9ce489efadd04bc37a3c08b8
+        sha256: 0cd3181b2ab0f8831b7e21955dc12371ed0f62e2a6ff70e38f17bbdc3b126ba4
+        format: mach-o
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_55b918a520d7c63fcfec744e5af3f3a44f5e9ff3b7273fb41d632710291bb18a
+        sha256: fbd9a1bfda079eb834e8211299a580561d70d04f9b6e17589c78d3a5713e5b09
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_da74178fbc9001843dea03c9d4e56baada146d1506a9fd27ef049985a0dd128b
+        sha256: cb7e096632533c5953a4db033459d20d523ace6b8f91788f2167286916f34155
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_add1254a85c911b8b35c5e23129d7b4f1cdd5cb41e264d90bf59780ccfd609b3
+        sha256: fcb5d10f696dfc1b4bf8a1610b2bd70bbd585980d11aff5640fcec1c63dd12ac
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_7859f221b8e9cca608e062e30d42debaa9c7619ed7157fd0952e1d481e095371
+        sha256: a68ff5fcc88e4cda39379b76cdb106e576ea882d622bccdb6ccef0f7ccb0f985
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_b8245c638cd191b94c414bf432b3ab758a477bd1d31ee62f896bfbceb9140519
+        sha256: debdc80021717bb871b5b6f420fbaba93e6449a95f2da3c2c321b64618fd206c
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_24f802179ead04a4370c1f5b5b88d070e015b6a9543c0949b8ba988161782e5c
+        sha256: cc35aa6efca420dd42b10472960d454a3419b1aa39469564d5442c31e6ddd4e9
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libswiftCompatibilitySpan.dylib
+        artifact_id: art_5f0b74215379b90f937744e3093b0431ae9b14557688c692670b0a341e50024b
+        sha256: 1005ffb789e800afbd23aa6dfac44549862dc33fa558bb88e57acc1dd6928364
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_78729f9beb596765cfe1a392dbf7ca70779ed181cb1fa310f15c187601d06990
+        sha256: d5964935b4ddcbbf4950cf3bf3fff8b11678c2ecc03ca707fe3693c73428ce22
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_996e1755cea054d3abca543bb23d5ca2023753f4e11fad1be613d2c7a5d473f8
+        sha256: 8158361696bc3712cd2c23388700506bafd9b16585633bb252c70a3ab1b216d1
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/whisper
+        artifact_id: art_cc93d244f119631a2ebee07c90428e742181948476c9d7c978b77169a5b2011c
+        sha256: 1c72d3eeffd8b53efb80c45e9e99cd7e533f895f777a1e2f56eab4d37a3114ca
+        format: mach-o
+      - path: Payload/Aisten.app/PlugIns/AistenShare.appex/AistenShare
+        artifact_id: art_5e9e76adb75c75f08eb3dd341aca3fdc7fbfc58412a1195ec4c0f22afa8f09d3
+        sha256: 6ea57223360825de80cede7545e598e4b7f23107e2bed18e31c7ffa35cae44ce
+        format: mach-o
+      - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/AistenWidgetExtension
+        artifact_id: art_9bce5b33fb9c3c42dd9d0405a4e62f9f7eff81af4db9a71539a4dfbea183a63e
+        sha256: 8aa5a5bb44d06c57009dab21d33375a31fba0d98abfcc2722aee6042e7e760cb
+        format: mach-o
+      - path: Payload/Aisten.app/Watch/AistenWatch Watch App.app/AistenWatch Watch App
+        artifact_id: art_fb373915c04767ea2138f4dbbce0a57c43a0b97875b1d25a88c065aeb427a24e
+        sha256: 22d29e3df41765ccea39dee21acc3401ee85f4c1fcb7e09de2d7648b7b1758fa
+        format: mach-o-universal
+    frameworks:
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/Info.plist
+        artifact_id: art_8a47fb94e280d3f98c16ebf6866fb2684519a80fafab3a52b6b356c91c9d82fd
+        sha256: 213b911d504c3eaaca696a2c337d5f59b50c3f1d14348652ad7a773c7b83320e
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_ff64465ad7757225630d8a334c4b93c5d43926520e7bbf5ffb531c3d592042a3
+        sha256: 118b16e0e97ffe8b6f1f01b7e04f68e5da764474a4d39d2933b0eeaef3cdc0ca
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/SC_Info/Sentry.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/SC_Info/Sentry.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/SC_Info/Sentry.v4.supp
+        artifact_id: art_dbcec2cdbde0427f2e22c07d20d7d9892d6addb8c41b7e05d37a6b4f80765872
+        sha256: 164e6f49bfaff05e132094eedd8a1c8cf3c314baa38d79d41d3eaecb2f05cbd6
+        format: file
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/SC_Info/Sentry.v5.supf
+        artifact_id: art_cc935e835b3a37b5e7a0511183e8e489e2e55f01a7ef26c0251f2d71aac07add
+        sha256: dcadcb07f15341dcf7dd5c792acd14648e7a019550a82b993add18277f7ceb73
+        format: file
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/Sentry
+        artifact_id: art_37b9ca63037f5f03c189f722cda57c4ddd801e2e9ce489efadd04bc37a3c08b8
+        sha256: 0cd3181b2ab0f8831b7e21955dc12371ed0f62e2a6ff70e38f17bbdc3b126ba4
+        format: mach-o
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/_CodeSignature/CodeResources
+        artifact_id: art_a4940edc9f123f84e6b0c8187cb308f18eedd68fd63f155c2a29259c4fbcc8a9
+        sha256: 2f4bcbd7e5d06dcc7bdd407451abb046d949cdba49baec6e349a46980dd5cdd5
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_13dbf665d8212e63642b0229f8de66c9e417179c6e98a0b5a392f4402b2fa29c
+        sha256: 34a581280c38bedf6bc2eac382595f9af89638c3aa00c225060b3ea73fcf3313
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supf
+        artifact_id: art_b796d096175598ee888d699ecb96dea922028e16ed5458d06a59871395ee7e12
+        sha256: 41fda1c5302f360217fc16668b8cde21776a206dcb5fbbcd3561929bc1d36306
+        format: file
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supp
+        artifact_id: art_0e143b55a67297878b97ed5d7c672af9acbe39afd8e329d90e47690faa68243b
+        sha256: 2a2e7bc9c20e1215d0d08cd0c878065e9e68fca6b0ba17922a1bc34197a5820c
+        format: file
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.v4.supp
+        artifact_id: art_0be4474d15030de4bfc827b2f234a1e5db35c4058acfb173be0548613dca2c9e
+        sha256: d50a9c3bd32655581cca122519cf60a1531479bbd5104b6d8c6b7dabf9243073
+        format: file
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.v5.supf
+        artifact_id: art_bc04de8cdd6cff21c330ec42862060a0e10fbb7993361260d20f00e484cefd2e
+        sha256: 633c2f47ea2faf0cb84dd36afb4e2a646da35614d183098f6767026eddff2691
+        format: file
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/SOURCE
+        artifact_id: art_f18995a5babaf0bcda7b6bcf04d9963565a940e01dcd62ae3eeaa5b4557c822f
+        sha256: abf82e6ec062e51a4b590c5d7dad15907f96c48158f46cd99b2c28e7fef9541b
+        format: file
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_2f64d9ffea70bd0744a913329d40f626e5a2e5002fda936f2d2e639670e95b5e
+        sha256: f760b07f9634d526c883e92dca8fab4dd68fa4399be1ef7bfa89d49cd9674a67
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_55b918a520d7c63fcfec744e5af3f3a44f5e9ff3b7273fb41d632710291bb18a
+        sha256: fbd9a1bfda079eb834e8211299a580561d70d04f9b6e17589c78d3a5713e5b09
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/strip-frameworks.sh
+        artifact_id: art_de87c0cf3a769bee342b17e37a0042919ec31b33294980d5459476bfafe55431
+        sha256: 10505db2020a91c07f656e4081c9e72f7fe8d01a62bfa5e23e2dec3d931a3dd8
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_125d5cd306acec10e0f073c66a24cf0efc043bea96b6ef8020cda4b996642657
+        sha256: 4fddfbb52f2b840acfef3e9df5d302e78e076c1447366ae756fd7be64e9b8147
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.EXPAT
+        artifact_id: art_3dd6863642bd2bc2ba43fd49c1ec8b058f1722ef385b7f95dbb2dd62f0c63879
+        sha256: 122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.FONTCONFIG
+        artifact_id: art_e09a673f5198cb4ca270a4213a1802c5ee614fcf16bc9e76882cd0a28b3398d9
+        sha256: 51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.FREETYPE
+        artifact_id: art_95f79aca44139621d5ec3b9361be96c064e0ab4a36bfee0ffdf4fa2c066413bc
+        sha256: 2e3bbb7d7c5c396368dd0853a790ec29ce5b8647163dde42a0493fb0d6556b2b
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.FRIBIDI
+        artifact_id: art_6b1c49e190a85e9ebd0e2b45dc3232f92f1226f117cdeb9bb3a6653f27a3303c
+        sha256: 32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.HARFBUZZ
+        artifact_id: art_e4944517ffa357858b6cbb8f1c8ca6e12e63ae71acbe0b54405a7ef6a7404e33
+        sha256: ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.KVAZAAR
+        artifact_id: art_9a7cf8ce7735e75300218b8485d1ce806f272bae7ba5b17af740fee9bf9a2967
+        sha256: 3c1dc3d7f8a3d08c14f4fbe9942f45764d8a21a3296e8d83446f33fd65f21c38
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.LAME
+        artifact_id: art_1e32d93e989de60a8540bf7bba13a5f84f75a634a8a6752e4eebfaf54a85e9a7
+        sha256: bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.LIBASS
+        artifact_id: art_d3d86fda96d1c71d8a5cd7ae7d90aef7c8fce192e94ee6759d8409bb18817407
+        sha256: f7e30699d02798351e7f839e3d3bfeb29ce65e44efa7735c225464c4fd7dfe9c
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.LIBPNG
+        artifact_id: art_f1cc52808fe9727de66b70b8bb3869412a4bb00ea492330788f2faf4ad3be3de
+        sha256: 5c0bb4b05b1354ae7c173532b6702ea68b611047ff9b91c4d3af77da39c195d9
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.LIBVPX
+        artifact_id: art_12ee093ba289b73d9bba76d7eeb67edcc07731d9a96a517471b659a019c35613
+        sha256: 8267348d5af1262c11d1a08de2f5afc77457755f1ac658627dd9acf71011d615
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/LICENSE.OPENH264
+        artifact_id: art_d61c8f2a8ffded3f5134b1520142286223d3df8a9d94c14bdcf810b6d4700866
+        sha256: dd5c1c9668512530fa5a96e4c29ac4033d70a7eeb0eed7a42fddb6dd794ebdbb
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supf
+        artifact_id: art_6983d0c9823f87af6e69b8cc0e56f40b957de80113e66b4f079b4fddeb842eb5
+        sha256: e85f74cc0fc5962e57505aabb555f5b99a290808012ed94b7abf95782755cdba
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supp
+        artifact_id: art_b998963d021a9f5164837aa91a9e6b79881c2c4ac478d0f970edd7fcabee5fad
+        sha256: f3ac230524b9bec5b300236c23928d9b947b7ceee223e89b1b29af8776290861
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v4.supp
+        artifact_id: art_0839b714d93cdf2070c0bc992bb0d21ce76bac7e3d4eb9c8b8d9a632e4dd0c56
+        sha256: 07e8961c7e0120a7f96d5c25aaab328be36095ed9fce5abd2e7e5e4a2b6b1a21
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v5.supf
+        artifact_id: art_4779d8608aaa7d4134bda46e3cc42a52ee09257c576e82f1061fef77554b8844
+        sha256: 8302891a1bcdbb5958390bdd5f0b86c03977965ea2d7544743d798439e2f22db
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_5b21293a3d0a91d346025db2b7a433047aee28ca261bb2fad64b83393525dd70
+        sha256: f6e97e9dd7a6acce9f4d3c37650923ae6d0889fac13e49dc5cb85bf057b7c316
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_da74178fbc9001843dea03c9d4e56baada146d1506a9fd27ef049985a0dd128b
+        sha256: cb7e096632533c5953a4db033459d20d523ace6b8f91788f2167286916f34155
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_c25ad98a3e047d5ef7a271e8d5bb4836023de7ff72c3ec41fd2d84cfb1ca3644
+        sha256: e0b5cf63d777a23f79411bb48ef6f6472c04afb1b1aa7ceec157ac21a43044c6
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supf
+        artifact_id: art_4b582f67561f9d163b36e2c5e927544fc366a184fad0782853e37707c248539a
+        sha256: 88d2fbc9ca3ac26eda0573b1082df074285090473b19b342a2ce45a57b872e8b
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supp
+        artifact_id: art_3c656cd3dc60f27ed128b874d75212f0f16cc9bb45d158388c6431ed7a724766
+        sha256: 580b0bae2cee9656775f90a0e92139475434fcb3eb142104810f1dd43dc5296d
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v4.supp
+        artifact_id: art_4d22c2d648ac24e74946b09d1dbf7946bfd1ffad2b56508815b2c1a5777fe7a7
+        sha256: aa35119e97e4d5afde1b1a5582ce016407fb27f2defec0b4f0254a7f33bad96c
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v5.supf
+        artifact_id: art_27ce9195d1ce0f4043e475e42c2c63f57b035903b52f432a265b85e9bfe9d367
+        sha256: 9251d7be0e6b72e54c04791ccd70ab8843176a30c8b8f051d6240421a0ab8eca
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_86ffd59d410afa946fe653f26b0d912339892ce3f5403889588e08d290776eb2
+        sha256: 60aa34f93d51a69a5a958f4698dc12225719008c25c001e42f321b4e53f601c0
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_add1254a85c911b8b35c5e23129d7b4f1cdd5cb41e264d90bf59780ccfd609b3
+        sha256: fcb5d10f696dfc1b4bf8a1610b2bd70bbd585980d11aff5640fcec1c63dd12ac
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_6a48a5ef03c6fd2bb1cc17bbd4602f049fbbf7aa4ce27e82ad2b85ee7a152a55
+        sha256: bcdbb3a7cff7d71cf48e7c4f9699c53248a746b3ebfd7dc6ead6df5b1bc778df
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supf
+        artifact_id: art_2a6f706730d0323b2c719812549b1b6b83b2c6975a68c55f91b3a45548e38718
+        sha256: cce41e2d598b68254ce0a08686931407fec99f32024946bde839aa70da36f31d
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supp
+        artifact_id: art_c19497af39c42d960ca78e2367d4adbb1e8aaa2479a97950db75ebfc6d3b3f96
+        sha256: 9fe79d476e91d23c50c668c6ea6e41057ecbb7c00dda1dea2d60fee63d70a2f3
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v4.supp
+        artifact_id: art_7c83aabefd5de5ee9fc5aa1911cdadc3008d6bfd104a995f9297cae499a6c803
+        sha256: 373a0d7cc481400bc08b7a45f2e09e5db3d2a006d02ef2877cb55fc9394d006d
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v5.supf
+        artifact_id: art_dbbab01fc9e20bc8f959e885231d7550111e2187e7664d0fa0645b8958ae0a6d
+        sha256: 9a2490e52a8e66879044a2375398713a6a51b1833cddc569442feef259fbbcae
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_1c1e15e8eb6a2b81c88d119d820f75076d126329e4d7422854ffdce65444baa9
+        sha256: bc4a120f07ff183a901a49ae5ef7f13fc3135ead1a3a0efd0ccf9c8b51dd7cea
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_7859f221b8e9cca608e062e30d42debaa9c7619ed7157fd0952e1d481e095371
+        sha256: a68ff5fcc88e4cda39379b76cdb106e576ea882d622bccdb6ccef0f7ccb0f985
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_bc31fc29bd69857c1f5c34486e01b89999129fb37c35693dccc15024ec556be0
+        sha256: 3999097593a0b185b5211f6f06a0885f5f9e9a7d712e27b6c66200385db53116
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/SC_Info/libavformat.supf
+        artifact_id: art_e05bd4694217f41a5b010577b5d9ec6fe34c12f2be1581a1babae24d38d4dc30
+        sha256: f9e7b1ad140968dfdd3438584cfb140375465e0171f6eb44ed8e239c845e0e00
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/SC_Info/libavformat.supp
+        artifact_id: art_5a8c562a182bfbdc9274d9e9c8044af347ea05488f74d3b22e00b159bbcbf6a7
+        sha256: 337daff4aff2e64cbebf49d609355db10e567c99c6ae392edaa13de10bbc2ef0
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/SC_Info/libavformat.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/SC_Info/libavformat.v4.supp
+        artifact_id: art_f238390037e863121ee56bf73f9932709dd48a546cddea818b51754e35e226ae
+        sha256: 8631bc11a49d44dd11b4507c3a2ed71ff2d836d48ab5650f0e514c02eea86668
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/SC_Info/libavformat.v5.supf
+        artifact_id: art_2b4ba1b8a6de0e1578a0b7e9077ba80fc38db600744f4e43a9fb60f59d5cb5d5
+        sha256: 0577813d84fd68025633142080542066e1402c3028fba7b80c5c01758cb4874d
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_43c4fec2d32ebc3ae3db016220c0556cc0d4bc42f8fa8bb94d498ffc09ecdb07
+        sha256: 23d09847b84572fb2bd44d558af249433c5b1ecc3cc8df850a3e469241138d27
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_b8245c638cd191b94c414bf432b3ab758a477bd1d31ee62f896bfbceb9140519
+        sha256: debdc80021717bb871b5b6f420fbaba93e6449a95f2da3c2c321b64618fd206c
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_640a8176a58aa59435bd4b68a520de70d82c02d804b38c0d101a0bf34754f8e1
+        sha256: da42c4108160d25163c730de72831898ea4f33ac5d097bf2092db20d7587fd92
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/SC_Info/libavutil.supf
+        artifact_id: art_b6dd5ffe9539659d8ffa1f433e8acc32c9151e817d2ab86b13a1a123a1377db7
+        sha256: 886e090ea8549fe1dde8a1e6bf622048185a4c651532d8de1b161d1ec1c5ec99
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/SC_Info/libavutil.supp
+        artifact_id: art_6a06846daf28884297fa64eaea89b6ec807e9f3775cae2e383c453d3c9254b46
+        sha256: bd66e0e592e0f8992be993e6ea23475e2aadd8c2a0c4a331fda4764d39fc90f9
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/SC_Info/libavutil.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/SC_Info/libavutil.v4.supp
+        artifact_id: art_af40eb4ddb0fa9bfb0dd71b7743ee4bdde4610591c2ce8e98176aa26364cc2dc
+        sha256: 19a6fd444ed71d3ff18d89bd744cba605ef97cc5efeee52e1a365771a11af649
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/SC_Info/libavutil.v5.supf
+        artifact_id: art_6b2c725a662dab6a862e3b58756315430ffa07bd1530b834c64c150ee6a07a56
+        sha256: 8ae62d806a89c9d9f34ee579616399311e3531603363087270166e9d34aff0c1
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_c3162bab750ad4f6974f25971644af93709561614f7a2bc4a8d8817d5d09de5c
+        sha256: 28aa36334a25eda31651dc38d632db08c8418f07a53764b196dc27a88fa5f034
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_24f802179ead04a4370c1f5b5b88d070e015b6a9543c0949b8ba988161782e5c
+        sha256: cc35aa6efca420dd42b10472960d454a3419b1aa39469564d5442c31e6ddd4e9
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_114ca1280af85ce530c2cd30c0e4cdada2905bf0276b5be26498c379912a81cf
+        sha256: 9e6455b11f1879f16535f032305ae22cb190bb1949b20f1713f028817d7ee39c
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/SC_Info/libswresample.supf
+        artifact_id: art_777584bd07bf238ea044b3419712a7beba586d086855dfd758e1847d93aa8eaa
+        sha256: 7e8ae482433ef64ed5099a4b393b7c0f084d8aa1016c5806163953de06e82b62
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/SC_Info/libswresample.supp
+        artifact_id: art_5ca9707149f910d4348ff8153a54cd8f56061e282b9322d7e84492e23281f49f
+        sha256: 38e0586da4ba5ccfa22a4891b1c0eb7a5f02d929c3c3dbbab4abbd0343e180d0
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/SC_Info/libswresample.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/SC_Info/libswresample.v4.supp
+        artifact_id: art_9207e4b04a97889ee2c4876f34db7dd720018086dd2540266d80893b53a0acde
+        sha256: 0622d6866ba34202f082f686ce96823e26348eeb597a565998783fd7bb97ccd8
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/SC_Info/libswresample.v5.supf
+        artifact_id: art_6f01b11d4391739e0ecc6dd2cc944938f687eb0ff903ba4a9a027fc1000499f9
+        sha256: 07d416eeddf3c1ffb7d6fa2d7e584b9bb9ff138b2bece91f526efc9effb2e3e0
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_1d263890a736c048515d60bfc92d3343d9d63559d2cb64fa78c17d8089931add
+        sha256: 51f2f98871b11c15daf7a984d0d789bd801d403a43d8029b63706fbe76e299d2
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_78729f9beb596765cfe1a392dbf7ca70779ed181cb1fa310f15c187601d06990
+        sha256: d5964935b4ddcbbf4950cf3bf3fff8b11678c2ecc03ca707fe3693c73428ce22
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_ff95d65987df7f85181e1676eff64622c60f3377740cf79a09a9bbb2b6b27b51
+        sha256: ad42b48bbcced4483dfb21e75a5d7a7bd5469b1f37dba2edf222591185c74bcf
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/SC_Info/libswscale.supf
+        artifact_id: art_77b7e7d5006d1d93567bb30394e31306999c817f22899a212182e5df1fe7ad4a
+        sha256: 222f398e01ee3d732f2a1c004f49596592bc720b7968137898e43bbd6a854f12
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/SC_Info/libswscale.supp
+        artifact_id: art_36bef799057a3693bd9f93de4428ab5be4a1d27e6e2b9c0833f3dd94f5a5376c
+        sha256: f78330c0382c7d45d188b95412c34d6ac0932ce43df670325321e23888c5ff09
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/SC_Info/libswscale.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/SC_Info/libswscale.v4.supp
+        artifact_id: art_3f3336f7c0b02a958ae6948856aa8319c2a273155f63059673c50e742e17bfee
+        sha256: 3d9ce1fd8f981b5f079a990f6aeca3eb45d39968358826a3767b58fbdbdf83b1
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/SC_Info/libswscale.v5.supf
+        artifact_id: art_670684d3812f2c10379562e99cc7c5b7d43313744587090775dc0cb08c8a88a2
+        sha256: cde8dba19c36c611b64eda0c8930d3a7cd5b5b2b53308eeda556995982f630e2
+        format: file
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_db4ae542917df5ee848da7cacda23feb83e72fcf916c8bc4c02c6c9448751242
+        sha256: ad6a25f69f8a06dd2ae58ee3e4b1fbf872b826951e600d3a58e0a173ec9a957d
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_996e1755cea054d3abca543bb23d5ca2023753f4e11fad1be613d2c7a5d473f8
+        sha256: 8158361696bc3712cd2c23388700506bafd9b16585633bb252c70a3ab1b216d1
+        format: mach-o-universal
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/Info.plist
+        artifact_id: art_11f382391bc24396d387b88ed333f9f9f8036ce3ebacf3f227e115cad9598574
+        sha256: 6b20085e83c35d65f76ba79e2a154f7ea7e2a2fafe6703ec713af4535364cbca
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/SC_Info/whisper.supf
+        artifact_id: art_3d4469287eb4c0c073ced517ad5396bb7febe44088f2caa50805e83d3d1fa0a2
+        sha256: 6ee455e78936cf1eb8f9a2e117f954aeeef2470d0a28874e2ecee7d5e75213bf
+        format: file
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/SC_Info/whisper.supp
+        artifact_id: art_d1b55bb0c2e454ff001fe51c0176a7a1cba4da7b4c5ba9a3c713f020e01b457e
+        sha256: cf0cebca7d9dc0b28d5c3e5a249014860d2b957a9ffb8247198796c7d8660cd8
+        format: file
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/SC_Info/whisper.supx
+        artifact_id: art_eaf79ae377e5cb86c1c038ce9138df56a02557a6ced5d5f7471b8533c3df4666
+        sha256: 1fdae6f3a0ac142984bb70337bea3753c4ebaeec75e0870aab52e79c27c3f661
+        format: file
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/SC_Info/whisper.v4.supp
+        artifact_id: art_b00b91141b9d2cbbed3c5fbb77ed072723855b18e34fa6ed6fa9838daaa3f017
+        sha256: 7a8a82391a0a00384adcd9a133c88a8251795e7282d6a73ddd20e9694572db27
+        format: file
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/SC_Info/whisper.v5.supf
+        artifact_id: art_521928347fa212b06bde23c0cd67954d11ebfa789207ac1a5c340ad479f9f494
+        sha256: ab29885c67e30afb7445f541e477127fb7ef482427c67d3d214483416cc8edcf
+        format: file
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/_CodeSignature/CodeResources
+        artifact_id: art_972f08e6bbd6d6fad5d275f10590cbfc472d5a255c935c0688cdd3e27db20e84
+        sha256: 3db573822ff4d1aa6b33ee45ee67607c00021372ef6a1226203cccb465902701
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/whisper
+        artifact_id: art_cc93d244f119631a2ebee07c90428e742181948476c9d7c978b77169a5b2011c
+        sha256: 1c72d3eeffd8b53efb80c45e9e99cd7e533f895f777a1e2f56eab4d37a3114ca
+        format: mach-o
+    native_libraries:
+      - path: Payload/Aisten.app/Frameworks/libswiftCompatibilitySpan.dylib
+        artifact_id: art_5f0b74215379b90f937744e3093b0431ae9b14557688c692670b0a341e50024b
+        sha256: 1005ffb789e800afbd23aa6dfac44549862dc33fa558bb88e57acc1dd6928364
+        format: mach-o-universal
+    javascript:
+      - path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+        artifact_id: art_f31fc6799a2d0eb29e565f3669e25337b785ca833b55d8b5b59c02ff9c3c0999
+        sha256: 18da6ce0758b416e7ae645084f4f8801f9f9d59d6c477c05eaa0ff94ebd8cc00
+        format: javascript-bundle
+      - path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+        artifact_id: art_f94970014385e81c4a7fd3d32c014752419cfd55b18b28f0ab7501bdfcd68b83
+        sha256: c55987fe697e5b9ee18830163f7af85327e9bb5c3e674b969d38c8d205eaa577
+        format: javascript-bundle
+    signing:
+      - path: Payload/Aisten.app/Frameworks/Sentry.framework/_CodeSignature/CodeResources
+        artifact_id: art_a4940edc9f123f84e6b0c8187cb308f18eedd68fd63f155c2a29259c4fbcc8a9
+        sha256: 2f4bcbd7e5d06dcc7bdd407451abb046d949cdba49baec6e349a46980dd5cdd5
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_2f64d9ffea70bd0744a913329d40f626e5a2e5002fda936f2d2e639670e95b5e
+        sha256: f760b07f9634d526c883e92dca8fab4dd68fa4399be1ef7bfa89d49cd9674a67
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_5b21293a3d0a91d346025db2b7a433047aee28ca261bb2fad64b83393525dd70
+        sha256: f6e97e9dd7a6acce9f4d3c37650923ae6d0889fac13e49dc5cb85bf057b7c316
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_86ffd59d410afa946fe653f26b0d912339892ce3f5403889588e08d290776eb2
+        sha256: 60aa34f93d51a69a5a958f4698dc12225719008c25c001e42f321b4e53f601c0
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_1c1e15e8eb6a2b81c88d119d820f75076d126329e4d7422854ffdce65444baa9
+        sha256: bc4a120f07ff183a901a49ae5ef7f13fc3135ead1a3a0efd0ccf9c8b51dd7cea
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_43c4fec2d32ebc3ae3db016220c0556cc0d4bc42f8fa8bb94d498ffc09ecdb07
+        sha256: 23d09847b84572fb2bd44d558af249433c5b1ecc3cc8df850a3e469241138d27
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_c3162bab750ad4f6974f25971644af93709561614f7a2bc4a8d8817d5d09de5c
+        sha256: 28aa36334a25eda31651dc38d632db08c8418f07a53764b196dc27a88fa5f034
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_1d263890a736c048515d60bfc92d3343d9d63559d2cb64fa78c17d8089931add
+        sha256: 51f2f98871b11c15daf7a984d0d789bd801d403a43d8029b63706fbe76e299d2
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_db4ae542917df5ee848da7cacda23feb83e72fcf916c8bc4c02c6c9448751242
+        sha256: ad6a25f69f8a06dd2ae58ee3e4b1fbf872b826951e600d3a58e0a173ec9a957d
+        format: plist
+      - path: Payload/Aisten.app/Frameworks/whisper.framework/_CodeSignature/CodeResources
+        artifact_id: art_972f08e6bbd6d6fad5d275f10590cbfc472d5a255c935c0688cdd3e27db20e84
+        sha256: 3db573822ff4d1aa6b33ee45ee67607c00021372ef6a1226203cccb465902701
+        format: plist
+      - path: Payload/Aisten.app/PlugIns/AistenShare.appex/_CodeSignature/CodeResources
+        artifact_id: art_3d0d6864a269f93bbdfef95d0afaf421d7cebfc545e65dd4770f87dacb35bb26
+        sha256: f38cbcc6358391735c5d93c672ece83fcbf24dba6d5e64144b0716a544eae7b0
+        format: plist
+      - path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/_CodeSignature/CodeResources
+        artifact_id: art_8597e97396fa3bb0cd011ca825a71cda4f54b7977f06029ad8a3a5a38de67575
+        sha256: 07e52083f729aa2718dbaf3b7705a188ecb64361ca8c45254ec4b7b4dff8ddc2
+        format: plist
+      - path: Payload/Aisten.app/Watch/AistenWatch Watch
+          App.app/_CodeSignature/CodeResources
+        artifact_id: art_4866e620fa0d4febbb169690125105af8082072c2863b107bd7f0cc553ed6802
+        sha256: ed7a5024e6d6b87396abf6adec02e29e1d8c2ccda5a544b2cb2c4635eedd3b42
+        format: plist
+      - path: Payload/Aisten.app/_CodeSignature/CodeResources
+        artifact_id: art_23279891e08c5516dc54d943eb4f1a9d5beebb9ea512e846c1891d55fb121d59
+        sha256: b4a72a2a87eddf04082335bd86db22b3a06de3e81a82105eda1afe0e5c7b856f
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+    - swift-objective-c
+  bridge_candidates:
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Aisten
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/Sentry.framework/Sentry
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libswiftCompatibilitySpan.dylib
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Frameworks/whisper.framework/whisper
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/PlugIns/AistenShare.appex/AistenShare
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/AistenWidgetExtension
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.core.min.js
+      native_path: Payload/Aisten.app/Watch/AistenWatch Watch App.app/AistenWatch Watch App
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Aisten
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/Sentry.framework/Sentry
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libswiftCompatibilitySpan.dylib
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Frameworks/whisper.framework/whisper
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/PlugIns/AistenShare.appex/AistenShare
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/PlugIns/AistenWidgetExtension.appex/AistenWidgetExtension
+      basis: javascript-and-native-content
+    - source_path: Payload/Aisten.app/YTDLP_YTDLP.bundle/yt.solver.lib.min.js
+      native_path: Payload/Aisten.app/Watch/AistenWatch Watch App.app/AistenWatch Watch App
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 30
+    emitted_candidates: 30
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_90b946887fb4478cddc52724732b26b534d242f8a35273a36721e0dfb72f78d5

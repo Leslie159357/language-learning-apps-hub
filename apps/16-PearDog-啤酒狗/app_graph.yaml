@@ -1,0 +1,181 @@
+evidence_id: ev_5f5ad5ae4ed59e303dede79ffd7189edd3090e14e722a01400fdc633b085e4bd
+subject:
+  name: 6751515410_decrypted.ipa
+  digest:
+    sha256: d71d25beb87f3ac9309ea7000de08dfc1ac5fd0722cda692b8c97aa7aa691427
+  local_path: /opt/data/downloads/batch_decrypt/6751515410_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_f673bda286de202b2b3e705476ea7de2d6afefe366d3ecf36c2734dd52500abd
+raw_result: null
+normalized_result:
+  projection_id: aap_839c8b69d21586cdd92edccc7c8cdba57f01fb9f04235e6b4fc470ca6eaa0441
+  root_sha256: d71d25beb87f3ac9309ea7000de08dfc1ac5fd0722cda692b8c97aa7aa691427
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_f673bda286de202b2b3e705476ea7de2d6afefe366d3ecf36c2734dd52500abd
+  application_roots:
+    - Payload/PearDog iOS.app
+  bundles:
+    - path: Payload/PearDog iOS.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/PearDog iOS.app/Info.plist
+      executable_candidates:
+        - Payload/PearDog iOS.app/PearDog iOS
+      signing_paths:
+        - Payload/PearDog iOS.app/_CodeSignature/CodeResources
+    - path: Payload/PearDog iOS.app/Mixpanel_Mixpanel.bundle
+      parent_path: Payload/PearDog iOS.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/PearDog iOS.app/Mixpanel_Mixpanel.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/PearDog iOS.app/PlugIns/PearDogWidgetExtension.appex
+      parent_path: Payload/PearDog iOS.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/PearDog iOS.app/PlugIns/PearDogWidgetExtension.appex/Info.plist
+      executable_candidates:
+        - Payload/PearDog
+          iOS.app/PlugIns/PearDogWidgetExtension.appex/PearDogWidgetExtension
+      signing_paths:
+        - Payload/PearDog
+          iOS.app/PlugIns/PearDogWidgetExtension.appex/_CodeSignature/CodeResources
+    - path: Payload/PearDog iOS.app/PlugIns/ShareExtention.appex
+      parent_path: Payload/PearDog iOS.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/PearDog iOS.app/PlugIns/ShareExtention.appex/Info.plist
+      executable_candidates:
+        - Payload/PearDog iOS.app/PlugIns/ShareExtention.appex/ShareExtention
+      signing_paths:
+        - Payload/PearDog
+          iOS.app/PlugIns/ShareExtention.appex/_CodeSignature/CodeResources
+  components:
+    bundle_metadata:
+      - path: Payload/PearDog iOS.app/Info.plist
+        artifact_id: art_dd33162dee63038dc597404aca5361175fd074f48a2249625266b65866517483
+        sha256: 2bea7986a83b9e46cd6fe8966c43570cae14585a1a0481776d83ea26ad6e6068
+        format: plist
+      - path: Payload/PearDog iOS.app/Mixpanel_Mixpanel.bundle/Info.plist
+        artifact_id: art_97b2574a0c8a57eb80defc28ba168d28570739a2cd7808d76238c489a3a143bd
+        sha256: 48ba08d4dc91ae8319360f5dca70be57b208c9570a014714b80166c5e51309c7
+        format: plist
+      - path: Payload/PearDog iOS.app/PlugIns/PearDogWidgetExtension.appex/Info.plist
+        artifact_id: art_02dc2dfe787db672f5ef1ad4e1d4db8a238b3ccc26e73c10836698bc0ec52e24
+        sha256: 309e31b04b2b9b2696b6040fdaa8c18a6365294ea7eb67b6446e80ab61f1e216
+        format: plist
+      - path: Payload/PearDog
+          iOS.app/PlugIns/ShareExtention.appex/Base.lproj/MainInterface.storyboardc/Info.plist
+        artifact_id: art_a2b48ae66ee1ca6f428432c920c51bc1f559eda3f1d8f2892620194acf3c3c25
+        sha256: a8092c3a7d58214015eecf2e28854ce0fcb9e23bc1edf8fcf4bb3f7107cbb66f
+        format: plist
+      - path: Payload/PearDog iOS.app/PlugIns/ShareExtention.appex/Info.plist
+        artifact_id: art_e41e9f32f6082dc89ac7adfec2b67391ee0770cb2547f2fb8acd1904e10a14b2
+        sha256: f20e4c226ef05ec504e4784fda7b125b0501802d134c33ee2f358b9cbe1b890a
+        format: plist
+    executables:
+      - path: Payload/PearDog iOS.app/PearDog iOS
+        artifact_id: art_f0030773871a955ca2d62455c3c57ab27efaedb5de453642d28fa82e32fa73b8
+        sha256: 95b8338707b10fe6948b577d4fc23fea5889c6dc63e20d25fec8de104dbb712d
+        format: mach-o
+      - path: Payload/PearDog
+          iOS.app/PlugIns/PearDogWidgetExtension.appex/PearDogWidgetExtension
+        artifact_id: art_673b41b2e1d4c7b5ea1dff0497f5bc821641fb5c2ead47916bf4f0b15eb831f4
+        sha256: 48d51dbdd821d4fab18c7fae4c118441b64328c1b17222c339c8371ac53761ab
+        format: mach-o
+      - path: Payload/PearDog iOS.app/PlugIns/ShareExtention.appex/ShareExtention
+        artifact_id: art_640f47bede117923ff76e574b680d5dbc96051507ccc2c8511f056359b687a2f
+        sha256: 693cbceafffe1a20366207f08fcb258221b25506e36f59913a7973f4a4cfcd59
+        format: mach-o
+    frameworks: []
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/PearDog
+          iOS.app/PlugIns/PearDogWidgetExtension.appex/_CodeSignature/CodeResources
+        artifact_id: art_4a56a9ed6737290dc9af1b64baf9b269871ee00f6a492bfe282bd415f89bc078
+        sha256: 7af8ce8ea8380aab701067dc18357e514054a9234062733aec9e295a93786600
+        format: plist
+      - path: Payload/PearDog
+          iOS.app/PlugIns/ShareExtention.appex/_CodeSignature/CodeResources
+        artifact_id: art_61988ff9d7e303a011137f4111a9443c83ddc91dfa8194153564e5e6f2df7958
+        sha256: 824a678dc6c074b09cd0f731a229cbac7f276ed2936b1d2164a0539c28dceebb
+        format: plist
+      - path: Payload/PearDog iOS.app/_CodeSignature/CodeResources
+        artifact_id: art_d3046db4f425acb0fd09a811efb6d808ca6beef80f61e01f696a133b5cec86cf
+        sha256: 61156deb7563460dd58edf65a7b26af348b19a5ba50338b630ac7a757caff9c3
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_f673bda286de202b2b3e705476ea7de2d6afefe366d3ecf36c2734dd52500abd

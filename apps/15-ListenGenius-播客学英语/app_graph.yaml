@@ -1,0 +1,590 @@
+evidence_id: ev_3f6fd8669898dca4dd70f355306e7280e93665fe31455df3f5ff37f9966c243d
+subject:
+  name: 6758902412_decrypted.ipa
+  digest:
+    sha256: b29e8ab857d7dc4888b20a431347b48654eabdb8be3c1062ff9e3adc9d9804ce
+  local_path: /opt/data/downloads/batch_decrypt/6758902412_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_8338ed312ab6a8ed092f6019a9b7ae383144f0b37ab90be523658f34b145732e
+raw_result: null
+normalized_result:
+  projection_id: aap_b4c93576326ad1f8554ddd1210588811729c3a72ab77cf5640a0fddba0951f50
+  root_sha256: b29e8ab857d7dc4888b20a431347b48654eabdb8be3c1062ff9e3adc9d9804ce
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_8338ed312ab6a8ed092f6019a9b7ae383144f0b37ab90be523658f34b145732e
+  application_roots:
+    - Payload/EnglishPodcast.app
+  bundles:
+    - path: Payload/EnglishPodcast.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Info.plist
+      executable_candidates:
+        - Payload/EnglishPodcast.app/EnglishPodcast
+      signing_paths:
+        - Payload/EnglishPodcast.app/_CodeSignature/CodeResources
+    - path: Payload/EnglishPodcast.app/Cache_Cache.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Cache_Cache.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Firebase_FirebaseCore.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Firebase_FirebaseCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Firebase_FirebaseCoreExtension.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Firebase_FirebaseCoreInternal.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Firebase_FirebaseCrashlytics.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Firebase_FirebaseCrashlyticsSwift.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Firebase_FirebaseCrashlyticsSwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Firebase_FirebaseInstallations.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Firebase_FirebaseInstallations.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+      executable_candidates:
+        - Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+      signing_paths:
+        - Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+    - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+      executable_candidates:
+        - Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+      signing_paths:
+        - Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+    - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+      executable_candidates:
+        - Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+      signing_paths:
+        - Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+    - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+      executable_candidates:
+        - Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+      signing_paths:
+        - Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+    - path: Payload/EnglishPodcast.app/GoogleDataTransport_GoogleDataTransport.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Environment.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Logger.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-NSData.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Network.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Reachability.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Promises_FBLPromises.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Promises_FBLPromises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/Promises_Promises.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/Promises_Promises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/SDWebImageSwiftUI_SDWebImageSwiftUI.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/SDWebImageSwiftUI_SDWebImageSwiftUI.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/SDWebImage_SDWebImage.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/SDWebImage_SDWebImage.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/nanopb_nanopb.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/nanopb_nanopb.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/swift-composable-architecture_ComposableArchitecture.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/swift-composable-architecture_ComposableArchitecture.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EnglishPodcast.app/swift-sharing_Sharing.bundle
+      parent_path: Payload/EnglishPodcast.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EnglishPodcast.app/swift-sharing_Sharing.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/EnglishPodcast.app/Cache_Cache.bundle/Info.plist
+        artifact_id: art_180fb849dfaa1bda8a1fb088a43921956984e9f4fe815333aab5292a87fd83e2
+        sha256: 0f47f020a0a858751bcfb25d5a54568c00467ed582a4c7983df888cb58f7c404
+        format: plist
+      - path: Payload/EnglishPodcast.app/Firebase_FirebaseCore.bundle/Info.plist
+        artifact_id: art_d8f9fcbab5e1b99988c83c4a75b6c05c63a5e1fe3ed85a8f8ba407193ea94e7b
+        sha256: 6fda1b0c484617453f6321870aeb828860e81f15442d25873ebbebd644a34862
+        format: plist
+      - path: Payload/EnglishPodcast.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+        artifact_id: art_6ca8e2f83ced6eff525c18e85c51b2d2941def5c31b0c6494ea318632b946a1b
+        sha256: 5c5c9ce52ae8373c5acb1fc9ee8073b8f722974a8a13fc1fbf4ec36c7f2df1ad
+        format: plist
+      - path: Payload/EnglishPodcast.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+        artifact_id: art_65f17e2f08edbd84555a07f71ec7b93cf86adf5d5948fa6c60158d5f8a67d200
+        sha256: 67e00cf6416f5048a019331843e04d4571e4945bcc8f2224e5bcfdf029784565
+        format: plist
+      - path: Payload/EnglishPodcast.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+        artifact_id: art_759a4170b7c9c9580ac7675adae29590ad4c05ed9031d6059b319d3a2207cf75
+        sha256: df39a95673c20fd7013f216f0122b5d4e5c56e086d112f200948f5d6651fa8f8
+        format: plist
+      - path: Payload/EnglishPodcast.app/Firebase_FirebaseCrashlyticsSwift.bundle/Info.plist
+        artifact_id: art_25ddd025085fce7637f3840be6e7808be8c4b137d1e9b43154b5cb9ea26c7af6
+        sha256: bcfe2172ca0d23eb05843b5920837a9f8fdc9867adc0a20b2b8cf1fda8804109
+        format: plist
+      - path: Payload/EnglishPodcast.app/Firebase_FirebaseInstallations.bundle/Info.plist
+        artifact_id: art_b34ad977b5134b973eb4a38dffcff1d9354aae509da0461fff1fc71dd0d37900
+        sha256: 0d42750a9a78e04a665bbe7dd12fea7a876b906d10df70bf03285c08f2910959
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+        artifact_id: art_d407defdf1f72e9758927667b1a370cd04f68b2592c4628d28c3849f61248720
+        sha256: e5e0c743e5ec88e6fd6007cb21d9d36553c08dc3dbb4d5fec8ba13cd43dba341
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+        artifact_id: art_f32c07b145800c9cef024faefcf7aa24c3cab03af0512811c91b1e5cc0b96fae
+        sha256: 787c7c2cb6c3147e52444e3b681ef3133cea63d527fefb947b83d23d995cdca7
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+        artifact_id: art_e938129f9473b7092b6eedbc3349a7416aba1340655ebf691ed42b3b2272e7c9
+        sha256: aac16bc86b758e446d594b0d7cd8906b97e0503c2cb6651107741824979fdc85
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+        artifact_id: art_d10ace1b4241bc926c3030728741548e89c13e21816455786dc31c39bc9f0726
+        sha256: ef2da0ab36e1e3213d5621a7a578cb6671c92fdb613503c87b79e928d636eb22
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+        artifact_id: art_26aef7a08eed345d4e66805cbc3d3fcd7a82353563118bde59df48e59841c4ec
+        sha256: 76bc2fdc94a9c79f8911e7338c947305b3eda853cde5d0ffd439d332b8861a30
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+        artifact_id: art_7668b6e2553b4a11b08378636711cd579349d5bd036a30093dd5ddad1033fed8
+        sha256: 6079263ee60f0810ad6fd926c84736fe9823a56e08d0627f3be492067eb17b9e
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+        artifact_id: art_07e846e8bbd8e4de00617733b8cc9b067d3f922d22b6361b7587dff7ac76fbe5
+        sha256: 43bf6e270a735b9ee810e7377fad6f6ccc2649f878fd6fe04656a8c4352f7e48
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+        artifact_id: art_f93f0f4b9d44ef63f0a61f12b932c610216450ca7f17fc4fb790525c4aeeab83
+        sha256: 838f3da1ce180c233cc99c0e28f3636895567cd9a92b8d8f0c410c306c765cbf
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+        artifact_id: art_34629f621033ebd972a223a1a0d25aa8d2f0014d907f5e37b61cd8bf1ad00e8a
+        sha256: 17e899de0cd7725f03c9824d44ae2895059ae682785f7bc8adc726aa4f2f8cbd
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+        artifact_id: art_cebd333142efba32fb5154daf75faa92f1569778f25ff80adde1271721a8175f
+        sha256: 8fa315247601645fdd7b6ae43e6d9df2e0ad72e1e3e753850ae3d8f7a632e692
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+        artifact_id: art_7317e254cfb9996daf2ec5b6f1220094b04a0b7567f288755747ca797af1f3bd
+        sha256: 2f5ffef1d3e3cfbbef8531e68791f2ab56c5e3077983a214036177553e1ee00f
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+        artifact_id: art_e10f6cc4e46ecdf6a27a956c5f983513ae8526f1fa9a79a96405de7e0707cf7a
+        sha256: 7461d39038663bc841f59e393e534ed62a6ae2f075ea2db5601a27d256168772
+        format: plist
+      - path: Payload/EnglishPodcast.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+        artifact_id: art_06cce2a135b23e3753f8cefb668160c10f5ab84390ca00be1d6c81b344db894e
+        sha256: e7f6bd28d700f6caf21f940c7dfeba69a524451088193cdee15a060bf1b1d820
+        format: plist
+      - path: Payload/EnglishPodcast.app/Info.plist
+        artifact_id: art_1675cb43203bbad689fe7c645daf2cd28554806a5db72045e0ecc31f09f20baf
+        sha256: 14beda01d50a2d04e6da1f99e505aeb61ebcd12fc612a4f42c9ea62bf4138ba0
+        format: plist
+      - path: Payload/EnglishPodcast.app/Promises_FBLPromises.bundle/Info.plist
+        artifact_id: art_6f2afff9bf68986f508719aec7aadce898841386e174d3e79f48b13ecdee9de7
+        sha256: 33daee5234e283f37cbc264a4240daa79e81fdc5b382c8575c5cfee0375a7554
+        format: plist
+      - path: Payload/EnglishPodcast.app/Promises_Promises.bundle/Info.plist
+        artifact_id: art_de124428ad77ee3b14fb8e5cb3763e690b988c5431ba3167f95206b5f29dcde7
+        sha256: ad4d5184e8b1855175edcc39392f996ac86efe0e16bec7db5bb6b323469ce949
+        format: plist
+      - path: Payload/EnglishPodcast.app/SDWebImageSwiftUI_SDWebImageSwiftUI.bundle/Info.plist
+        artifact_id: art_9e871d4d263b47a9b7eeeeb15919d3e87b16dc11bc58629fe7bfb707f4e72160
+        sha256: d44512d549db29a48b7135202c2bc10788f94e55c4824e11ea0129442d57d3d3
+        format: plist
+      - path: Payload/EnglishPodcast.app/SDWebImage_SDWebImage.bundle/Info.plist
+        artifact_id: art_1098e4b1124ddec31cd3ce4d5e0007e3b6d7798aea23e25f16bc7c74eac6bc43
+        sha256: d9857802ba9fa521ad9f2adb54bf1804a068a440c440442e2068e8bcd8ec0431
+        format: plist
+      - path: Payload/EnglishPodcast.app/nanopb_nanopb.bundle/Info.plist
+        artifact_id: art_a21099529ae7b65b156dded1698d2f32862aa541ea7f446dc4530eb957267a51
+        sha256: 8a7520a5903164f0aeaeae8bb098f2bf3fd8194fcc66f38658f661d5bd1abd20
+        format: plist
+      - path: Payload/EnglishPodcast.app/swift-composable-architecture_ComposableArchitecture.bundle/Info.plist
+        artifact_id: art_25a3aeb4d21ae5fa9d0498ee425e8849e213f1c771a6e08625354eb0f6263954
+        sha256: 28a85b0efbe46bfbc5a9d37a00468a89deb94048536812512ac91e3c33e6e63d
+        format: plist
+      - path: Payload/EnglishPodcast.app/swift-sharing_Sharing.bundle/Info.plist
+        artifact_id: art_befc2ddfd93b5ed7aed45c782f7a96db948751f617daa42fa1e2797954aa0c13
+        sha256: 4e700a6c56d252b9dbfb1740efa3911c98102873886c19ec55c8838cc7cbf0a8
+        format: plist
+    executables:
+      - path: Payload/EnglishPodcast.app/EnglishPodcast
+        artifact_id: art_96b86455c6337feac2be2d27b1e5985c94d723cbe89192d6fda1834759d5daa0
+        sha256: 8b1ca05881f3c7eff717976142551c703e5e656698b8109d3dc2822d9f070f25
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+        artifact_id: art_7d83ca9038476d05bfcdbe4f0d36ee00bfe54e240e9ddb1fb838432d2e2cf98f
+        sha256: 97cb3e77d70ae42e8d35e5dcd935c4777ca3d3d9cd88840374de72eda0089ca1
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+        artifact_id: art_0bbf8af3a7bb3b463710bf46db9d5ed5689f5dced7357fdf6e8a7ddb800d576e
+        sha256: 9ff9c835a8bbac8468a318aaa3de96780f98dc0d1ebbbbf581ab1cbe03594808
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+        artifact_id: art_f4793fc71739f09083ef58e0f3dd36aa3dcab09aee7e2ceb822eaa078ddededf
+        sha256: 751bee6976c53bd9c95dfdf40b3b2889c6848efb9ff65f9f863991b85f6b3068
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+        artifact_id: art_457471522b4c73724e73b37b9032f3e6ae2cab7ba73c0b74c7aafdd538610ff4
+        sha256: a4453c32f84e23ac255bbc5e22a0b2fbe9580d9fdc2e828ff1b358d1d1812c50
+        format: mach-o
+    frameworks:
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+        artifact_id: art_7d83ca9038476d05bfcdbe4f0d36ee00bfe54e240e9ddb1fb838432d2e2cf98f
+        sha256: 97cb3e77d70ae42e8d35e5dcd935c4777ca3d3d9cd88840374de72eda0089ca1
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+        artifact_id: art_d407defdf1f72e9758927667b1a370cd04f68b2592c4628d28c3849f61248720
+        sha256: e5e0c743e5ec88e6fd6007cb21d9d36553c08dc3dbb4d5fec8ba13cd43dba341
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.supx
+        artifact_id: art_d7406dc59d928380413cecc99aabcd6dbafe2720d2678d985b642b0691586b74
+        sha256: dcb183fc9ac235a02a421fba2552abecc72065a9ad03427e485fa2ee0ebb7dcc
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.v4.supp
+        artifact_id: art_dbdfa09f6b9b54cfe6a82d5c1c3f2e8ad0015433d9b8c80f6f390c77b50013b8
+        sha256: 7246be6f33fbcc7de8dc1da9837848c17316c357238d2d008aff4984df69c90b
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.v5.supf
+        artifact_id: art_cc935e835b3a37b5e7a0511183e8e489e2e55f01a7ef26c0251f2d71aac07add
+        sha256: dcadcb07f15341dcf7dd5c792acd14648e7a019550a82b993add18277f7ceb73
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_4af7e6f8979b9914b7643c78775f6b39c6d05520a6c5d7fd83f171654b803b0e
+        sha256: 10d13f4507e88c42f7acd196ad2cbdcdfaabf809cd5026eb6c9adb4442ea65d7
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+        artifact_id: art_0bbf8af3a7bb3b463710bf46db9d5ed5689f5dced7357fdf6e8a7ddb800d576e
+        sha256: 9ff9c835a8bbac8468a318aaa3de96780f98dc0d1ebbbbf581ab1cbe03594808
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+        artifact_id: art_f32c07b145800c9cef024faefcf7aa24c3cab03af0512811c91b1e5cc0b96fae
+        sha256: 787c7c2cb6c3147e52444e3b681ef3133cea63d527fefb947b83d23d995cdca7
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.supx
+        artifact_id: art_d7406dc59d928380413cecc99aabcd6dbafe2720d2678d985b642b0691586b74
+        sha256: dcb183fc9ac235a02a421fba2552abecc72065a9ad03427e485fa2ee0ebb7dcc
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.v4.supp
+        artifact_id: art_ba030378862a514dc77dde3bc773a787f7e3891bf4e3897e824aee512501ac20
+        sha256: f10aa22416d3e1293b1f45f210c01f830188afddad85f10352f704819a09bb0d
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.v5.supf
+        artifact_id: art_bcb556f6fe0d3114e2717bd1e0da0de28906b6330adde3aa0e2d0eaa02d393e5
+        sha256: 5c497e64917f611dbff598d9a5f1273907e3f99c053909cddd793aad0eddd740
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+        artifact_id: art_ad0946933d2ad104e343e8c41c614191602d704e9cdfa3dea8da20cec8e026ed
+        sha256: 45e56220b947f5d56bf1f500669027c29780b7882157d0d5411b43a4218efb2f
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+        artifact_id: art_f4793fc71739f09083ef58e0f3dd36aa3dcab09aee7e2ceb822eaa078ddededf
+        sha256: 751bee6976c53bd9c95dfdf40b3b2889c6848efb9ff65f9f863991b85f6b3068
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+        artifact_id: art_e938129f9473b7092b6eedbc3349a7416aba1340655ebf691ed42b3b2272e7c9
+        sha256: aac16bc86b758e446d594b0d7cd8906b97e0503c2cb6651107741824979fdc85
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.supx
+        artifact_id: art_d7406dc59d928380413cecc99aabcd6dbafe2720d2678d985b642b0691586b74
+        sha256: dcb183fc9ac235a02a421fba2552abecc72065a9ad03427e485fa2ee0ebb7dcc
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.v4.supp
+        artifact_id: art_f80f3538fd18aa62d9bb594af4a2ac27a4c50c6d08e6c4d6b0d067aeca90667f
+        sha256: 0a5decb14516c23a8e839ad157f74d42ffd18317d80b3ad6d244077ca30f668e
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.v5.supf
+        artifact_id: art_cc935e835b3a37b5e7a0511183e8e489e2e55f01a7ef26c0251f2d71aac07add
+        sha256: dcadcb07f15341dcf7dd5c792acd14648e7a019550a82b993add18277f7ceb73
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+        artifact_id: art_557cb21e1c0a24021325d15b4f29791b3631928ba42fa34c09c8d4cb87db3dde
+        sha256: 39b908fdb8d7e4b31322c7d5905d52afc5d081b49ebae3afcd368b723444c75a
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+        artifact_id: art_457471522b4c73724e73b37b9032f3e6ae2cab7ba73c0b74c7aafdd538610ff4
+        sha256: a4453c32f84e23ac255bbc5e22a0b2fbe9580d9fdc2e828ff1b358d1d1812c50
+        format: mach-o
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+        artifact_id: art_d10ace1b4241bc926c3030728741548e89c13e21816455786dc31c39bc9f0726
+        sha256: ef2da0ab36e1e3213d5621a7a578cb6671c92fdb613503c87b79e928d636eb22
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.supx
+        artifact_id: art_d7406dc59d928380413cecc99aabcd6dbafe2720d2678d985b642b0691586b74
+        sha256: dcb183fc9ac235a02a421fba2552abecc72065a9ad03427e485fa2ee0ebb7dcc
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.v4.supp
+        artifact_id: art_4774b9c72d15f3532ce3b678722bc1f04930cf4d219d23a49ede5d39b2d15f57
+        sha256: 829ae02ee9939122f1cc26c1a058c7d0ff40ebf6e6ace3701e6c33ae9d83ee56
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/SC_Info/GoogleAppMeasurementIdentitySupport.v5.supf
+        artifact_id: art_31959ee2538e2118b419dfcf0501ef816cca3d4e33d9b6f0a00ee054111ab34b
+        sha256: 847dd8ce5d57d24b6451f14927b1a1044fa14ba73e9c9fc2d189f1409a3738da
+        format: file
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+        artifact_id: art_0adf6fc894e7237de888f0557ea86a670d663b1e02d837b82549188cbef2b0a1
+        sha256: 7e7c07ca6921ecb95d3797ad390b720b4ab1acb0fe45a76cd639ba87a4cea50a
+        format: plist
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/EnglishPodcast.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_4af7e6f8979b9914b7643c78775f6b39c6d05520a6c5d7fd83f171654b803b0e
+        sha256: 10d13f4507e88c42f7acd196ad2cbdcdfaabf809cd5026eb6c9adb4442ea65d7
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+        artifact_id: art_ad0946933d2ad104e343e8c41c614191602d704e9cdfa3dea8da20cec8e026ed
+        sha256: 45e56220b947f5d56bf1f500669027c29780b7882157d0d5411b43a4218efb2f
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+        artifact_id: art_557cb21e1c0a24021325d15b4f29791b3631928ba42fa34c09c8d4cb87db3dde
+        sha256: 39b908fdb8d7e4b31322c7d5905d52afc5d081b49ebae3afcd368b723444c75a
+        format: plist
+      - path: Payload/EnglishPodcast.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+        artifact_id: art_0adf6fc894e7237de888f0557ea86a670d663b1e02d837b82549188cbef2b0a1
+        sha256: 7e7c07ca6921ecb95d3797ad390b720b4ab1acb0fe45a76cd639ba87a4cea50a
+        format: plist
+      - path: Payload/EnglishPodcast.app/_CodeSignature/CodeResources
+        artifact_id: art_57f93be8b98c680f7cacf74c50817df0bce23a68216d96de79b7e334c87efd63
+        sha256: ebe823b634b54f1854529199bdfaa3ac2f1733a48d28bd77bcfb71fc0834863d
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_8338ed312ab6a8ed092f6019a9b7ae383144f0b37ab90be523658f34b145732e

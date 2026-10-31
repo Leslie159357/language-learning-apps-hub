@@ -1,0 +1,698 @@
+evidence_id: ev_4fd7371cef3261cd21e0e7485de8385202b0b527360894d2220d829033d58575
+subject:
+  name: 6800168485_decrypted.ipa
+  digest:
+    sha256: be6c9596698e7327496c9f29d87db7bddb72fdd09f7eec02e8b20f06401fc70c
+  local_path: /opt/data/downloads/batch_decrypt/6800168485_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_1a65b513b8ec74eadfa4cbe4a4ec66ef7f02ed861b65dd1eeb84c70f597f5598
+raw_result: null
+normalized_result:
+  projection_id: aap_47b033c6b79e54387498a4704260f8cc537da56ef7b6d620924232797a5fadfa
+  root_sha256: be6c9596698e7327496c9f29d87db7bddb72fdd09f7eec02e8b20f06401fc70c
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_1a65b513b8ec74eadfa4cbe4a4ec66ef7f02ed861b65dd1eeb84c70f597f5598
+  application_roots:
+    - Payload/Tiklingo.app
+  bundles:
+    - path: Payload/Tiklingo.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Tiklingo
+      signing_paths:
+        - Payload/Tiklingo.app/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/DesertAnt_UsagePrivacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/DesertAnt_UsagePrivacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/EXConstants.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/EXConstants.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/ExpoApplication_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/ExpoApplication_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/ExpoConstants_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/ExpoConstants_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/ExpoFileSystem_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/ExpoFileSystem_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/ExpoLocalization_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/ExpoLocalization_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/ExpoSystemUI_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/ExpoSystemUI_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/ExpoModulesJSI
+      signing_paths:
+        - Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Frameworks/hermesvm.framework/hermesvm
+      signing_paths:
+        - Payload/Tiklingo.app/Frameworks/hermesvm.framework/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Frameworks/libavcodec.framework/libavcodec
+      signing_paths:
+        - Payload/Tiklingo.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/Frameworks/libavformat.framework
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Frameworks/libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Frameworks/libavformat.framework/libavformat
+      signing_paths:
+        - Payload/Tiklingo.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/Frameworks/libavutil.framework
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Frameworks/libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Frameworks/libavutil.framework/libavutil
+      signing_paths:
+        - Payload/Tiklingo.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/Frameworks/libswresample.framework
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Frameworks/libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Frameworks/libswresample.framework/libswresample
+      signing_paths:
+        - Payload/Tiklingo.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/Frameworks/rnwhisper.framework/rnwhisper
+      signing_paths:
+        - Payload/Tiklingo.app/Frameworks/rnwhisper.framework/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/PlugIns/expo-sharing-extension.appex
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/PlugIns/expo-sharing-extension.appex/Info.plist
+      executable_candidates:
+        - Payload/Tiklingo.app/PlugIns/expo-sharing-extension.appex/expo-sharing-extension
+      signing_paths:
+        - Payload/Tiklingo.app/PlugIns/expo-sharing-extension.appex/_CodeSignature/CodeResources
+    - path: Payload/Tiklingo.app/RCT-Folly_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/RCT-Folly_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/RCTI18nStrings.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/RCTI18nStrings.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/React-Core_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/React-Core_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/React-cxxreact_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/React-cxxreact_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/React-timing_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/React-timing_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/SDWebImage.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/SDWebImage.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/TLAlign.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/TLAlign.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/boost_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/boost_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Tiklingo.app/glog_privacy.bundle
+      parent_path: Payload/Tiklingo.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Tiklingo.app/glog_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/Tiklingo.app/DesertAnt_UsagePrivacy.bundle/Info.plist
+        artifact_id: art_6039204ece63fee8b7b728c44f77f2f03028e8cfeeb154c56c6d9553af07632b
+        sha256: 55e0232afc54971d383afced94301423fd37291cba10cbc70fd2a81575fdde59
+        format: plist
+      - path: Payload/Tiklingo.app/EXConstants.bundle/Info.plist
+        artifact_id: art_fac8089a116af28aec5484398bf946b68695a986af82bab4658adfebfdaec79c
+        sha256: 88e7fc75db60116145d9391d50c05f025fd45427fd5d9f9e3d7d629f5ac55f84
+        format: plist
+      - path: Payload/Tiklingo.app/ExpoApplication_privacy.bundle/Info.plist
+        artifact_id: art_a8b87e777f201d359795c52e34396c12b7ec589d835ee30bb14630b9c5803419
+        sha256: 6aac41c36b9874dde3f3d6853c7c05c96a511ddcf440bda3fe772e83ef64c230
+        format: plist
+      - path: Payload/Tiklingo.app/ExpoConstants_privacy.bundle/Info.plist
+        artifact_id: art_c032a388a5452f910ca5efec93af58f4749d0608704ed83b5f695f4d2db4a889
+        sha256: 6241c768170617a84dd7f86c5479a1da2927c63c8c153c7033ffa7e6885ee3b0
+        format: plist
+      - path: Payload/Tiklingo.app/ExpoFileSystem_privacy.bundle/Info.plist
+        artifact_id: art_661385a9dad5b79bab3639739605947bc7557442f983e75d25ed0a4fbefc3935
+        sha256: 6e8cb95277de94cfc2ec4606a218da82fe47a68e8739c1f6fcbfb39ede8b04c6
+        format: plist
+      - path: Payload/Tiklingo.app/ExpoLocalization_privacy.bundle/Info.plist
+        artifact_id: art_ff4fd52606a27bf0f134d52326e951e8552c521950496658340ab41b1f8b866d
+        sha256: 01de4757f8c50789ebb9d9f99f363fc99405358c632de9cd1806cc32719bf2e4
+        format: plist
+      - path: Payload/Tiklingo.app/ExpoSystemUI_privacy.bundle/Info.plist
+        artifact_id: art_f7f0872e621d90a40bd4b3fcb8725c0d4b84d3862bd5229940cc2748aa32c90d
+        sha256: 56326ce8486f8fee507131203e6cb2e4f359f0a2b7ec7da9de0e9c20b9ffa106
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/Info.plist
+        artifact_id: art_fa88c124d0ef98e73172f0b4874b002823b7eb2fce30ff70249d5e3612a24aa7
+        sha256: b1ba0cef47751384fcf7f5ed299b3b404ca674976729830d9644244e30be949e
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/Info.plist
+        artifact_id: art_80e03f2e2ab2ec7ff65c4e23061293ca1e640f26b4c49f07837d5377ab590972
+        sha256: 81b2e6bbea3d54aae5301a238469675714d42d249605fc4e607f4cd03fbdf0cc
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_ca8e48d0e4bf26d96dbf321f5d523760cc27171334ddc22a24a6a4fd95fb1a3a
+        sha256: aa932cd7337f863390b5a1090afccb25c8c6fde19eb8b119674e1687af8f720f
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_d37d5e9c005ffd418e82388e092a1fedf9fada9295930f5babffa7e6be52737d
+        sha256: 0e2dc31664e15d20fcb43344990d1dbeb29c8e26e03bf53793077669cadec617
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_0e5a9681b76cf2b11b793bf785e29ef4b50af735baf4a099f37f52d3ecd08bdf
+        sha256: bf13463c66b84749356cc234139acfc5214ce3c7ea275b8af5cb9b8088a187dd
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_c8c1e2d0eaafdb9d3b873bb278f7bcca68dc52af88ba49f773c42f7042096639
+        sha256: 3f71d3603686545050ac15102fc455cfe4bceb00ab19b1d0ce490ed0c3f74884
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/Info.plist
+        artifact_id: art_d1503935ad335ea5152d5ff6dc9279f84e0739f8b4828df1eec7d72f1faabd7b
+        sha256: a4d6d8b1e9bd81d007890cfa9f476f89e7bd830349b06c88ed39a7c671133bdb
+        format: plist
+      - path: Payload/Tiklingo.app/Info.plist
+        artifact_id: art_7bbc154ee271802d24d362bc9590fadf40147d62aee69d2f5f8d5f3ba544b7f6
+        sha256: 1eae6333bd2c639487d85f8b2cf2a6abcfcfbcdccf54c16992e55c71d28255f2
+        format: plist
+      - path: Payload/Tiklingo.app/PlugIns/expo-sharing-extension.appex/Info.plist
+        artifact_id: art_67c381b57feef190fba9b7f75236a6dddd6b3fedb40a18b46aeb36a40c865326
+        sha256: 1c32f0da6cf07e868c7d5413f5609e64f3c562b5909760c9a09dccaf78c2d78c
+        format: plist
+      - path: Payload/Tiklingo.app/RCT-Folly_privacy.bundle/Info.plist
+        artifact_id: art_bde333398586c1fea44130dd4192d02dfa3918513f4706b279488870059fd237
+        sha256: c3578ffa24d6f233faec25de948cef925fc6deddc0b33f748e1b5055b2345588
+        format: plist
+      - path: Payload/Tiklingo.app/RCTI18nStrings.bundle/Info.plist
+        artifact_id: art_d2be56e7150d249bdd1c58c0b865edba8bc22835235327c959525beacb670b18
+        sha256: f90285e36f13a0c691139c33b6a5d9d9d1fd93235ec2a2cb91be2926d16783c1
+        format: plist
+      - path: Payload/Tiklingo.app/React-Core_privacy.bundle/Info.plist
+        artifact_id: art_133fe8983885331d488cb8b8dfc0ab7e805eb25d692bbf5c1aa40ba67b5b799b
+        sha256: ee786d2c2c7bc22ca5c61fd1bb7a202e2b0fbfe67158381e7a6a0458fe52ae09
+        format: plist
+      - path: Payload/Tiklingo.app/React-cxxreact_privacy.bundle/Info.plist
+        artifact_id: art_db91f60dd13febc2c5d76152db12af69ac0c9d3774d6b83ac7a32ca8ddc4e7fb
+        sha256: 8730b69ce9714216bdf44048b98462a2e0bb7bef3bed3480c3d48923f6159a11
+        format: plist
+      - path: Payload/Tiklingo.app/React-timing_privacy.bundle/Info.plist
+        artifact_id: art_31196de5c00457d525caecbfda0e644e12a40611736c32f059fb40e09b699e6b
+        sha256: a076789fed620b8d4c3c20c6ce9915290c9d71e744d294ff66f00e3810d1ce88
+        format: plist
+      - path: Payload/Tiklingo.app/SDWebImage.bundle/Info.plist
+        artifact_id: art_b2e1b2db494815fe9d4175b5161ee3c17f6db0eedd5d95eba864af940eeaa691
+        sha256: 1eb4ee907400cf957f7a8d5413311a94a9720f3881fc1851bb01ffc240753e0a
+        format: plist
+      - path: Payload/Tiklingo.app/SplashScreen.storyboardc/Info.plist
+        artifact_id: art_1274aa2674ce3fa634223c20dc718f1e6e7fdf5411823c46458474cca700829e
+        sha256: 74dbceed6cf0a5e5c69834793328c9783ecab1de482d4954e257ca2132b743af
+        format: plist
+      - path: Payload/Tiklingo.app/TLAlign.bundle/Info.plist
+        artifact_id: art_b52e7be9207d979a7654deaac43f41644c1f31dcef0494c3b7c3ef9c901e0ea7
+        sha256: b09291414ae3276f0687d49649af45d23390ead832301e9526d71b20fbaed18e
+        format: plist
+      - path: Payload/Tiklingo.app/boost_privacy.bundle/Info.plist
+        artifact_id: art_2bb91177dffd2fcf6324ff96e23d6ef76967c13e07702699293ba6f60ddfc7ec
+        sha256: 9f535a806c71c322c79a001838830a30e8cc372f76261747a71de4b184bc6839
+        format: plist
+      - path: Payload/Tiklingo.app/glog_privacy.bundle/Info.plist
+        artifact_id: art_b3c74a91ff8dc1a1051fa47fb2acca74763090748217ae810a9584b3f4e303b7
+        sha256: 59aaeaf0df618a53afce002a44862e02cb612b7eae228952650fdcd7468e7e78
+        format: plist
+    executables:
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/ExpoModulesJSI
+        artifact_id: art_ffed31902bcced5b0ecbc04f9a359f259dd2c6c0619c8ed7ed505ee3d30e6c76
+        sha256: 17a8640bfb575915f222a01c8793c5807b53cedfc57d32c781d674a8ed02457c
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/hermesvm
+        artifact_id: art_14ec4e564e2d265b9db94703906eafb3726b9261092424ad76dc46c793589c48
+        sha256: 3d197c87043d94c59fb30a6e834681f02583c2be848de26a8963cd3cfe127e03
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_9cb1a4ed929c8ce7e4e73881a0c0a2d9dacf3b20d8c1240437100521e307a3b1
+        sha256: 69ab5fc96552ccf08f812f808f3e33a411b016aae2e5aaf4d22eb882c942ec46
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_6f2a0c16932be7bb33b997298d253c9b4f11fe6bcbb79baf42908db76e13e9e5
+        sha256: ff169c9bfc78a7fff3034cebf68d43a267b57fea90acf8d78dfab01121339916
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_6188763d20f7c04ac5982fe4563876d74467d74fc670ef9c29da1ebc7377fa98
+        sha256: cd8553a7a98dc408d11b818dea9ac1309f9b496e7852363523f1f9c2309ff506
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_ca17985e7314a9713e1bb3fcc494daa1502d0361e178e8af230152e7ec7fb3d0
+        sha256: 269874cc962cfc45c16c581858285ef94413a06912e255004339a5a663077c84
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/rnwhisper
+        artifact_id: art_71a792ab5f31219cfb384c6b03debffbde497d579347f85b2547b0bb3c91e9d5
+        sha256: b4f3fdc5776a36946bee8517abfe35b0725d7c70b531e3518673f0d382035912
+        format: mach-o
+      - path: Payload/Tiklingo.app/PlugIns/expo-sharing-extension.appex/expo-sharing-extension
+        artifact_id: art_106b683cb3f3f4ef2d16622b9d1105831c6a4e7bc31b543227124eea85318737
+        sha256: 44ac8530061a83afffeb73e78bcb2450b3c3000db132203387a5dec2d2824532
+        format: mach-o
+      - path: Payload/Tiklingo.app/Tiklingo
+        artifact_id: art_2bbacd80c13f5515a2ef1f607d63d4f56903e4f769677a767221dceb034efdb0
+        sha256: 8bcc0bf0335ef60869c7c93bcf6b952899429b51ab7266429a7e65786f34feec
+        format: mach-o
+    frameworks:
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/ExpoModulesJSI
+        artifact_id: art_ffed31902bcced5b0ecbc04f9a359f259dd2c6c0619c8ed7ed505ee3d30e6c76
+        sha256: 17a8640bfb575915f222a01c8793c5807b53cedfc57d32c781d674a8ed02457c
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/Info.plist
+        artifact_id: art_fa88c124d0ef98e73172f0b4874b002823b7eb2fce30ff70249d5e3612a24aa7
+        sha256: b1ba0cef47751384fcf7f5ed299b3b404ca674976729830d9644244e30be949e
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/SC_Info/ExpoModulesJSI.supf
+        artifact_id: art_aa7ae90edad1da561184d175f8534aa4385f0a5d8b4dd99bb6372593c1f62b14
+        sha256: ba071220756e04920b2e03e7aae5dcad81670452d1772d54594ce891747c430f
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/SC_Info/ExpoModulesJSI.supp
+        artifact_id: art_57b4ffda57a3c052263fd12d3a3bac8a32c130796eec41ffeafb792ed9b95ba3
+        sha256: df3b6a1eaf9e64fed35fab1ee38eaf5f2c2d56b50eb7e6985b662d554adfb09e
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/SC_Info/ExpoModulesJSI.supx
+        artifact_id: art_100c55fe5e7b825f2b8318dbc559c3d4702a922167e4e168900b8ebb1e93345e
+        sha256: dab99800c710ac4b7e0ff6d8ecde4a609826d91fef41e96d634f33468825f6c6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/SC_Info/ExpoModulesJSI.v4.supp
+        artifact_id: art_1146f59b752e9f00040059546cef562fb741e00ed13ac67683b50a21c896d75e
+        sha256: 4ed743204ae7e1d88c30e96bcd8b545ca834d51e7420eb65980472843eb450e9
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/SC_Info/ExpoModulesJSI.v5.supf
+        artifact_id: art_4e064fe6d8374ea0642a40c95993ca649032d7c09038df6b688197775d054714
+        sha256: d9584fdd7895f90c01504b0e847520ca679bbef0c2c346a9d91481e479f61280
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/_CodeSignature/CodeResources
+        artifact_id: art_65bf7495f348c767f9d1ecc9a4ce722326f6e9875406ef92ab44674473eacc74
+        sha256: 3cb92a30e7ab3b5c181a3f2c9547503cda51af3fb24648821d1da6bad161c001
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/Info.plist
+        artifact_id: art_80e03f2e2ab2ec7ff65c4e23061293ca1e640f26b4c49f07837d5377ab590972
+        sha256: 81b2e6bbea3d54aae5301a238469675714d42d249605fc4e607f4cd03fbdf0cc
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.supf
+        artifact_id: art_996597d8bad6ad8f6f47286df335b499d24891f1f276f90a5375f7047c58e949
+        sha256: 20780c782dbea0255cd487440c74e37b92a97bef86d7b5715ee3bd0c47fe22a6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.supp
+        artifact_id: art_938c5718341e616a6036f45f19538046fd340e997cfe0e44b74502efac900772
+        sha256: 6616eeb4c3b52146ce83f251963a5ef5626167996045f3e53e385ab1cee75ead
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.supx
+        artifact_id: art_100c55fe5e7b825f2b8318dbc559c3d4702a922167e4e168900b8ebb1e93345e
+        sha256: dab99800c710ac4b7e0ff6d8ecde4a609826d91fef41e96d634f33468825f6c6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.v4.supp
+        artifact_id: art_79ded60e17e7cfe582f9c8c2985a43133c6aa840ade6a8d269f0b240fcc2e567
+        sha256: 5994b774317d4df86d2aa3be090f61e991af3ac036c3c79f3cb213e4c8478e1d
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.v5.supf
+        artifact_id: art_467a79a58d0a3e5e6624d2bdba309d5323c8e77a2e8b4a6ab99b1bb30ec97a10
+        sha256: d605bae548a4185898d3059f081b748d0cf7a08d6a3bbe13f195a40c92dd3ee7
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/_CodeSignature/CodeResources
+        artifact_id: art_9c329b9376a231ecbbd3dd3389b138babac73a673108c8a7bdf335b0a96a6237
+        sha256: c0e30d4d166b7b80f39cee63e104244adbf781df8b5d8aaba3ff701d57f7921c
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/hermesvm
+        artifact_id: art_14ec4e564e2d265b9db94703906eafb3726b9261092424ad76dc46c793589c48
+        sha256: 3d197c87043d94c59fb30a6e834681f02583c2be848de26a8963cd3cfe127e03
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_ca8e48d0e4bf26d96dbf321f5d523760cc27171334ddc22a24a6a4fd95fb1a3a
+        sha256: aa932cd7337f863390b5a1090afccb25c8c6fde19eb8b119674e1687af8f720f
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supx
+        artifact_id: art_100c55fe5e7b825f2b8318dbc559c3d4702a922167e4e168900b8ebb1e93345e
+        sha256: dab99800c710ac4b7e0ff6d8ecde4a609826d91fef41e96d634f33468825f6c6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v4.supp
+        artifact_id: art_cfd333d5b46bf407103900369ee5489236f475d5faeb0bb4e887c09917a5373e
+        sha256: b5d573e2b51b8e3c12c18200294e7b8831d2956216b08ec94bee7cdd38de6750
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v5.supf
+        artifact_id: art_2657cf04f23d590ba5fd7c04c9424be69f011302dd680ba57cf12b13e07ff23c
+        sha256: bed481d8111543f4f4545a1e97c29007220dded897681ddff9ca33458d9afc95
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_966100ceb6b0ba7c82e1a00c174e7972047f5141574545ade73b9ee3425e28ac
+        sha256: d3736c867eb2e50f0f1ac492ad1b40d74399f249718477e717612c7117db5bf5
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_9cb1a4ed929c8ce7e4e73881a0c0a2d9dacf3b20d8c1240437100521e307a3b1
+        sha256: 69ab5fc96552ccf08f812f808f3e33a411b016aae2e5aaf4d22eb882c942ec46
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_d37d5e9c005ffd418e82388e092a1fedf9fada9295930f5babffa7e6be52737d
+        sha256: 0e2dc31664e15d20fcb43344990d1dbeb29c8e26e03bf53793077669cadec617
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/SC_Info/libavformat.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/SC_Info/libavformat.supx
+        artifact_id: art_100c55fe5e7b825f2b8318dbc559c3d4702a922167e4e168900b8ebb1e93345e
+        sha256: dab99800c710ac4b7e0ff6d8ecde4a609826d91fef41e96d634f33468825f6c6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/SC_Info/libavformat.v4.supp
+        artifact_id: art_221072c545dd73efc7ab461b697681240c67b49a0454e4b40aa8fcc275d46722
+        sha256: 0f244f2de6210e53aa4e4d91b6c3dafe5fd662d63dccfa1443d7a166505bdf33
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/SC_Info/libavformat.v5.supf
+        artifact_id: art_a0d22e1f9170f337e7635b9a58c09676fe60cc289cef2554b169683e9721fe72
+        sha256: 2f0fb770f05f53031c5c391d9f87e42f921f63680759c3aa0c172bbf5c7115b1
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_79927ec3f53323b58f00ab5ea91d64bc499c441ca959cc45ba8c3d5ae668caa0
+        sha256: 94918778795afc367a059075f32054f9e085a2eecdfe4ec91a8891ad3d353175
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_6f2a0c16932be7bb33b997298d253c9b4f11fe6bcbb79baf42908db76e13e9e5
+        sha256: ff169c9bfc78a7fff3034cebf68d43a267b57fea90acf8d78dfab01121339916
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_0e5a9681b76cf2b11b793bf785e29ef4b50af735baf4a099f37f52d3ecd08bdf
+        sha256: bf13463c66b84749356cc234139acfc5214ce3c7ea275b8af5cb9b8088a187dd
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/SC_Info/libavutil.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/SC_Info/libavutil.supx
+        artifact_id: art_100c55fe5e7b825f2b8318dbc559c3d4702a922167e4e168900b8ebb1e93345e
+        sha256: dab99800c710ac4b7e0ff6d8ecde4a609826d91fef41e96d634f33468825f6c6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/SC_Info/libavutil.v4.supp
+        artifact_id: art_9597a705a702fa84eb77ec9343975339688264b3d9cf4f79382bd658c38e7bfa
+        sha256: 0ef33a6292070d8f440fda469c5696ee1fa8c7b5493ae977003033363c1834d6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/SC_Info/libavutil.v5.supf
+        artifact_id: art_4863e3ecb92f3caa3dab34d7ffd88f12b4c9da5eb42630c67ee249e34e57c81c
+        sha256: a77745d20cd05df1231303a9928d18f2e88aee4adf602f4bb4cbac02ce5ba273
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_3a5fe16e409c0fdc988b3f9d1ae62767e0b37f94df1099090dc866eca3f52a80
+        sha256: 92cceefcf9228916693faafd71ec5d034fb42e90847c1ee17dbfccc4e3f4bd23
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_6188763d20f7c04ac5982fe4563876d74467d74fc670ef9c29da1ebc7377fa98
+        sha256: cd8553a7a98dc408d11b818dea9ac1309f9b496e7852363523f1f9c2309ff506
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_c8c1e2d0eaafdb9d3b873bb278f7bcca68dc52af88ba49f773c42f7042096639
+        sha256: 3f71d3603686545050ac15102fc455cfe4bceb00ab19b1d0ce490ed0c3f74884
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/SC_Info/libswresample.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/SC_Info/libswresample.supx
+        artifact_id: art_100c55fe5e7b825f2b8318dbc559c3d4702a922167e4e168900b8ebb1e93345e
+        sha256: dab99800c710ac4b7e0ff6d8ecde4a609826d91fef41e96d634f33468825f6c6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/SC_Info/libswresample.v4.supp
+        artifact_id: art_096f49a2c2ba0768440b61ba21d76321e0d7bb3b93a43a28089d895d00e51b8d
+        sha256: 4dc9447821aeabaa852cf8f320c816b86396cfbc1147c74222805ac786bcf9de
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/SC_Info/libswresample.v5.supf
+        artifact_id: art_b337970f538d754cbadac3ec52decaf6f4a82fe710296144fab6615b725a18b5
+        sha256: 65e1643823080c7ac71ab1b2060efaacb5e578345ed6b803d65c4df337b7f5ad
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_7bac793ec589b84220bd0de128f3daa0da0a5c8a8aa1a55b4148319f28662370
+        sha256: c24e6c2ebea8a71226050c6bfe14175e478b685442837f52b1669b5db5ce0077
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_ca17985e7314a9713e1bb3fcc494daa1502d0361e178e8af230152e7ec7fb3d0
+        sha256: 269874cc962cfc45c16c581858285ef94413a06912e255004339a5a663077c84
+        format: mach-o
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/Info.plist
+        artifact_id: art_d1503935ad335ea5152d5ff6dc9279f84e0739f8b4828df1eec7d72f1faabd7b
+        sha256: a4d6d8b1e9bd81d007890cfa9f476f89e7bd830349b06c88ed39a7c671133bdb
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/SC_Info/rnwhisper.supf
+        artifact_id: art_c0663bbaf31aa707a5e8921254d3a775b1648faac883fdfd1cfcfc2b3cf7e3bb
+        sha256: 1d42a7d0a1da2323f4779de92eb23d2d55bfb5b2d82d536faf289345d62f07d2
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/SC_Info/rnwhisper.supp
+        artifact_id: art_3eb0dec800b8f00f16203df8f18405249dbcf9c88a7158cc5142823eaa8721e8
+        sha256: 7debb5f9fac02b9bf6296485e83be97f9875aa9734499d5985a33312213f90f7
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/SC_Info/rnwhisper.supx
+        artifact_id: art_100c55fe5e7b825f2b8318dbc559c3d4702a922167e4e168900b8ebb1e93345e
+        sha256: dab99800c710ac4b7e0ff6d8ecde4a609826d91fef41e96d634f33468825f6c6
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/SC_Info/rnwhisper.v4.supp
+        artifact_id: art_69548b192c9fb9602c2b81fa4d7a1eeaa6150565d206af89ff072c000c48fe9c
+        sha256: bc06a72d938463fe89379b53b3ab0a2674dac5a0658fbbe3591ac96e24c1118d
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/SC_Info/rnwhisper.v5.supf
+        artifact_id: art_489bb36fd7af94cf87e3278779183f6c4b62c20709509df4c6759d818d176630
+        sha256: c0e225e5f50256d007444553305cbe590ac3ac4feb4bdc0aed17791b99f9cfa2
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/_CodeSignature/CodeResources
+        artifact_id: art_a0cc9d10728bad360f2d037d64a8d7a259e25b73c479a0c1d195fdf9541e1a8d
+        sha256: cfb2d8b7739ea5214012f765e58f77ddbc1fab7238ad9e038e80979a74702396
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/ggml-metal.metal
+        artifact_id: art_426e337a43401bfaebf17297321f9616cbcf92dd2602257e56f9fe1988e61e02
+        sha256: 8a37048e1a71dd8299f58b26036d9587d2a45874de05d9955eaa1aba0cf844e9
+        format: file
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/rnwhisper
+        artifact_id: art_71a792ab5f31219cfb384c6b03debffbde497d579347f85b2547b0bb3c91e9d5
+        sha256: b4f3fdc5776a36946bee8517abfe35b0725d7c70b531e3518673f0d382035912
+        format: mach-o
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/Tiklingo.app/Frameworks/ExpoModulesJSI.framework/_CodeSignature/CodeResources
+        artifact_id: art_65bf7495f348c767f9d1ecc9a4ce722326f6e9875406ef92ab44674473eacc74
+        sha256: 3cb92a30e7ab3b5c181a3f2c9547503cda51af3fb24648821d1da6bad161c001
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/hermesvm.framework/_CodeSignature/CodeResources
+        artifact_id: art_9c329b9376a231ecbbd3dd3389b138babac73a673108c8a7bdf335b0a96a6237
+        sha256: c0e30d4d166b7b80f39cee63e104244adbf781df8b5d8aaba3ff701d57f7921c
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_966100ceb6b0ba7c82e1a00c174e7972047f5141574545ade73b9ee3425e28ac
+        sha256: d3736c867eb2e50f0f1ac492ad1b40d74399f249718477e717612c7117db5bf5
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_79927ec3f53323b58f00ab5ea91d64bc499c441ca959cc45ba8c3d5ae668caa0
+        sha256: 94918778795afc367a059075f32054f9e085a2eecdfe4ec91a8891ad3d353175
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_3a5fe16e409c0fdc988b3f9d1ae62767e0b37f94df1099090dc866eca3f52a80
+        sha256: 92cceefcf9228916693faafd71ec5d034fb42e90847c1ee17dbfccc4e3f4bd23
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_7bac793ec589b84220bd0de128f3daa0da0a5c8a8aa1a55b4148319f28662370
+        sha256: c24e6c2ebea8a71226050c6bfe14175e478b685442837f52b1669b5db5ce0077
+        format: plist
+      - path: Payload/Tiklingo.app/Frameworks/rnwhisper.framework/_CodeSignature/CodeResources
+        artifact_id: art_a0cc9d10728bad360f2d037d64a8d7a259e25b73c479a0c1d195fdf9541e1a8d
+        sha256: cfb2d8b7739ea5214012f765e58f77ddbc1fab7238ad9e038e80979a74702396
+        format: plist
+      - path: Payload/Tiklingo.app/PlugIns/expo-sharing-extension.appex/_CodeSignature/CodeResources
+        artifact_id: art_5c09095ff0bf4be0920449e8c8925097956bda1c5ab99d04c08bd28cdd9b37cd
+        sha256: 6dbec4b5924a5f297db1d5c61e7a437eaa7f310d1b85b6564e9f6f89897fec00
+        format: plist
+      - path: Payload/Tiklingo.app/_CodeSignature/CodeResources
+        artifact_id: art_f9b8f25a36d55684c9c6183c59f48b1a2e89935a4bd17c27a899fafcae055731
+        sha256: 8f76ddf1a8c5865d4c5a063409c8bef08efaadd83f4142782ba3fa3a13031336
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_1a65b513b8ec74eadfa4cbe4a4ec66ef7f02ed861b65dd1eeb84c70f597f5598
