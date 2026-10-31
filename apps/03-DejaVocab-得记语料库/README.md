@@ -1,4 +1,4 @@
-# DejaVocab (得记单词 · 个人语料库) 全量逆向分析报告
+# [最新 v2.3.6] DejaVocab (得记单词 · 个人语料库) 全量逆向分析报告
 
 目标：`com.dejavocab.app.DejavocabApp` (脱壳包 522 MB)
 
@@ -35,3 +35,6 @@ DejaVocab 内部不是简单的「导出 Anki 卡片」，而是**在 App 内部
 
 4. **`AnkiMasteryDashboardView.swift` & `AnkiCardManagementView.swift`**：
    - 卡片管理与掌握度看板：统计卡片总数、记忆率、平均间隔天数 (`anki_avg_interval`) 与学习热力图。
+
+> **基准版本更新**：已通过官方 ipatool 重新脱壳至 **最新正式版 v2.3.6**，并由 REA 6.8.0 重新投影 Application Graph 全量架构证据链。
+

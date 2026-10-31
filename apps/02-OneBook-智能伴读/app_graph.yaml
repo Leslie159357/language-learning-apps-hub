@@ -1,0 +1,1842 @@
+evidence_id: ev_c06cc3be088c5844e27a6a5dfcc22ca200f3f76c55aa025517dba8dfe8d56298
+subject:
+  name: OneBook_latest_decrypted.ipa
+  digest:
+    sha256: befea9cc931f14f87a67a5eb7ae8a134d3494770368a450e87509f49e8bc1b27
+  local_path: /opt/data/downloads/newest_decrypt/OneBook_latest_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_56d26b8b696aa563a15509c1e46009b2e6966da41c9cd6bcd95c11a1dc40cd01
+raw_result: null
+normalized_result:
+  projection_id: aap_31df92e2e3115886eaaf89dedfadad002aa1da79a1b08534274cd805a8ffe6b1
+  root_sha256: befea9cc931f14f87a67a5eb7ae8a134d3494770368a450e87509f49e8bc1b27
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_56d26b8b696aa563a15509c1e46009b2e6966da41c9cd6bcd95c11a1dc40cd01
+  application_roots:
+    - Payload/OneBook.app
+  bundles:
+    - path: Payload/OneBook.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/OneBook
+      signing_paths:
+        - Payload/OneBook.app/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/CLiteRTLM.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/libavcodec.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/libavdevice.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/libavdevice.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/libavfilter.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/libavfilter.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/libavformat.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/libavutil.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/libswresample.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Frameworks/libswscale.framework
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Frameworks/libswscale.framework/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+      signing_paths:
+        - Payload/OneBook.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/GRDB_GRDB.bundle
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/GRDB_GRDB.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/Info.plist
+      executable_candidates:
+        - Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+      signing_paths:
+        - Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/_CodeSignature/CodeResources
+    - path: Payload/OneBook.app/Python-iOS_PythonSupport.bundle
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/Python-iOS_PythonSupport.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/OneBook.app/SherpaOnnxModels/espeak-ng-data.bundle
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/OneBook.app/StreamingTtsPlayerKit_StreamingTtsPlayerKit.bundle
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/StreamingTtsPlayerKit_StreamingTtsPlayerKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/OneBook.app/ZIPFoundation_ZIPFoundation.bundle
+      parent_path: Payload/OneBook.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/OneBook.app/ZIPFoundation_ZIPFoundation.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/Info.plist
+        artifact_id: art_be8515784a3f3690464502f57a1858b0f34aabdbe92d3e7e3fdc99c01b375c08
+        sha256: e5ef1593aa1a65d229a31d7c72ea16eec15fa74fceef3a469099a6bab16d6647
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Info.plist
+        artifact_id: art_ebf8feaaf7646d099b6d03cd705e3a08eeddf8dfad9481e99ae3508ad36ac8da
+        sha256: 94c22c5104dda7de9fad85218d5a5112a551bf0ed41f4c21d6cdba108da00781
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Info.plist
+        artifact_id: art_dcecec24576cf5ffdf0399677e6615fa5c6f5c031ece4bbf5cbabd03e5bcafcc
+        sha256: 6390999ff1e75f0e38f3dcba07c2518ec36f5e8ca1cde3406556946fc1945dcf
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_47d1795c78e2eae426caebc9c0732fa8a58d813110689bc4e4a5c6f0fb6490c7
+        sha256: 575dceda382abf985ac2bec65dab68cacef44007a638f867acb6703bfb29e928
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_6ea9d7ead86ae9ec29671ac2dcc06085ba0068ecb559eb3ceeb7b6c29bb958e2
+        sha256: b723786e082157ab12ab6415952397ed0ccfbca6f07353d8a86dcbea4d85a6e6
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_9b6d0970d47ca9bdd6cd79b6484635f67d783924480c84a4630bcc1191942a09
+        sha256: 97205fc2130af65ff435267ddc06f8f078e22adbb77faf34a3582218340ea543
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_e089dd1671e714ae139f26aae0ff535be2c70cb684b1600a77cf56606572a77e
+        sha256: 552500a11edaf7774b5311c66bfac3cdd7b7c33ae6a5805c65b8fd287914d204
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_fd43d109b92478910f16cdeff1900e753b85647e59654138eee2a87db45e92a5
+        sha256: 20b7b6ffba8edc2ce180618c4ce093286791874173e1a136434b39a3b5d86063
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_bfbe4879160c20c6c1bf8bdac26705a602a67d077922ffca1ff29587b8c7b906
+        sha256: 31b7ee7027240740725830cf6f9c9d6e3bb8737d44513348dc08deb60f8a92b6
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_1b9a68563ec7a9a8d198288df8ef10460ba44a57f1594673d8412360e4264958
+        sha256: 022673185411befc7597ef7da2620fc29af83cdd4f35320ff329e32f52edebb7
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_7988d27d20f3c9fecc26c92e02227b5d4bca7c448f4b4c40c9b2909622c3ab32
+        sha256: 590af23c33decdc35efd1aa30b7c405941208979d61e5014a009ffdecfac4aa4
+        format: plist
+      - path: Payload/OneBook.app/GRDB_GRDB.bundle/Info.plist
+        artifact_id: art_a009b2826a02771ea9a249bb8a54cd78ffc603ae7f66a7e6e365ad9436bb80d7
+        sha256: a40e3a799637d6fc30570ecbf9557339d8107a17a8933412aaa4430eb117ce58
+        format: plist
+      - path: Payload/OneBook.app/Info.plist
+        artifact_id: art_31c13d7abff93847a2f01a14945a4663bf64a8c7dbeacd8f996a0d811674fae2
+        sha256: b397be05a8f72cbc7719177c2d1fe69bc9ab4a43db7b74b6db543736054479e1
+        format: plist
+      - path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/Info.plist
+        artifact_id: art_e93eb170f6d13a5e482a8aaee03b0eb3c00d72ab834fcf132705c1977807bd7b
+        sha256: a8cdcb3263d48855028de7c0c7105bef1056731a898bb5499bda29cd33c183a9
+        format: plist
+      - path: Payload/OneBook.app/Python-iOS_PythonSupport.bundle/Info.plist
+        artifact_id: art_0398675f7887f959ac6c955842141a13ff7dfdf13225bd05844fae3f64f0c8a9
+        sha256: 472157324ab63ea9038b7a1a2a06ce305cc09b83cd279da19480352ac0c921ec
+        format: plist
+      - path: Payload/OneBook.app/StreamingTtsPlayerKit_StreamingTtsPlayerKit.bundle/Info.plist
+        artifact_id: art_e657e0d5e2114c32f15dbbe3a2e4129ea3ff83118739375ea392cac36bef2302
+        sha256: fea6d238f68c559255f964ba3aa0632d78305453ea34ec0e6c88b31e8fdee092
+        format: plist
+      - path: Payload/OneBook.app/ZIPFoundation_ZIPFoundation.bundle/Info.plist
+        artifact_id: art_58c20e734ff11e9bf5c503580104b8a7924760b81f3c9427ac6b6a11e0197836
+        sha256: 860b2b7bbc38f479fc91a01ef716d57261b72e03f06d8c7ec75e6c2f23b0f1a3
+        format: plist
+    executables:
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+        artifact_id: art_cc4fbec7c646f04d461b97740a59a8def2069b516a5a12b85b92e392e00c98b4
+        sha256: e5221f6d6bed79d3acc142002f6e8cde593f5f8cacf08de117a4edc51d02810e
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+        artifact_id: art_62676d753219361bcb0e799c0279ea066d066fce00633b32c2217274ff996b26
+        sha256: 7b58e40e496ee600a64167eb273e65c189f528cc64a508bcf29981e1d2d536c6
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+        artifact_id: art_237f7e65406e558df5aa5274d555dd9170d82314159a80900f245f19a20c1b22
+        sha256: f43b95e667e6065fda9e86f3818762ddd406380a38fac68027f28cf6912ca3ec
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_c89c2493b2829263f39a350824cef93505730a774719c3edbd5cd29711f9e285
+        sha256: de382eae671a12815451c5d29d2136a4104fd667b30b51558b42e3c4051e540e
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_0668117ec687044c3d03b267bb65932fc5fe083a4adfb9546280a7f921df0d2c
+        sha256: 6ec4b3d96d56d898ae4127309e50ddb79311239518fd1d245df5856eb50013e7
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_5df1a61a8e2e10446913157bc3216c36be60cde7534b9bd861fdfdb02c0f6321
+        sha256: 6f5c118e45de6d5aa62b25c47476785992d3f4c3b007bc5ebd1711cba3b9ea46
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_ef02153e8ec02c0dccdc63b41103801633cc9aa072df4a5fe2ba0628d2efbfe9
+        sha256: 2bc300e8678ff23c13964d8914bfe8cebfe902d36dcf6e928c4af75aab2f4c6e
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_6d4bfcc0b2501296063e953d52ab5e60dad263fa415552571aa902eccf900661
+        sha256: f541b21ce3f27dad418177b330280994309b799936d2b58c57b1653bc76758c8
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_db076fa8097067039cf3fa676aa5e31d560a8add12769aed115b45fc370341b4
+        sha256: 55e0d8c5ef44831e662b0fa6a48ee9f58c823eb9c9be1a0023df25831be6e8fe
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_44ed64425cfefc7765c35ed69a88b738fffa0a7fbcef80017290552f6b633a61
+        sha256: 8343045f02a4e198e18277bbb0e0139cd6f0ba7720bf3745cb430517a41766d6
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_ff72996efa3429df099e188b73d5a445eae3ed50068482860e0fcd705a8dd391
+        sha256: 7d5b1f6db5f3481ac72bcb0073b24c7e521fd0628d1066b6cc38ce61fec77bee
+        format: mach-o
+      - path: Payload/OneBook.app/OneBook
+        artifact_id: art_7d5f5a825bfdec55e637c32d2e13cf7e7c3a88ebea308ae854f5e673e411e1b0
+        sha256: 5bfaf7769a9f612aca81c18f3e0256e4952ffc5b9ca32790c4116ced0a7028f6
+        format: mach-o
+      - path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+        artifact_id: art_6273c35347514d1e9bec2d2ec77b73ba8af864e4ebaaf7c56a462e748ecb9643
+        sha256: c1006ef9cab1a068a01f0e66aacefa25c9e69da62866d77ac52f1ea46c56d982
+        format: mach-o
+    frameworks:
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+        artifact_id: art_cc4fbec7c646f04d461b97740a59a8def2069b516a5a12b85b92e392e00c98b4
+        sha256: e5221f6d6bed79d3acc142002f6e8cde593f5f8cacf08de117a4edc51d02810e
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/Headers/CLiteRTLM.h
+        artifact_id: art_311e6d841708153be8d362dbd47a8795fb1d26e12ea010672dfae362c0b8b75f
+        sha256: d499e2426ab4dddba1cd7532adbd328115c309831121c95f5e95dd9b6952312d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/Headers/capabilities_c.h
+        artifact_id: art_53473e2e32c814e05f0060f205ed2e3f5b56fc61cb747761e3d9639a8ab2574c
+        sha256: e9974d02b5ffe5371464229269c830f6f8240eec7a80e0af9117f0efe2f81975
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/Headers/engine.h
+        artifact_id: art_f28b41dcd72ce8f95ee148a5c15c5538c894f71c8159e7378b8d829a4952c749
+        sha256: 39f7819c7c1cddeb34af986ddc3e82b9b52cdd23ce541fdd70015487f99e367e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/Info.plist
+        artifact_id: art_be8515784a3f3690464502f57a1858b0f34aabdbe92d3e7e3fdc99c01b375c08
+        sha256: e5ef1593aa1a65d229a31d7c72ea16eec15fa74fceef3a469099a6bab16d6647
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/Modules/module.modulemap
+        artifact_id: art_03e9e301072bd1697456dd7fedfbcd32b1888c1883f94729f2733989b84a8728
+        sha256: b04e927813750223fe715472ee460b0295ec7fbe61c7f98aef0dbf4576d0d2d1
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/SC_Info/CLiteRTLM.supf
+        artifact_id: art_3650755822d5d6702ec6baf1588383aeb7f9d474a4a47728e3c314abc247d86e
+        sha256: fe99bc8b7ed158bcaf3979a06bd609ad72436ae15e5140a92edcc2801b7d61c2
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/SC_Info/CLiteRTLM.supp
+        artifact_id: art_770e8af0d057e10599b7c70c950b086dc7b93a1e6b728d062b3642f6833a337c
+        sha256: 4cadf5e09a99add7b1b2722e1d47b76ea93211bd5b7f6cbb9829a144869c5219
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/SC_Info/CLiteRTLM.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/SC_Info/CLiteRTLM.v4.supp
+        artifact_id: art_e5ac3055d007825a89f0bb0f1fcaa1d466db22e7df2b5cc8c764ac8a8e2da401
+        sha256: 277a0404e40cd6b84483aa483cc04a641c32347568e8b4370e56707b9654ae05
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/SC_Info/CLiteRTLM.v5.supf
+        artifact_id: art_043e6ae809a2adf7c80684286ce2454545d59170e9ce9c4df908c836d1c855ea
+        sha256: b94b19f0207ec2e305d4528a4be81acb2cf44aef2bba4480659e70d942ce2e1b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/_CodeSignature/CodeResources
+        artifact_id: art_aec6f0d4cb366b295fdaeb2420dfec2d797d4d15742d0cb2c10c40d2206d9773
+        sha256: 0874cabd50cee4f3670b41f506f12f16b27b7bf4726d95485dd5950b219d5dcd
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Headers/OnDeviceGemmaKit-Swift.h
+        artifact_id: art_511dd3b00e4c17c283c2ecabadf6dc012fa6bacebff4709d7a32a2bd25092a0e
+        sha256: a89a3226491d52d93c31e835999854942c27eee2e93865578e97b90ed04e8599
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Info.plist
+        artifact_id: art_ebf8feaaf7646d099b6d03cd705e3a08eeddf8dfad9481e99ae3508ad36ac8da
+        sha256: 94c22c5104dda7de9fad85218d5a5112a551bf0ed41f4c21d6cdba108da00781
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Modules/OnDeviceGemmaKit.swiftmodule/arm64-apple-ios.abi.json
+        artifact_id: art_518e16ceaee2461f0af906697521d97f6e0442364d3713e70c1fef61ca6e9c9b
+        sha256: 4277ac6b49f8511196028a5ac20f5b1b1dfa754c24615d34068089f0b1739728
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Modules/OnDeviceGemmaKit.swiftmodule/arm64-apple-ios.swiftdoc
+        artifact_id: art_1fb21913554686cbd0a1e1cb85fe1330dd4da5185880716f62c44ddd885fb72d
+        sha256: 913cc022222e80025a49ee498f734e0150a291fa6be956de6cd62dbc0af5fe0d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Modules/OnDeviceGemmaKit.swiftmodule/arm64-apple-ios.swiftmodule
+        artifact_id: art_206aa328c2548ffaf21c0e78fd17f7743944016b137c5568c34ecbe7f6fafdd3
+        sha256: 711b3bb289f90c5abe843e8387cd2a82ff048d6b0c2e51859cb9f67a2a4a57da
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/Modules/module.modulemap
+        artifact_id: art_56c6a84807e9bdbfa8c73cd33923aacd85f54e6cfbf69926412aaf3846152de4
+        sha256: 68c2a83f6b8b8e3f18ea35bc2c14974510f3af7b86ed96cea5ccb6f772b5592a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+        artifact_id: art_62676d753219361bcb0e799c0279ea066d066fce00633b32c2217274ff996b26
+        sha256: 7b58e40e496ee600a64167eb273e65c189f528cc64a508bcf29981e1d2d536c6
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/SC_Info/OnDeviceGemmaKit.supf
+        artifact_id: art_043f93a63d1261d37fdbc60a3f6fa9e4e8ba73a3d53d3459caa1a8592f6bf7b3
+        sha256: 0f1899ce13361a98026feb181e54ed2e22dea6c3294ccb9079c3baac83058f35
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/SC_Info/OnDeviceGemmaKit.supp
+        artifact_id: art_3afc1024dab7897ac417e8655a4711528f6f154532c36d6e9b8453cad0c1a2b9
+        sha256: e022e4182f7ff0c6547ec4cd088c798111a7d758c547f74ff8841475cd22379b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/SC_Info/OnDeviceGemmaKit.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/SC_Info/OnDeviceGemmaKit.v4.supp
+        artifact_id: art_d72a1fb0759383f37a622d7f304770b4cdf4dfc8f42b62308f14707a2b5a9b2d
+        sha256: 81b0e20f7423ced1670cf769ca2d8d9665bfcf077d9cf756c231d0e81d720100
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/SC_Info/OnDeviceGemmaKit.v5.supf
+        artifact_id: art_4a22780056c1ccf374372f67ffbfbfbc11b828d1b61735d57b18db60b4f63b2c
+        sha256: 5f71fac8f8b0b9f4337b9f940a19292eaed0211183fe670bed79ee7d40e0eb48
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_ca0a72cc45476304180cb013c293c9030b144d6f77ba230f3b1c76145135f4c6
+        sha256: d6d25569279856d144bebe484e7e72d057ec605ad621e7d5adac65807dc9dac7
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Headers/OnDeviceWhisperKit-Swift.h
+        artifact_id: art_eae1c52545be2772ce4aaba03e3bdaf81147ecbd52cb8fe4a84ab0fe9c411ed2
+        sha256: 0ba5fcdfdbac1cf5b04cecbf2408bd5c9a734be274bdc5f9d044b467b06703b3
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Info.plist
+        artifact_id: art_dcecec24576cf5ffdf0399677e6615fa5c6f5c031ece4bbf5cbabd03e5bcafcc
+        sha256: 6390999ff1e75f0e38f3dcba07c2518ec36f5e8ca1cde3406556946fc1945dcf
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Modules/OnDeviceWhisperKit.swiftmodule/arm64-apple-ios.abi.json
+        artifact_id: art_518e16ceaee2461f0af906697521d97f6e0442364d3713e70c1fef61ca6e9c9b
+        sha256: 4277ac6b49f8511196028a5ac20f5b1b1dfa754c24615d34068089f0b1739728
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Modules/OnDeviceWhisperKit.swiftmodule/arm64-apple-ios.swiftdoc
+        artifact_id: art_319f43d64c1ae86e63909d6b7729842cf2565cd6d9d37b3fd5d22ef576556b21
+        sha256: 9c378e9bd5a654e0df045bf4275492376fcb7173c2994e794a6154d1130fafb8
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Modules/OnDeviceWhisperKit.swiftmodule/arm64-apple-ios.swiftmodule
+        artifact_id: art_fe9d1568a69eb96504948a9760715db41449c8f605fdcfa4c4564f751e532086
+        sha256: df60967e29ddda0295afb9125aa5d7dd4a8a1e287034557b43da427d5e32c719
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/Modules/module.modulemap
+        artifact_id: art_b2e4cbbb935d47b5b0a9744a3bd7224e180533cf67837d745b2dedf9e8273f96
+        sha256: c5b9f87a8cbe7a8fba1c4b2ffd8038df9ea20a667666b69bcb8bef6afc796d7f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+        artifact_id: art_237f7e65406e558df5aa5274d555dd9170d82314159a80900f245f19a20c1b22
+        sha256: f43b95e667e6065fda9e86f3818762ddd406380a38fac68027f28cf6912ca3ec
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/SC_Info/OnDeviceWhisperKit.supf
+        artifact_id: art_2d5157049c60a17eff28abf97a49fcda281e6a90fcce46a05be328d0b94ce3e5
+        sha256: a1da2b374c3b6448d9bf0efae649005e2d33358d5ac1abf845570f9d74a98552
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/SC_Info/OnDeviceWhisperKit.supp
+        artifact_id: art_b1f6660862eddbfb09a9554adb5b7a06e2132478a993e72b298ffc90c85ffae4
+        sha256: 7f9893c2485282394b260ce30aa83629b6749ffbfcb6297856907a796a12740d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/SC_Info/OnDeviceWhisperKit.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/SC_Info/OnDeviceWhisperKit.v4.supp
+        artifact_id: art_adaf9ec8e0a97753ce774269cb6be5adfc8b629fa575a4ea92770bb06218fdcb
+        sha256: 483b68a664019f5c387c1d4fc45eee965f2214a9910cc9656e632f13e28ab0cc
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/SC_Info/OnDeviceWhisperKit.v5.supf
+        artifact_id: art_32a0d4ad3e3a6b736fdcb1416e2f07cc5bcafa4b43451724476e58740faf184c
+        sha256: 56ea049e877b5409b3477d1a36e69a145fafe49377d817576dd73be7339ad567
+        format: file
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_61794d8c28e806b79d7e544e0a33541e5c1d9f3f64b9ae0be3b0e2b663e6d3e9
+        sha256: 68c734091fb12416f7f62f0b7ee9699ea756bc3ce51af824684c48e8d0955598
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/AbstractSession.h
+        artifact_id: art_776643784498ae1b53ee72b1e4eb0d0a13537d30dad590b1cf6e012b89895afb
+        sha256: 95715cfb698759d42800a2952ee894613b58032b17bff94503d6bd28f84e18d0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/ArchDetect.h
+        artifact_id: art_d7c9a1c1ddb1a72c7a008b897933c878794c8d77d4bcaa547fe12ef8fc581955
+        sha256: 9e1af804c3b57c22c47c1e650e6eced74e78b350069f37caa64edf957dcb9993
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/AtomicLong.h
+        artifact_id: art_2e971775e5df115b88c1bef643b219f06ba77faa9002cd1045e292e8ac66f847
+        sha256: d0dcdc8166b8df6af01184d637e61d0b81c7588ea1e354b6208eda3449d2c27d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/Chapter.h
+        artifact_id: art_f0c7aee40c725da5be7f9591e9575246f0baa1197889dddcbe81e32cf8842eec
+        sha256: f415b3389ddd810e211e78d2157cc245a792f9dbc2bf3a9aeb946aa77cf17e2a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/FFmpegKit.h
+        artifact_id: art_85fb85da8a9ee6f6f0696c2182f8755a4fb62a2605863d96081ddc24a526e80f
+        sha256: 8ede212960631f89a1dcaa674b4b45641509fe0a5b6d3c8f7425f88accb57556
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/FFmpegKitConfig.h
+        artifact_id: art_64efbf105d91df10e1eecd5ec318f5902c4175bf34866fcc1e8d60edddc21927
+        sha256: b83e88bed103247ccf1c248ff631a6cd4203c783b16eb97b5bf985c2fde5ea62
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/FFmpegSession.h
+        artifact_id: art_304ce95b43cf9e2a5253f940c223f8e125dd426b77dacc3ce3d88be2f1451619
+        sha256: b871f8fd13546d304e77c9ade81cd0580574d6406c41955c77c93b0e868daa8c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/FFmpegSessionCompleteCallback.h
+        artifact_id: art_b46132743685b764a13750f74b08c934ad0a57b635746e7d97b96c1b1cc2286a
+        sha256: 433997e3d2938a30cde0a5f2fe144fe9caab006340119b9f4ab4f61f308e90a1
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/FFprobeKit.h
+        artifact_id: art_71191a193b268ce9571ad068cf600d853f6c6a818818e6b401b436ff07fcf846
+        sha256: 1a2578b550a860f8be789576bbe8562cc07d6e78c63c67f0d11dc0dacedff823
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/FFprobeSession.h
+        artifact_id: art_4c2474a240ef0df2468d108fc8b13f1d3ad65c8d37272cf02b93d14b28e3095a
+        sha256: 159752e8db9da26f4ef4485f7f8e4e5df12f2fb6e0826862d30067c620a78e4c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/FFprobeSessionCompleteCallback.h
+        artifact_id: art_315c90e61dbcdbd44f569b77f12d2b75a1caf01aa7c1fcdf12d0af7a3d42112d
+        sha256: b321ec5e18595ec53dc630383cce3b9e462e895c95447d36ab8443175f08fc85
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/Level.h
+        artifact_id: art_50f782e04480590d4a6186b0ed7adb3fbf2c90e93e625a995dfc30eb6a2bc3d7
+        sha256: 6bf2256df84a40af3f39e81dfcacb93f95254af64043dac0a400bcc9b68869e0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/Log.h
+        artifact_id: art_fa305e622e9e3406d1ef5e40c33980b988410cebf473cd05d9d5c1ca84336439
+        sha256: 8ddcd0b7c12b83c6a1c463c424089fb8aa99448de85f22b5e00132054b5d0f2f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/LogCallback.h
+        artifact_id: art_9a5663ff0ad99befc0803cc27c6c26f6813a66c6e2258ebdc5ecfcf35bc14c2a
+        sha256: 5f0e673e91885aab5794fd9d4dcb02609713d1bd7e555c1989429d3d987483e7
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/LogRedirectionStrategy.h
+        artifact_id: art_21f4fb1c666d5e4074479c7993afd94730b554a220408685b23e783a4b247fc8
+        sha256: 5c48282bec2e123d0d57a4237e5c570e54290f952d671836f2e5a1dc4609b01f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/MediaInformation.h
+        artifact_id: art_4c3c06ede0e30fcf053a95da47c0c406feaa575ebf320ea2c83a55188dbf8c75
+        sha256: 1b3bea3c65a881b84d9895ed7b906974b217f5cc4273a1934c5ab0c2edc0acdf
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/MediaInformationJsonParser.h
+        artifact_id: art_c2140fe8e888291b12d4c6f44391566aa7b2d993239a6e5f3f81e01c2ace6ae2
+        sha256: fe1be308ca6141a0cf99ae4074fea057fa125d9ba20366b3a9e6110f11bcb093
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/MediaInformationSession.h
+        artifact_id: art_284552211e37db6e5958d2f59c994be8562513a64357bc5718186eb747b4c428
+        sha256: 85af18a084b98a272404fa157b0ae09e79906156bbcbd46a93fc0b3a0437b6c9
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/MediaInformationSessionCompleteCallback.h
+        artifact_id: art_534ae08a4dc547fa517f12d3d899871111d0061eece5dbec7dbfba80f3c2c8d1
+        sha256: 1cd2d36635a06a116962f2956a7e72c2413700d27d14452ff81719d3e072831c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/Packages.h
+        artifact_id: art_c3d2e10d048fc41b329586a5e63d37c764ceae045af91073cad846c7e622aaf8
+        sha256: e8e92c3707c30220de35b522cc4a895fbccb3736990188782fa30eb2fd1a7f3d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/ReturnCode.h
+        artifact_id: art_009543dba6f8e57f663dc8a06997d725d232a0d90a844dfb39f1d1fca9925805
+        sha256: 78bd2359f36722b1d088366e848e42cb225e26d1a191dc5fdab4e33235349ee3
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/Session.h
+        artifact_id: art_b8a358edaa24a80efb63149d6d84507023b34adf005a69aeec2086da94bbe2c2
+        sha256: 050e06ce185825dcadc0d754d9a70092b8ffd9ec110769ad37bbf694ede2161f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/SessionState.h
+        artifact_id: art_4d887b963695fe4dd5982d84a84e69ea44256e81911088e1500e0716d446bc81
+        sha256: 5727ff0646e19569fcb7c8222a6194b2b75d361b14df7a5c3e3b56db3574ff71
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/Statistics.h
+        artifact_id: art_298987fe1bbc4ffaf90ddeaeb1ecda2e5ec4c52799b0c15bdcbd21331de5417b
+        sha256: b86debba5e6a83579d3e03ab8583ef79f6f8cafda24d5dba23168fc6b8e58888
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/StatisticsCallback.h
+        artifact_id: art_c090dcac6fbbb84e28da12cf35267ff3b8f16fab255e8c008530ee52174c0f8b
+        sha256: 4a413d3ca545b9ed9bae2541c85316872ac367d025d5fef3c07ae7d07438fe74
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/StreamInformation.h
+        artifact_id: art_f88d021b4b9ee0cda21d4003ae874e09044f72297993590c0c52f4a6814192d2
+        sha256: e3ac21e35239403d3b42fe47e3d8060045ab696c29dcc20dc03f73b32fb5f4d2
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/ffmpegkit_exception.h
+        artifact_id: art_12062557a82c122931fa0276d0592d19177de19b96bc8967dc3f044c06b7c218
+        sha256: 1d803b0e889804775737c3d0c1465698285c0a21eec061f5fd6170710d91acae
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/fftools_cmdutils.h
+        artifact_id: art_da603c464f0d92ff611056a2c0525a4406c70bb02f5ac2f37ddc9adc33a625bc
+        sha256: 5540658357574350557359d0f80eb635c973c844fa0acdf0297f38745ed8e709
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/fftools_ffmpeg.h
+        artifact_id: art_c33bd7fb7d1e5e0cda073f6e10641cd05cc40e5ce3a7c4744e8557434efbd76d
+        sha256: af705c6e44a78f03bd8444a4c24322b98c4345a32f78563f9279a3876312c65f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/fftools_fopen_utf8.h
+        artifact_id: art_f81caa90bf3f7281d916224cee044d3e6d254ad38209d7c402e1820a548f17e1
+        sha256: a417d886d4617d5537c50c224ff22e5db153d7cb99eda113bf1adbff83a9fe1e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Headers/fftools_opt_common.h
+        artifact_id: art_7c671ebce2c2c54b8f68c365b3aa31ba4a12157a02e223ee5d287fa4e88f6985
+        sha256: 31f3d163dce778ad90ef839d7c88070f3fb2f9f391e6a6e56561b8a916c6af83
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Info.plist
+        artifact_id: art_47d1795c78e2eae426caebc9c0732fa8a58d813110689bc4e4a5c6f0fb6490c7
+        sha256: 575dceda382abf985ac2bec65dab68cacef44007a638f867acb6703bfb29e928
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/Modules/module.modulemap
+        artifact_id: art_8e26ec363f8db3a649ed6f791ee6e5230d3b87e8fdec5be8b0a2642789cb1a64
+        sha256: 8480510a92713adddeec9c3139cec32e5899d86c5a04c6919dea49196815d41b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supf
+        artifact_id: art_69f4b20527db2afb4288b64d44efed64fcb919a69e2bab54ff02202622aba15f
+        sha256: f90a18b715c301f379147eac9f8981d8893e0b794fa9398b69403c57bcf45973
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supp
+        artifact_id: art_66539d0c998ec5bf151a569fd27d3064bd8b27baaf84edc57ec8b10b7df2ea1f
+        sha256: fd64fda56d5746dcadea6313513d29639647a35f8833c933eb78d8a52d3d231c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.v4.supp
+        artifact_id: art_f2f8e2598c74b27641d6a9f0c34fae14e4c24960b40b838c75f7429080d8c0c2
+        sha256: d2efeeae041b4a3a0ead4aea39d4683f48f99df37992a33088e8071c8ae261bb
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/SC_Info/ffmpegkit.v5.supf
+        artifact_id: art_9be57132e5816b05a1c48232bd3ad3be67131f82035ac9ed82a7684808edccb8
+        sha256: 4eb2add77ecdd60fcc881952bc1a510e1696b5ad0fd2950dda2b3dd449266c70
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/SOURCE
+        artifact_id: art_f18995a5babaf0bcda7b6bcf04d9963565a940e01dcd62ae3eeaa5b4557c822f
+        sha256: abf82e6ec062e51a4b590c5d7dad15907f96c48158f46cd99b2c28e7fef9541b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_fec269b6c4a02230fa2c757a40923020f4eb0961a581c3aa37d3f2e48b77562c
+        sha256: b5611c28b50ff18a7b321a976f8b5865548e7345b810741e8812c881a386b5b9
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+        artifact_id: art_c89c2493b2829263f39a350824cef93505730a774719c3edbd5cd29711f9e285
+        sha256: de382eae671a12815451c5d29d2136a4104fd667b30b51558b42e3c4051e540e
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/strip-frameworks.sh
+        artifact_id: art_de87c0cf3a769bee342b17e37a0042919ec31b33294980d5459476bfafe55431
+        sha256: 10505db2020a91c07f656e4081c9e72f7fe8d01a62bfa5e23e2dec3d931a3dd8
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/ac3_parser.h
+        artifact_id: art_ba550f71af2c8de75226bda0452fd83a4907a3266b18516840fb119d55458283
+        sha256: 200c6d2e96975196e8ba5f5716223dc9dda999d51578dabce2fca93175a05252
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/adts_parser.h
+        artifact_id: art_8a5621947a5b203c91911453110a56b0f4d682be1fd0d274b44ec64111f7257e
+        sha256: d466583a8dc1260b015e588adbe3abd45f3f8ca0e43722f3088b472e80492a15
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/arm/mathops.h
+        artifact_id: art_eaaf93f3febe24387bc9a04e70423dc1ddf30485fbb8ed21c5642f40f39351e3
+        sha256: e9f4e15e9f47cbfde44d688834003531cc4696401fcd5bbcdba7ac5db0a0e526
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/avcodec.h
+        artifact_id: art_1c2108a1ebd989317a9091b0ce1dc7cbdfe7ffcc17c1c6465860e769303f87fb
+        sha256: ffee1e7a426f507cce58d36ed3b24d51251dd15ecf3c196c4741b71561d5a21f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/avdct.h
+        artifact_id: art_01f253cc97a66f890734e7ece0444c8a8eef683e2cfc85cf85696fbb2208416f
+        sha256: 7c125edc1985ec078f99abb1c9044c4fc76b06a03eb02c026cb968fb9d41fcca
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/avfft.h
+        artifact_id: art_4dec6508d29a853362778f69035658c5627f85e9f8cf91e76abdc1c722b273b3
+        sha256: a0918d3d682f40bd65bbdc60ad0cdca08675a0067cd3e92581342b045fb0cc78
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/bsf.h
+        artifact_id: art_f5ebfa951c45b58710e8d9e4c13e270f6ad76eeea687ebf90eb43a038396fd8e
+        sha256: 3d876816527ee6286a3ed22ac27161be76063dfc0952684e9991d4e3a5b47bfa
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/codec.h
+        artifact_id: art_57a30caa63f1ad9a0eef96a6151d405183ed4694ae2f127c37c12d141155fde5
+        sha256: 4a5ff7fe48c2eac11594536c546c7a54690c17ea0d97d8b8da004df31c552b77
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/codec_desc.h
+        artifact_id: art_da11ea7da9b10b0d9b12d2881ef6ac0a6770b3f7addb00bdd3b7a23210a349e4
+        sha256: 30027aa432ae4ec3c10805850c9ba6880cf78b0e6c7f4e9198f6844481f3338b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/codec_id.h
+        artifact_id: art_c16bd594c47a7c50a6a64e3728c7decf3b3c2507247dfa09bc5890d860aeea77
+        sha256: 1f58b7225dfcebd014ba162d57f78709a5eac10bf297870095fc4eaf31198d7b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/codec_par.h
+        artifact_id: art_b09402b42838e25cb9aaffa02a739f012832e4fe9cefc91933b7db683239a1df
+        sha256: 2c1101ca01cdb5992498e409f17605412bc6f289f19bf69088f3dd946353734b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/d3d11va.h
+        artifact_id: art_08712999ad23fccb0cba941f63257f2d24a26def23ce0e0a056b59c3bc5af845
+        sha256: 74a55a2e3f19ce797e99624a224302f25efa89a115b9bf2e932c8fa179b0cc66
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/defs.h
+        artifact_id: art_38a78ea20689af1fa0f32a63a188c15bd0a382c60017ced83ff40cdd4f317b38
+        sha256: 593509cd7f9bf1b6e0c7e0ee48c5e4f68ea40451cc71f8899a1fbb27f375508d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/dirac.h
+        artifact_id: art_c2a181df7adde5d745fad891184ff2a362b91f900fc6d681e5c945e9d87515ff
+        sha256: b248987f650dd7a110c942ad67351dc920e115248c54532b29381c4c64be9905
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/dv_profile.h
+        artifact_id: art_72dcfeb11ddd2055d1245b20f672b22121ae5938f4bdc3ec6fe864214c52028c
+        sha256: 19f59e0b20ac583de4bfd76d18889d334bf0b6cdf7b5356723a33f3874738466
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/dxva2.h
+        artifact_id: art_f33ef6d6806b65749227679c05ebd553f238b649d6561420c63a735d6c21a12f
+        sha256: e69dc45a7d5a9206b3bfead10caf3117117005cd532c4fc599d9976637c1b9e3
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/jni.h
+        artifact_id: art_19276d82fa33647f71b44730de275ad3c9e7c776ac3781c1e1da26a785e30de9
+        sha256: 18ca8eae5bce081b4eef1b1f61a62aefed1d4e6e3cde41487c81fb96ee709e51
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/mathops.h
+        artifact_id: art_5b0ebceef13ecaf600b90612ed62f3fad4341ea512cf5732710d25a50248bb07
+        sha256: 37d25cbcc53aa39193c71bb6e32b200fad084f47f1ca8b2976b6fb0b365abede
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/mediacodec.h
+        artifact_id: art_18378a190328c555fc965b543592f11d2f02c72934653f280e25ac6fd76e6170
+        sha256: 0047c6e4a1c3a42160c1677ec76db3ff953ef62d3aaf2cd87c3a79eb73780bb7
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/packet.h
+        artifact_id: art_e245ef0ed07a7312f7ae6bdd75531cabe60103d4427a69356b7d309886fc4844
+        sha256: 1a0035deaf5fddc9995069d43fc284688950ecc38b0412fb90550e4ac2819b0f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/qsv.h
+        artifact_id: art_0a5285d9dc1a592b4161db349c436eb6f1d78d9bda23f68a5f46501d9a6524d4
+        sha256: 0a21a0e4770ce91802c3dea5623c2a4858e1480e664df51e2b1af0db829bff2f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/vdpau.h
+        artifact_id: art_53a99c839ee27f0187dd08f1bac2de2deae57e1def00c99bb905c5d3004524e6
+        sha256: ffeaee4d583201c458e936059a1cbe5e5188ab65e414794fc6dd07129b1ca4eb
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/version.h
+        artifact_id: art_da293b47ad88ff14db1bde91cdc2a22717b5688a551111cf0338c9b7c8e0a221
+        sha256: 8cd5f971e0b1c3c31fb9499268423795a252559f867f77ad9ec843a2853a1565
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/version_major.h
+        artifact_id: art_03c64968f50e7bae194faab7a47e9649451c1f8523b71a2d247b777826a17b66
+        sha256: 019b38dc7a45621f16f7f4780f8e3c56df0714997f0fb82ad19228fa35f556a2
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/videotoolbox.h
+        artifact_id: art_54bbc7ef01f1cfc8aa2865d39c9c3053605e7e09cf81ebdc90a758dc8bddac2b
+        sha256: 3545b1add1d97a99f3646f3e07baa76b59ec0b6abb6a7db1b190472161ca25e6
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/vorbis_parser.h
+        artifact_id: art_2caa897a9c9cb6fc747481e685b1686b6c052ecf22510c867b6405e7b8f2164f
+        sha256: 57077b2e1d28d42636cab0f69e4b92b1ad64ac2eaa2843c270a6afaf308a76ae
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/x86/mathops.h
+        artifact_id: art_43677da9517907c6e80310a3eff18814e45e05204033d8e8f119f007ad563b20
+        sha256: c014e5bbcac3e8514b97b4c79ab14439e6b848a361e674f43366026a38a60290
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Headers/xvmc.h
+        artifact_id: art_0e7b63ee3fc123f30d6f33d4c6dcfcb791fb283362196ba99c65c20aeae24b15
+        sha256: ca59c5caaaa32368f7c84c714bbf2ad1cba61ec9ca5b5cb1a14cf6975affe8a2
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_6ea9d7ead86ae9ec29671ac2dcc06085ba0068ecb559eb3ceeb7b6c29bb958e2
+        sha256: b723786e082157ab12ab6415952397ed0ccfbca6f07353d8a86dcbea4d85a6e6
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/LICENSE.GMP
+        artifact_id: art_1ed4ccdb23ea7b5c84eb6d3dc03c27a0c4cabdca3d5aad46c0a86270a515ef96
+        sha256: a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/LICENSE.GNUTLS
+        artifact_id: art_c8abffe2c46924c1315cdfd27921d09753a2139f110ebfe0ce552b554c661bd1
+        sha256: 3e043d77917e48e262301b8f880812fcd82236482630a421d555a38804eee643
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/LICENSE.NETTLE
+        artifact_id: art_1ed4ccdb23ea7b5c84eb6d3dc03c27a0c4cabdca3d5aad46c0a86270a515ef96
+        sha256: a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supf
+        artifact_id: art_a0c78a2b86abf5a9479d0310d21aa8b6b3d56e807125cf36f23643bfd844b094
+        sha256: 15ae3e90e4251a0563a6917c9bd6e5b46a6e7dba275b700e9180a426fadc69d1
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supp
+        artifact_id: art_ddc9aaabee0a3eed927864ed70c95c4940e0c50590f121a44448d2f9e59d1b09
+        sha256: 7310acecd3ba84fe5ed22b36b57ce4195a972b2631a041cb41045f2cf0552106
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v4.supp
+        artifact_id: art_acf5c84b0d48fa597cd4aa8bc1c66c5f0d7e5bb05e14b470efa69b7311168a47
+        sha256: 7c14b364350c253e900378c77952838b835ef249bf61c07430fde35d9a519e11
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v5.supf
+        artifact_id: art_79df7745450bfb2438a58e56c7ace56adfd4dde37050654db725f072d6aff1c3
+        sha256: dfca8de743cb5253eac77bc8dd440aba0fd743d9dedd4964d7e2922ba290872e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_e3218d16a778e904ee7f3890fcc7a89f7b61d4914a351c68924c18dc9102cb80
+        sha256: 586420b99788cb8286fa6f45b6376ed42a5949ed424d0f014ba3f9d0faed4e50
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_0668117ec687044c3d03b267bb65932fc5fe083a4adfb9546280a7f921df0d2c
+        sha256: 6ec4b3d96d56d898ae4127309e50ddb79311239518fd1d245df5856eb50013e7
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/Headers/avdevice.h
+        artifact_id: art_078bc0f4f0c6ea32a00b31c24e11550e950f66990d79e54f1d4ca6211a8be967
+        sha256: ff57a5d56e9d1a47059ff5f480d4348583c160ac843e44e9ae34aba137318426
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/Headers/version.h
+        artifact_id: art_cf93d5843c37c5775ca8ad3b55e71e1007ca8881246cf8f7c4a6284bc0b78a71
+        sha256: c441adc64a73c953a6b5e684f3a6a447a8f7a7786f99817e181a5364ec3f4546
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/Headers/version_major.h
+        artifact_id: art_6a26489c114d555a0b6c0c763166793e241b74107eeab778d4cfb14e45b4f139
+        sha256: 6dacbe03c8bd5e40fd3c696f990fe8db69e82f8bda9305452917245ed40aa0ca
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_9b6d0970d47ca9bdd6cd79b6484635f67d783924480c84a4630bcc1191942a09
+        sha256: 97205fc2130af65ff435267ddc06f8f078e22adbb77faf34a3582218340ea543
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supf
+        artifact_id: art_dacb77ad0870f4026d8b0599e48c5f716a866c21e20537600f8db6d8d2dc6dc6
+        sha256: 4e13dfb5de1ab3f7fb59fb74973d3d05b20257d947ddaa2a78498541d35dbcc3
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supp
+        artifact_id: art_3f2b7a34a7111df81356b4a437b56f531f7436a034caa62fefa215a7e260af6c
+        sha256: 2458de0089706a6053765a399c402ea3092018a0e653b15d40611f965bb4c838
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v4.supp
+        artifact_id: art_513b202b2a54a813047f1de58c7baed37f11eec89818e6277c97547dde47c007
+        sha256: 77f810afb31956ba4f2bd400ba90f1787eacbfac8caef5977dbf77a2152400a0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v5.supf
+        artifact_id: art_5459b0c7e5eb9c5e2e6a1b361de0151b8ebb8a3e2af3faf2d0cec0026b9aad5b
+        sha256: 43561530448f06a10e9c8ad7c0e4d53545ba6aab2f3c38333a66654ce963157d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_96c9f22c4ed6d16c7de5aded6c11159bb34b6b1b069f23410a020b9aa3e28427
+        sha256: 1f3f339ada0f89c8ffcf8cbbd2b1371639c09e939e3d4667c2f694ab0144757f
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_5df1a61a8e2e10446913157bc3216c36be60cde7534b9bd861fdfdb02c0f6321
+        sha256: 6f5c118e45de6d5aa62b25c47476785992d3f4c3b007bc5ebd1711cba3b9ea46
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/Headers/avfilter.h
+        artifact_id: art_9e26b9fc80470bd922d747b380df155873ff034c6c2aaa7b066571c5dfd0e4eb
+        sha256: bb99aa7b2afe10e216066ebf3ef6e75a98f8cd86874c8280c9834ea6756cab67
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/Headers/buffersink.h
+        artifact_id: art_430c1b76ca68c5cb4c6cdafb70d5228a76953ac24d4929d5f2c8dc26af4d80d4
+        sha256: 84afba37ddd0ab2c9fd3c62b55b9f70412055057c31bd6fe497b1c1ee7c28d06
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/Headers/buffersrc.h
+        artifact_id: art_7c4a10be1b2ec7a68a76c4af88c419915f6cdd7ead9ed7eb6a5b9d20660f2294
+        sha256: 626c9b2c8b391334cf6f5c9a20988a8c2d271d7e8443a12c68c51cc751c92f2a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/Headers/version.h
+        artifact_id: art_46aed78843cad5e78eab71eda60190efd7f9249a923cab935c5cab9fb2c36e6e
+        sha256: 34bb157acc7af147d60d35680f52ddcea80b4e66627801dd768413d69c47725b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/Headers/version_major.h
+        artifact_id: art_8929fb4672c33198e9b51338dd0351a04fd286ac7d813078055e12f23005d86c
+        sha256: 4e743d0675bfbb389acabb707459bf8edb168871df2d1913b34e2813c5801d54
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_e089dd1671e714ae139f26aae0ff535be2c70cb684b1600a77cf56606572a77e
+        sha256: 552500a11edaf7774b5311c66bfac3cdd7b7c33ae6a5805c65b8fd287914d204
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supf
+        artifact_id: art_4695ef9eec4f9df5b8d4384e06ecc2e84debac1316dc8dc359bb4499b5bad974
+        sha256: 78df38aa0889c6362950db067c88a3c712d6ef7a4d6c2eb8be5b1900706b6d3c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supp
+        artifact_id: art_c822be8fbc9812f120570b5fc4f38cb9a126df37d3611cd885b0c59273d8bd10
+        sha256: 328fb1c56f21fe65415007f84ec2e87793cc7434246e4603bfe868add59956d4
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v4.supp
+        artifact_id: art_00bcc7153bfcc2667d46f4a1b2f4690999f0497cd481e253531dabe5abad5b5f
+        sha256: 2cfd3b7b88b860c0aaecca13a8de22753b04ced44ea5554fd20b74d4cf93eea0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v5.supf
+        artifact_id: art_5c311039bfd27ebdeeac5b27843e4bc72d434617d4c883f85d7e132278168749
+        sha256: 048843937d00ca27ad735501d78b88508d9338746ed073443f8d6545aec63c18
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_20c9a857c9a4e034c7a4a7986b14e1ca684b8bd48389698a1d7892d1a5be2d57
+        sha256: 4e1d633076731f0003a3bd1a468d0a580e29aa7a1c0f6fcd731f3852e0be98a1
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_ef02153e8ec02c0dccdc63b41103801633cc9aa072df4a5fe2ba0628d2efbfe9
+        sha256: 2bc300e8678ff23c13964d8914bfe8cebfe902d36dcf6e928c4af75aab2f4c6e
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Headers/avformat.h
+        artifact_id: art_264d87299577bd1d299cb212e1b77beccc6d1e27317685723299160e19eaf28a
+        sha256: beaf2179453417478638647b0f4fb280ba0e7445740776bd5aecf6db6bfc3ebf
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Headers/avio.h
+        artifact_id: art_d737953b0700b0a4728241cac94a05f44a9bcac82adea7a4cfbc4f143829b19e
+        sha256: 3cbc311dd9c9a8fd0887d5d1839cc8b94310760d623429fbe97dca654de9cb8e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Headers/network.h
+        artifact_id: art_d81d30f9f7be4d906af11cfd34b4098b37e6e739df85621e85db4ef9e3cf9758
+        sha256: db9b7faecfb5c19c0bff49563352f213c6178ac675fa63f960a3a5f607f090f0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Headers/os_support.h
+        artifact_id: art_24f6cd9c7e11ac5f93796448d8972b99f65e37656069d8d42d7eb91f005b9996
+        sha256: 701e8904963f92be458230f55f874fd7293f5c1a94e0d2ec8289d87663da6d68
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Headers/url.h
+        artifact_id: art_3aa7ec130030b58b70ca76d35f95df441e00152e44e6f7745afa327b98d45f32
+        sha256: 2571b4b69fa2e408b8bebda02f256424163c011f62082d125db35bc0007454e3
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Headers/version.h
+        artifact_id: art_ee2da62dcf5cab53c54e4e65bff498fc6d6ba2ad8549aa5a14dae1837326905d
+        sha256: b39223926f1b2b9cf4136d3db270d34cf4d4d868061bb5fdd5b3df4860a7fe83
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Headers/version_major.h
+        artifact_id: art_0d0d8cb852ff4360c68c74d6dcaa5a0f900a916501cab9f52b57af76f166ea76
+        sha256: d95feab9ed97d8311cdd39bbf3510a104512c64ca6e997ad24af3920aa6ce748
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_fd43d109b92478910f16cdeff1900e753b85647e59654138eee2a87db45e92a5
+        sha256: 20b7b6ffba8edc2ce180618c4ce093286791874173e1a136434b39a3b5d86063
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/SC_Info/libavformat.supf
+        artifact_id: art_96bcc526d869ef2bf865bf3faa5988a797af00093759e041af5adbd0b3927684
+        sha256: 798bbfdf01a9104cad0d377f6caed286f0fd887efa2bd9279e2619ad70a3fb89
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/SC_Info/libavformat.supp
+        artifact_id: art_dc160b41c13894ae7335df4bd3bbe5102d318fb352234bf85457084f7a2fc500
+        sha256: f19e6c32e8bf914a931dbaec4a5aebe6990cc2c413a254c443f97af7b58093af
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/SC_Info/libavformat.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/SC_Info/libavformat.v4.supp
+        artifact_id: art_d38f337fa75cb36de79a27c47262c1875243cd4104333586a269cde39ce1b275
+        sha256: ddb56edbb252ccb2269c61b2e08e2cc17858d3d7d3afd427775630b45114dfe0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/SC_Info/libavformat.v5.supf
+        artifact_id: art_d7371ce67f300e3f0d86595b4ce9c07a1bfab103cd8a9e6db4a0dda064c25d76
+        sha256: 85738ba19c0fea9f16ddf3a53c3ea2f6c81e7cc671438f17863ae76bcef5de62
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_b178f35166c495d0731c589fc876bdfce1a426931594baf92d0c4527d8dd2172
+        sha256: 4774821297c0c1b5cd844c2e2d9b60974160cd42f74fb4f708e37b1e01df2fb2
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_6d4bfcc0b2501296063e953d52ab5e60dad263fa415552571aa902eccf900661
+        sha256: f541b21ce3f27dad418177b330280994309b799936d2b58c57b1653bc76758c8
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/aarch64/timer.h
+        artifact_id: art_732729107316fee09097e7b9fc304110b823d0f6d66cb0b289b8ec07b0b865ce
+        sha256: 675f3086354bcabffe387c0b83435e7b59b3b7b0603dbd11751d62322c5e5f3a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/adler32.h
+        artifact_id: art_fdac042f3e9f4bf443fd7de1bb7902c7ef014d95c26032d20fa1373a6aa50196
+        sha256: f21a861957bf4b1812ed67fdc528890f9cff1bb483facf0f5109e4a51932fe3b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/aes.h
+        artifact_id: art_d8c7e9273fe33686f0f51fd9ceb1e1f1d158627f2ac97560617a257211e246de
+        sha256: 974f535aeae2fe7c6554894545d85604a0a2042dc110aae9bb270e3616441e39
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/aes_ctr.h
+        artifact_id: art_662245f22adcf96fd96d5b8654118780eedfbc464a9d88b17094f2d7350ad45c
+        sha256: a255a4ed78a72d6bef455fc9e8d3996c5239a797ca70a55211b872fd9de40ddc
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/arm/timer.h
+        artifact_id: art_1fca38f393747ac20ca31ab264acd2323e3b30234bb2bd5d053df79b245bb0a3
+        sha256: c5c9d15ffc03dfad6d3050967dbeae280fa7b8812657172fa44591c015f0a58e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/attributes.h
+        artifact_id: art_9dc685b6093b00dcef8da299da96c7c425fc9d0eda3f7b25953f67351bfbb352
+        sha256: 1f51258ba39861e08cbc8d407ec37a8d0fd28669aa7306c1365cb9c675fa1d76
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/audio_fifo.h
+        artifact_id: art_1d12d504117e8b49ad1b081fb2fac6f9501766be297ebef77ca68dd93f457cf7
+        sha256: e723c059211ba6aec3d9214765725a3b32337f812c1fa7cc0b7e524b6f773202
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/avassert.h
+        artifact_id: art_578a369a9f3be913b32621c946b9a28de0b3d0498f27e65b11a977f7290819c1
+        sha256: d4cc7f0396a27414d815c7cf2985b022cf54d6cde81418ad3a7705eebb7314ea
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/avconfig.h
+        artifact_id: art_5331959a7bb89c4162fbe539f1cc807fa8c46461449409a2714b129cbdbe9f6f
+        sha256: 975611ad5eba15212d9e1d5fca9d4fdf0daec6d2269b2fcab8e29af8667164bc
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/avstring.h
+        artifact_id: art_93d8288c3b893b50e99c1d97069334236a0787e3e39baa4b80f77ae5ec8689f1
+        sha256: 34d277cbf6e5031150edcac9566a8925c79b1c79d36fd35503ba98c39163eb19
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/avutil.h
+        artifact_id: art_afd6e71a1873c539ad25fc431ffb8faf3f7ad2e1f1d339a872594baaeb55026a
+        sha256: 7bbc57c1f813e88761a2ac06aef839fac21e326d195e346d7e9997d0e20de214
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/base64.h
+        artifact_id: art_6c498fdaf6819df0841b17f8b5e4f82052aa29909de45a2120ab9107afafde4d
+        sha256: 81ac13d23f3744fe85ea2651ce903e201cd55fc63fcdd899d2cfe5560d50ef3d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/blowfish.h
+        artifact_id: art_afed289a8eb7e8fa6fe07a3a9623d6968c6eb417079f1028d59adfd5e0244f22
+        sha256: b955a63c60c8b3be0203ec6c3973f9084d848cf884fe56cd56088301aeef7992
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/bprint.h
+        artifact_id: art_33201e63e1990ba5248e4347fb5a8463235fdd4a0b653732410072ca4db7a911
+        sha256: c4040dabbc4310b612834e6884f73119850704431a320e9b157275fca99b7066
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/bswap.h
+        artifact_id: art_07d89471818c4f3bdb1d13ad53108107ed0a9fa6fca651209c27e9bb5be51e7e
+        sha256: 7d6432122fcb3a261f037a4323738301a5a6b50ebe80940749a9c9704a56bc3c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/buffer.h
+        artifact_id: art_c4d03a47e529fe5963b1199c9b305f939a302e581e57d6d80e858c03d978131a
+        sha256: f16742d574216434580573a2b09f56fc5b66b7dda1960d4f02ba59e3269ba548
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/camellia.h
+        artifact_id: art_3b5810a1518e95b07050efb09ea0f42e9ad2d203adf1629fe422a5d022ab12eb
+        sha256: 78e8569378757df3f33b5217b2b3bcace1abd970e56e97fa9855e22c86a13822
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/cast5.h
+        artifact_id: art_98f456d78f31419eefe5902cf4b76cdde7a16ee29584a82ee2d69339d47bab89
+        sha256: 05b2e13aecaa0adbb470081a689f45baffb8e03a71997c31f37a22ea4e383a60
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/channel_layout.h
+        artifact_id: art_d47648fd04984db5f817c05cf61243d4dfc05fe5bca4d64409dd088aeb3d932f
+        sha256: b08954d795998be73fa0b0f505c716d9af26b85b83b749fd87162913e8081f79
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/common.h
+        artifact_id: art_327549c6b02417a2613dd1c9c85d99d6616bfb63120f65797bfc9ce786d2cd14
+        sha256: 0c61c8420a93c6337023398676e31376d65e9faeeaf15d624720d811260b8654
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/cpu.h
+        artifact_id: art_1e1298464a0ca90c5dab328d5f25a354bca81b5a02523449c9a9f2b0a858f8ed
+        sha256: fd5df26204d57d8bf90c63600e032cfc5698b696af6a48da696dee4a22d87f23
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/crc.h
+        artifact_id: art_605a62372526f31b36ddcf7c689068c239cec78fe17fc0916beecb0077046fd5
+        sha256: beaeaf96716ca30a17f3235e4e75758d3245d2ce5bae86061a8cf2f128cfc881
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/csp.h
+        artifact_id: art_d4680ff6da547b4908bcabdd9e25a0abc000e59819415fd903627fdb206ee3c3
+        sha256: d70072bcbbbaf3936a6892b042a9865b09aea7e4cf78119a9a14d27a10e85aeb
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/des.h
+        artifact_id: art_4cb2f3aa82aab8135f08d0de8a5d06561e81341914c43539f6b731652556b6f3
+        sha256: aff467bd102466db2f73ba2fa9c652a02b7c80daa5d7906c8dfa2dee9448d469
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/detection_bbox.h
+        artifact_id: art_099397df6f184a1f1e6cbf43827fc84a84b31bf28c1a9750a030edb47db69d2f
+        sha256: 3126fae146f1b16985ac3e7939209cedc19456ef1eae7845da9af62a8d2a55a9
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/dict.h
+        artifact_id: art_5f61fb71f35750d100c147acf38195df85904759c06019f174efda61e72a6542
+        sha256: 8a4bb859df93f536190be176a39705616189070858d9c479e958cd20b478060c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/display.h
+        artifact_id: art_3af9f3ed9b155441a64195a1b58240dd382649804cc5c5ec7377435312743181
+        sha256: 398d76171fb01901581b6892463a111b90ea0819836d1c3fc10dda3a1ab6a0c0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/dovi_meta.h
+        artifact_id: art_3b739cfc7be17dc3c4771ff574de6c7e27bb852d197314b3ed4161452b7123a6
+        sha256: 3a67a422676c5b6e2dfd59b3e6a8e3f816b0602f5d73332c0b1d8e6b43644077
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/downmix_info.h
+        artifact_id: art_ff83d3dbd2aabaac419286ca654fc67d88f17fc64ce6f900a90cc07d300e9b41
+        sha256: 2fc23ad8f0750d82fcd6aa3b653998e2ea9721f9d1664df7b6cb80e93d7fa3aa
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/encryption_info.h
+        artifact_id: art_5cd07858135488a98185d47270651b4170aa0810abe0b37b0b3367edccd1db16
+        sha256: ccc3a4a889b8a3c5aaf37b9fb2407bcdf23a065487c7cba718518a517c463b18
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/error.h
+        artifact_id: art_5df8aff106f60b055682868a724b0bc5dc2441c37441f2ca77dbbec65fb92648
+        sha256: f90feec75a317e491618e06ce14d19218e5b0257c885155613b704002a9d5bda
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/eval.h
+        artifact_id: art_c2619ca3aac83220ee5e70c7be3a0e88826fadf1d1df3e0517b89a43e27cd066
+        sha256: 49b5ba49df98c934ffeda87508656596f82c0482b74db4810964d46c7c74adf4
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/ffversion.h
+        artifact_id: art_7a5d96e23da138127f6d7de834e22c408a5dafce73d5f540c836496aae2fe26a
+        sha256: d2a8ccd33ee273b4f035caaa40d966bddda03c91eaf48adcf3c8a131e809c21b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/fifo.h
+        artifact_id: art_ea1a7569bbaf434b9434bd2d966e85dcc472d7d2245cf431b54f7cacdb946730
+        sha256: 1c0c7ce0a4ee1c5384c5a66fd58e52f214c84575912f959e01e408dbc929dc37
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/file.h
+        artifact_id: art_ef518d6363044aee524f3863d62d63f43a211e785733878a955777287486fe75
+        sha256: 2ab6597daa60ad0e27ab4e0eba160eee5917a7897610593d78357f7b43996d80
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/film_grain_params.h
+        artifact_id: art_4751f56d75a66d7e38391f88c0026e55990beb3835600fbb2dc9de2f42f1563c
+        sha256: e1bda2934dce25cb0bb9fa6eaae230cd21aca79428905b66417f74fc8f0fa72a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/frame.h
+        artifact_id: art_32d8a74486a392f5322792a2c684e8369aa4eb6d6083a1cad86282b01d167f77
+        sha256: 535e24048951c34bc26d6b63332bae9f6208ee4f8d988967d81366cf59eb4764
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/getenv_utf8.h
+        artifact_id: art_15c5497f4e3109e4af6f5ef9faae7f6c38278f3ed515392ca821609191fecd15
+        sha256: d2a45e15c8c7a840974654ad44b0b5546b07cbe7c23174e00db8f874dc0468bf
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hash.h
+        artifact_id: art_52a12103ff19840b326355e5fc1ce826cbe901bf3283ce3e4d17bcc4bb0b6cd5
+        sha256: b0896571267220736679eea28c454783795a02a0f1aef008ebe7c40489a75fdd
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hdr_dynamic_metadata.h
+        artifact_id: art_c7c3a0760b18bfb80529a658eea39e3e19f591b45880b1df9b0adb0c115b6631
+        sha256: 9a6ff1740d7c46575e19ac812615522001d44d47617e0e55e1515f2367dfa10d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hdr_dynamic_vivid_metadata.h
+        artifact_id: art_9142d1ac6eb1770e939e45f75703f74fe82adad944b1f65945c56a9d057d053e
+        sha256: b2dffda8eeb428fe7a60d8f9060aa23fab418ce2799314b4e723cbadd95e7204
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hmac.h
+        artifact_id: art_4839bcdda1f68f31193dbdfa8f53267ef07c782e43e68890ced81b14da7980e6
+        sha256: d14d625a897d6bba0668acdf33dc597bb0050237c5c1a5f7e568fe36822782e7
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext.h
+        artifact_id: art_5cc7c3ce9db2b829cd411aed9cadd0af3c3cc4f5c3507e1c2e0a6f0fa3091fa8
+        sha256: 139d3e22e3cbd5c3efec2596854b2301bf935b8e7acfb4b39a53d49415b8e073
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_cuda.h
+        artifact_id: art_b3b073bb127c85ff143a1b397e5983be7a21d09e8a551c887cf1a72144bf59dc
+        sha256: 75f30a392dda1d8f43561f436a0fc35cd43264d2f6ab412ae2f98fd1cd738bae
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_d3d11va.h
+        artifact_id: art_4a441b8d06a8adc0ffc5e54499f696d7aa971f8311e16aac0b2671b12cd9afde
+        sha256: d99c1b5c5dab94c23709d4ce6cf489c2a0b4f4bd57bb04e2196371277dca5af7
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_drm.h
+        artifact_id: art_0728688dbe63f74e84bbba87041fdbf7521a3a491e1ba5c1a14a6627046b83bf
+        sha256: b598f37f40cf1342f923c0b97784a6f2830b543868eccee046375e096fbd5f24
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_dxva2.h
+        artifact_id: art_e5f80471ed449481e6b6866b3422f69897c3e530257bf22cc31ee428e2b529b0
+        sha256: 73a0333b65e99675834dcb1b63a5e9339638ccc619f1a2fcba85cdd0e179ade0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_mediacodec.h
+        artifact_id: art_7ed1dacf1cbd51c7770841b43ef6627bab1b7a8033b04a4905ce741931858e39
+        sha256: 782ffc4acb547481295419cec98e036290f555483ec374972db129299c9ecec3
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_opencl.h
+        artifact_id: art_48b5737e2ecce8cdb0a693c6dc60fbc828b2f1682db8f2dbec294e0d6bd83a7a
+        sha256: ad521fa2fd015cb1aba962468ca4ac176f5fc6b2c4b7be28f05e1c03d89e1b31
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_qsv.h
+        artifact_id: art_a0e6e0dc5d2a225a46912ce3fa6f5366a050d98735876f4643625b24ec28da33
+        sha256: 28c54c9ddb4bd8e8c47b11b1f44dffde40eac604b2b6ec6f1448f7d298780878
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_vaapi.h
+        artifact_id: art_df110c0bd20117ff807c9a81a768ccccf382682eed41e719118135d8922bd3d9
+        sha256: 6f6c6a5250dd0f901cdc7de8b9b3db26102719b7e056cd17500009096bfd9b39
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_vdpau.h
+        artifact_id: art_3efa3489477671eb76513f6b36e93ff3f00db1261afbc77fea996232217da70b
+        sha256: 6c96373d9e5deb2c500004f3f55ee1d2cea0f76cdfaeabaf5a3ad3e4938e8252
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_videotoolbox.h
+        artifact_id: art_78df6365b5707c1968af3682411ed82d041375db920475df7f32b48215366a44
+        sha256: ab204573a25620477d859030c57edca2acbc72e7df870fa90147342163f2b389
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/hwcontext_vulkan.h
+        artifact_id: art_74695955d6a567f30faadb37998cfdb2c97f41a12c9fe1c1e9b38437e7f80294
+        sha256: 1f0ab38ec4f38b4f95f2a78c784bd897c73a53f3829ef9390dfa8201abb27bfc
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/imgutils.h
+        artifact_id: art_111a8d01ff84907e38e6bbcba7e5c3911da18b302a0989b91b7362f93ef55e13
+        sha256: 9941f9f4c6b7b8991c821d2d021e8f633c6cd81a70250b5d3e0a893abc2c1082
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/internal.h
+        artifact_id: art_b4c49ee0c9597ec51927f354b3f37d004727664bcd33b94988adc34b7e646bf3
+        sha256: 066d4026efc69aef3e2a9c007d76ffed3b25299ca9b5adb6dffb76dd4cb41b45
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/intfloat.h
+        artifact_id: art_235e079b546600a33136e753e97d0e742af7e1b251d86e523b6c8f10ed8e322c
+        sha256: 3a29e4eebc8c269cfd867b96de91d8231773d392c12a8820e46eaba96d2b4ca1
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/intreadwrite.h
+        artifact_id: art_5f75b094cd5b90430344e898cb1950eb8c4137aa5232206815b76e52a24b03c2
+        sha256: 61f5c70a02b95624756cc191c0c9d1c232219d37c051b4f33d662dfd33233958
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/lfg.h
+        artifact_id: art_9f32f5f3d5f6c64d032241452305ea2659679ae89d544390ab7eddb37e73fe75
+        sha256: e2b65dc748b82ac20d298809cb1f839a4532b59b8acc78a64f0f9f80348ad516
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/libm.h
+        artifact_id: art_6f190676610e32599f152a00ba64f0f856b833cfccb03943b3373a64939da5fa
+        sha256: 152e0a524cb4fa68831ddbe6ef1dc08e8a71cc87775d25f264a49eb991680da1
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/log.h
+        artifact_id: art_b9be387b747ebed11f5dd78a4d7c8fcf8f72f5b0880cd7cbaa0b72676bc329cc
+        sha256: 8555ad5d41f5f2fa1c7dd0dc65f2145b0517c0a414654575aade8b3968e4c408
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/lzo.h
+        artifact_id: art_26c3de9b25072090c1b2d3215616624318cf6a4fd46c13365cef0b5614eff4fc
+        sha256: 61e89928dee9d83030adececac06aa6c1ae2aada06c5682fde52c52015c53556
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/macros.h
+        artifact_id: art_0ca8e973916b529a4a25287c05593e3956b359d0e818e9db6f5170e98971b888
+        sha256: b63b3a268b096f0eed1e91b821714cff334e5dc5bb34365148704393ae15321e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/mastering_display_metadata.h
+        artifact_id: art_53491203711ac56b8b5c60b5bdf760b93949d655df7b64e6b5c79b56c23a6bd9
+        sha256: 9d5743a42306ac0158e26248a1281ae8be9ebfeb02e67f14e0e6ae770a543a65
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/mathematics.h
+        artifact_id: art_d17476da2441f0e8457ccbdd62cd70d823e89de74417277f2d9bf25c85a21e25
+        sha256: acc8d41bb9429b66c1d261380f3fdbf53959696a03cce34d516300379ebd46fa
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/md5.h
+        artifact_id: art_6d13003c0df2b59ce022d9645c095d8504cd4898f680d9a7ef21c0a40b5681a3
+        sha256: 5b42de1758d289f78b4d20c47686f443e4ea8a5a6411c0deb357f709d2ef34d7
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/mem.h
+        artifact_id: art_c2e7f882c9423cf9fd373246a3f0e3a5b1698a9a5f2f085c3eaab08187b64311
+        sha256: 50f3671f39dcc689be9a09cee87404cea8c1b0ba84dfd12a7974966fec4f1e42
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/motion_vector.h
+        artifact_id: art_ae7ba2ddd957a1c8da4d8a107a2a13ba62ccb984890404c8620aa9422cc4e26f
+        sha256: dc0b0a15a638c8b91df95a418c5951ee5e787d518f22b6e3d70094922536e8bb
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/murmur3.h
+        artifact_id: art_94b4cf9cf8ebba1c08a0c32b2238e3681a4d70ff586c49e16ce18038c60973d0
+        sha256: 649258a51c4737fa19a025a489e2ac9e9b06a96eafa802f2765178c684382887
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/opt.h
+        artifact_id: art_97714867d3726720ac208813a98fb5f871c0a762de58c464f50a0bba812be927
+        sha256: 4a1679c21453e4337cc7d377efaec6610340a59204c0b58fc102ab3a9da51a39
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/parseutils.h
+        artifact_id: art_ac7f356666278c1ff4138a3848fce68c7e263a2b26d89e0f94f2ae78bb37b127
+        sha256: dafb4321ecbd52930d3900d8d22b2d1714b0375622aeea4acfdf8a0a4b6ee03b
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/pixdesc.h
+        artifact_id: art_72ff6efa042dc939bfe1906b8d2b3ec16fb9644c84e3b3411fdd0909dea165eb
+        sha256: 22134e29de6b5ff0e9b44723ea49bde9f1bd8f1e338ef1d06ad4c2c13ece1213
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/pixelutils.h
+        artifact_id: art_d649c771eaafd4ab6f288cfabe6012ebd3fefc580fc906e908cbe6295e2ad79e
+        sha256: 339cd6ffb6460d06401801c5dfb91ca66b9bdc028e1acc9ff4a0f447cfd3785c
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/pixfmt.h
+        artifact_id: art_b9e88b081e31d79d1ab6327ef9489546eb608d6349038fe96410d079b59385c0
+        sha256: 6ed348718483b0208e89a209391d01f844890d95fb733bcf656497f2c818624a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/random_seed.h
+        artifact_id: art_b0a986ef6fffee36c7a95d1c216659e7d208655e05028eebef6ce64ea92b2e96
+        sha256: 78b238cd2dacd863879052ca3b1405c314aab220f63b076602f10bf321974ac5
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/rational.h
+        artifact_id: art_b5d584418f4efdf42363ca23107fb4f6b0b2a6ae4b3afb98b4a29c43826102b5
+        sha256: 6efac8849324779e78f9a08f468a2bcb7d3386834539af4f7b13ce88d1e66f4d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/rc4.h
+        artifact_id: art_be739f0918deef50afd51645f50b088ccc434548b422cf7db78ada73584a0f31
+        sha256: 74610fdb46f20ba5dac1edd1da2f2d6d837ac4c5746aa9efb16c9c147f39ffe8
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/replaygain.h
+        artifact_id: art_ef5a196c9f3e5a02e36480ebd029a676fcf3f483bf679101006ff2079c98ea26
+        sha256: 4ec82edbdc4e5493fba3cae6a27566f0f15d1399ccf16e25073ffd50ba8187ea
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/reverse.h
+        artifact_id: art_af7f2892c22905c26d3db0fc76acd33751e91c53a2969be446eeb60fa73a9bb3
+        sha256: 7021f8d31b74233859d159ef8108ebe19d2e5e30c2025a728f23009e3233cc9e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/ripemd.h
+        artifact_id: art_deec2dda7f341d36061ba64cd0db266efe49c5d2e820578b602c56dcbb05a134
+        sha256: df9ef8c29ee31e5bd8ea299b03d51bd25fe937583793a994db53d1df2b316620
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/samplefmt.h
+        artifact_id: art_e7aeb40b991d745b9b492f082b68e67a6461301e40a7859456f21ada861cffd9
+        sha256: b63c69238d93f794d7d37e314ec8e8a995b4c78cb053bf4f9472e217a19f21b7
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/sha.h
+        artifact_id: art_84dd94f3b00142c2794101d4f34a0b0aa20119d8fcedcfd82d492a6a16d01ff8
+        sha256: 91280db6995b1b99b9e5aad0aa211a3177dc4d2841da2fea097f54964b7891fd
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/sha512.h
+        artifact_id: art_36fc8e8e072a4ebed8e9f768d18daf655201fe19ba59437c714aaf7d16f5c0dd
+        sha256: da265152798b221706d7fe95293a0e8cd18fa2b5087bf32504a8120f10e7658f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/spherical.h
+        artifact_id: art_d3b10c143016c1ce54cd509823f19b56b165abab2b269d1af4873ea6067f34a5
+        sha256: e8e02f113e48665bbe3fd610617b4ac0dc945fffca78d50fa81bd22e725e5576
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/stereo3d.h
+        artifact_id: art_72d3afa46916efd9cc7e542bd0d453a6e9de76f5505a902c9750c578fadc341d
+        sha256: 1b841852957b05963deefaee454c5adef1a58e049bbca3cce4888dc3c09b7359
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/tea.h
+        artifact_id: art_b87c569e59f8de7c1765ea1ee7174a2fc3ce8ffc28f0012500e2ad5fba3e08df
+        sha256: 3c1e93c566630bb4eeedad3ef3c8719bd6050081ac1c764b1fde81aba4969076
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/thread.h
+        artifact_id: art_fc53aed1d3de067186fce3926637d467a6996c049ff0ad71584a63766cda4cac
+        sha256: c4fdfa870a768d70c8f3c3f1c0052285586d6f0ccdacb65c9b95fafdf2359d9a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/threadmessage.h
+        artifact_id: art_0bec9fabc82d08c0a46c7cbea04dac81195772c25c003b52d14fbae5b3ba848a
+        sha256: 9bb242d7adc48662b947726843108aff7c34547d7a4a0d0e6f58f54a00fc4c9f
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/time.h
+        artifact_id: art_f1768d8436856133e6c29e3b971e2203438ee57613990b1505821fa8965cd250
+        sha256: 40e11fa242e0585996753affb054443e78be25919b7c3063042d0aaff1656760
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/timecode.h
+        artifact_id: art_b7c83bf8691faa7854bfb0d21bbdc6d628883d53e0816f59d893b67f6379518a
+        sha256: afd0a634b1abcb282c694ae6c43f0412fe2ccb37fb3f08433af33779ea9e572e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/timer.h
+        artifact_id: art_dfd4063ea0b76c6610d95bdf401c03aa5607864b116e79ebdd1acd6503048257
+        sha256: 251961d3cf7487a2688b98b2fc4997343abecee2e75c592a603bc4f9add6471d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/timestamp.h
+        artifact_id: art_3f51e5e18e0288d90b909efa4961ef41f4d68b29658bcc20e7b0b120020f5fd7
+        sha256: c4753df37c8b0e63e99042007d5836b954ce825913642c57cc7c58b4a52d0273
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/tree.h
+        artifact_id: art_cdb3c72fef19649bd9f2168d6be91175db884e9d9fef24472cc1228497b937ef
+        sha256: 2f8e906917612a05c138036dea7ed9f8faee5899413a523fdad4eb51711bc1e5
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/twofish.h
+        artifact_id: art_59957fb18775093c59305c6d4718dd6784515dc86ee11280a06fcfc77c1eeced
+        sha256: f6823a45af3a076bcf3f3f3361f1fa6b7aa0ee85a75ca0e8480b9b27b4532189
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/tx.h
+        artifact_id: art_2e1205e024a541bacf4166c96ba88fefec07e7518f0135713a6f2ab9a1bce423
+        sha256: 6ab656195d4c23ba927c5f478a8bb5ae5777a79c089a2d04e88a78ec1fd99328
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/uuid.h
+        artifact_id: art_9418cf9b3032f01b8b848e91cc761784c78f820861cb710fb0b3172905cff9b3
+        sha256: de5efa5e568bc30e082fd5a68e32880ce505ed23e227ab54fb8ad4c47f1743c5
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/version.h
+        artifact_id: art_b961f0bdc04d222a62fca2f9d3492240b720a236837369ea43df0844473dd300
+        sha256: e474b6c9aa7bfaad9bbaa74d66ab582f244eefbefd2017fc5afbb8cf2887ebe7
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/video_enc_params.h
+        artifact_id: art_f498cc15f152cdc8f3d7756c9693f6b115e7e3566fb89cad5b5b0d73fee9517d
+        sha256: da9981247f7839abc4f0d117fe3bb547350cd2985dc17e3984d80258ebc73d60
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/x86/asm.h
+        artifact_id: art_356769e74b7505448cf1708e16c1170a57e7c691aa95566c67c1bac8f23ed621
+        sha256: 9520adf235f7ff22407e9db9cc2926687cf7adb111914d7d71493059b57fac90
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/x86/emms.h
+        artifact_id: art_edeb5c4c1cc4e046bfc9f8ab2f8c69e2bd3d95881e2d36a87ede3da68b21b017
+        sha256: a28a14593f9de6d206535e8f0b02374c3df850139e592c8ac772d48a7a5e0092
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/x86/timer.h
+        artifact_id: art_6381c623e8b2e19affaa259897cf38598fa856542d0691cf16822f1b36806961
+        sha256: 465e6526086ffdbed5699556baee837c8549ecdff2b6c9621b76c730faa3fd87
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Headers/xtea.h
+        artifact_id: art_8c62e588752a285dbc4b221e32b8a6f01f3d505598ace8e780817a9afcd4d510
+        sha256: 2eb91f780cc4ad86095e4ebbce453475d40f4e9b8737d52bdf20a068dfafcdf0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_bfbe4879160c20c6c1bf8bdac26705a602a67d077922ffca1ff29587b8c7b906
+        sha256: 31b7ee7027240740725830cf6f9c9d6e3bb8737d44513348dc08deb60f8a92b6
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/SC_Info/libavutil.supf
+        artifact_id: art_8cbcb19ec4d70b85ee6c9e5aa81cc8c1fd3c114fed3cf5553ad65b5a9909d55d
+        sha256: 95f0e705d62a4bec060bcafab1008560e1418f3ef5d0c0f81f82347d76b94b53
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/SC_Info/libavutil.supp
+        artifact_id: art_cb1b79518378dfb24cbeb2768743eb92623665ddfbb6500f515d2eb1823f01fa
+        sha256: 07abbb61f754002c94b1d56f70d5f5013ad094108519a09e597a05ece887652a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/SC_Info/libavutil.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/SC_Info/libavutil.v4.supp
+        artifact_id: art_0edf4cbc7cada113be47da84d98789ef1f5d47137b7b0473d2f707d9e1981e78
+        sha256: 05f9a08c1413ac177676fbd4fbb107dd4499c32268cfe5a6f2d6202bf0b5b84d
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/SC_Info/libavutil.v5.supf
+        artifact_id: art_4f290306cc23ea48b591668467bff1c7e9253a2abb70f3e3b81fa05f5596da06
+        sha256: 6bf296df1fa3b551e2554e7bec885439d3c8676a26820070569acd47bec70677
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_3b7b10f5328bb1583b042ad001b7cfa851c74bf6536f2671b4a92acdc87d09cb
+        sha256: c16d587a97f547a5a64cc687eb4d722838ddb2e2bf63c660559575ef7afd414e
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_db076fa8097067039cf3fa676aa5e31d560a8add12769aed115b45fc370341b4
+        sha256: 55e0d8c5ef44831e662b0fa6a48ee9f58c823eb9c9be1a0023df25831be6e8fe
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/Headers/swresample.h
+        artifact_id: art_87ee21d3c26524a0be51de3e3ea11e392442dec450dd5c1c6d1f11786e5ccdf5
+        sha256: a8c3fafc0050c01f45932286ad30a9634459a0e2266c4790be75f9df3ed34317
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/Headers/version.h
+        artifact_id: art_b33c9356b24ed814059b8cbcd5ddc8da226259febd2337826cf89fb50ba24266
+        sha256: 3587f89a88fc5fbf8d7524e987b027bcb86b99ae6942260a7849f21f8e65f234
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/Headers/version_major.h
+        artifact_id: art_2eaa3cde6b62377ca7a12a8071483688a65893373763f6836d166de0df805828
+        sha256: 7d95fa5fa8ef2f06afee5f0a3bafad2da65a02c322058484740b4a9a0b1b365e
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_1b9a68563ec7a9a8d198288df8ef10460ba44a57f1594673d8412360e4264958
+        sha256: 022673185411befc7597ef7da2620fc29af83cdd4f35320ff329e32f52edebb7
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/SC_Info/libswresample.supf
+        artifact_id: art_cd447e33fa70fb4048c4ef6145ede05a9edba7acb79469cb8e4ad022b8a120bc
+        sha256: 4883ea919bbd17b23a0ef113de39002882416b525c050ae63e63e2f0708bf366
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/SC_Info/libswresample.supp
+        artifact_id: art_b6dc6b7bb2e26d503e91d5f0cb3179e0d8ef850e8cdedfeb2345370487229ff4
+        sha256: a94df8bc29810f795fd4160744379627f70c83f5171221204d60f6e1a8956dc0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/SC_Info/libswresample.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/SC_Info/libswresample.v4.supp
+        artifact_id: art_52a04c5b627ba1f9c13eb5d2860bb3d61c53e2b2c1f6c8865735ac14c0523ea2
+        sha256: 239c2bc8bcb3706de94b28a9a79aba6b902cec84c0f57862c9aecca68954e805
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/SC_Info/libswresample.v5.supf
+        artifact_id: art_0378aee92592899d9703f133de9943ba6d9aa2d6fbecf9a814ff1c5b9f5e3e5c
+        sha256: 3b36eb84cb9038ffe40a22a243299d4fecb204213f2a2fa8cd442d72d0df9fc2
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_f03118fbef808977627f20c1f0978d44a2df896499c6b5570725423895297758
+        sha256: 4819e0e6b48c03e34cafde2027eafa646ffd0299810cc1e6045d731c04ac8873
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_44ed64425cfefc7765c35ed69a88b738fffa0a7fbcef80017290552f6b633a61
+        sha256: 8343045f02a4e198e18277bbb0e0139cd6f0ba7720bf3745cb430517a41766d6
+        format: mach-o
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/Headers/swscale.h
+        artifact_id: art_cac286c935721f4f9dabad83efea6be100ba7800a8ca7579b248c432512cd99c
+        sha256: e9b1957bb9e2f317ed6aefbd287de460088f7676b6918fa25aa8e43f2f0cc102
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/Headers/version.h
+        artifact_id: art_40edcaf2ffd2739c1fcf506c355d0a9ab79661774c036bc7c4ccf106d6b6910e
+        sha256: eebb96f6c361b39fa2ae48f91421813232c46627aa57f8b586f4ff043ba093f0
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/Headers/version_major.h
+        artifact_id: art_12d9690154e73b85154edf1115de8cc9a633cf5c3541c8c77628a48396b23ef1
+        sha256: 83eeccc9430531454e758d291d81ca926fc742456fdcf33848833d38040d76ce
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_7988d27d20f3c9fecc26c92e02227b5d4bca7c448f4b4c40c9b2909622c3ab32
+        sha256: 590af23c33decdc35efd1aa30b7c405941208979d61e5014a009ffdecfac4aa4
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/LICENSE
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/SC_Info/libswscale.supf
+        artifact_id: art_3ca97c1c3a2d73cd6e11bd1ef987d7b83f7725a40f9c70bfde0990f0162b37b7
+        sha256: 2b09d3e3bdfc1cd43e3e9eb0d0cf9f65f56f447c5b85cc04ab5f2df577941c00
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/SC_Info/libswscale.supp
+        artifact_id: art_bdcbf3d233de12d3e26241371233c02cbfb9eef96992d6b8d9e48e9d02db5c6b
+        sha256: 0950ab5256205365c6e5c2549f3866424734750bf888ecd86caa1755a473280a
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/SC_Info/libswscale.supx
+        artifact_id: art_3f2a9637a0768b00cc4f0b31423c7b7c5522bc5b59cba3995ddbfa727d967b05
+        sha256: ba70d5b4063c9ffef13970572906b859b6209ab09ad30f574f852c33ba8b1590
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/SC_Info/libswscale.v4.supp
+        artifact_id: art_51f36a5bd53e4a535dc02cbb7ee4199fc7f09a6eb5588047d1ca0f0c9d0ba516
+        sha256: 9e66365e65cff7576f0a13d97a20c78e10ca732516b49e7723e4614b1d1563da
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/SC_Info/libswscale.v5.supf
+        artifact_id: art_d8ceb6fcec8657aae48352c51fedd60dc38a8ad6c867e98ba9f30b746c7efdce
+        sha256: 7366bf7236f7427c7e7d05bc9b36997839b62fc8c7a29a5bb9f9c79490887800
+        format: file
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_a330a41d4cfca45e4b2e985293599246bc119de14dca5ec547fce8317c3a7f43
+        sha256: e8dbd424afc09f5143cb642b4f8264fc537795d8bb280c769a9121ad6c248b55
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_ff72996efa3429df099e188b73d5a445eae3ed50068482860e0fcd705a8dd391
+        sha256: 7d5b1f6db5f3481ac72bcb0073b24c7e521fd0628d1066b6cc38ce61fec77bee
+        format: mach-o
+    native_libraries: []
+    javascript:
+      - path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+        artifact_id: art_7c346ed635863c7f15b0ea3052c43129ca2bcdc5709bab1e7127ce0e68e4c199
+        sha256: cf5937cd9e3f84329ddfeb4def0cf3f0b1e31c2da9c4dfeebbc07793d0fd0377
+        format: javascript-bundle
+      - path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+        artifact_id: art_df69df0051c124bf3936dd72979be1f2f8272f19a7cbb2daae22bf209a3acf7e
+        sha256: 65f2f349d4044c17cf5a7890b20b5c7b7cf279878122bf79b3b33f7f4bf62cd4
+        format: javascript-bundle
+      - path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+        artifact_id: art_74dc00e1c0af9138c38bb74e34d92b58b1df9242591e01b35b6802ca24dc0d90
+        sha256: ca259e4e3cdd37d92fc266d9af08d4fd66da8479e240f4d984f29da402c22ead
+        format: javascript-bundle
+      - path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+        artifact_id: art_622748392bcd43bcabfe974737ba7e0ca5cacf68caea0e9e3b8956140292d721
+        sha256: e8314c3415d59d8df57fd192cac5ee40ace256337ea9f5199f4c7002fe4ececf
+        format: javascript-bundle
+      - path: Payload/OneBook.app/foliate-viewer-bundle.js
+        artifact_id: art_b35433caee043d65cd71a6245de72d348ccbe485674dcf895eef690916a44710
+        sha256: 43a4f087d6c256f84f5a0896b54dcdaff101d73e4b77b8d3ec72770f5cdd3798
+        format: javascript-bundle
+    signing:
+      - path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/_CodeSignature/CodeResources
+        artifact_id: art_aec6f0d4cb366b295fdaeb2420dfec2d797d4d15742d0cb2c10c40d2206d9773
+        sha256: 0874cabd50cee4f3670b41f506f12f16b27b7bf4726d95485dd5950b219d5dcd
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_ca0a72cc45476304180cb013c293c9030b144d6f77ba230f3b1c76145135f4c6
+        sha256: d6d25569279856d144bebe484e7e72d057ec605ad621e7d5adac65807dc9dac7
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_61794d8c28e806b79d7e544e0a33541e5c1d9f3f64b9ae0be3b0e2b663e6d3e9
+        sha256: 68c734091fb12416f7f62f0b7ee9699ea756bc3ce51af824684c48e8d0955598
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/_CodeSignature/CodeResources
+        artifact_id: art_fec269b6c4a02230fa2c757a40923020f4eb0961a581c3aa37d3f2e48b77562c
+        sha256: b5611c28b50ff18a7b321a976f8b5865548e7345b810741e8812c881a386b5b9
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_e3218d16a778e904ee7f3890fcc7a89f7b61d4914a351c68924c18dc9102cb80
+        sha256: 586420b99788cb8286fa6f45b6376ed42a5949ed424d0f014ba3f9d0faed4e50
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_96c9f22c4ed6d16c7de5aded6c11159bb34b6b1b069f23410a020b9aa3e28427
+        sha256: 1f3f339ada0f89c8ffcf8cbbd2b1371639c09e939e3d4667c2f694ab0144757f
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_20c9a857c9a4e034c7a4a7986b14e1ca684b8bd48389698a1d7892d1a5be2d57
+        sha256: 4e1d633076731f0003a3bd1a468d0a580e29aa7a1c0f6fcd731f3852e0be98a1
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_b178f35166c495d0731c589fc876bdfce1a426931594baf92d0c4527d8dd2172
+        sha256: 4774821297c0c1b5cd844c2e2d9b60974160cd42f74fb4f708e37b1e01df2fb2
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_3b7b10f5328bb1583b042ad001b7cfa851c74bf6536f2671b4a92acdc87d09cb
+        sha256: c16d587a97f547a5a64cc687eb4d722838ddb2e2bf63c660559575ef7afd414e
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_f03118fbef808977627f20c1f0978d44a2df896499c6b5570725423895297758
+        sha256: 4819e0e6b48c03e34cafde2027eafa646ffd0299810cc1e6045d731c04ac8873
+        format: plist
+      - path: Payload/OneBook.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_a330a41d4cfca45e4b2e985293599246bc119de14dca5ec547fce8317c3a7f43
+        sha256: e8dbd424afc09f5143cb642b4f8264fc537795d8bb280c769a9121ad6c248b55
+        format: plist
+      - path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/_CodeSignature/CodeResources
+        artifact_id: art_cbdb92ac99dc5fda37d2f41ff468137e03d6a7b7aa40f32844b330b25b4fedc4
+        sha256: f314316a1f20f76cd0112d023b5bf34c57fbb71db56d8d3c2120ce697fa1e869
+        format: plist
+      - path: Payload/OneBook.app/_CodeSignature/CodeResources
+        artifact_id: art_5a8fe8a683b1b387081fc2a61f5ff7ac4692549d08e1cf163ea26b673a7c03f8
+        sha256: 5863746b251f5d222ddc8b8dc817a63174c48348f386f080368f62593d462447
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+  bridge_candidates:
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/OneBook
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+      native_path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/OneBook
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js
+      native_path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/OneBook
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js
+      native_path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/OneBook
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/ExtraPython/site-packages/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js
+      native_path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/OneBook
+      basis: javascript-and-native-content
+    - source_path: Payload/OneBook.app/foliate-viewer-bundle.js
+      native_path: Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 65
+    emitted_candidates: 65
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_56d26b8b696aa563a15509c1e46009b2e6966da41c9cd6bcd95c11a1dc40cd01

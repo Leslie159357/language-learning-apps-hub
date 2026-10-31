@@ -1,0 +1,487 @@
+evidence_id: ev_04f7c1c682a94ab5b4f7ef465f6146bec4aedf5d8a48d0e1d2a7c0b318d25ba6
+subject:
+  name: DejaVocab_latest_decrypted.ipa
+  digest:
+    sha256: 80bcdff075482b8b89f13e630af1d776df71b651b8323ba35490ef2b42e84d62
+  local_path: /opt/data/downloads/newest_decrypt/DejaVocab_latest_decrypted.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_9cc7f76542c8b7250905de80dd55d0772ae556f927bd711ce421e2882a646531
+raw_result: null
+normalized_result:
+  projection_id: aap_a24545ec707f45075bfdc9a0c4e646937138e422e8b939632464e85fe7a9c750
+  root_sha256: 80bcdff075482b8b89f13e630af1d776df71b651b8323ba35490ef2b42e84d62
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_9cc7f76542c8b7250905de80dd55d0772ae556f927bd711ce421e2882a646531
+  application_roots:
+    - Payload/DejavocabApp.app
+  bundles:
+    - path: Payload/DejavocabApp.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/Info.plist
+      executable_candidates:
+        - Payload/DejavocabApp.app/DejavocabApp
+      signing_paths:
+        - Payload/DejavocabApp.app/_CodeSignature/CodeResources
+    - path: Payload/DejavocabApp.app/AppAuth_AppAuth.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/AppAuth_AppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/AppAuth_AppAuthCore.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/AppAuth_AppAuthCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/CryptoSwift_CryptoSwift.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/CryptoSwift_CryptoSwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/FluidAudio_FluidAudio.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/FluidAudio_FluidAudio.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/Info.plist
+      executable_candidates:
+        - Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      signing_paths:
+        - Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+    - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/Info.plist
+      executable_candidates:
+        - Payload/DejavocabApp.app/Frameworks/crispasr.framework/crispasr
+      signing_paths:
+        - Payload/DejavocabApp.app/Frameworks/crispasr.framework/_CodeSignature/CodeResources
+    - path: Payload/DejavocabApp.app/GTMAppAuth_GTMAppAuth.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/GoogleSignIn_GoogleSignIn.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/GoogleSignIn_GoogleSignInSwift.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/GoogleSignIn_GoogleSignInSwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-Environment.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-Logger.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/Promises_FBLPromises.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/Promises_FBLPromises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/ReadiumZIPFoundation_ReadiumZIPFoundation.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/ReadiumZIPFoundation_ReadiumZIPFoundation.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/Readium_ReadiumShared.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/Readium_ReadiumShared.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/Readium_ReadiumStreamer.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/DejavocabApp.app/Readium_ReadiumStreamer.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/piper-tts.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/DejavocabApp.app/supertonic-3.bundle
+      parent_path: Payload/DejavocabApp.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/DejavocabApp.app/AppAuth_AppAuth.bundle/Info.plist
+        artifact_id: art_c56d01b69c66125f8e1ae985be8376d0e39c19a1824eca59621a254a795fb036
+        sha256: 218ab303383de83c5f5509d8bfaa00db310edae194cac8506cfe83f2e6d712e5
+        format: plist
+      - path: Payload/DejavocabApp.app/AppAuth_AppAuthCore.bundle/Info.plist
+        artifact_id: art_a30b5b58e7ca85844fb7f94a10f4f4477b48b32d2be15bd2161f516c91dc5622
+        sha256: 9303e0eff3a937637e4431791bc3f8a4e0370ae2d8e627400bf20404060bf6a9
+        format: plist
+      - path: Payload/DejavocabApp.app/CryptoSwift_CryptoSwift.bundle/Info.plist
+        artifact_id: art_214c2d040a3225bda9806f5c5fc5667287ffa0fba126aa662564548692e2329a
+        sha256: ae608d79a1317b1a1d820ebf71d7e80cac7f9a4a8c36adc7afeade4ea528eb29
+        format: plist
+      - path: Payload/DejavocabApp.app/FluidAudio_FluidAudio.bundle/Info.plist
+        artifact_id: art_11f6ffca49b752a4b9ac9e1c33c0169b2058a0a5eb73cd0561a9030e5d5775c5
+        sha256: 11c26a38141a7561963d0ad836e8ab16c665fb20e491c0836f788bfc0ff95ce7
+        format: plist
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/Info.plist
+        artifact_id: art_230a408ccb448db869e7a5d5c56ef86131477fda0690cc738a75c991e992cb5c
+        sha256: 8358fbe5c2b4739216c78710c220c5aeba885b9b07deef6cf43533a4874e2a13
+        format: plist
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/Info.plist
+        artifact_id: art_f47e06fa18fc0370c28424dab5a3e7974b5e545d2cf767f4296f57c8deb80799
+        sha256: b64e7935a3d3ff73b2fa9e421950abe7dc9725c4980a32b1115573574f8ca660
+        format: plist
+      - path: Payload/DejavocabApp.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+        artifact_id: art_dd6333a957fd7a2d5f71c9b35886bcbf75ab9f88a793a6f2050b331eec037340
+        sha256: 3d0a6502ed6060e5ca2d7876a076f4cd32753297bd91aa10cbfedd1b6c5af9c2
+        format: plist
+      - path: Payload/DejavocabApp.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+        artifact_id: art_1bf09d66b66fb0fe0146c8a14f20d964c6781125ce2e75897501fa9e6e038c8a
+        sha256: 6b045483516ac3394b64798438024a91b250e61dc3aa46a8e3d0d5a8e1b56463
+        format: plist
+      - path: Payload/DejavocabApp.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+        artifact_id: art_c9d83b2070a889648d75c38ba01fdd4b0a4c4f59216693e7fec81b0efab0134c
+        sha256: 1856d12c8133948f09d98b7693574a8f2ce4424b4297d62d3a8c7128458e9818
+        format: plist
+      - path: Payload/DejavocabApp.app/GoogleSignIn_GoogleSignInSwift.bundle/Info.plist
+        artifact_id: art_04cbcd1aed11df303981104696bbed78102fe9d936b72cdd4bbcc5ba2eb162dc
+        sha256: 7f063f052132fa4991730f39e94d08412c592aaae830983741e6076c526e6277
+        format: plist
+      - path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+        artifact_id: art_f81ae39d230bd5e4a9ebab197824f00f994e1621d80cd62f66e73b740c8dd06f
+        sha256: 373da90e784e22c20fdb16d772f9e54869f59a93ebaa43aed142be009b7d8464
+        format: plist
+      - path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+        artifact_id: art_f533c36cf060f825d42c002d2f2985e0876bed35481e61e3cd9024ee7e2fc7a4
+        sha256: a74f4afc3d94ac169b09932760752468250f182ed8d02da027b008d5a8428aff
+        format: plist
+      - path: Payload/DejavocabApp.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+        artifact_id: art_67115ba0b38e25db82956bbb42105def4d96c962c7ad5fcb502deabe63d6fed0
+        sha256: dd1c86986631c2437a588bd318c1d0683e9f567379ef9f91a4a5a3b6217f8781
+        format: plist
+      - path: Payload/DejavocabApp.app/Info.plist
+        artifact_id: art_3a57642eefefeed9596be5d84ea9dcedd6f250a6a201ab58e544df313a0d34fc
+        sha256: 6bd7aaa308413ad4e4188d2aadc290afa9ce69d52be7396ab72643da55860a5b
+        format: plist
+      - path: Payload/DejavocabApp.app/Launch Screen.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/DejavocabApp.app/Promises_FBLPromises.bundle/Info.plist
+        artifact_id: art_abdd7d52bfcd9da97d2d2a549fb4d588179d8b932b2af689c02ec8d51f4bd9a1
+        sha256: cfa8527edec1785230e8ab67b3e71b972f60f38d070b5acd27961a92e354ee95
+        format: plist
+      - path: Payload/DejavocabApp.app/ReadiumZIPFoundation_ReadiumZIPFoundation.bundle/Info.plist
+        artifact_id: art_38fec94f410e258952dbdad79dca21b7b46412d2e90403aef728977daef0b6fc
+        sha256: a99140f2c5b59b51b16d5a55bbce36cf88bd07d3602587ac4c54202d1dacdf9e
+        format: plist
+      - path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Info.plist
+        artifact_id: art_1abfa430a3e6155e2d4540b4657a69945f3660997c5b6c08db794673a39dc488
+        sha256: c4cb7ba1eb4954716958e5dd7efaf2e82e2cd9fb5d466bba781fbfa194912fc0
+        format: plist
+      - path: Payload/DejavocabApp.app/Readium_ReadiumShared.bundle/Info.plist
+        artifact_id: art_ade9ac712233f825ac674089e40015b4fc11021deb27f22ba7cc70580c26ccf1
+        sha256: 6f7b9eae79444ea21de6a247f0b00eff7af4c01da10e1879dbb298be1dabb45e
+        format: plist
+      - path: Payload/DejavocabApp.app/Readium_ReadiumStreamer.bundle/Info.plist
+        artifact_id: art_24ef569f29b1acbd94b36fd2153cff8191e97b172a6903f470179dfe693eaa6d
+        sha256: c0dd517c3604e3c30fa6d57d4795cfd2ddffec71efb60c112b7d0616d1d962f2
+        format: plist
+    executables:
+      - path: Payload/DejavocabApp.app/DejavocabApp
+        artifact_id: art_fc5f5cf037298548ede5c51534d697cae90c5afefdc7e889036e8ef3937816f3
+        sha256: 6f612eb14c7bc2e341937d19da6de055d5c57c1cfc645a1d126ab77b0899e925
+        format: mach-o
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+        artifact_id: art_140c053bb985112cc7a8063dfa737c4dce42f7c00f6615254adebce15d13b816
+        sha256: 55476c088790cbcbae4defbb64c0b407940133c03eaa0beffaa19983154b042f
+        format: mach-o-universal
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/crispasr
+        artifact_id: art_a19726a1b635287b851b81eb75092e8105bff642953a11a7c4ca33ff1dcd76a4
+        sha256: 7598e3d0460d791a4613b6c1d7e5762c10dba0a33785a8dcf9322dea9b5858c6
+        format: mach-o
+    frameworks:
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/Info.plist
+        artifact_id: art_230a408ccb448db869e7a5d5c56ef86131477fda0690cc738a75c991e992cb5c
+        sha256: 8358fbe5c2b4739216c78710c220c5aeba885b9b07deef6cf43533a4874e2a13
+        format: plist
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+        artifact_id: art_140c053bb985112cc7a8063dfa737c4dce42f7c00f6615254adebce15d13b816
+        sha256: 55476c088790cbcbae4defbb64c0b407940133c03eaa0beffaa19983154b042f
+        format: mach-o-universal
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.supf
+        artifact_id: art_6c5c44535d8a9ac4211bbcdde9a88bcebe07b58fb73062a55cccffba63bf9086
+        sha256: d52932030c01dcd71b7a212bff20b7e87ebd879a4b0048247a83d500f8f36141
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.supp
+        artifact_id: art_e656eee1cec36e9dd319a6dc51f0933f7dfc1dcfd4c2b72b07895e215d1fc0ec
+        sha256: b4febe05ff2ae03e8af996d365488bf947e54d62d80c39dc6d284d6fcefef56a
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.supx
+        artifact_id: art_638c5379e66f5afb12c64a87b6d8a6e6694524773ae4aa5447b010696808a1f5
+        sha256: 2b78b58f550172393e3a4ff19e1afd66c2148a93463ac5839b735990d33d9e0f
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.v4.supp
+        artifact_id: art_06108a027cf2903560f9d931aea6100b2516eb9d0d803f5aa13f44ca971ab71b
+        sha256: 354151923e459ad53290c73bf51d9297dbe001b9ea3b7c41dbcc5705c3e3124b
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/SC_Info/MobileVLCKit.v5.supf
+        artifact_id: art_eede3a85466a0806fd5afd40a930c776a3e846d536e01bfc55f0d2319ebc6e57
+        sha256: 1165e794e24b7f883aa0a3d8d87f85a78aa5df5a379052f3ee05c5feff7770d1
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_856ebb9f68ca37e70c1962fa83fe94a76e68c925bdd65d122fca2c9e025f245d
+        sha256: fc11665be003d5911013b594f108e35edec9e54523b3016f42b03cdb80be5ea5
+        format: plist
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/Info.plist
+        artifact_id: art_f47e06fa18fc0370c28424dab5a3e7974b5e545d2cf767f4296f57c8deb80799
+        sha256: b64e7935a3d3ff73b2fa9e421950abe7dc9725c4980a32b1115573574f8ca660
+        format: plist
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/SC_Info/crispasr.supf
+        artifact_id: art_3907534fd57d0a103621820f61a35b2852ddaca305053618c77ea9b733d3b34e
+        sha256: 5fd754f3b89708dec70719fd4da4bebf416942ac5d9e6456bc48c8a7f9a5ecbc
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/SC_Info/crispasr.supp
+        artifact_id: art_93280103b41c7f5ee852ae21030a341105226f20eeb69405846a2b156729269e
+        sha256: 65599009894bca4c58b852dfa438c667977794c5c2c04eb1e38decffe9b1c783
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/SC_Info/crispasr.supx
+        artifact_id: art_638c5379e66f5afb12c64a87b6d8a6e6694524773ae4aa5447b010696808a1f5
+        sha256: 2b78b58f550172393e3a4ff19e1afd66c2148a93463ac5839b735990d33d9e0f
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/SC_Info/crispasr.v4.supp
+        artifact_id: art_97a7d377f899418d74ff43857a591741d533da26e12dc21de2f2803a8c9c68ca
+        sha256: 85e8cf32eb8dc1cdd414b07ba4ba3052758f3fdf4173195056a8326699879340
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/SC_Info/crispasr.v5.supf
+        artifact_id: art_c52c0c67422da9d2704b42b69f440e215bb6df3289df75d2007587578137bac2
+        sha256: 09ecfb88f383cb516f7a4426039d6afcd0ff8d95e5de77eef2d07d1fd4396152
+        format: file
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/_CodeSignature/CodeResources
+        artifact_id: art_172fe964b0fb44b79e43638310aa3dcc8d5e3135f197ec918f50284a7b8c04e5
+        sha256: 06d00a81d26234ebe54595f2441807a7fd2beec98bebc12e2fa5d4786671bfc4
+        format: plist
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/crispasr
+        artifact_id: art_a19726a1b635287b851b81eb75092e8105bff642953a11a7c4ca33ff1dcd76a4
+        sha256: 7598e3d0460d791a4613b6c1d7e5762c10dba0a33785a8dcf9322dea9b5858c6
+        format: mach-o
+    native_libraries: []
+    javascript:
+      - path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-one.js
+        artifact_id: art_c6daa6e65f1d028c1d1d19853710e0a88c463e814ba13e947478e6eb7ffc4173
+        sha256: ba59c3a681360cc2435ad8e7dda0cffa2084bfd17baf3b450099f344edbca993
+        format: javascript-bundle
+      - path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-two.js
+        artifact_id: art_1a6a1fef5569cadf0166175c60db9fb011ae0fdeee295499659053dde70a3792
+        sha256: d0491a66ae6d40b466c3b231a68f8f983bcfe48af7460ef696148fc6f3383a20
+        format: javascript-bundle
+      - path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed.js
+        artifact_id: art_8f76683fda0d368ba442e6bb07dc71dd5e25da1428b42f2566955008383554d7
+        sha256: a0e895ded02ee7a43be199ffcd23e8302501c3d8c6f4e6755828c6d2da98f807
+        format: javascript-bundle
+      - path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-reflowable.js
+        artifact_id: art_8014dfe50ac57db9680ea217c4f680ac9b66f013c9416abeb54c2edc22b5c147
+        sha256: f5edf5e65b01ea869ebb0c4ce3cf6cf4556956bf387aef58c513bd2cb343176b
+        format: javascript-bundle
+    signing:
+      - path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources
+        artifact_id: art_856ebb9f68ca37e70c1962fa83fe94a76e68c925bdd65d122fca2c9e025f245d
+        sha256: fc11665be003d5911013b594f108e35edec9e54523b3016f42b03cdb80be5ea5
+        format: plist
+      - path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/_CodeSignature/CodeResources
+        artifact_id: art_172fe964b0fb44b79e43638310aa3dcc8d5e3135f197ec918f50284a7b8c04e5
+        sha256: 06d00a81d26234ebe54595f2441807a7fd2beec98bebc12e2fa5d4786671bfc4
+        format: plist
+      - path: Payload/DejavocabApp.app/_CodeSignature/CodeResources
+        artifact_id: art_2366eb4d988f9a5ba1e0d957a903df1e5b12ebc9db9ea2b1e7edfa36a79e1c5b
+        sha256: 84c7c582f29af0babd9d26f0c23b9380936d219ee5d740af584be6926bf3ae71
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+  bridge_candidates:
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-one.js
+      native_path: Payload/DejavocabApp.app/DejavocabApp
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-one.js
+      native_path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-one.js
+      native_path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/crispasr
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-two.js
+      native_path: Payload/DejavocabApp.app/DejavocabApp
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-two.js
+      native_path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed-wrapper-two.js
+      native_path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/crispasr
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed.js
+      native_path: Payload/DejavocabApp.app/DejavocabApp
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed.js
+      native_path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-fixed.js
+      native_path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/crispasr
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-reflowable.js
+      native_path: Payload/DejavocabApp.app/DejavocabApp
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-reflowable.js
+      native_path: Payload/DejavocabApp.app/Frameworks/MobileVLCKit.framework/MobileVLCKit
+      basis: javascript-and-native-content
+    - source_path: Payload/DejavocabApp.app/Readium_ReadiumNavigator.bundle/Assets/Static/scripts/readium-reflowable.js
+      native_path: Payload/DejavocabApp.app/Frameworks/crispasr.framework/crispasr
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 12
+    emitted_candidates: 12
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_9cc7f76542c8b7250905de80dd55d0772ae556f927bd711ce421e2882a646531
