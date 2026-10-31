@@ -1,0 +1,59 @@
+# 自有域名接口 URL
+https://api-cn.echolangs.cn/api/mobile
+https://clerk.echolangs.com/v1
+https://echolangs.cn/about#contact
+https://echolangs.cn/book
+https://echolangs.cn/docs/best-practices
+https://echolangs.cn/guide
+https://echolangs.cn/guide/practice-listen
+https://echolangs.cn/guide/practice-type
+https://echolangs.cn/guide/tnet
+https://echolangs.cn/news
+https://echolangs.cn/news/Disrupting_the_Fundamental_Logic_of_Language_Learning
+https://echolangs.cn/news/The_truth_about_fluent_spoken_English
+https://echolangs.cn/news/why_cant_you_take_your_time_to_think_when_learning_english
+https://echolangs.cn/pricing?email=
+https://echolangs.cn/privacy
+https://echolangs.cn/terms
+https://echolangs.cn/why
+https://echolangs.com/about#contact
+https://echolangs.com/guide/tnet
+https://echolangs.com/news
+https://echolangs.com/privacy
+https://echolangs.com/terms
+https://guide.echolangs.com/terms
+https://richapi.echolangs.com/api/auth
+https://richapi.echolangs.com/api/mobile
+https://richapi.echolangs.com/api/mobile/tnet/guest?action=get_trans_langs&locale=
+https://tnet.echolangs.cn
+https://tnet.echolangs.com
+https://tnet.echolangs.com/
+
+# 接口路径
+—
+
+# 自有域名
+api-cn.echolangs.cn
+clerk.echolangs.com
+com.echolangs.pro
+echolangs.app
+echolangs.cn
+echolangs.com
+guide.echolangs.com
+richapi.echolangs.com
+tnet.echolangs.cn
+tnet.echolangs.com
+
+# 第三方/依赖域名
+arrow.co
+com.apple.dev
+com.apple.developer.app
+images.unsplash.com
+window.webkit.me
+
+# 其他 URL（含 SDK）
+https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80
+https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1200&q=80
+https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80
+https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80
+https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1200&q=80

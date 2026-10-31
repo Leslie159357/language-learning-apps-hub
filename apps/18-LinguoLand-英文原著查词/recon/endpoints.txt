@@ -1,0 +1,34 @@
+# 自有域名接口 URL
+—
+
+# 接口路径
+—
+
+# 自有域名
+com.linguoland.app
+
+# 第三方/依赖域名
+ache.io
+ata.co
+com.apple.dev
+com.com
+dev.expo.modules.co
+docs.swmansion.com
+document.body.app
+essage.me
+expo.co
+f.app
+iphoneos.me
+kit.openiap.dev
+nfo.net
+peration.co
+roduct.pro
+s.co
+this.pro
+uk.co
+window.pro
+window.webkit.me
+
+# 其他 URL（含 SDK）
+https://docs.swmansion.com/react-native-worklets/docs/guides/troubleshooting#tried-to-synchronously-call-a-non-worklet-function-on-the-ui-thread
+https://kit.openiap.dev/v1/purchase/verify

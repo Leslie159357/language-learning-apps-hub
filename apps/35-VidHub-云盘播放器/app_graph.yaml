@@ -1,0 +1,2356 @@
+evidence_id: ev_275a9e9ca70bb6696a623dfdaaab75cd3ead219cd124c5d3d5b3051d3856e6e4
+subject:
+  name: 1659622164_dec.ipa
+  digest:
+    sha256: de2238794011485769c567377e2bb3bb6f01ecbc47ad4e8a240b45871e853793
+  local_path: /opt/data/downloads/batch20/1659622164_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_a6267f267f1a28191845cfbae8f592c11bdde369e4a23c8ab43a5fc5ad0efe94
+raw_result: null
+normalized_result:
+  projection_id: aap_401023437ea8a5e3424ee8cb03c50ce8e35393563c14945d653ce32519fc682e
+  root_sha256: de2238794011485769c567377e2bb3bb6f01ecbc47ad4e8a240b45871e853793
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_a6267f267f1a28191845cfbae8f592c11bdde369e4a23c8ab43a5fc5ad0efe94
+  application_roots:
+    - Payload/VidHub.app
+  bundles:
+    - path: Payload/VidHub.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/VidHub
+      signing_paths:
+        - Payload/VidHub.app/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/AdjustSdk_AdjustSdk.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/AdjustSdk_AdjustSdk.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/AppAuth_AppAuth.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/AppAuth_AppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/AppAuth_AppAuthCore.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/AppAuth_AppAuthCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/Cache_Cache.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Cache_Cache.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/CocoaLumberjack_CocoaLumberjack.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/CocoaLumberjack_CocoaLumberjack.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/DSFRegex_DSFRegex.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/DSFRegex_DSFRegex.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/DeviceKit_DeviceKit.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/DeviceKit_DeviceKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/Frameworks/AMSMB2.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/AMSMB2.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/AMSMB2.framework/AMSMB2
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/AdjustSigSdk
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/Libuchardet.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/Libuchardet.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/Libuchardet.framework/Libuchardet
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/Libuchardet.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/MVPlayerCore.framework/MVPlayerCore
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/MVPlayerCore.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/libSPIRV-Tools-shared
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libSPIRV.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libSPIRV.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libSPIRV.framework/libSPIRV
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libSPIRV.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libass.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libass.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libass.framework/libass
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libavcodec.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libavcodec.framework/libavcodec
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libavdevice.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libavdevice.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libavdevice.framework/libavdevice
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libavfilter.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libavfilter.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libavfilter.framework/libavfilter
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libavformat.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libavformat.framework/libavformat
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libavutil.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libavutil.framework/libavutil
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libbluray.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libbluray.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libbluray.framework/libbluray
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libbluray.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libcrypto.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libcrypto.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libcrypto.framework/libcrypto
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libcurl.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libcurl.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libcurl.framework/libcurl
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libcurl.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libdav1d.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libdav1d.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libdav1d.framework/libdav1d
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libdovi.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libdovi.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libdovi.framework/libdovi
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libfontconfig.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libfontconfig.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libfontconfig.framework/libfontconfig
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libfreetype.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libfreetype.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libfreetype.framework/libfreetype
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libfribidi.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libfribidi.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libfribidi.framework/libfribidi
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libglslang.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libglslang.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libglslang.framework/libglslang
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libglslang.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/liblcms2.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/liblcms2.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/liblcms2.framework/liblcms2
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/liblcms2.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/liblua.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/liblua.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/liblua.framework/liblua
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/liblua.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libmpv.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libmpv.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libmpv.framework/libmpv
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libmpv.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libplacebo.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libplacebo.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libplacebo.framework/libplacebo
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libpng16.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libpng16.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libpng16.framework/libpng16
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libpng16.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libshaderc_shared.framework/libshaderc_shared
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libshaderc_shared.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libsmb2.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libsmb2.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libsmb2.framework/libsmb2
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libsmb2.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libssl.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libssl.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libssl.framework/libssl
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libswresample.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libswresample.framework/libswresample
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libswscale.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libswscale.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libswscale.framework/libswscale
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/Frameworks/libvpx.framework
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Frameworks/libvpx.framework/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/Frameworks/libvpx.framework/libvpx
+      signing_paths:
+        - Payload/VidHub.app/Frameworks/libvpx.framework/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/GTMAppAuth_GTMAppAuth.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleSignIn_GoogleSignIn.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleSignIn_GoogleSignInSwift.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleSignIn_GoogleSignInSwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Environment.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Logger.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-NSData.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Network.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Reachability.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/IOSSecuritySuite_IOSSecuritySuite.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/IOSSecuritySuite_IOSSecuritySuite.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/Kingfisher_Kingfisher.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Kingfisher_Kingfisher.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/MVPlayerUI_MVPlayerUI.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/MVPlayerUI_MVPlayerUI.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/OmiMPV_OmiMPV.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/OmiMPV_OmiMPV.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/OmiSubtitleManager_iOS_OmiSubtitleManager_iOS.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/OmiSubtitleManager_iOS_OmiSubtitleManager_iOS.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/PlugIns/MediaCenterDownloadActivityExtension.appex
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/PlugIns/MediaCenterDownloadActivityExtension.appex/Info.plist
+      executable_candidates:
+        - Payload/VidHub.app/PlugIns/MediaCenterDownloadActivityExtension.appex/MediaCenterDownloadActivityExtension
+      signing_paths:
+        - Payload/VidHub.app/PlugIns/MediaCenterDownloadActivityExtension.appex/_CodeSignature/CodeResources
+    - path: Payload/VidHub.app/ProgressHUD_ProgressHUD.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/ProgressHUD_ProgressHUD.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/Promises_FBLPromises.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/Promises_FBLPromises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/SDWebImage_SDWebImage.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/SDWebImage_SDWebImage.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/SkeletonView_SkeletonView.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/SkeletonView_SkeletonView.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/alibabacloud-oss-swift-sdk-v2_AlibabaCloudOSS.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/alibabacloud-oss-swift-sdk-v2_AlibabaCloudOSS.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/nanopb_nanopb.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/nanopb_nanopb.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/VidHub.app/swift-crypto_Crypto.bundle
+      parent_path: Payload/VidHub.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/VidHub.app/swift-crypto_Crypto.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/VidHub.app/AdjustSdk_AdjustSdk.bundle/Info.plist
+        artifact_id: art_35778b883baa86a85932128518714cd04b11009ba5717ea2e8aff3c1833d1bd3
+        sha256: eeeb4ea4edb8a5f472421e2623ebae7fda78af7e068c8da1ecc29263379f19fa
+        format: plist
+      - path: Payload/VidHub.app/AppAuth_AppAuth.bundle/Info.plist
+        artifact_id: art_e329d4bd889a4761b322771223565865dd76a439a8543231ff9b75b8fc7fc67c
+        sha256: d066cd0ae1bcd6cce1cfd746a745132c54b161ab9751ccd045ce7f2e0d332bc9
+        format: plist
+      - path: Payload/VidHub.app/AppAuth_AppAuthCore.bundle/Info.plist
+        artifact_id: art_50db610152aa2d11fa29ac3c18a9400a32e85755466c9ace90d7ba7523dcf507
+        sha256: 2bc858d89bb89a44b5c780b7a3d9b489e39ce96a93b365fd062d1d43978591b5
+        format: plist
+      - path: Payload/VidHub.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/VidHub.app/Base.lproj/Main.storyboardc/Info.plist
+        artifact_id: art_4818209df97b5e8c11a5ee833bc0d3dd060a65af1d12568286fe34b54d2a722d
+        sha256: c296ab10da6f60081d9a6b167cc5136bd728890cf89e8edbb7952f0e3e257315
+        format: plist
+      - path: Payload/VidHub.app/Cache_Cache.bundle/Info.plist
+        artifact_id: art_786920e00f26e586cd5374e9fade7f55df2a93f39ee2c2a8fd5819ad945feb4a
+        sha256: bf483f00c2c10383ea89137bca7c9d25984a6709acfbcbedc1600fd20b2ec6a7
+        format: plist
+      - path: Payload/VidHub.app/CocoaLumberjack_CocoaLumberjack.bundle/Info.plist
+        artifact_id: art_b69eefa664cffa8d5d31cc3332c72022c97490d3cc49ad78a3aecbe9a9af31bd
+        sha256: 5b2efddf9b0ce578f25a39a19ff43c0ee152aec950b375f5c76c103cb85a8fc4
+        format: plist
+      - path: Payload/VidHub.app/DSFRegex_DSFRegex.bundle/Info.plist
+        artifact_id: art_5b69ac55b6eedffa1fec9fae050788a78249e3b92fad21d89ff9d748f09a6749
+        sha256: 23e3041939444fa989bacdc9ef6ab42f7bc8e886fd012aa330b454c6e7c5f189
+        format: plist
+      - path: Payload/VidHub.app/DeviceKit_DeviceKit.bundle/Info.plist
+        artifact_id: art_2e1154d1c43485c7c1120796154bfc23aa80584551588376d73cd846f2337b4b
+        sha256: e0bb43a5f2e3fa4a49e28dffb61e5bb386f22e1cffd4b01d16c0016d9dfd6788
+        format: plist
+      - path: Payload/VidHub.app/Files.storyboardc/Info.plist
+        artifact_id: art_c3b173769496580edcbeef38270626caff2f3c68ef95f1c50536dd0ee0c0accd
+        sha256: bb885fd21ab9273e222fc10050625404bb10efe2f7d4a1f9e888d9ef097aaeb8
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/Info.plist
+        artifact_id: art_0dda69801c8f768ce3c3d4e83788057365232969b3aaffd7422417e033cb28b9
+        sha256: f5ed8045d2475dd513c1d2dc830853bc5a80da39a349855fa2480b9090c89147
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/Info.plist
+        artifact_id: art_5aec00489bafae811c7c1b3e76255b6a8266cbdb366813088f3a0f0cfbd6fb41
+        sha256: 3a4a46baba2525f1914f011a7579674f44c846ed4ad6a5e5cc02ab63737b9005
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+        artifact_id: art_117ee470b182c15f57b4c8c038964817761ddc906266e4cb939817a28651c438
+        sha256: daa043ba4e10d60a07e5a6927d4e6edd318bd59e8fc3dc929b76f1e4190aa821
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/Info.plist
+        artifact_id: art_753844ff56dbe155891a36ee26fdeceba4ae6a8ef84cc306c79b23b12dce9df1
+        sha256: 6c4977016c46a2b657716bdfdfe233a73b459ed340992278330a7961cd7df202
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/Info.plist
+        artifact_id: art_290ebfe838cd548a68bc1c85b3900bf5e86423142851cc967736ae74e7d1eccc
+        sha256: fc857b4a50625b8c58adb5f344b048fd9ffcbe87953fd03581ec29f400879008
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/Info.plist
+        artifact_id: art_05683c2eea804014f1cfcc44b2b3989b51be982a25d17ea28329ad46f6e3f6a9
+        sha256: cb1f62e90cd7b4e0cbe93c1dd2013595b27d409ff30be9c13d67212570896676
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/Info.plist
+        artifact_id: art_7d9609b9a8e989bae47c6af1b87d73dfc347f840df9a7205ed16b799d60ee8df
+        sha256: f65f3a49f4d670e9a1bd89d29e3686a08563d64cb31dda6279a2c24dcd05bc10
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libass.framework/Info.plist
+        artifact_id: art_92435c3f6a10dd235813ba741ed128b76407da359a30d8d8053aace17be11a10
+        sha256: 1f0b83d8aeb3e9d19e63c965b2592ae8fa4d9e012865fa2948d28b6fe2d87b07
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_1fd611cc3a75db1f2c296b308db6a1fe35f31ffe2a02137c90fe3af7336d4c2c
+        sha256: ad649948fde1eac3014559d2a477a5283b9127b1f3156c67b60bbab0709e3cf1
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_3c83de0f863f860f05a594a15f17c3eb2a66df006772a3755cb8cd40778b3143
+        sha256: d50256650201b75636f1afee723942759c86eac857016c99291d0af068d1ec7c
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_7316e661306f7ffdc7ddb39fda46b775ecf41f5cb65b79e64cd2a5fb5e46036d
+        sha256: 4a81e74f8729a05d22786fcbfb5800447ed73b8c407d2817bdbd0f20a229c23a
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_47d580680c567bc054d238f94d0fe28a62e211f26cbbbdd753435eb2f46002cd
+        sha256: 80ae19e77ae35f3221a668dbb7ce30e862dd37530a67c0b651325f39f7b812f4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_d03215d7fe83328f57c2d5fa660cf15236584e4512dbadb3c8e19196a9a84e61
+        sha256: cdf7ba2437d7735273e73705386f1fe265cbf96e9a480840b1cbbd205a19c14f
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/Info.plist
+        artifact_id: art_9e35c9926109de4e34ba12f88bacfebaf39213752ba356f1fd55ff41c8b25816
+        sha256: b5ae02ab3de7c4b4f6b4f47c66d4ef48b6458d8a89321f2f3cc84b2a88c7b89d
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/Info.plist
+        artifact_id: art_872a7b8761f36c707712035b7871b45c3a4f2391d2928d2a2ec9ddf2da09bc1f
+        sha256: 52939be63a51a16031877c5af7226751eb4d4cc3e428f50091d40374226a4b73
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/Info.plist
+        artifact_id: art_86815587961b8e436a46b32c0861cb9c3392e9e38f975a346ed0153595585a3e
+        sha256: efc92a68e17ca46d47f3a4d65ae3bdd0bf9cd29e804d05e7dc65582128b0d344
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/Info.plist
+        artifact_id: art_77bef38ab7c01ef46712b20a0d1563f55c49b4212e79a73acc252302258ddc6c
+        sha256: cfd7c9dced15435dbe6bebf3153d3e4f577712c810f1a0e52b13120afcc190e1
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/Info.plist
+        artifact_id: art_bf7ecc89c729ae815c92024e04caf74209bf16e7d1eb807abad40537cdf38249
+        sha256: b58356a59b8a493612d6d9868632a315d0099df858b5b382191269954a289632
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/Info.plist
+        artifact_id: art_cde4a4fb5686d4522e32b090c073a490d18784cc3b303d9989fd9bbfdda72d22
+        sha256: dd0cdae7b3ea1f6e06f7f84c4d725335dfba80b0c23ba3afaee4cc13aca2fff1
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/Info.plist
+        artifact_id: art_75d7b2dc3abe156156a8309ce5d86cd13f8d63490859d0e8fd8f3e8bb5eef7c0
+        sha256: b402ed502bdea380e7e5a2a6bf84330a9c259f391f4f44a30793ab375b45fe4c
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/Info.plist
+        artifact_id: art_1a72aff39c79f3b6e67eaae0f2d8242589ad2fabd84ef42462e867cf92408846
+        sha256: 4d8501c564fb8c325bf3a1cf01bbaed3b4d23a179da049b4fa2db69a26942a5e
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/Info.plist
+        artifact_id: art_450d8ad24dc0e96b45ea958e5d81bed3138732dccfad1bccb42d079acd9fa9c4
+        sha256: 04257c6a15890d81608049fd7a3ff8237e8d7e3413577f50339bbd540eea816b
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/Info.plist
+        artifact_id: art_8aa6279acdcecd20dbce209376a76da808c142871660cf91d34d56f4864f52d1
+        sha256: 114c9b45fcad2384c6148471ce89115d56f7cfcba8007705b41e0141aead9b32
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/Info.plist
+        artifact_id: art_f616678fb6956c0a1721acc0e3d8b36dc962b3de7ec51f490d85a771e43349dd
+        sha256: ce3cbf8b794eae7af4eb722fef84e41e22db08f0ed08ac051dcca98beefc62e5
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/Info.plist
+        artifact_id: art_08763b4ba21d53e1b8443013968776f1ac48881c62ea369bae9f79cf87f7d468
+        sha256: de954aaa8466d5936f535931fd14c6e364a7574885ff6629d3d1053124276d32
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/Info.plist
+        artifact_id: art_7643317384040e56324a797c02cf0cbcce83e6efbe4d797b4754da5aff207a6a
+        sha256: d3cdbde9fb16f5238b681c08dc949b8d9d2251db07dcdc2e8b9ed02f64ac7585
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/Info.plist
+        artifact_id: art_6ee5515196cbfcca2d2f981226450196d47a24f99c24fdd343baca9f3785c94d
+        sha256: cf723d215af63a7baf6c7b180899b62733dee8275eddd9c0586aeaf53733300f
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/Info.plist
+        artifact_id: art_87508bc312e7a3faed56b116d57ff337eee6efc36077b170543a698d07cb014b
+        sha256: d64bf9d426c4e95e593e112a35b4cbc578e6e0fccd3b450024e06764104a4620
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/Info.plist
+        artifact_id: art_56fcadc8d07255c71228a27c94cfa39baa9bded5da260ac5741526c9cd5573d3
+        sha256: d2ed4f6ec1b14db2e7d34ae4a7457401e174e8e3fe40852dfd372b0909b40788
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/Info.plist
+        artifact_id: art_ef1dd7b56d583f30414ce3e2192f2a8061ad2ee8d7d86fdbd090d511e467b1ac
+        sha256: dec0ba38a6cebaa0ed8de28ec96e9bf995bd2ddd5630ff709ace2b29262ded09
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/Info.plist
+        artifact_id: art_f8e36acb472b793c3120009bcc1715530c6f812b4bb9991e8c61f67fed91b8f9
+        sha256: 25dd0cb1b8cb01348dc966ea6af5c35d68389a5eb0e5989e89ea23037577ceaf
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_47040f2972dd40d0a5d8d91524ea681d33fe12d40c111ca3673b25b335aebbf6
+        sha256: a0e3274bd122e4dc2ff703806e7aeb24f70e631660c2bc9ce6a3c1daca791e2d
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_3ee9a41d514c8081af241488ced997336166014be3050d113cb9dc66936047ea
+        sha256: 9a85ca4aa14cc66adbaa20b91c9e7afcfc0ec124a847fcc9e0fcef60b6b1cfa7
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/Info.plist
+        artifact_id: art_94a444077475dbf6443a1e1b1cc0e4aa5fb7675a9b5b8103da100ee3dd88f29e
+        sha256: 190b5e1974223f976a51414647100aa57614829ab3325a5070019e8611e356d4
+        format: plist
+      - path: Payload/VidHub.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+        artifact_id: art_c69b2d2894f1f8d68607f3b3648f3e5b8d91e935c313d294bea49736cb613175
+        sha256: aebc11f893f3f07412f45f5efb570351a9f910d614bd5807bd9867dc7d3678a2
+        format: plist
+      - path: Payload/VidHub.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+        artifact_id: art_8a6329ed5d0e7499c4ede949a18aba3114933d20afdf6991a371bdc59bb9ff49
+        sha256: 1dcc13c8919334b2befdfe6ca7b33325cf1aaf7dc0c6f443f586c59fad690c7c
+        format: plist
+      - path: Payload/VidHub.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+        artifact_id: art_6eca52e51364a56710b328ff2886b06f26e29a61fff09ad62bc5a056837f15ef
+        sha256: b74afa70b270573f11f4aab3656adac3aff5867698731add7fe6c5c8148bcc63
+        format: plist
+      - path: Payload/VidHub.app/GoogleSignIn_GoogleSignInSwift.bundle/Info.plist
+        artifact_id: art_24d1728864969bbb5d43ace7923c10bcec23739be9919c34791eb40516235adb
+        sha256: 9be4b471b57f0e72ed7b691594a50d549de2f159db5f8427670d557512bf3a1e
+        format: plist
+      - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+        artifact_id: art_969aabb54f3474cb1a1255838ad27331fa8f9f07de7bb5156c5cf23d130a4585
+        sha256: fe65375b0f3e146d91ca7d595da444e77f3f7f90c7e593443e169ee6fbec5983
+        format: plist
+      - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+        artifact_id: art_4b48d251ba9ffadf28ec4640fdd8b0101dbb9666c35f2dd036ca2a6b6add77e6
+        sha256: b8e11258e4930f3e6c83e80c5297ff3d38e2019fd8b69b57cfe918b5988fdf56
+        format: plist
+      - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+        artifact_id: art_6b349f40178a841696fd66cd855b98b238f05bc335f166d91b45bec1299746ac
+        sha256: 4f65bb5b287b1db098661a984bc1b826ccde3c9c4d746acdc45c6c15df917b6a
+        format: plist
+      - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+        artifact_id: art_e97ce8cfd3f6ca9db57b990949dd19022a670a8b994f3d1fefc9a599d7f2e51c
+        sha256: 7657b705d6f9610ef0b1a593a293d86aa2f29780ae8119af25a81cd79a6f41e6
+        format: plist
+      - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+        artifact_id: art_7eae0d8447f6d07abd89b6f56457dce48a63881cb786eebfb681ac2b28db8c2f
+        sha256: 45ba3caea41b2b92da6c59e7c09f6728a45c337fd689202558024b28663f8ee8
+        format: plist
+      - path: Payload/VidHub.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+        artifact_id: art_6de6cd59d2d2b3f0e16697a4b8af603860eb8daf575598818fbfc9efdc98ac90
+        sha256: d5435a159c68ee3b3a1f248b029d74901a5e18e0883713bd433290838a2b5773
+        format: plist
+      - path: Payload/VidHub.app/Home.storyboardc/Info.plist
+        artifact_id: art_759178d645f1aaff1a4157cfe89fa32b5df860555f630acc1927cdd11401074f
+        sha256: fde78b5b6bb2437a74be5406af34d0cb6256bc6679f992bc1ef2970d5dfc5d36
+        format: plist
+      - path: Payload/VidHub.app/IOSSecuritySuite_IOSSecuritySuite.bundle/Info.plist
+        artifact_id: art_5ae2d35339be29b89ff8b4c3d053eea49510bac8fb9aee8e0524df32b0aa5ade
+        sha256: 8b8586683830740a47da952518cf9ba614a30ad94b200e47460ca2a0ef5bf5f2
+        format: plist
+      - path: Payload/VidHub.app/Info.plist
+        artifact_id: art_1310bd62451cea8a5401aa8b875a1e4892aa85c5e0d70ce0c0210b7a69a2764c
+        sha256: 890bef61fe532f773fda06048eaeaaeb702ed1c953874267a2c3e359dbce59d1
+        format: plist
+      - path: Payload/VidHub.app/Kingfisher_Kingfisher.bundle/Info.plist
+        artifact_id: art_b56b5cb4b3bd9dfccbba65667d2caa7b0a5f30e37ca7980460cda8e50fe82abf
+        sha256: 04b75b9f3b01c3648b2a96bb74e728ba65e5fb0c5999469c6a99e169a5564d93
+        format: plist
+      - path: Payload/VidHub.app/MVPlayerUI_MVPlayerUI.bundle/Info.plist
+        artifact_id: art_f4a7c5018b1b50211f8a9576849a36af8f8c56c7b2239984260aca3a415bfdd6
+        sha256: e26b86d6caff16679a3fdd227550dc48061a92e3c164f99f7950bedd6b8737a0
+        format: plist
+      - path: Payload/VidHub.app/MediaServer.storyboardc/Info.plist
+        artifact_id: art_6073ad0e384742902a0e7296ac330df240e77b882c3220f218865322b05837e0
+        sha256: cb8681b97ae481380702291031f956a8f26701fb0ff5e381d4175fdc4dc4b45f
+        format: plist
+      - path: Payload/VidHub.app/OmiMPV_OmiMPV.bundle/Info.plist
+        artifact_id: art_1ae72d409af57eecf8f90754e0ed30f29ca0cd880d58ac9d040f0864cbbbbe70
+        sha256: c4a14d0352fd772b97c596459f485594ac0e10346f16c5d63af063110526b1b5
+        format: plist
+      - path: Payload/VidHub.app/OmiSubtitleManager_iOS_OmiSubtitleManager_iOS.bundle/Info.plist
+        artifact_id: art_7144da3eee824ca32ef9a6183b3d8582b82f6d481cfd316358aadd483ef51f23
+        sha256: b77f01fb595cd79f2af913edbcaf6ce3bb1af000e0d5d3cb340d2ef449504ac7
+        format: plist
+      - path: Payload/VidHub.app/Player.storyboardc/Info.plist
+        artifact_id: art_58bd8e00c8a057bae835801c556b39df3fd012670664b32437567b190949f7c6
+        sha256: b98258a30e297452321b53603950ad1150bce9de769f16b26bed4b800f66132a
+        format: plist
+      - path: Payload/VidHub.app/PlugIns/MediaCenterDownloadActivityExtension.appex/Info.plist
+        artifact_id: art_ff69aac5b6b5067d7e12160aa94b029f52c4018831980306993d40f888e784f0
+        sha256: 8fd06ffa52a6f09b4027f0a6294b3bb9a583e0fa35c57ef812c26717354e9be4
+        format: plist
+      - path: Payload/VidHub.app/ProgressHUD_ProgressHUD.bundle/Info.plist
+        artifact_id: art_838b62743f2ff137ef15757d25fafe17477ff40b5f608414a4903d2152db6332
+        sha256: 65c8f8bcc3435b9a2a81b500641b891e7a1cdd27c2cededd0c0edf6f653ba3af
+        format: plist
+      - path: Payload/VidHub.app/Promises_FBLPromises.bundle/Info.plist
+        artifact_id: art_19bfee49ca791fda1c0a96dbf98a2649c2473498c651e7265f511fd9a48fcdb3
+        sha256: c86283a91be0ceb99484e178595b4f975950324667881956f5834dde9223b471
+        format: plist
+      - path: Payload/VidHub.app/SDWebImage_SDWebImage.bundle/Info.plist
+        artifact_id: art_b778242b03b8f612bd616f8819e2f258afe940eafbe45be7ad77c19b224d9854
+        sha256: 7f89bc441d15a63a2be752ce8f85f63bd447a0ffd5ce5d601c13fcc718efbb09
+        format: plist
+      - path: Payload/VidHub.app/Settings.storyboardc/Info.plist
+        artifact_id: art_005adbc88a9242406b87cf61cc5d041442544b6af108d29447615d2fec769123
+        sha256: 15ee7f2ba6205893889fe8d588dcb85933372f9318d82e9f410085ff3e52dd23
+        format: plist
+      - path: Payload/VidHub.app/SkeletonView_SkeletonView.bundle/Info.plist
+        artifact_id: art_6df5bdc4d17c19e794dc0e61e4e0522c45766b90db1012aeeaf697b9b5ccc0a3
+        sha256: 93528fdfc2c4f424fbef9cd6856146ab9d4c0eba942f847a8924b2643aab1082
+        format: plist
+      - path: Payload/VidHub.app/alibabacloud-oss-swift-sdk-v2_AlibabaCloudOSS.bundle/Info.plist
+        artifact_id: art_aff83c87c67d5a68bb6dcfd55495fb326cc5aa637e4150e49d8d5a2006851cc5
+        sha256: a413469b4b5ec2bc89b1057b7fd49b09f69739decc894d1ca36fff7483f078d2
+        format: plist
+      - path: Payload/VidHub.app/nanopb_nanopb.bundle/Info.plist
+        artifact_id: art_feb93c3984f4cd6e293a4bdc7c854e24eb7dd7f881804907b86ec21d2f1ae0cb
+        sha256: deacb1ec03810303216df282d94d4233a7acb6f8abdda33c2f1118cb6ae0dc81
+        format: plist
+      - path: Payload/VidHub.app/swift-crypto_Crypto.bundle/Info.plist
+        artifact_id: art_966f53b37a389ca476a48e9957e2c394a8a94bfc57e8376cd9fa841ae4c6def1
+        sha256: 9532da6072be879b174cc7673b58cc91131b5b565583ef1e6769adadbcfd6aa0
+        format: plist
+    executables:
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/AMSMB2
+        artifact_id: art_5702ed3f1f6df4db8c853e1350bce7f1ec3c6fc7508acba3d1433ca3ec14d101
+        sha256: 9ed43c0f5e37dc2eb6582681dc31cedff1f40e09fa3ab92ee335e514b26b2f97
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/AdjustSigSdk
+        artifact_id: art_bb236c50a55e070188704809c9e8e6a137cd54859f49509e7e317e3c1e75cf1f
+        sha256: 19be46d0189f4699bfd89f8d9427c72f0b14ffe96b41698e07f40c4765bec97e
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+        artifact_id: art_8b4ef7ec04bc68042c0cb7dd7ffd51d675293a948aa94f7e9816f2325953a69f
+        sha256: 3e50442ef7d7b5698aaf71b74de238b725a690c4178d705272e1b847e9b1b06d
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/Libuchardet
+        artifact_id: art_f783e3254f40fbfaaa9e3e095bc8e22c9fded1f961196e7d2d7f8c0859810322
+        sha256: f3b8386bca0d50ce891fa1119850b3aa086cc385006793c36579843d0b7d4c24
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/MVPlayerCore
+        artifact_id: art_be5a4c4da2e09cdb8e35da08a232cbb390077831c27d193c24ef047f7a953b04
+        sha256: c97d46d613029cb5fba99a10afa052517f49a1bfd366cc8bcb572e11c593b567
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/libSPIRV-Tools-shared
+        artifact_id: art_d2e00f81882137337d6b5859a0de58337f17cf711a608aaef79df8876557a2fd
+        sha256: 8db1313fb8cbdb229a238f8d3ac33ed5d76f5ffc5e3b1764b025137ffa390cb5
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/libSPIRV
+        artifact_id: art_6977f929112d58a35d25cdd3d009e783f211812ce80d9923eeb5c5195396b0fb
+        sha256: 084298c1917aa135c99ecd943224e04dbd0bdb737bbc19d4c4022f9cf5d6aa2c
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libass.framework/libass
+        artifact_id: art_2b737f8bdbf25a1daa78186c1c13706db764e602ef04b954fb6769df49d0cd62
+        sha256: 95097bc8e02d5918d4818796fbf51ea931388051b0a9c98c14e19cab27b99e72
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_c9f92051b57b7ecccc4168e773f35e55430f2cc54f5199fc2cebd05d11d4eee9
+        sha256: 31d486ac28c6407413a24b5535f1ace3df2b88acf0d9d7750a3d4f27971bfa36
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_073b058431350ef38211bfd24b71643eb506883658c87e3489ce9afb9626779f
+        sha256: dfc2087842b0c0b1355383854061f532a42c4776c1eb0c6aa483785262880e6b
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_ae809e7e3c46c34ac34aa5a1cf63692b57460a5077f01e4b9ee72422ccd34df9
+        sha256: 06ae26319b5ccf1f3da9c9f88ae89d45c93e9dc756a7f905e728cd59a3d96db2
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_4f8308ff7c673a18fd1622d9070eeebf099e83f5f1b5e9863744b086ecaaf01e
+        sha256: ea011722e23b2907af0a0a28cb2ecc228baeb64dcd29ffdea17b7f078d00a4d3
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_ad2079f0463217a661dbe7fd09c1fb8e40730a60d0367294dc109098694ac490
+        sha256: e4f18ca7aa833948865ead25b0e040384cf214a1ac15220cc553d1e9a41ff061
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/libbluray
+        artifact_id: art_523c21c6acd0fc388d134fc93d7adbbcd8d523ad5bcd561c63dc00550bf80331
+        sha256: e01d38d36a2a9afd38fecbcd53fbd023e94449c876a86bded7572de661ac24db
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/libcrypto
+        artifact_id: art_f025db11141ce6736cec6eb08f3b7efbb0fa7940253e29b81e1344586bdf5293
+        sha256: 9a45b5102f00cfbbcd9a4b1bfa3b5aa3421bd05ad3d1ef1735c7987924c4a862
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/libcurl
+        artifact_id: art_95a04d1d8936aaf960afd40bbff8dd367cf8b991da8ef3e9a1130e78cebd2a8f
+        sha256: 9a49146559db21765eb1da8ba0f500ef73f3d15b25cf5c95c93cc85c2261c171
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/libdav1d
+        artifact_id: art_ccc5c2bfd5765a06b66108162a4d1a82a2720663d10e4dd6deba04a14a39bbcd
+        sha256: 78cef7164fb25589dd7416b0122e0cdf3a05340e4eaf72ae2b2b1aa26c3d1ff3
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/libdovi
+        artifact_id: art_69dcd6b277ef0a7a0c9b47ed6d2f425804e6f898cd14f75cfc116d35cdb47aa4
+        sha256: 167e1f631c101e8af51a595f8759ec109c9888676c67e00e6697c7980c911ff4
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/libfontconfig
+        artifact_id: art_0ac8ce34ab1d419cee637be8fdaecd637c310b9823e8de75db9e3d7f0bb0dc45
+        sha256: 564d255aaea8bab9ac7b21f493967a9814b9cd09ebbd128667c2219e3d20a851
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/libfreetype
+        artifact_id: art_631b4a39e88f4db9278dc16b501fb1580b39b43881ac8ba19697c4b89522902a
+        sha256: fa18f42f748e2d5822d8973db25eba9323f50ee38c69e8a9d89314cc520f2d36
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/libfribidi
+        artifact_id: art_ee6f0aeb70906c5645a40dd7f97f6e62fa84cff53759025be9f34cae53ec9932
+        sha256: 5e3003f3f2116dae6ef41d2e476f87512d7d0468c41faab2d886c5d9ed05fa78
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/libglslang
+        artifact_id: art_64bbd33048e3208f6b9e97c7811cc6a9e9918b4f874e203a0bfeed270e82b836
+        sha256: f66cf38645f08ead61ccb9b0ed1dbd386d4b77a571ffedb671793f3504519d21
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/libharfbuzz
+        artifact_id: art_8ece585a51fe1dc84eb332d90fe7e2f16bbab7dbf6425ed4c18385334b226e8b
+        sha256: 17baea7f35eb7217b8a29232851cd5bcd36d50786f50a24c7aac2658fc81944c
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/liblcms2
+        artifact_id: art_d758061f54089d1304c277eb3de5e025921e44ebf26b238d43ad6ed2494d3731
+        sha256: d1e8b648d11d6f96c24c8c5ad914e6a1acb16c0e485a8c0b83c88836c5992b91
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/liblua
+        artifact_id: art_73e3e64fcef6620be539a1e764ba1d91e77a955185b2bad7107dd548576dccfa
+        sha256: f73cbaed4f1da1061e6ee809dfdea66ba8c35f2701819a142e33f1e50701edd1
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/libmpv
+        artifact_id: art_0f8fb66a710d3524f21b8ea71060aba81ea59c2a3d616ce8d306be0fd9526cea
+        sha256: 0c2c2c36db8e47d38bf9f48f5aee2a4d09d43f496ca708c4822fe9a707dc27d3
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/libplacebo
+        artifact_id: art_c04d22e45ec6f4dc1ec6fa7b548a597e35e23525b0d5f51688fa1a78908b3748
+        sha256: 5e9fa14322db15351fabc3bddb2fc3fd337d87024afbcb6321198e15a047844f
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/libpng16
+        artifact_id: art_2e71bbbcac62fb3dd92f03e93ab39f4b61eeb133325923153c85809ddd4e30c0
+        sha256: 2d3308748dea18a2919ec2fea92af9525e35d26ef43b8ef40a861f9f275a74db
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/libshaderc_shared
+        artifact_id: art_4b99492de2803eaea8dcb72b611d353a2933a9e126e1c0a24eb1329749b6187d
+        sha256: 7473c975b92e556fb4dcf0bda61493c088486b371141086273c91470e1ebc5e9
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/libsmb2
+        artifact_id: art_9b86a302359d9d66332e240badca4717ec3a219af6d5a8b93983bcf5b9db38f1
+        sha256: 7a369190ecc825bbd3a920066ce5a1e4c8a9fa142e7fa390efdb40719d26726e
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/libssl
+        artifact_id: art_b5612b0d5531d04e4dc7d9220d018ff5902429dc6797d730316d64813a761468
+        sha256: e0927086eda28c87433e2ab15d2e481cdd1ddd6375d51a2bd5846a46d9242531
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_26467583c61112070bccc5399d7ae7c85da1f710a7cb30e45d41cd6c022f2a89
+        sha256: 08cee11576f865d1ba1c11ed82ce0559d71dea3be560595bcc755b7ac1bcce67
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_6c2746ea063a2292c39424a3571457135bec64de68670fbacb2ae8f6277126b7
+        sha256: ec1674279cc6d1e5e8453f28f3e455dc4ac525d4e0155d713c87fd141729e274
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/libvpx
+        artifact_id: art_646331818395b09786473984f218c00bf720a57409bc78af36af7e3f90d1794d
+        sha256: b80354c24d52e715d34103e6a8353fc6a89cbef22c88b2f0f287cfff947f54b8
+        format: mach-o
+      - path: Payload/VidHub.app/PlugIns/MediaCenterDownloadActivityExtension.appex/MediaCenterDownloadActivityExtension
+        artifact_id: art_78bd26e72e40ba805df08d11abb23de68db492a2374812da76946e29e4cab3c4
+        sha256: 1165931986f37772f0b7a094dbc328ea85ca4cd83dde63f487de78745affc3f9
+        format: mach-o
+      - path: Payload/VidHub.app/VidHub
+        artifact_id: art_8840bf5c48c2364a5115e58a3e08dbd4713733a958f9b2204de575e70b0c223a
+        sha256: 85ebff70f0c2067bcd2bc4a2ce0252ceb15c1a6abf1125c9c256fdf1af3feeb7
+        format: mach-o
+    frameworks:
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/AMSMB2
+        artifact_id: art_5702ed3f1f6df4db8c853e1350bce7f1ec3c6fc7508acba3d1433ca3ec14d101
+        sha256: 9ed43c0f5e37dc2eb6582681dc31cedff1f40e09fa3ab92ee335e514b26b2f97
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/Info.plist
+        artifact_id: art_0dda69801c8f768ce3c3d4e83788057365232969b3aaffd7422417e033cb28b9
+        sha256: f5ed8045d2475dd513c1d2dc830853bc5a80da39a349855fa2480b9090c89147
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supf
+        artifact_id: art_96e64b66cf7d576dd235e1717f64c1f54d7133006c427abe1485b05164d4d602
+        sha256: 7aee44e0a789c94c4a2326e603d0d782b5bac8c5a92252eb8f570b730f6247e9
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supp
+        artifact_id: art_d966065813c481b099befc56e40f8b338ebb6e6cc5d2619560e6786ad4ef2be4
+        sha256: 9c884203be4a9ecb53f509fbeb139da00c9e3827dff333b3b13c8fc0a61fabbc
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.v4.supp
+        artifact_id: art_4a9fb595faab135838d24d449f25c2cf729e13486bf59983221f044917f502a2
+        sha256: f56587a514f256e20bf148e050e69729ed50c4b6f31723501e96c68318658963
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.v5.supf
+        artifact_id: art_78ac5676a67e65891671d6310bdbbe21a8af52eabba7dc23152de7acfa9ea418
+        sha256: a68819944a7966aa87bcb5f8459498e3620e42d0f6ca6a9eba84cc3696cdba71
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+        artifact_id: art_67fe36ac96953be072f0dd3741772853f07cbc25d9e145f655aca2ec242b32a2
+        sha256: 9ebf48a72a347a30b2bc06e7fe993c2f291a761ed16f927c067fc66ae184fbef
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/AdjustSigSdk
+        artifact_id: art_bb236c50a55e070188704809c9e8e6a137cd54859f49509e7e317e3c1e75cf1f
+        sha256: 19be46d0189f4699bfd89f8d9427c72f0b14ffe96b41698e07f40c4765bec97e
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/Info.plist
+        artifact_id: art_5aec00489bafae811c7c1b3e76255b6a8266cbdb366813088f3a0f0cfbd6fb41
+        sha256: 3a4a46baba2525f1914f011a7579674f44c846ed4ad6a5e5cc02ab63737b9005
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_565eaf4f05d535585a62e13f8b599e96a6ceb1b29c31e796679eb8fb7a9c908a
+        sha256: 1fb2e242af1c88b240cc1c78f19b1e8e7973c31781121eac785f21d59b579e99
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/SC_Info/AdjustSigSdk.supf
+        artifact_id: art_b2362520d88eac8ca91477efa1ca9cb9f19721e3fe76bf7bc3d219b9dbce31e4
+        sha256: 9b6fde4d46af610b114945eb60dc1c0f3b771cc02490d2ca2a2f312b13d8ae00
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/SC_Info/AdjustSigSdk.supp
+        artifact_id: art_e337138a4a18972a1aa3b7ee4808a50e961ee1aa04e9accd30809ed91b15d686
+        sha256: 2c2f41fbb4b485db7405531dd7bde025d0f11f2ce429c55d5a1adb810de70d5d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/SC_Info/AdjustSigSdk.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/SC_Info/AdjustSigSdk.v4.supp
+        artifact_id: art_25ac385aa425c4c79948324a8ec0476ce64d3e62191babc069d7ceeb1312e806
+        sha256: 17747e223ae269953b770d57f73a7f6572eceae649c2c0a375df902604016cc5
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/SC_Info/AdjustSigSdk.v5.supf
+        artifact_id: art_4ab6d4c23c97e5cec7b617c055fdb6ced56096288b1f0228ce28bc1a32c01a03
+        sha256: efbca0874b36a02ec2142a6c0da8763f2b78b2322ee4d247cabe17bd6bc35c36
+        format: file
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/_CodeSignature/CodeResources
+        artifact_id: art_04a2d63fdcb63fbb162c83bdecc175ea1d7182056c3fa6614af5e4200cec12f2
+        sha256: b87fd082c678952dab7cf4731e84a9ff2d1cdf96bbca6158d64a9c2a7e3491b7
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+        artifact_id: art_8b4ef7ec04bc68042c0cb7dd7ffd51d675293a948aa94f7e9816f2325953a69f
+        sha256: 3e50442ef7d7b5698aaf71b74de238b725a690c4178d705272e1b847e9b1b06d
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+        artifact_id: art_117ee470b182c15f57b4c8c038964817761ddc906266e4cb939817a28651c438
+        sha256: daa043ba4e10d60a07e5a6927d4e6edd318bd59e8fc3dc929b76f1e4190aa821
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.supf
+        artifact_id: art_dfed28ffe24340a05f544e8cceade1dabe68387555963e963873d37d329c5a6c
+        sha256: 68fa8232d240c577014059485d1f1f12a513430c7f357c5a023fac2cec4cb846
+        format: file
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.supp
+        artifact_id: art_2a4c4393883deedd985df6d59aea336b150f3091b711bb5cc8cc8f7dea534e79
+        sha256: b0e27b7c32a3312a8348a752486b167de931808c43c69b6422599dee9728925d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.v4.supp
+        artifact_id: art_f80f3538fd18aa62d9bb594af4a2ac27a4c50c6d08e6c4d6b0d067aeca90667f
+        sha256: 0a5decb14516c23a8e839ad157f74d42ffd18317d80b3ad6d244077ca30f668e
+        format: file
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/SC_Info/GoogleAdsOnDeviceConversion.v5.supf
+        artifact_id: art_ce204c6284cbaffba6f6457d6afb1f7d9a13cf0c364c2c7b978a68a941cd8ec2
+        sha256: d20d81e8aa385bcbb025de6e02eeacfaf6c09413c09609414dc278170aa01f99
+        format: file
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+        artifact_id: art_d90415d1fe48d4a0c920cb0452f62179d88ccb41e3015f96b560843f0f81304d
+        sha256: 19532b09705663fc4d7fa0a62403ffdbe0bb6ae3588e0d8c30e93e3f0b589ea5
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/Info.plist
+        artifact_id: art_753844ff56dbe155891a36ee26fdeceba4ae6a8ef84cc306c79b23b12dce9df1
+        sha256: 6c4977016c46a2b657716bdfdfe233a73b459ed340992278330a7961cd7df202
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/Libuchardet
+        artifact_id: art_f783e3254f40fbfaaa9e3e095bc8e22c9fded1f961196e7d2d7f8c0859810322
+        sha256: f3b8386bca0d50ce891fa1119850b3aa086cc385006793c36579843d0b7d4c24
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/SC_Info/Libuchardet.supf
+        artifact_id: art_47a1d7215f36321b833c365adc8a6b3863e1a7b2ab7245a4d56bc7211bcc0390
+        sha256: c2b0f2af161ef7139541b3dca4c7d346f8d066fe55b86f39014778cb01ac793b
+        format: file
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/SC_Info/Libuchardet.supp
+        artifact_id: art_4215b9dc7b9b4f544438e029944b868e1e2a7357bf7e0a4a45ba946a30e7238f
+        sha256: f39aa0af7609f62dcfad8bc7297bfe77eab5272ef6e65435cd273864314d0f0d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/SC_Info/Libuchardet.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/SC_Info/Libuchardet.v4.supp
+        artifact_id: art_6d3837891d9d13380b248e6a5b0268389dd842ecb1f46ce2f3c3ff2f292e30c3
+        sha256: 6d7f1c9b118f9fd0085e0dfecdc97c8bb87071c016c94d4a153637e9be7d2c59
+        format: file
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/SC_Info/Libuchardet.v5.supf
+        artifact_id: art_3bae20b2e4dddbf0d5f93b7e0dbcba1c235391fed2d4591b801c4587aae4d04b
+        sha256: 2f1b247d7ca493bb535ea466d0b91c8fe96872893e621975abe9d70b73efae89
+        format: file
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/_CodeSignature/CodeResources
+        artifact_id: art_83812722143f163f89480f7844a0da65477668293a360028b11961655435ec6b
+        sha256: b9d9281c5199835ed8fce344914c5f2d1205f2b01ab591df9ca753f580b1b4a4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/Info.plist
+        artifact_id: art_290ebfe838cd548a68bc1c85b3900bf5e86423142851cc967736ae74e7d1eccc
+        sha256: fc857b4a50625b8c58adb5f344b048fd9ffcbe87953fd03581ec29f400879008
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/MVPlayerCore
+        artifact_id: art_be5a4c4da2e09cdb8e35da08a232cbb390077831c27d193c24ef047f7a953b04
+        sha256: c97d46d613029cb5fba99a10afa052517f49a1bfd366cc8bcb572e11c593b567
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/SC_Info/MVPlayerCore.supf
+        artifact_id: art_8fe3fc59acab3551feb83ec2f21dce2a9138781f11418fa7db71a4649f997d81
+        sha256: e4c17c819c9fd2854c49f35401167cab688c5b275570356941b4111dec4a49f9
+        format: file
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/SC_Info/MVPlayerCore.supp
+        artifact_id: art_b5d0dc8d003864ef6b815ab0ebff0de2647c83e87e4221349113fca1a3cb9b6f
+        sha256: 688df31b6826349d59611a55c5795500aa9058ded1a1de8d486bce9c218f0756
+        format: file
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/SC_Info/MVPlayerCore.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/SC_Info/MVPlayerCore.v4.supp
+        artifact_id: art_e6768914e50beeb46b9a5f9d59f4fbc00000a20fc7f9b436c2b3818d5092bfa0
+        sha256: e1b0233bd6e0754d501b5fbc9bbf4d5faa5a2900c18f2751450683255d2ae904
+        format: file
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/SC_Info/MVPlayerCore.v5.supf
+        artifact_id: art_e5ae9cf22cd5735161727d17a11c35a6e847cfba3404a34cba7b018e2be4d50b
+        sha256: 9842b7b9102a6a276fa78804deb6040909740a1bf8e98d6ccacfa3754caa51a2
+        format: file
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/_CodeSignature/CodeResources
+        artifact_id: art_18f19ff4c5de95309c5a48d06c20afd254db1c42e4a186d5b105b16ba79cf87c
+        sha256: 97a009f7e4a241d3339dee703685e35ebd39f4cab5d8adabdcb6c0e095184726
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/readme.md
+        artifact_id: art_b1068224a812efddb12917b31db5d80a74bf777927ed16e1c3d93f69f1fa31f2
+        sha256: c759fdc8bd186e944ac3dce2f3e756b664adc901db31603811fab7b983c1649f
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/Info.plist
+        artifact_id: art_05683c2eea804014f1cfcc44b2b3989b51be982a25d17ea28329ad46f6e3f6a9
+        sha256: cb1f62e90cd7b4e0cbe93c1dd2013595b27d409ff30be9c13d67212570896676
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/SC_Info/libSPIRV-Tools-shared.supf
+        artifact_id: art_9ca30fe40ad5f189f71a7617c8e7d9a955813631dc847bcd0e7a1c3f405e1d9d
+        sha256: dc88c0bb6291365b4333f51b496d280c27b54f5ae5466f0795a6f6828ba1dc93
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/SC_Info/libSPIRV-Tools-shared.supp
+        artifact_id: art_0c55e698b5cd58938bc7f69767f84be73ee6bc2692cb4e539a9fbc4b59a17445
+        sha256: 92d7fa06feaa6edc89482b367ad2b107c40d54363e42e1e48be065ed02c92ea1
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/SC_Info/libSPIRV-Tools-shared.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/SC_Info/libSPIRV-Tools-shared.v4.supp
+        artifact_id: art_95a52cf79a26cf5bbd14b487b75f6d857c923038898674eb1d579b4dfe6dac90
+        sha256: 258d63b3c33139932edd02570bcb216d2fed12a839d86e6203905bb029676725
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/SC_Info/libSPIRV-Tools-shared.v5.supf
+        artifact_id: art_3467b71698a8113ad1730af48e40bd6e938e859f822ef792fd38e888d4c98b10
+        sha256: 4dafdf89032355d26864ba646615e947f48104865ae63ca7c4c3fce6cb873f48
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/_CodeSignature/CodeResources
+        artifact_id: art_42676797dc1f84848d94200a0b80e1b1eefc0232ee331e49ee422a34b22c21ef
+        sha256: a0bf4fdf36a1e7917535498489badda70e6690df9c292976d49431a25b42e745
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/libSPIRV-Tools-shared
+        artifact_id: art_d2e00f81882137337d6b5859a0de58337f17cf711a608aaef79df8876557a2fd
+        sha256: 8db1313fb8cbdb229a238f8d3ac33ed5d76f5ffc5e3b1764b025137ffa390cb5
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/Info.plist
+        artifact_id: art_7d9609b9a8e989bae47c6af1b87d73dfc347f840df9a7205ed16b799d60ee8df
+        sha256: f65f3a49f4d670e9a1bd89d29e3686a08563d64cb31dda6279a2c24dcd05bc10
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/SC_Info/libSPIRV.supf
+        artifact_id: art_32357962f41f0c86f3fd955b4dbb224695b3a81c40fbc48cbea3efb7f7f9f767
+        sha256: 420ddd7197691622ec33cf8f221252981a1d5748ff9a4a2beb1cfcc850052fb7
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/SC_Info/libSPIRV.supp
+        artifact_id: art_eba16c14361c79250edd875737b921fa66be7686a102f01567a3ed4431e57adc
+        sha256: f66fd707e1ee197f24be6612f5080ae8dc49cddd74d548d5c4257f02e5ca6be7
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/SC_Info/libSPIRV.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/SC_Info/libSPIRV.v4.supp
+        artifact_id: art_0a9d975ef78f04a43741fbbcf1b1be1b79c13b0ebf8cbd6af103bf7657a701ce
+        sha256: 92faf07a735478a3449984e3c979f4f782dd3b3c3124d6d0020f478cd306c9f2
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/SC_Info/libSPIRV.v5.supf
+        artifact_id: art_823de189b9addad9e12fd6f9455b786cb57a2d26a43d67cb8646b1106ff33c36
+        sha256: 0b4ae7047ded26a3646cc46496f80a1a19de9a450fb39a292315cd74f221904d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/_CodeSignature/CodeResources
+        artifact_id: art_214ad783441239e18c4e096ff6a62337706c9a3462a4cf6d6acd43d11428c84e
+        sha256: 77316af4437fb4a54d4319f421df389151a2423c90706ba5ff06293856dc1bcb
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/libSPIRV
+        artifact_id: art_6977f929112d58a35d25cdd3d009e783f211812ce80d9923eeb5c5195396b0fb
+        sha256: 084298c1917aa135c99ecd943224e04dbd0bdb737bbc19d4c4022f9cf5d6aa2c
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libass.framework/Info.plist
+        artifact_id: art_92435c3f6a10dd235813ba741ed128b76407da359a30d8d8053aace17be11a10
+        sha256: 1f0b83d8aeb3e9d19e63c965b2592ae8fa4d9e012865fa2948d28b6fe2d87b07
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libass.framework/SC_Info/libass.supf
+        artifact_id: art_ca6c69c4005cb1a03d1ae84a06ef1862b459c0a2aba9d4dfc0a7550483a50b15
+        sha256: d59c225fea24f5df8d5ae4ecab16644fc2b1981792fddd42bdbd4f336ed5021d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libass.framework/SC_Info/libass.supp
+        artifact_id: art_dd9e7c44604b6c8e10e5427b3292ddab35aff95761093ebd89cdbb2c5931c799
+        sha256: ef0f40799f80e53f66b1aeb95f15f2a5922585ed7e69bfcc5ff6e383d2ba0e9c
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libass.framework/SC_Info/libass.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libass.framework/SC_Info/libass.v4.supp
+        artifact_id: art_b01fdb0e9f5f53dfe2ba9895e5910ef96f571b69846488d9b363c65d5a1921cd
+        sha256: 19f6b3a800c1422a5b2cbc8726c09c8cb411388743dff8d736b5a07c4c799265
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libass.framework/SC_Info/libass.v5.supf
+        artifact_id: art_d0e19f61b642007f91b23171ba517d9430a5e399b2f30088ce8828421550c6e6
+        sha256: 00d1a9ac4425cd07d025781d89a6f989f2c1153dfbbdf765bae46055c8d2225f
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+        artifact_id: art_bc20febc3aac7643906c4ba8b1ef00048aabf2b5ecc6ce35ac9b100eb28e822c
+        sha256: 630aa0a64f459c6283f5380d0cf8ec7a5fe83cb25fca257958642b9cb44e97b6
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libass.framework/libass
+        artifact_id: art_2b737f8bdbf25a1daa78186c1c13706db764e602ef04b954fb6769df49d0cd62
+        sha256: 95097bc8e02d5918d4818796fbf51ea931388051b0a9c98c14e19cab27b99e72
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/Info.plist
+        artifact_id: art_1fd611cc3a75db1f2c296b308db6a1fe35f31ffe2a02137c90fe3af7336d4c2c
+        sha256: ad649948fde1eac3014559d2a477a5283b9127b1f3156c67b60bbab0709e3cf1
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supf
+        artifact_id: art_021e7ed87cf5c67586f67ad98e280a371ac8ca3338d6f8b3bb8e95345773c883
+        sha256: 8c32d5ab7df830a249008296cea4ed0108c4ead454bc6b98d8a9a66c8f22c237
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supp
+        artifact_id: art_8c81239db9ee16ce849392efe761fd971420d451eeb8d3b64b9cf2e4012d6a1c
+        sha256: 1ea4d8c412f9b076bbc7bec862a158411b7244884e313270d002bc3feca160c8
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v4.supp
+        artifact_id: art_ffa9f81d6f1f81ae1912fefe2c23e4d3ebdb054c0fb2e04545452763065aceb3
+        sha256: 375e6b7f70db450738d1d5469cecb08e1fab7355b026e52afa0914db9b579514
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/SC_Info/libavcodec.v5.supf
+        artifact_id: art_94d4d2fb96326b11a875fff355a58a36fcd4fad67c8dc6f526f3f25448acaf52
+        sha256: 6f770d3c05fa31f438083c83990fe94ac28cd14829eec9b13772ded76ab7a024
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_8895cdd1308ef37736e000998c4fffbdbfd5c9708830e405ac4e30adb97e9267
+        sha256: 84e1f9a09c54cf168b912f5a825c287726819c61f9ac9c74adf02f7113df93b8
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/libavcodec
+        artifact_id: art_c9f92051b57b7ecccc4168e773f35e55430f2cc54f5199fc2cebd05d11d4eee9
+        sha256: 31d486ac28c6407413a24b5535f1ace3df2b88acf0d9d7750a3d4f27971bfa36
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/Info.plist
+        artifact_id: art_3c83de0f863f860f05a594a15f17c3eb2a66df006772a3755cb8cd40778b3143
+        sha256: d50256650201b75636f1afee723942759c86eac857016c99291d0af068d1ec7c
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supf
+        artifact_id: art_a9590dea55dae78348d7e38fc3643bc04efc0303195100366491edc8990fb4e5
+        sha256: f5dd28312842a243246d3fd8b58ca19d78adf04f65aa643ccce4a42e1db655e5
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supp
+        artifact_id: art_c5f3abacadac1b173360b656c59345ce35cabb1c484ecebb14ed7d1df8ca71c2
+        sha256: 5372389c9a7118cebf4a5cd1627b7a85087df08efb8d95efc3174b17dcb21e96
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v4.supp
+        artifact_id: art_34bb26a5c1a200734c214d2cb95c71ff601625702d15191b51a499977f214792
+        sha256: ee6cb1f2aa7dc52a5501f729a9fc514ed4b7e09450095ee3859179322cca24f5
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/SC_Info/libavdevice.v5.supf
+        artifact_id: art_0897a066a77bbaacddaf8e97c8648f3609b635cbc6dd173c1865022cbd2a5fe0
+        sha256: 5c2c5515bc5cfdeed8909fa05d529b624f9c6423d4d45ff118881eb0ab3d3d9e
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_88ab1330cb62046ec18f49a8fa68d972851dd66fb317ed42a3c01e565aec2e03
+        sha256: 2b9f4cc1fd290f16ab47c7387b55a3057301f19e7023905604dc4510df703cb3
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/libavdevice
+        artifact_id: art_073b058431350ef38211bfd24b71643eb506883658c87e3489ce9afb9626779f
+        sha256: dfc2087842b0c0b1355383854061f532a42c4776c1eb0c6aa483785262880e6b
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/Info.plist
+        artifact_id: art_7316e661306f7ffdc7ddb39fda46b775ecf41f5cb65b79e64cd2a5fb5e46036d
+        sha256: 4a81e74f8729a05d22786fcbfb5800447ed73b8c407d2817bdbd0f20a229c23a
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supf
+        artifact_id: art_563f04d5697073443c7b1e0cb3b4a4e4c1d0928bb709fb49075bbb20d67cce56
+        sha256: a8879be4c67f6373ae3dacd9d201f7fc7cfa250aa2c0e8de727add252a0fb08a
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supp
+        artifact_id: art_701ddefd95009465f60cbdf423e323cb48290985c83b459da47e0a8f500396fd
+        sha256: 0bd7b9fcb47c0a93398731ac1a3c65028ff5f17216a877c658bd763f36d6b8f0
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v4.supp
+        artifact_id: art_8c0d4468b7ed3133449d2d2d5b4dc9fda178246a1454e32009a3bb8ba177cb8b
+        sha256: f22c685db3dc58d3d3c2a1c615631765e0e2f3b4e8f0004683bac8028b4a38e2
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/SC_Info/libavfilter.v5.supf
+        artifact_id: art_dda8da836e47e46b32f38a311e761ba7c0eca37bc5b72f9c3f8021b0e80c842e
+        sha256: e23f75aae8b74304e1df0ff7a8b3d74c52ec4270d48cb3c01c7c4372bdcd506e
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_e758e5e428a8d9737da40b0c3e2ecf7147271aa336dca6cb0772eb25ff792615
+        sha256: 54bce52a1dc766a94cfe9013d85835562f347f166f4768efd74fd6984ff929b7
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/libavfilter
+        artifact_id: art_ae809e7e3c46c34ac34aa5a1cf63692b57460a5077f01e4b9ee72422ccd34df9
+        sha256: 06ae26319b5ccf1f3da9c9f88ae89d45c93e9dc756a7f905e728cd59a3d96db2
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/Info.plist
+        artifact_id: art_47d580680c567bc054d238f94d0fe28a62e211f26cbbbdd753435eb2f46002cd
+        sha256: 80ae19e77ae35f3221a668dbb7ce30e862dd37530a67c0b651325f39f7b812f4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/SC_Info/libavformat.supf
+        artifact_id: art_a4a1c0887007369362b57ba38c055f247007fd2612dd3f7485c6636eeb64d256
+        sha256: 5988b6047a5e4b01b0883ae4e396bb2a3fe9d2b67be32b5dadd073850eddd692
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/SC_Info/libavformat.supp
+        artifact_id: art_6931e204af35e922b67f4323234799e3147ba45e0813930bb30a3ce128e52045
+        sha256: db2004f5b101c5d2cdb244a55eb2c2959f5f59114f318c67741d610ae3ce4e07
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/SC_Info/libavformat.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/SC_Info/libavformat.v4.supp
+        artifact_id: art_7959940ba6ac98e11b526c6f08b9f0b306e711a904488d370743bacbd64b39d5
+        sha256: 2ac607ba9972f6e1b92a23d05fc09ebccee0db56454374ad538062af08570c88
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/SC_Info/libavformat.v5.supf
+        artifact_id: art_949efb51cb974b57a4136b0df36bca74e344ecd51f944ec14eec5464e76429a7
+        sha256: 1c57f5031d7668bee8f3294a7e131d5a53e94ba3af92ecc1be8a5baca6a1cf63
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_5b193abd78caef9645626397a5e6c05cea3cc74697577c822eb265135d1b78cc
+        sha256: 8cf0fec7ac803f42a1a81df4f066bf0545958ef38f588cb0750b31709ca05b5c
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/libavformat
+        artifact_id: art_4f8308ff7c673a18fd1622d9070eeebf099e83f5f1b5e9863744b086ecaaf01e
+        sha256: ea011722e23b2907af0a0a28cb2ecc228baeb64dcd29ffdea17b7f078d00a4d3
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/Info.plist
+        artifact_id: art_d03215d7fe83328f57c2d5fa660cf15236584e4512dbadb3c8e19196a9a84e61
+        sha256: cdf7ba2437d7735273e73705386f1fe265cbf96e9a480840b1cbbd205a19c14f
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/SC_Info/libavutil.supf
+        artifact_id: art_ca0f3ede5d79dd07b48f8f5b7c85987c2c1c94af99f18e24b2ee4238197a9210
+        sha256: 2b43921713aab62d08f9109f24fd30a3dba3ac3483941cb10f122dfc4780a618
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/SC_Info/libavutil.supp
+        artifact_id: art_45a50144958bfce0ac0ddd2b0f6ebd7ae54f08bd70038688f0031bbb8789d151
+        sha256: 27b72214cc1fefc7802723a101e5d73991ce7ef2dc37820f835d38c8d3d9ee99
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/SC_Info/libavutil.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/SC_Info/libavutil.v4.supp
+        artifact_id: art_b90df4ce3149b88c1d9375835cdcff9b66bcdc64d4269e871521155c9fafb1d8
+        sha256: 8b963c208c539f04e036bfe81a0332b220fc318aaac5a055e8126619c38927cc
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/SC_Info/libavutil.v5.supf
+        artifact_id: art_0ddd105465fdbe8f8f3b0632450409fd253c8ee7c902862f17147b24dffb7bad
+        sha256: c87c28b30970ce70ec8c66db6aa4b23c9a16f942e9b86d819a4350960bc751b6
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_c81733e8abf96ef3d1078f4d541c68376f2f45aac4891b7a6d41fa52f442b835
+        sha256: 7dae17b8a0affb05027f7003bad76221449f89c553fb220d69ab8a7f87269e9f
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/libavutil
+        artifact_id: art_ad2079f0463217a661dbe7fd09c1fb8e40730a60d0367294dc109098694ac490
+        sha256: e4f18ca7aa833948865ead25b0e040384cf214a1ac15220cc553d1e9a41ff061
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/Info.plist
+        artifact_id: art_9e35c9926109de4e34ba12f88bacfebaf39213752ba356f1fd55ff41c8b25816
+        sha256: b5ae02ab3de7c4b4f6b4f47c66d4ef48b6458d8a89321f2f3cc84b2a88c7b89d
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/SC_Info/libbluray.supf
+        artifact_id: art_40876f9dddcb5092e728f4c6cd1fd7f759f49ff3b3e6e00c42b52368247de1fe
+        sha256: 33b84f3481b593c8a3b39553314ffa84e1e519b7833ca741ac855ef5e984517b
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/SC_Info/libbluray.supp
+        artifact_id: art_a02c64068ad2944b73f7671beb4037486b79ffae632e65df77a2d130904aa61d
+        sha256: 9953200f735258c6f3101e30704cd3fa75611b22b3b4699ae6aeb54e36ece25d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/SC_Info/libbluray.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/SC_Info/libbluray.v4.supp
+        artifact_id: art_ac98b5cb6950800ad2a2749f0be451627495b5a911899284399bf54d3e918e4e
+        sha256: ac18974a49ed5eaa236cacda37ac62fbc14bdbb4224fc615c74c40ecc74cd257
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/SC_Info/libbluray.v5.supf
+        artifact_id: art_c8753d801ca1690b21edcf3585cc34beddcb6e043d23bab12b7b233fff0c6efc
+        sha256: 651ecb64702ec151bd5b1b2d7fb5c35f91c206c5b8f9dc4a852a3fd5651e237e
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/_CodeSignature/CodeResources
+        artifact_id: art_93dbdc6b049335c2cabe480f9bea1e965066167ca6bcbdfd064dc4a3819e7a25
+        sha256: 868d0d39dba4042d3b71178dcf301bfc8d1ebc5ba1a62def81b71379204dd7aa
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/libbluray
+        artifact_id: art_523c21c6acd0fc388d134fc93d7adbbcd8d523ad5bcd561c63dc00550bf80331
+        sha256: e01d38d36a2a9afd38fecbcd53fbd023e94449c876a86bded7572de661ac24db
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/Info.plist
+        artifact_id: art_872a7b8761f36c707712035b7871b45c3a4f2391d2928d2a2ec9ddf2da09bc1f
+        sha256: 52939be63a51a16031877c5af7226751eb4d4cc3e428f50091d40374226a4b73
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supf
+        artifact_id: art_2f44bc242ec984c08a812dcb14305e4f417eb29952695f3198d40df7a03e773b
+        sha256: 14bd3540040026e975de1acc11342f1376e312f2ee7c2ab7c2adf644ce54d074
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supp
+        artifact_id: art_698006c8605ec25058ad66950b2f36d458b26ea0f5d5aaedcac4db0aebb6899d
+        sha256: 6ee47ddf9375f38cd5e36f9094af9e03b9712091225719d5d7f5dd2fb6b214a1
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.v4.supp
+        artifact_id: art_9d269ac069edf9aa4085be642f3cee23d78f47095c6aad98fd81c0bb3127c87a
+        sha256: 2292e958653b2c070eaaf7b0d1d268d3ebf5844b5e3c22b04d5686f498f74751
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.v5.supf
+        artifact_id: art_c25d73ddd4b03ae3e29d396b4914f05a22b865cdbe744e090d30bed49545f801
+        sha256: aa0f1baa1d22a33579f94085b6565b61f300ea91e40f2e3b836a43d01f3e7c4e
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+        artifact_id: art_578c7d82e84838af46181b75dab5f4f92c01ea675dc71cc79cf71c47710b552a
+        sha256: df38da5dd9f7a73c149f41e33d0fdb0e190f06e8a1f1bc9f7d6e52fca9ee870e
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/libcrypto
+        artifact_id: art_f025db11141ce6736cec6eb08f3b7efbb0fa7940253e29b81e1344586bdf5293
+        sha256: 9a45b5102f00cfbbcd9a4b1bfa3b5aa3421bd05ad3d1ef1735c7987924c4a862
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/Info.plist
+        artifact_id: art_86815587961b8e436a46b32c0861cb9c3392e9e38f975a346ed0153595585a3e
+        sha256: efc92a68e17ca46d47f3a4d65ae3bdd0bf9cd29e804d05e7dc65582128b0d344
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/SC_Info/libcurl.supf
+        artifact_id: art_ca88a8d67d96f27573e5d93057e6b986f28fc49c78a1841e2b176d78215a9417
+        sha256: 65fea8589250fb8b39fa5bf7ccf5b76cbf2bc58e3c8abaf09031c3e8743f3c77
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/SC_Info/libcurl.supp
+        artifact_id: art_f60def6b14fa846375594b23bc5b1c2a88b8c74551dc8d6a1abc3c7c281f373a
+        sha256: 366942da87cc7e965fad4f6ca8e379d715511b585c89705b4a850b5dc2d3b046
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/SC_Info/libcurl.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/SC_Info/libcurl.v4.supp
+        artifact_id: art_63642ff4d79647c9a22a500a7c3a41d8d9dcf8117c048816287b08c32afac1f2
+        sha256: a2f7c1e13e73141f06e548edae3dc9543ba0d95625f99817d13e5e87d16e98c0
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/SC_Info/libcurl.v5.supf
+        artifact_id: art_c4aaa1b589d8013908f0532b6c0502c04f97d59559cbb6b6686f21875386c7ef
+        sha256: 3f8ff6f02638d9d38732e4951edffd58728c0516ecaa082974a17a75cf3cbc1f
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/_CodeSignature/CodeResources
+        artifact_id: art_f90539dff2c1a15d575768a78922049f4712ada8ee00d312f702ab9fee46b56f
+        sha256: 07e203d78b7d937947d70f65a24d2afd9aec8e3a33721bd2e0192bfb2845b7cb
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/libcurl
+        artifact_id: art_95a04d1d8936aaf960afd40bbff8dd367cf8b991da8ef3e9a1130e78cebd2a8f
+        sha256: 9a49146559db21765eb1da8ba0f500ef73f3d15b25cf5c95c93cc85c2261c171
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/Info.plist
+        artifact_id: art_77bef38ab7c01ef46712b20a0d1563f55c49b4212e79a73acc252302258ddc6c
+        sha256: cfd7c9dced15435dbe6bebf3153d3e4f577712c810f1a0e52b13120afcc190e1
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supf
+        artifact_id: art_8aaf001660a7ff7a8c2dfabd874814959962e20ef3927f83996dc6140aeb8b26
+        sha256: f685a90887c159ebd1ae4a9c440dd5bad0a039e098b1735ab64d57b848ab9aa7
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supp
+        artifact_id: art_1dc3de0b3d526f9b742f6489243acaaea5dcc3b36cda1f3e02bc1f0b2c028ba9
+        sha256: c5b2c59d29ab0b6b4b47869bc8e00aaf1a58812a889d5079a93d132c4a6ee887
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.v4.supp
+        artifact_id: art_c7520ca31da8b52ecfb1b5cee9a3ec86db81afc3be5af83c841d3a36a36a51c9
+        sha256: d4b02ad00362cfeb6c87a069895b06d88ad4d1b2ece859692b82cbd86763da69
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.v5.supf
+        artifact_id: art_d37ef83c7bf87c7dc07a83e681d54b7b10c6def6617d8ce9a8bba339d4078ecb
+        sha256: df053449ac414520646aae869ac988c7d0a6948e17770e47cf46bbaead6dbd35
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+        artifact_id: art_d000d7c8bc088873838a5f9795e08caba37975833f9a1a74494448a773caea0e
+        sha256: 6c64bcd418a8921dca0697ec23d1af019389066363e17df6d1a7759e509e2517
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/libdav1d
+        artifact_id: art_ccc5c2bfd5765a06b66108162a4d1a82a2720663d10e4dd6deba04a14a39bbcd
+        sha256: 78cef7164fb25589dd7416b0122e0cdf3a05340e4eaf72ae2b2b1aa26c3d1ff3
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/Info.plist
+        artifact_id: art_bf7ecc89c729ae815c92024e04caf74209bf16e7d1eb807abad40537cdf38249
+        sha256: b58356a59b8a493612d6d9868632a315d0099df858b5b382191269954a289632
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/SC_Info/libdovi.supf
+        artifact_id: art_70e5a3af60e24cb4d3f54eef03622fe43e6201a6c447cbcdb970f5af2b604f61
+        sha256: 6efb959d24c6e4aa9cd9984a683c5e5c71a2916d53cfdb09ef76576036d1608d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/SC_Info/libdovi.supp
+        artifact_id: art_5a98614a6880ff6e650f2bda32e9582e6b10967b34f486ce6ad5d095130592e1
+        sha256: b3e2d6928b564ffaa30f177acfcc81b80abc14c1248d6904e9ff0d25ba83f0ee
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/SC_Info/libdovi.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/SC_Info/libdovi.v4.supp
+        artifact_id: art_dbcec2cdbde0427f2e22c07d20d7d9892d6addb8c41b7e05d37a6b4f80765872
+        sha256: 164e6f49bfaff05e132094eedd8a1c8cf3c314baa38d79d41d3eaecb2f05cbd6
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/SC_Info/libdovi.v5.supf
+        artifact_id: art_8602258415f893222f978e5d759b27a9978c56f1a2a54457774e08a818941d2f
+        sha256: fabc7542091b1cd92d82adcf8433db3d2a38118581231f532669b79bc17b306c
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+        artifact_id: art_1bee14f09789e1e44909f7dfba210656d60494656528dc54d10017e2fcf32be1
+        sha256: a36739b8bb2a05e4c0aa9b67cbc014e1b585db8d752f0fac948d6264ea1d75d0
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/libdovi
+        artifact_id: art_69dcd6b277ef0a7a0c9b47ed6d2f425804e6f898cd14f75cfc116d35cdb47aa4
+        sha256: 167e1f631c101e8af51a595f8759ec109c9888676c67e00e6697c7980c911ff4
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/Info.plist
+        artifact_id: art_cde4a4fb5686d4522e32b090c073a490d18784cc3b303d9989fd9bbfdda72d22
+        sha256: dd0cdae7b3ea1f6e06f7f84c4d725335dfba80b0c23ba3afaee4cc13aca2fff1
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supf
+        artifact_id: art_d85a2193aa3d16f2f6a5743e59b008de1c883b535612edcf8fbf17e325b5edae
+        sha256: c1e8d7ed52da6d4a133f9b374b6e228e967ab05f8e53aad1357c6e461aba7638
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supp
+        artifact_id: art_be02f5b3793c725eff09858d6ed40bcc532bb4692f8ecef45a92b0f3715bd895
+        sha256: cf0c1e947160880dccc7a25c0a042f22d6e56e52933abf44786b8b89573e64b6
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.v4.supp
+        artifact_id: art_002878604094eb157734b8f3e31898e3dce35f30c452add4b3fbe6c9a892777d
+        sha256: a6ab991940f996878781d3c83d2b0bca5cbb89e54671db5d5741927f94439714
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.v5.supf
+        artifact_id: art_5a7b8a61589c4dc163c21e511afe570b9617085b5e73f418dd1822e8262d2cff
+        sha256: 80870dba9d36c5d7b13d7a260e0bfff670cf982dcc3edb33ccb2251d1efbc518
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+        artifact_id: art_3471ad5508e30c6827e467147caee4870e8da15ed8196f7ee986bb8058a5b1c9
+        sha256: f203e3a7d4954c667d97422b2de90ce2597abef372d3387465169b41dea57c24
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/libfontconfig
+        artifact_id: art_0ac8ce34ab1d419cee637be8fdaecd637c310b9823e8de75db9e3d7f0bb0dc45
+        sha256: 564d255aaea8bab9ac7b21f493967a9814b9cd09ebbd128667c2219e3d20a851
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/Info.plist
+        artifact_id: art_75d7b2dc3abe156156a8309ce5d86cd13f8d63490859d0e8fd8f3e8bb5eef7c0
+        sha256: b402ed502bdea380e7e5a2a6bf84330a9c259f391f4f44a30793ab375b45fe4c
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supf
+        artifact_id: art_d8daeeb27405e09cb6ce57c295ab717bad8629c78e91bb7e9c3e47e5013fa0a5
+        sha256: 58c1daebd161cec80453ba81450c121a2096fceef78a8f7409c15204a0adf594
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supp
+        artifact_id: art_4ab64705c2c5ce5e2c060b5e7147ac52bd2d294b528af4787408430d882df29d
+        sha256: 532908cd352b97348d2b101a054be970364d78d0262de17b1b0f2a22fcf05df3
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.v4.supp
+        artifact_id: art_ec9e3576931d928f83700a94426fd43e83c1a6f24d7664e6ae1395622ccfda02
+        sha256: 4318408bb7c2a5cbfe4e30df7ca3a5eb3930fc28dfa3de2655283ea57e9174e1
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.v5.supf
+        artifact_id: art_c959bca778356c398cddb4f73b7bc69fb720af3dba851da5c8bf2701d8ad8b21
+        sha256: 34cd4d71d2b7aee127ed426f09d6b354cdee4d97fe7459f724293bf79f698dbf
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+        artifact_id: art_fa941cd13aaef3134c9cba32fca3899f7c89fdfc9de3303cf8474934edb71946
+        sha256: 37655c81b47bfea2630c5ed2372f3ff8b4b91f7367dfbb90f8e0d2f42613db2b
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/libfreetype
+        artifact_id: art_631b4a39e88f4db9278dc16b501fb1580b39b43881ac8ba19697c4b89522902a
+        sha256: fa18f42f748e2d5822d8973db25eba9323f50ee38c69e8a9d89314cc520f2d36
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/Info.plist
+        artifact_id: art_1a72aff39c79f3b6e67eaae0f2d8242589ad2fabd84ef42462e867cf92408846
+        sha256: 4d8501c564fb8c325bf3a1cf01bbaed3b4d23a179da049b4fa2db69a26942a5e
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supf
+        artifact_id: art_36ee9ae83dbff61ec7c868e52e3972d4cbe2b5ff5652deb66322432a06c612eb
+        sha256: da29f47ad46ec4ba95b447e3281657df387d15b87022255b63628bd4f4add2c3
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supp
+        artifact_id: art_06cc9fdfa3f7e73cdb5bca4b9a6d40e0015255d7ee68089080b9ec5125c45f4e
+        sha256: 2fee6001c4594db7f5e0ba453cdc798ab8b48f44cca47d25dc32a1748fd79408
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.v4.supp
+        artifact_id: art_64e899e9275f27830892c8bd6a11c774482c0ca515c3859e842ab697e177475a
+        sha256: 8114f3a919d6e599ebccdc439f92c418eacf555f6e5cab1bea41d65865d2808c
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.v5.supf
+        artifact_id: art_87c1e682ea0a02e4e241131f6afd7a8ec733759221ced4bb795c873501ec4905
+        sha256: eae14dca75978e19297030ec8b6f88976482d62d1285878ace88a6e47323bda3
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+        artifact_id: art_9268254efbff2f4368e1bc9b43849e90c59af0b9c213a04321b5e83fce53f0a4
+        sha256: e20c24c379bf5805de51bbe5b1e4344c024ecfe5f471101db7762990775273b6
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/libfribidi
+        artifact_id: art_ee6f0aeb70906c5645a40dd7f97f6e62fa84cff53759025be9f34cae53ec9932
+        sha256: 5e3003f3f2116dae6ef41d2e476f87512d7d0468c41faab2d886c5d9ed05fa78
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/Info.plist
+        artifact_id: art_450d8ad24dc0e96b45ea958e5d81bed3138732dccfad1bccb42d079acd9fa9c4
+        sha256: 04257c6a15890d81608049fd7a3ff8237e8d7e3413577f50339bbd540eea816b
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/SC_Info/libglslang.supf
+        artifact_id: art_5bfe3ed2c5cda968151860a43e7c3565fb1269131d6522cf928f358ece05a4fd
+        sha256: fe70859f8d1f1bffa73751e2efecfdbf043ce9e4be6fda8f17a6a823a86240f2
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/SC_Info/libglslang.supp
+        artifact_id: art_b6fdd4a9be1a65eba1bc43418a3bfb0762f994a391607790109b6be649d17fa2
+        sha256: fb440b39bb09372604eb262a5357e54a5ef1817a865f61fac3fd2fa5133c9154
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/SC_Info/libglslang.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/SC_Info/libglslang.v4.supp
+        artifact_id: art_06b012f12615991b5d2d21aaae6cf7e215b4a877ab63ba810ff7cfa19a7e5179
+        sha256: 962a7565db63993a4e1ce71a55779ba3b304db5d9890d2213d1dc4cda38c6f59
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/SC_Info/libglslang.v5.supf
+        artifact_id: art_ee44ab2569f042bc305458d8ea3b5bfc23f742d6558903988b5004c276af19e9
+        sha256: 1ad315627226f11ad338cf9f077b7a1849cd7cdca8b913762d894a916a9b8239
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/_CodeSignature/CodeResources
+        artifact_id: art_130e0b2598d88ebb1e9871dd114de8f9dd5f7343b2c9c835043f517a02f99b07
+        sha256: 9070f8aff9367a008c436bc2c09377025ee7098cee4bffedc9cb34f464cf5a9e
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/libglslang
+        artifact_id: art_64bbd33048e3208f6b9e97c7811cc6a9e9918b4f874e203a0bfeed270e82b836
+        sha256: f66cf38645f08ead61ccb9b0ed1dbd386d4b77a571ffedb671793f3504519d21
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/Info.plist
+        artifact_id: art_8aa6279acdcecd20dbce209376a76da808c142871660cf91d34d56f4864f52d1
+        sha256: 114c9b45fcad2384c6148471ce89115d56f7cfcba8007705b41e0141aead9b32
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supf
+        artifact_id: art_9e1877bc6916fa62a3c83089d3204e11a28e90f945347144e93674366ee21599
+        sha256: 3fcd43ca28c6a4b74651d1c12ac48bd0136f8754ac55b07be3f8224cf32f8b11
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supp
+        artifact_id: art_41d54c2ad8f54fc96c14ae621f190c32788c9e78aa81f22584e53faab449bf8a
+        sha256: a07382a7953cb7ffe08f6b53878b33df2652d87e82f2f404ada736b1e254cd54
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.v4.supp
+        artifact_id: art_cb4e4460f0f22c3b16c44d354013c834fba1cd218ca7694e5a7b591215c209bb
+        sha256: 439d58324c2b04c8562f04cdd59ce3d6f9b8ae3038550dc015159431925770fc
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.v5.supf
+        artifact_id: art_4cf69309e97f4a8fb397d80b6ac3097e3a0de19ab81dcf7c73e94e728745b890
+        sha256: 8929d31c9f15e5e3c380588c530faf782864ef6891feae1b87094fc2537db05a
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+        artifact_id: art_6d76eaf64a06bf06e66b4222ab434a4922ecf2ca89df4cb0b4277a779e7f123e
+        sha256: e3d6c9b802492e34d9f0ea89e47c623131531a8155e54153bcece5c713691dc5
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/libharfbuzz
+        artifact_id: art_8ece585a51fe1dc84eb332d90fe7e2f16bbab7dbf6425ed4c18385334b226e8b
+        sha256: 17baea7f35eb7217b8a29232851cd5bcd36d50786f50a24c7aac2658fc81944c
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/Info.plist
+        artifact_id: art_f616678fb6956c0a1721acc0e3d8b36dc962b3de7ec51f490d85a771e43349dd
+        sha256: ce3cbf8b794eae7af4eb722fef84e41e22db08f0ed08ac051dcca98beefc62e5
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/SC_Info/liblcms2.supf
+        artifact_id: art_e4c6b606abf5979c684bb2f382361ddaecc7af4a2c1e8145fb04b423352d581a
+        sha256: 20ac7d4b0c3f43e714298fbcdd264d84255d4af7e9c686a696a00493affee883
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/SC_Info/liblcms2.supp
+        artifact_id: art_2d717ae1bcd6ff908feb87bad72c4c3c343cc87a6fec5329683b2bd64c2cd170
+        sha256: 7d2111b5c1343995310c01ff2015cca9c77d5043776330e2386e7b12a4488125
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/SC_Info/liblcms2.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/SC_Info/liblcms2.v4.supp
+        artifact_id: art_db2c41167130ae36eac19349d47a353a7153c87caa6932e4dda1f861834914fe
+        sha256: d83a3ae4b050dcc854cd2df44bc2471c66953ab889147e7c14e00cb8b53e9dff
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/SC_Info/liblcms2.v5.supf
+        artifact_id: art_5b5f04c1b5b9c05989e0fcdacf8819898a8a1a18baf503291385e7b797a4234d
+        sha256: 4e7d5335bc80502b33835bfab670d5d93c24571af9ae168eb5bf1718a0f02584
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/_CodeSignature/CodeResources
+        artifact_id: art_4fcb7d4087a14c183aa3d52dc22ff2b4b0bea630fe6a06f81a72f66e0496023c
+        sha256: 0d9eda81671cc46a9ccae0dac898e36121dd5460d6ea60d91ee7230b856bafef
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/liblcms2
+        artifact_id: art_d758061f54089d1304c277eb3de5e025921e44ebf26b238d43ad6ed2494d3731
+        sha256: d1e8b648d11d6f96c24c8c5ad914e6a1acb16c0e485a8c0b83c88836c5992b91
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/Info.plist
+        artifact_id: art_08763b4ba21d53e1b8443013968776f1ac48881c62ea369bae9f79cf87f7d468
+        sha256: de954aaa8466d5936f535931fd14c6e364a7574885ff6629d3d1053124276d32
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/SC_Info/liblua.supf
+        artifact_id: art_fb0fd9d39a6cecc592542b5d835f46846929d51a97ab4db07ef3926ea1fa9c9c
+        sha256: adb553bb88bfe6ce4f364a681051b7b50637377911dac6e53bdb1b3c4eacf97f
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/SC_Info/liblua.supp
+        artifact_id: art_4748588038dbeffafa1840a370ba1bdbe61e94e7890416e35c1184cdbe0f05b0
+        sha256: 2bc417d458608a8ee8b39e967b4219ae83904d4104ccf36f030b1291caee1f87
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/SC_Info/liblua.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/SC_Info/liblua.v4.supp
+        artifact_id: art_66c5e3833a54f90a1043749003ec9a1de1bd806753e47f084049fd6b987077c3
+        sha256: 0892a841edcfec9f2b363ebc27784426eb1050cabbb46c5bbd796b230771ed12
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/SC_Info/liblua.v5.supf
+        artifact_id: art_b19dfda72ee2fd1df948a40a5d34b94a227b8f90605a839da51dff13d4b83283
+        sha256: e4672c3491984abb0d578f5491597e74952e4cfd8094ec90a286b277ef42b508
+        format: file
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/_CodeSignature/CodeResources
+        artifact_id: art_54b63e3bfe0f01ee51aaae0ed10ef327f8ea0ef89b7779f7433324681139fb85
+        sha256: bd466b9141281cf80814f0281c7e0bff223a092f14e99303a0445ae844960e45
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/liblua
+        artifact_id: art_73e3e64fcef6620be539a1e764ba1d91e77a955185b2bad7107dd548576dccfa
+        sha256: f73cbaed4f1da1061e6ee809dfdea66ba8c35f2701819a142e33f1e50701edd1
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/Info.plist
+        artifact_id: art_7643317384040e56324a797c02cf0cbcce83e6efbe4d797b4754da5aff207a6a
+        sha256: d3cdbde9fb16f5238b681c08dc949b8d9d2251db07dcdc2e8b9ed02f64ac7585
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/SC_Info/libmpv.supf
+        artifact_id: art_2d73aeb1f1a94e69e7739d1ac0a48e807073ffd173dabfc7815b2f99426a7f95
+        sha256: d73d0f1e4b418a5ac7d3b4305e6c99ab4e1977e41a38aa62a9db1dc5c0d32021
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/SC_Info/libmpv.supp
+        artifact_id: art_08bd20ba4715e691be6833e6ef62b4b08fe81b262ac8789c43c89200f4fd7026
+        sha256: 78b0d689235e354c419a3cc6a077e8c1cf3cbc6dba6bfbb47fbee841d44a4bff
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/SC_Info/libmpv.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/SC_Info/libmpv.v4.supp
+        artifact_id: art_2f22acc9a5c1641e8ec104656085f9f6310b3012b219debb037c7ca0024fa03b
+        sha256: 30633fc3d2f401c15231e6aae225436c44fad49dfb9314d6ea15ac91f4962ca2
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/SC_Info/libmpv.v5.supf
+        artifact_id: art_ae32876732e8f962704c753186a8f809e7316380601e95091ce830c1c30a95b8
+        sha256: 228bd816c742f3bd6344ed91044feca40c85cf48db5896667e9ca239bf270735
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/_CodeSignature/CodeResources
+        artifact_id: art_c5372eccfe057afac6f0d7cf0020e5cf6ba4e51814c0805f5185b87e98e59a08
+        sha256: 2151411feb6f9f77a17c6d0896e1b5a9ee8c234424dbed70b0fa3a6d54cbe8d4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/libmpv
+        artifact_id: art_0f8fb66a710d3524f21b8ea71060aba81ea59c2a3d616ce8d306be0fd9526cea
+        sha256: 0c2c2c36db8e47d38bf9f48f5aee2a4d09d43f496ca708c4822fe9a707dc27d3
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/Info.plist
+        artifact_id: art_6ee5515196cbfcca2d2f981226450196d47a24f99c24fdd343baca9f3785c94d
+        sha256: cf723d215af63a7baf6c7b180899b62733dee8275eddd9c0586aeaf53733300f
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supf
+        artifact_id: art_4a607b9b5789f390b9d1c97c7027d340bb5c7f0c7cabe1b4cf2a755792fd3aac
+        sha256: 56c26e87f4b68c413d565b5a96a68301cd0fdd098fe8aa7b8bc18c59991b5717
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supp
+        artifact_id: art_02c623c4479eb0316dab6945386280f568989b8d38d92d8e453b2a83920f761a
+        sha256: 5b652323d3d5b5d822385d71ae074c5af488888bb83d545eaa826026f6c3fa45
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.v4.supp
+        artifact_id: art_6fd228114be9cb153a7c4a28d251b03a4c05e0634c995db4824f7d4a2bc235d5
+        sha256: 7ae9c758e6e901140dec590ad0bc22f48e432a7010fed8fecad8727b76140663
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.v5.supf
+        artifact_id: art_526caeeabc88a0a55b4d596c333d65850588c8cc13550779de35a13acc425205
+        sha256: d84b5ba7c8fa653dcc1ceca20528cb3640d62398d6cbaaad8247cfc83fd0ca44
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+        artifact_id: art_61e1f72065bed6ec9f6af5440d09215328064f79b2299b39aa0c522e942bac45
+        sha256: 5f54b10bcff4c5cbd4a423fa3f5496f60f0a42fb477ca38599e7df2a9c783e21
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/libplacebo
+        artifact_id: art_c04d22e45ec6f4dc1ec6fa7b548a597e35e23525b0d5f51688fa1a78908b3748
+        sha256: 5e9fa14322db15351fabc3bddb2fc3fd337d87024afbcb6321198e15a047844f
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/Info.plist
+        artifact_id: art_87508bc312e7a3faed56b116d57ff337eee6efc36077b170543a698d07cb014b
+        sha256: d64bf9d426c4e95e593e112a35b4cbc578e6e0fccd3b450024e06764104a4620
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/SC_Info/libpng16.supf
+        artifact_id: art_8ebf8154ab2a69ece147bc1221826cc148f9396c5564659d73846259dceb48e0
+        sha256: 39c034abb7090027674ccdaf63629f126789d238362fd941ecb7d1c432b30da6
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/SC_Info/libpng16.supp
+        artifact_id: art_3d323575d3bab258b03f37599ae3584881970be9b41f4fb18c4222f0360be021
+        sha256: a181b45cfd3ed6bcd64c4c3f2275e158cb228a4ad0cbf4d7134334be81118931
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/SC_Info/libpng16.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/SC_Info/libpng16.v4.supp
+        artifact_id: art_5038bd19e94efb1c8e99676020d8606139590e71f55918412b7a6c0ab5386121
+        sha256: 8a0a0d8c3e8782d1a0fa3d522dc1310e4ab3a16401974636c73f4915671873a9
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/SC_Info/libpng16.v5.supf
+        artifact_id: art_866669cd5bd8936f45cc38d244d525bf89e931ea6c710946ac1f496efa9810ee
+        sha256: 614030ba7b712234c2faa87561f7103a8b913054f0f9b647011a85060e115197
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/_CodeSignature/CodeResources
+        artifact_id: art_6e8401ea5e9884ea58ad15d0a2c0f05d14ee3870bdf1115b2d3a6df1afa6d4dd
+        sha256: 1a3ad3fd832778cac605c17ee729974112c464bdac6ecbe40510a6cf10735665
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/libpng16
+        artifact_id: art_2e71bbbcac62fb3dd92f03e93ab39f4b61eeb133325923153c85809ddd4e30c0
+        sha256: 2d3308748dea18a2919ec2fea92af9525e35d26ef43b8ef40a861f9f275a74db
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/Info.plist
+        artifact_id: art_56fcadc8d07255c71228a27c94cfa39baa9bded5da260ac5741526c9cd5573d3
+        sha256: d2ed4f6ec1b14db2e7d34ae4a7457401e174e8e3fe40852dfd372b0909b40788
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/SC_Info/libshaderc_shared.supf
+        artifact_id: art_d4c06c6c74657e1f1a17aca80f0560b39efc704aa1e674ba43227829e8172064
+        sha256: 34965bab5ca36c9e8bc258301644c85bca45f35972a466fd06edc915ba546649
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/SC_Info/libshaderc_shared.supp
+        artifact_id: art_d45a79deced2f9d27aba19d2ac23b018a59a4c45574424113c0e0bafe76bcab4
+        sha256: e1b002dc411c018f96890f04d1132378cb5663a621e656f7be6b6ba3b0e85750
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/SC_Info/libshaderc_shared.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/SC_Info/libshaderc_shared.v4.supp
+        artifact_id: art_aeee5c9b8449f43225b0b1367e6d001388cdc2b6bfee41dfbe9b91446997a982
+        sha256: 99af7d810f3827252f9822e48016aa1b30560742ca65307ef42a39b52d45d153
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/SC_Info/libshaderc_shared.v5.supf
+        artifact_id: art_ef72ea12d2f1ef2c488736352503d187bb6deb372553a1bbf2e03c808c8130ec
+        sha256: 82bc2a599d353fbd5cca878b6713275470a7e0eb9fe3f00d089ab176108ec592
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/_CodeSignature/CodeResources
+        artifact_id: art_17ae631a333ff3a8b0f6ca97f0de6eb31646866e5ae75ebe2fb44ac568d62cdb
+        sha256: 0a23a5badf823862bfc94649593afd23a6cf499c964b413d58cd8ba541c2a0c4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/libshaderc_shared
+        artifact_id: art_4b99492de2803eaea8dcb72b611d353a2933a9e126e1c0a24eb1329749b6187d
+        sha256: 7473c975b92e556fb4dcf0bda61493c088486b371141086273c91470e1ebc5e9
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/Info.plist
+        artifact_id: art_ef1dd7b56d583f30414ce3e2192f2a8061ad2ee8d7d86fdbd090d511e467b1ac
+        sha256: dec0ba38a6cebaa0ed8de28ec96e9bf995bd2ddd5630ff709ace2b29262ded09
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/SC_Info/libsmb2.supf
+        artifact_id: art_74c3086d931167217734757ce26266af69e42f576608be939deb2a5bad6cd6bb
+        sha256: a4576b3ca2820a09f66c55ff90dba659b6b4605c11dbc4ab4ba0390463292fed
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/SC_Info/libsmb2.supp
+        artifact_id: art_241c3d62a2fa53b1cb71d7f8067c1e93d0048c67168e77f2854897f08cae6776
+        sha256: 998ad40a9029069d5a5b14b08d95eeb73135be1f38e50fe68c34120a39cd0742
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/SC_Info/libsmb2.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/SC_Info/libsmb2.v4.supp
+        artifact_id: art_e33591186b347d67e57c374523ef9989525d0a6abda39282bc7485b5cec57fe5
+        sha256: c5ed65536bed5f61b83abf309195b37ed91f2f5ef31cfc6ce16f4999f7dff0fc
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/SC_Info/libsmb2.v5.supf
+        artifact_id: art_3ffa343aa558f16d43af8367b92fce6ed890eeed13d0820c48e9bb2f5a9503a3
+        sha256: 35bc3c2926667e1a2127b0efc0ca3ee35f976846070ecd82936ea64b82c29960
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/_CodeSignature/CodeResources
+        artifact_id: art_d525cca4cb4d7fe0a4cce98cf05094034eb4fa6e457572e1c2f8198156ac459a
+        sha256: 222e9220be3bf556142f81914e07cfb361a2a17a5218f482c5ff657d544208b0
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/libsmb2
+        artifact_id: art_9b86a302359d9d66332e240badca4717ec3a219af6d5a8b93983bcf5b9db38f1
+        sha256: 7a369190ecc825bbd3a920066ce5a1e4c8a9fa142e7fa390efdb40719d26726e
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/Info.plist
+        artifact_id: art_f8e36acb472b793c3120009bcc1715530c6f812b4bb9991e8c61f67fed91b8f9
+        sha256: 25dd0cb1b8cb01348dc966ea6af5c35d68389a5eb0e5989e89ea23037577ceaf
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/SC_Info/libssl.supf
+        artifact_id: art_680be5708d139a794b392f0f655793b08c64ac936058f1821856e805242b2229
+        sha256: ffdac3c26d19dc78c947357a5b1210b1211a0ba0e89ba4988053ba1e2fda9cc8
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/SC_Info/libssl.supp
+        artifact_id: art_98a2fe30d5a75e516c6caefcc7f7d6ce2992375c18ab964ca45340be8a8285a5
+        sha256: 5c2163c918f8bce12f836e17247a38f33ae675adf884bf17fa2428db126e5bb9
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/SC_Info/libssl.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/SC_Info/libssl.v4.supp
+        artifact_id: art_2160b9c917d895c5885d8188a89ae3b78eb35ea7e6bb7a5e254aa47c7495dbbd
+        sha256: 7658b61aa6c505ba5dc8351526297885b33e3d96e8a043a49877ecb06d26a0cc
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/SC_Info/libssl.v5.supf
+        artifact_id: art_9facce6c472b151be5447349da7b9b8ee171dd1fb62def5a2873cdc3cadd0360
+        sha256: 9922e5d2ccb49595abeeb402e6a7feed7083febc841fe83eed7aa8c793955758
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+        artifact_id: art_9946f34b82a53b4ad83add0d801e797b629ebe4394669cf455920f24887a72a5
+        sha256: 7f41c92c6dd99f508f1482a0cbfc9ad15fb5a7082d36bac0ae3438020ff068fb
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/libssl
+        artifact_id: art_b5612b0d5531d04e4dc7d9220d018ff5902429dc6797d730316d64813a761468
+        sha256: e0927086eda28c87433e2ab15d2e481cdd1ddd6375d51a2bd5846a46d9242531
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/Info.plist
+        artifact_id: art_47040f2972dd40d0a5d8d91524ea681d33fe12d40c111ca3673b25b335aebbf6
+        sha256: a0e3274bd122e4dc2ff703806e7aeb24f70e631660c2bc9ce6a3c1daca791e2d
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/SC_Info/libswresample.supf
+        artifact_id: art_865fb5497d9a351917009e007955e3f8d0cd6e732ee6b3ff7f55613547a7478e
+        sha256: b321677be5dae2d0febc5d3c75ebf44b1fcb36f1120877cc76f5070926eb85fd
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/SC_Info/libswresample.supp
+        artifact_id: art_547ab0f4e309d77fe0d2294f36aa80a951a387bb0446ee2429f4edffe994de2a
+        sha256: 4213fed8c786cd542230c7c62dae238ddefbed905d57849cf1d46f8958fecb3d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/SC_Info/libswresample.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/SC_Info/libswresample.v4.supp
+        artifact_id: art_c6399afd5f6bf3400b9bc14f34ebe129790e7026fd2686e8606ced776fc411df
+        sha256: cb3ce93d11ac95b45855824bccb6ee7277e25aafc0d1092f823ff79686b6db52
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/SC_Info/libswresample.v5.supf
+        artifact_id: art_c2dd3cc0daf3ced3ecc7d75c497dbb93a3a5f26bdf4c5d543dd956f9fc39d7df
+        sha256: d4e60280dcfe2d22b3c72b03662565e2cec5de10dfb13f03c6709cda6a16c4ec
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_ba1e6ac7f1d5160d67a00c597d287d9b244cabf2a350160098b4e5711c867d25
+        sha256: 201a019c4ad2f76d1a3877697cafe1641af8fdc9b96a42da22d96151c9043bae
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/libswresample
+        artifact_id: art_26467583c61112070bccc5399d7ae7c85da1f710a7cb30e45d41cd6c022f2a89
+        sha256: 08cee11576f865d1ba1c11ed82ce0559d71dea3be560595bcc755b7ac1bcce67
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/Info.plist
+        artifact_id: art_3ee9a41d514c8081af241488ced997336166014be3050d113cb9dc66936047ea
+        sha256: 9a85ca4aa14cc66adbaa20b91c9e7afcfc0ec124a847fcc9e0fcef60b6b1cfa7
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/SC_Info/libswscale.supf
+        artifact_id: art_c87d298af75cf6d919f86f5ee0a6c72664b73c27249481899c44738d25265dc1
+        sha256: 0f31d98db4b476719f11ea36d31c6316f5258151ffac1edde39d414906bb0db3
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/SC_Info/libswscale.supp
+        artifact_id: art_4a4c2a02deee778675e1350f6c94096b1c53c97ae39d55c2ff42addfdb3a49e4
+        sha256: d426d8bb386744cde7072828a6b032e1f940c0893f4f9ea945d0938b3ea1ca6d
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/SC_Info/libswscale.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/SC_Info/libswscale.v4.supp
+        artifact_id: art_0329ca438558ee11d66323e9d7e5a336f48811b6afecff86687a3ce42a65a78a
+        sha256: 97ecf4afbd7e55a5157a03fd5fa2173894d9657dcd0b5af73e89e1481db5a080
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/SC_Info/libswscale.v5.supf
+        artifact_id: art_be84297654e5a6f18b128753f82cb766a019ce1c4a0081445a0c68e5735d0042
+        sha256: 22c42e4e1534fd11fe4bc26a0046f9ebf2db1c325846f39eaf9698d1cbfd7eb8
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_86bbe8bae7cc3f0813eb7662a667a89986af9ff828ad587a375ea6798647fdfd
+        sha256: 686eb447699c6110a478253bf39cb8700a4e502e8b752fa1df7a58bdd5a54919
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/libswscale
+        artifact_id: art_6c2746ea063a2292c39424a3571457135bec64de68670fbacb2ae8f6277126b7
+        sha256: ec1674279cc6d1e5e8453f28f3e455dc4ac525d4e0155d713c87fd141729e274
+        format: mach-o
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/Info.plist
+        artifact_id: art_94a444077475dbf6443a1e1b1cc0e4aa5fb7675a9b5b8103da100ee3dd88f29e
+        sha256: 190b5e1974223f976a51414647100aa57614829ab3325a5070019e8611e356d4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/SC_Info/libvpx.supf
+        artifact_id: art_b9c97bf872150c41a436680ab4e26a3379f69ab42965c022c36a783d17139cac
+        sha256: df261d24da80988234cb3fa54b164470ba692918a71d57906ab000f009ecfeb2
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/SC_Info/libvpx.supp
+        artifact_id: art_deed3242ed6e36cf94f500818df4201dd425aec034a2521ea6376764dac6b697
+        sha256: 1a96d94d281a15586563b8e064026e728a50a091eb86537dd65b7a5134598e55
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/SC_Info/libvpx.supx
+        artifact_id: art_2eb95fcba0492b927f54518dd9e91b4727f37cc4f50bd2a434b40cb21f814831
+        sha256: b0380842a583519d9a7421408282345a4c3be6e98850aa988e189a6986117461
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/SC_Info/libvpx.v4.supp
+        artifact_id: art_223afc81de0dcb0ddbf2c86333ff539bb7e6453af4331a262b78608c9563bab5
+        sha256: 0c51939b1c2bb1d32c0bffb960590695ad424a2a1a9f5cdf9b08991f78e1ecd3
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/SC_Info/libvpx.v5.supf
+        artifact_id: art_123138b62d9dd7b5b06d780a4188d32c7643893e2864d538666495e8ee7c586d
+        sha256: e8aef0f8d29d7173473ccc5d8963a451145cc9407ff64a91e0ca818b423d37d4
+        format: file
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/_CodeSignature/CodeResources
+        artifact_id: art_88ff6743960ff4a47257e0b1a0eebbb8e7e191d58877b33e59c5bdd1a92a9b4b
+        sha256: 3a7bcfa0ba5ec4eb24cdb65776b8d88a665d7069a16a466274e64865e7fa5b04
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/libvpx
+        artifact_id: art_646331818395b09786473984f218c00bf720a57409bc78af36af7e3f90d1794d
+        sha256: b80354c24d52e715d34103e6a8353fc6a89cbef22c88b2f0f287cfff947f54b8
+        format: mach-o
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/VidHub.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+        artifact_id: art_67fe36ac96953be072f0dd3741772853f07cbc25d9e145f655aca2ec242b32a2
+        sha256: 9ebf48a72a347a30b2bc06e7fe993c2f291a761ed16f927c067fc66ae184fbef
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/AdjustSigSdk.framework/_CodeSignature/CodeResources
+        artifact_id: art_04a2d63fdcb63fbb162c83bdecc175ea1d7182056c3fa6614af5e4200cec12f2
+        sha256: b87fd082c678952dab7cf4731e84a9ff2d1cdf96bbca6158d64a9c2a7e3491b7
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+        artifact_id: art_d90415d1fe48d4a0c920cb0452f62179d88ccb41e3015f96b560843f0f81304d
+        sha256: 19532b09705663fc4d7fa0a62403ffdbe0bb6ae3588e0d8c30e93e3f0b589ea5
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/Libuchardet.framework/_CodeSignature/CodeResources
+        artifact_id: art_83812722143f163f89480f7844a0da65477668293a360028b11961655435ec6b
+        sha256: b9d9281c5199835ed8fce344914c5f2d1205f2b01ab591df9ca753f580b1b4a4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/MVPlayerCore.framework/_CodeSignature/CodeResources
+        artifact_id: art_18f19ff4c5de95309c5a48d06c20afd254db1c42e4a186d5b105b16ba79cf87c
+        sha256: 97a009f7e4a241d3339dee703685e35ebd39f4cab5d8adabdcb6c0e095184726
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV-Tools-shared.framework/_CodeSignature/CodeResources
+        artifact_id: art_42676797dc1f84848d94200a0b80e1b1eefc0232ee331e49ee422a34b22c21ef
+        sha256: a0bf4fdf36a1e7917535498489badda70e6690df9c292976d49431a25b42e745
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libSPIRV.framework/_CodeSignature/CodeResources
+        artifact_id: art_214ad783441239e18c4e096ff6a62337706c9a3462a4cf6d6acd43d11428c84e
+        sha256: 77316af4437fb4a54d4319f421df389151a2423c90706ba5ff06293856dc1bcb
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+        artifact_id: art_bc20febc3aac7643906c4ba8b1ef00048aabf2b5ecc6ce35ac9b100eb28e822c
+        sha256: 630aa0a64f459c6283f5380d0cf8ec7a5fe83cb25fca257958642b9cb44e97b6
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_8895cdd1308ef37736e000998c4fffbdbfd5c9708830e405ac4e30adb97e9267
+        sha256: 84e1f9a09c54cf168b912f5a825c287726819c61f9ac9c74adf02f7113df93b8
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_88ab1330cb62046ec18f49a8fa68d972851dd66fb317ed42a3c01e565aec2e03
+        sha256: 2b9f4cc1fd290f16ab47c7387b55a3057301f19e7023905604dc4510df703cb3
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_e758e5e428a8d9737da40b0c3e2ecf7147271aa336dca6cb0772eb25ff792615
+        sha256: 54bce52a1dc766a94cfe9013d85835562f347f166f4768efd74fd6984ff929b7
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_5b193abd78caef9645626397a5e6c05cea3cc74697577c822eb265135d1b78cc
+        sha256: 8cf0fec7ac803f42a1a81df4f066bf0545958ef38f588cb0750b31709ca05b5c
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_c81733e8abf96ef3d1078f4d541c68376f2f45aac4891b7a6d41fa52f442b835
+        sha256: 7dae17b8a0affb05027f7003bad76221449f89c553fb220d69ab8a7f87269e9f
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libbluray.framework/_CodeSignature/CodeResources
+        artifact_id: art_93dbdc6b049335c2cabe480f9bea1e965066167ca6bcbdfd064dc4a3819e7a25
+        sha256: 868d0d39dba4042d3b71178dcf301bfc8d1ebc5ba1a62def81b71379204dd7aa
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+        artifact_id: art_578c7d82e84838af46181b75dab5f4f92c01ea675dc71cc79cf71c47710b552a
+        sha256: df38da5dd9f7a73c149f41e33d0fdb0e190f06e8a1f1bc9f7d6e52fca9ee870e
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libcurl.framework/_CodeSignature/CodeResources
+        artifact_id: art_f90539dff2c1a15d575768a78922049f4712ada8ee00d312f702ab9fee46b56f
+        sha256: 07e203d78b7d937947d70f65a24d2afd9aec8e3a33721bd2e0192bfb2845b7cb
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+        artifact_id: art_d000d7c8bc088873838a5f9795e08caba37975833f9a1a74494448a773caea0e
+        sha256: 6c64bcd418a8921dca0697ec23d1af019389066363e17df6d1a7759e509e2517
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+        artifact_id: art_1bee14f09789e1e44909f7dfba210656d60494656528dc54d10017e2fcf32be1
+        sha256: a36739b8bb2a05e4c0aa9b67cbc014e1b585db8d752f0fac948d6264ea1d75d0
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+        artifact_id: art_3471ad5508e30c6827e467147caee4870e8da15ed8196f7ee986bb8058a5b1c9
+        sha256: f203e3a7d4954c667d97422b2de90ce2597abef372d3387465169b41dea57c24
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+        artifact_id: art_fa941cd13aaef3134c9cba32fca3899f7c89fdfc9de3303cf8474934edb71946
+        sha256: 37655c81b47bfea2630c5ed2372f3ff8b4b91f7367dfbb90f8e0d2f42613db2b
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+        artifact_id: art_9268254efbff2f4368e1bc9b43849e90c59af0b9c213a04321b5e83fce53f0a4
+        sha256: e20c24c379bf5805de51bbe5b1e4344c024ecfe5f471101db7762990775273b6
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libglslang.framework/_CodeSignature/CodeResources
+        artifact_id: art_130e0b2598d88ebb1e9871dd114de8f9dd5f7343b2c9c835043f517a02f99b07
+        sha256: 9070f8aff9367a008c436bc2c09377025ee7098cee4bffedc9cb34f464cf5a9e
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+        artifact_id: art_6d76eaf64a06bf06e66b4222ab434a4922ecf2ca89df4cb0b4277a779e7f123e
+        sha256: e3d6c9b802492e34d9f0ea89e47c623131531a8155e54153bcece5c713691dc5
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblcms2.framework/_CodeSignature/CodeResources
+        artifact_id: art_4fcb7d4087a14c183aa3d52dc22ff2b4b0bea630fe6a06f81a72f66e0496023c
+        sha256: 0d9eda81671cc46a9ccae0dac898e36121dd5460d6ea60d91ee7230b856bafef
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/liblua.framework/_CodeSignature/CodeResources
+        artifact_id: art_54b63e3bfe0f01ee51aaae0ed10ef327f8ea0ef89b7779f7433324681139fb85
+        sha256: bd466b9141281cf80814f0281c7e0bff223a092f14e99303a0445ae844960e45
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libmpv.framework/_CodeSignature/CodeResources
+        artifact_id: art_c5372eccfe057afac6f0d7cf0020e5cf6ba4e51814c0805f5185b87e98e59a08
+        sha256: 2151411feb6f9f77a17c6d0896e1b5a9ee8c234424dbed70b0fa3a6d54cbe8d4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+        artifact_id: art_61e1f72065bed6ec9f6af5440d09215328064f79b2299b39aa0c522e942bac45
+        sha256: 5f54b10bcff4c5cbd4a423fa3f5496f60f0a42fb477ca38599e7df2a9c783e21
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libpng16.framework/_CodeSignature/CodeResources
+        artifact_id: art_6e8401ea5e9884ea58ad15d0a2c0f05d14ee3870bdf1115b2d3a6df1afa6d4dd
+        sha256: 1a3ad3fd832778cac605c17ee729974112c464bdac6ecbe40510a6cf10735665
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libshaderc_shared.framework/_CodeSignature/CodeResources
+        artifact_id: art_17ae631a333ff3a8b0f6ca97f0de6eb31646866e5ae75ebe2fb44ac568d62cdb
+        sha256: 0a23a5badf823862bfc94649593afd23a6cf499c964b413d58cd8ba541c2a0c4
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libsmb2.framework/_CodeSignature/CodeResources
+        artifact_id: art_d525cca4cb4d7fe0a4cce98cf05094034eb4fa6e457572e1c2f8198156ac459a
+        sha256: 222e9220be3bf556142f81914e07cfb361a2a17a5218f482c5ff657d544208b0
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+        artifact_id: art_9946f34b82a53b4ad83add0d801e797b629ebe4394669cf455920f24887a72a5
+        sha256: 7f41c92c6dd99f508f1482a0cbfc9ad15fb5a7082d36bac0ae3438020ff068fb
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_ba1e6ac7f1d5160d67a00c597d287d9b244cabf2a350160098b4e5711c867d25
+        sha256: 201a019c4ad2f76d1a3877697cafe1641af8fdc9b96a42da22d96151c9043bae
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_86bbe8bae7cc3f0813eb7662a667a89986af9ff828ad587a375ea6798647fdfd
+        sha256: 686eb447699c6110a478253bf39cb8700a4e502e8b752fa1df7a58bdd5a54919
+        format: plist
+      - path: Payload/VidHub.app/Frameworks/libvpx.framework/_CodeSignature/CodeResources
+        artifact_id: art_88ff6743960ff4a47257e0b1a0eebbb8e7e191d58877b33e59c5bdd1a92a9b4b
+        sha256: 3a7bcfa0ba5ec4eb24cdb65776b8d88a665d7069a16a466274e64865e7fa5b04
+        format: plist
+      - path: Payload/VidHub.app/PlugIns/MediaCenterDownloadActivityExtension.appex/_CodeSignature/CodeResources
+        artifact_id: art_9c21d16f322805f11a168e74d8d56b8a9e43297e3bed89cccc3d75b8b3d3700b
+        sha256: 15e97e50d376ad74218ea1fc218db00d4f3700db4ac27e9c1f06f8ae4e251a3e
+        format: plist
+      - path: Payload/VidHub.app/_CodeSignature/CodeResources
+        artifact_id: art_c3c543c8adad9ff7241ae850ef2ded7e5ee60f479f919b58b278963b854d1647
+        sha256: 02516dba4ff7c7413de56d74ca3ac5b61835ac5f347ff5cac6ac91e06475072a
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_a6267f267f1a28191845cfbae8f592c11bdde369e4a23c8ab43a5fc5ad0efe94

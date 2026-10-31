@@ -1,0 +1,1865 @@
+evidence_id: ev_7f4b32adaf7dd1db8ba05035706225fd79be80211fb1f0e78e904a847ef7a4fd
+subject:
+  name: 6801583759_dec.ipa
+  digest:
+    sha256: b9817642871bac42896353c91d9c79ad3ca33740eeed98d405dfe8ec5f518c3f
+  local_path: /opt/data/downloads/batch20/6801583759_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_a1ab82b1e87ed89b07b1b330ef64a9f86aa02768ee0ca0c042dd5f7386f194ef
+raw_result: null
+normalized_result:
+  projection_id: aap_91cb817dcf1ae4bc6cbfa8710f27d72752092dbb729bb7fa50b1e9d0e838f53c
+  root_sha256: b9817642871bac42896353c91d9c79ad3ca33740eeed98d405dfe8ec5f518c3f
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_a1ab82b1e87ed89b07b1b330ef64a9f86aa02768ee0ca0c042dd5f7386f194ef
+  application_roots:
+    - Payload/Rex.app
+  bundles:
+    - path: Payload/Rex.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Rex
+      signing_paths:
+        - Payload/Rex.app/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Alamofire_Alamofire.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Alamofire_Alamofire.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/DoviMatrix_DoviMatrix.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/DoviMatrix_DoviMatrix.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/FFmpegKit_FFmpegKit.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/FFmpegKit_FFmpegKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/Frameworks/AMSMB2.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/AMSMB2.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+      signing_paths:
+        - Payload/Rex.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/Libavcodec.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/Libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+      signing_paths:
+        - Payload/Rex.app/Frameworks/Libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/Libavdevice.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/Libavdevice.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+      signing_paths:
+        - Payload/Rex.app/Frameworks/Libavdevice.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/Libavfilter.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/Libavfilter.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+      signing_paths:
+        - Payload/Rex.app/Frameworks/Libavfilter.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/Libavformat.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/Libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+      signing_paths:
+        - Payload/Rex.app/Frameworks/Libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/Libavutil.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/Libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+      signing_paths:
+        - Payload/Rex.app/Frameworks/Libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/Libswresample.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/Libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+      signing_paths:
+        - Payload/Rex.app/Frameworks/Libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/Libswscale.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/Libswscale.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+      signing_paths:
+        - Payload/Rex.app/Frameworks/Libswscale.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/lcms2.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/lcms2.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+      signing_paths:
+        - Payload/Rex.app/Frameworks/lcms2.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libass.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libass.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libass.framework/libass
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libcrypto.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libcrypto.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libdav1d.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libdav1d.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libdovi.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libdovi.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libfontconfig.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libfontconfig.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libfreetype.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libfreetype.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libfribidi.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libfribidi.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libharfbuzz.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libharfbuzz.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libopus.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libopus.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libopus.framework/libopus
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libopus.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libplacebo.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libplacebo.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libsrt.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libsrt.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libsrt.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libssl.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libssl.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libssl.framework/libssl
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/libzvbi.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/libzvbi.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+      signing_paths:
+        - Payload/Rex.app/Frameworks/libzvbi.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/Frameworks/onnxruntime.framework
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/Frameworks/onnxruntime.framework/Info.plist
+      executable_candidates:
+        - Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+      signing_paths:
+        - Payload/Rex.app/Frameworks/onnxruntime.framework/_CodeSignature/CodeResources
+    - path: Payload/Rex.app/JXPhotoBrowser_JXPhotoBrowser.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/JXPhotoBrowser_JXPhotoBrowser.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/KSPlayer_KSPlayer.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/KSPlayer_KSPlayer.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexDesign_RexBadgeCore.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexDesign_RexBadgeCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexDesign_RexDesign.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexDesign_RexDesign.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexDesign_RexDinoCore.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexDesign_RexDinoCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexHome_RexHome.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexHome_RexHome.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexHome_RexHomeCore.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexHome_RexHomeCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexPlayer_RexPlayerKSPlayer.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexPlayer_RexPlayerKSPlayer.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexPlayer_RexPlayerUIKit.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexPlayer_RexPlayerUIKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/RexScript_RexScript.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/RexScript_RexScript.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Rex.app/ZipArchive_ZipArchive.bundle
+      parent_path: Payload/Rex.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Rex.app/ZipArchive_ZipArchive.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/Rex.app/Alamofire_Alamofire.bundle/Info.plist
+        artifact_id: art_f16125cea14934410e6df7eac8dcc42002ef940e952688752cb502b1d3685497
+        sha256: 35c73ff11865c453820865b42f1bfe62c11909c50da7f201a2e466a6e8a29f90
+        format: plist
+      - path: Payload/Rex.app/DoviMatrix_DoviMatrix.bundle/Info.plist
+        artifact_id: art_eac2650016f36b77ae07e9236585c8c950d5a32366391f2d7446dbed35c91d5f
+        sha256: e6b984869db7ae7a22da112f809d95bc0efe858edcf29e71da6d9c9d9a781450
+        format: plist
+      - path: Payload/Rex.app/FFmpegKit_FFmpegKit.bundle/Info.plist
+        artifact_id: art_313e333a2411cb9ac783a880dce9bb898668dc6678c8e48c6b82a60bede74dfd
+        sha256: 6155296c4d3b81f9de0ec017a4a016ade430c4ecd3992555b4cb3686669bafc7
+        format: plist
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/Info.plist
+        artifact_id: art_874b8024e8bab7ee3bc238663180120bc3ec607bd8a6ffb24d3f90a53fda946e
+        sha256: bc2b6f4eb19cfcc701beb588ac615ee635cc93422557de9556ee837b0fe76ba5
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/Info.plist
+        artifact_id: art_b0fbd5d8401761bd3579c6ec7956c9827c1ffe2618c7ac59da83185ef6d5834a
+        sha256: 874f468308f8622706de73df4db31f20f36b58d8005cbcf056921c4a789e182e
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/Info.plist
+        artifact_id: art_5ebe2d0a2299b2378a8dc43eb06965bc8dfba3f247a8466d310b2c4dc9f083ac
+        sha256: 030106ae430a6a72c5e8cd8aa4ae29db6694ea5ceba9137db3a230f0dfba47ff
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/Info.plist
+        artifact_id: art_9c27891a97d915a8c4c9a2f9e3a3b2d9fdebb1c92058487b57ddebd5ad144f5d
+        sha256: 32a66efcefa88229c128d4c00783393772a9463b4f4aa09f3f1ad090a06c58e9
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/Info.plist
+        artifact_id: art_211a49a2c424ff2c2a63f0dcc6f77be8410cf613f8f45150d5019760422c6a86
+        sha256: b46ec1913b7f712299726336fede565977a6b07f4a0660f16e6185811c246ff4
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/Info.plist
+        artifact_id: art_1139f27545f9e4da59841cae5937ac06f8f61abc57f22e67d108262716f27b0c
+        sha256: d30d0634383b36d5932ae3c9137dd99498880531a7fcc4113ec20e5cb5e3fd94
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/Info.plist
+        artifact_id: art_314dfdcb9d26a2c8340b3ea908b9d14dc59227c10e6ef03fa98df0da6695dd7b
+        sha256: eb931118374f399a0af037af97a50901acc61292c2279e039313e571e0a339a7
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/Info.plist
+        artifact_id: art_bb8222d8275389256909bfe2869d6070fcf5b866713360702cc27b12f8fe2ad8
+        sha256: 9d455e9a47eb47aba36ce16a214e13199c319b098fdc25e1f5a5b6fbdb59a136
+        format: plist
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/Info.plist
+        artifact_id: art_ba9c3a4fe82e0fa260ba027f72cae28d0adb897578acd110535f462032e87dea
+        sha256: c9c252a902b9ecce602238f44b352b87b3d4f3fc870975c519e1deb1b986e038
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libass.framework/Info.plist
+        artifact_id: art_3e91c50b3f7dbc92750da6addaf6164968d090f272885b529920c9ed28f51819
+        sha256: 5524f94804ecadf91a3c091a9ed27630b94f1594adf05cb8ec1932f4b5a8c07b
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/Info.plist
+        artifact_id: art_3f2f36b66b681415b531157dca3b7da7689ad1120a20be2f0f343e799c96b394
+        sha256: 36ed7673b696493ca18969ad4faef92c60c3cc1714d17de832dc6349dd143516
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/Info.plist
+        artifact_id: art_70090299a9ba206565b2e51669510f6c26ee8153bb3a07485e4f231e6b0d3ca0
+        sha256: d7729792a99917002839642558c87086605a56a5acc953099cb95b7c4d710e05
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/Info.plist
+        artifact_id: art_a0ba80890c3a84f951d3f0ef10cec43c5a1f47590c6e9ad08867a9cab4dd4b65
+        sha256: c0877b210c9a819bedad0e25130313bb0c9960ac29ef277b4dceb0a444f90537
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/Info.plist
+        artifact_id: art_026558ffe9e20117db75ba851b8f5c04da1c543f5d8cfb63989ff53e81a3bf92
+        sha256: 246721259e349880ad4c21180b2b7e9a2e4521d37edb680f46e6179c2d9f6dd4
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/Info.plist
+        artifact_id: art_7d78cd8ea8418421774a1b05987c6c3709db7e64ed93c3898e4b5225bc8e9efb
+        sha256: ddecf24bdd754293bf25b71f0a7b6e46523c3292fb020270abfaed894cf463de
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/Info.plist
+        artifact_id: art_24e3c52976ed94c8ffa534a38f0f0da5d93f78e274c4809d693dde5ffd018e9f
+        sha256: ef7f7f36a8ca27e7bbb700a07ba206f6de1138cff321a2aa5c93481e72e8ff9e
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/Info.plist
+        artifact_id: art_404dbf651a9297ed4c28206c2530f2602ddb5360ed760ce323472768a5524c53
+        sha256: fb1653bd623549d6f90939692647592de864e0782f795f99a5d1bad44546e37c
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libopus.framework/Info.plist
+        artifact_id: art_fe452706ddcc1af6685096c90bf7edd19ec8d11c2ade347df829707f471601f3
+        sha256: 3cd6f1ee5ca099b07f934570eafbdf63591d58a5351636609e641bf5d827aded
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/Info.plist
+        artifact_id: art_5f029dad6860c3a8df98234cf3c999e6a9e90ba02fb00050e8a55f943e17982b
+        sha256: 1b5910dd378a9aa4659f25f71004b35997c082a58051c22cd649207cc2d4629e
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/Info.plist
+        artifact_id: art_24f727dc619248b3cf35d644482a683e9b629e2f938c4184b42d76e1c38498f7
+        sha256: f58fc5eb2b52f97576d1afc3a3089795d55f11198ab43914ab01f9bee12af482
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libssl.framework/Info.plist
+        artifact_id: art_f7d1981525b062268424c98b5dd522358c43b691595045733daad3a13d93cd66
+        sha256: e88b7e2fd1f91f2fe55a40317396612d20a4213e08f86773acde8dd35adff279
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/Info.plist
+        artifact_id: art_37b2e865e32bb46946163d30bee08bf2329b2576f3f6a60c0b5fd97404440f39
+        sha256: 9ea5ddb8fa96234b298ce9a287804379a59c37cf8911f118fefcbe1ba72b743b
+        format: plist
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/Info.plist
+        artifact_id: art_daab58d47815ec7e9283b1a47ada260c32db3f3b02b87ee8977bd52006550221
+        sha256: 2a71abe0ea1cd1a939f8d230de9a016df45d6e2ee7c873f900aeae055d50bdaa
+        format: plist
+      - path: Payload/Rex.app/Info.plist
+        artifact_id: art_1fb09dd2db3a998ca6af33766f6bbeb322dc4738ff6cd8a11d16bf03b7c44f2d
+        sha256: 502666e7f9ae8cfe0af7328b31607b96498c7b4fd2e960383bc4c939d809fe4c
+        format: plist
+      - path: Payload/Rex.app/JXPhotoBrowser_JXPhotoBrowser.bundle/Info.plist
+        artifact_id: art_5d3a784475606620a0e974ccb3b056b5c1cb80862acfc281fbf9d4cbf512aefa
+        sha256: b920ea8a9b6b0e89a8e13de1c017e536922140e8b4ac134e78bd5509dd5bf70d
+        format: plist
+      - path: Payload/Rex.app/KSPlayer_KSPlayer.bundle/Info.plist
+        artifact_id: art_91c78576e68219ea59ea02624905c9da1faaf3e5785e069ba5109b52b168673a
+        sha256: c5c6da64ac87ffb007a66996d25d10e75f93b596bc417ff4d05b8ab055a360a8
+        format: plist
+      - path: Payload/Rex.app/Launch Screen.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/Rex.app/RexDesign_RexBadgeCore.bundle/Info.plist
+        artifact_id: art_f33477cde97beaf97b5b23c0e05b1750b81ad21f607ba899b65ccb8771c20779
+        sha256: bf43e17bc0ab1f476c390595d17ee2acdad282623b442a9a6027d57a97aef918
+        format: plist
+      - path: Payload/Rex.app/RexDesign_RexDesign.bundle/Info.plist
+        artifact_id: art_a0e690eb5afd9ad3e763b5f06941cb1fd53de01291731ba40f07ff3317e9d604
+        sha256: 4681d8e4efe3bc361ca4f095096b59c7546e4e25ede289428d459282d03345b6
+        format: plist
+      - path: Payload/Rex.app/RexDesign_RexDinoCore.bundle/Info.plist
+        artifact_id: art_9cd25a5c55fe2c5ab28b277411496955c2bafafd8fb82efeeba14505d3ef9b49
+        sha256: e7d72882e66dba33c0327f1b35612f2b8d9cc2b0bc2494fcdb83863f8bebd67c
+        format: plist
+      - path: Payload/Rex.app/RexHome_RexHome.bundle/Info.plist
+        artifact_id: art_53da24891f9f1179d372f5c734754c37d5cc704e54940c68d222b5b5c16cc040
+        sha256: 12d999458564909e1999459a20a543a9bcdc2ee2a0eca98a0c4c7160f270b595
+        format: plist
+      - path: Payload/Rex.app/RexHome_RexHomeCore.bundle/Info.plist
+        artifact_id: art_e23235ffa37291e036fa74a3e8207534fdc9821715834e3d2d5a5e566ad146ca
+        sha256: e7b1914d0658f393ce8bd2fdfccec4b3997b18efb44b4f706e30606f902b70a0
+        format: plist
+      - path: Payload/Rex.app/RexPlayer_RexPlayerKSPlayer.bundle/Info.plist
+        artifact_id: art_3dba42be8e710b298deab00f95cdab256ab2159cf6b9a5f1a3a615195c4aee6f
+        sha256: 2a5df3db1392eacaaed471fd76aa2419aa42f1f3a7d488fab603a3e442570d8d
+        format: plist
+      - path: Payload/Rex.app/RexPlayer_RexPlayerUIKit.bundle/Info.plist
+        artifact_id: art_e6c8e77ebe764846f1d2857786dd7269b401d4983f77d5a239635619b7fa76e2
+        sha256: f72758640e3093d908e003c7c3c87abf9d56fcd0fffab5ee0dd6b92383c73567
+        format: plist
+      - path: Payload/Rex.app/RexScript_RexScript.bundle/Info.plist
+        artifact_id: art_939715df2d9dcb07438f1458114154029bcd2c6f2c73c4da8eadb5ffa9cafad3
+        sha256: 81d271dc914457a7b4e22008cafd3b11310074d41f67749ca08707ea05412284
+        format: plist
+      - path: Payload/Rex.app/ZipArchive_ZipArchive.bundle/Info.plist
+        artifact_id: art_ae1df83f6f4dfdedb1cc4eb432975ec32c0227abf6788cd80fac153019f869eb
+        sha256: f8b7373e81a00e9f4675f2651bfefbe41e844e2f18f1b669e4d80f3b24bdd1c5
+        format: plist
+    executables:
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+        artifact_id: art_0da41e69537fe15f59079c52c8cb73f6e4c31fe272410451d5b7e120042b3fec
+        sha256: aac6ad6003996d0bb3e62932ce7ae03ed401054462f1a3ac08a7d02a63bff8ea
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+        artifact_id: art_82cd6d7cab0acb827317481c6a798a10e0543ca2c555079f69d78803bb55bf74
+        sha256: 7186fa6052eb6bfcb8ab3fbfe6b40b92cdcf1a1a5fe915adce8f5d856069c784
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+        artifact_id: art_06c7d6fc683e6bbf3e2af5f0c215099ad65391cf77b8c68e6ec19a1e21aff443
+        sha256: 7f4a1a950b8281f878642a2590768289a71e865928fc068755c793af46fad440
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+        artifact_id: art_42e5773be98cdb8d62522a5910f67a736a71a628f5d13b8302b493e00c49f5b6
+        sha256: e79ae5a67fd44249515ebf286ec30532de9406c935c1e62b0e1077c684eac019
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+        artifact_id: art_f47f93f90a5b130431df2fcad60b76ea2d90af8418fc48ed8b1c29cfc8997553
+        sha256: dfb6d20aff90ca9605ef39ea48795b8bcbd42738efddb3b8e05db1431adc5f19
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+        artifact_id: art_0eb11a3c6eefc8a61ab7617ed08398980c94805171636b0afd0e9dc8299a6156
+        sha256: 23b4beb263372fe11d635c3311ea6bb56f09de4338ebc4a8c4cb85a437e3f383
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+        artifact_id: art_da6ecc491e3d0db4cded923db51d06a23f6249ab5d1645c4a3e310609d66a2cf
+        sha256: a95702f7327ce19d9a8e8a991f97b6517bf7d1b76f78479fed80e8576dfac605
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+        artifact_id: art_76acdb3df45603b035fb2cbe735c5202caead242eddd03e60bbc6538bda2537f
+        sha256: 553c6ccd77ac1068c4ffa0442cf417cfe91d0af2465bb3bb9d404488b1617e42
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+        artifact_id: art_81f3f6799391f3594ac16927b8b02e01fb10569a9b0210ac6f434066e74061cd
+        sha256: 4054a40ae7b159f682ccfa57bbe20dd63143339585a576e676566653ff56c5db
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libass.framework/libass
+        artifact_id: art_2784a245b10bdcf17330c666869022fbefc017290bc8712762624dd2759f1b39
+        sha256: 051813612f252838eadcf68ff43ecc8073750a9f2898d834201653ecfb894964
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+        artifact_id: art_d602b3132f313ff0ac5f4ae0b2bae60094deeb3e6ea53770d8032d49913a075c
+        sha256: f7d95bfed9eb1b62caf710d8b4e8b33961896f947e1a3e47ccf0417fd0eb64c8
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+        artifact_id: art_84b2ecb4e3af23f4f02c926101eb87fb5c66103dda158c6516dd0bf6b618f502
+        sha256: 0ad85e2a5d591b3dcf5f091a5d94aebf93151ccbcbd801d8f16ae30c2780bd03
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+        artifact_id: art_81bf9a5344050ac1504c13c9e675d720b811e3a7683a9a46ca0e84e95af8ab75
+        sha256: 4d5372ecb099c65354198e061977ce510110c55156b1c6532064f2aff9628dbe
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+        artifact_id: art_429707bec448ac5ff52aeba0d7996b39b164eb574137abe06aa30626955a1be3
+        sha256: 0348cde39e8cbbe720ecef3f8f9c3c187b7d4b16e8289761b98d86d5b87c32f3
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+        artifact_id: art_e30398a5a361355d4edfd176df7670f85c3855edf93876ae6b522006f909ca07
+        sha256: e78dea001a3ee6ffcac651241f563e5b0ee84726e3edba76f31c62c1ade68c07
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+        artifact_id: art_ba41ad73bc04e1bb2835cbbed1a25fa78b3e821f1d4efddda2ced745908a33af
+        sha256: 9fd006f4887ded24955631d446e62ab233f407f5fd46e162933f3658188a6bd4
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+        artifact_id: art_875220de4b0f4ee2e8ddf65e880e083acffd85c21bdbb6cae302419c24b9666f
+        sha256: 9f0059153a0707d4fc2c249feb5844961048c52e1caab884704f72cb1ae91ed2
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libopus.framework/libopus
+        artifact_id: art_83baca12f3179ed772d1ed9b06ff263edb0119a6c5792ff73de0b2968b5a42f0
+        sha256: 1a4054755a4699d9b3a2dc7ecfd2f6fcde04f454eed7023058392e8c44428c62
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+        artifact_id: art_712f800d33787ba08236b12154d65ff4f25501180f2c5571e707031e92c4b60e
+        sha256: a5eb9575f0a38147a9c4a2e1129fe10013dc9cb3d769759f3ce01171f7d1c93b
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+        artifact_id: art_8ca1e7bbdd4972653425307b13d2e41069fe32e9447f63f45145f169d461e0aa
+        sha256: 654cb8874f4c3b5fe229e2401f7179922a56eed7f56a90942c74ae4aca653d69
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libssl.framework/libssl
+        artifact_id: art_1554ab1ac445891fe8172d64c36dbd40532ea5276b4d1352d636ebe4ba4e47c6
+        sha256: e0cf52ee04119414321ca06a31c08efcd2b4a60b42b02fbd8066874f8cdb4ed8
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+        artifact_id: art_f5b8e53d4e4bf23dd460f6447faa7686429640c7c29e25c625ea67bd6a14c035
+        sha256: 8b3743a0522cc3f70be12cd8ddeb6de608c104d88843cf8e7ee5aaa3fd794ad7
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+        artifact_id: art_473df886eacb77fb0de2e74239b3da653596c22bfed9a4a2fb22d9bff7a5e99d
+        sha256: 591d275944584c83f9889a047d595b16b8f28636e5265da371b09d0b7cfaf3cf
+        format: mach-o
+      - path: Payload/Rex.app/Rex
+        artifact_id: art_f93b3a0d5b43c00bf5f5d8cc7c3cd7cefaa452502465dffeb2dd9d7405e421e2
+        sha256: b2c867a601104c7128619a42aa48d8591a90f9c6e969b27160763d92e9b29ea1
+        format: mach-o
+    frameworks:
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+        artifact_id: art_0da41e69537fe15f59079c52c8cb73f6e4c31fe272410451d5b7e120042b3fec
+        sha256: aac6ad6003996d0bb3e62932ce7ae03ed401054462f1a3ac08a7d02a63bff8ea
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/Info.plist
+        artifact_id: art_874b8024e8bab7ee3bc238663180120bc3ec607bd8a6ffb24d3f90a53fda946e
+        sha256: bc2b6f4eb19cfcc701beb588ac615ee635cc93422557de9556ee837b0fe76ba5
+        format: plist
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supf
+        artifact_id: art_5dbb5c9a4e900c94f25db5e7e372112abee525255729c7973c43783048bdf6c5
+        sha256: 2e41c140419e879041c17309ac0251d893ab7d13f4f1b3bbcdc9bde78496e3d7
+        format: file
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supp
+        artifact_id: art_a4f08138b7b9c4df3c14c868d5ba6d2e15e60a4ab1449d4c3240b8f6f8c88391
+        sha256: 55f86cd6c8ab04b13c2e85b798b4ce25580325b70815c13bdf9b641500b7e893
+        format: file
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.v4.supp
+        artifact_id: art_6b4efc93eb05d2ed9a9c4839dbd3a0ccecca12731674ea7099b60ecb352cee18
+        sha256: 696cadb599bae57d8b2e1c72a91e97a394f844e956264c3ce79b16b79c894fc8
+        format: file
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.v5.supf
+        artifact_id: art_51ecf5be8fc9b46ee55dc837f2d705b79d7f6a8d7172193397c340181f2f2e17
+        sha256: 153eddc532f8649db44346908fdfb031d81ba376ca4d024396806a9a09ee943e
+        format: file
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+        artifact_id: art_e13f6809adee4fc7299d509bd77a966c9848d0f37a9af57b8cce1737ffdbcbf5
+        sha256: 5e788e32aaff78e8356d5888a3c0a67daca2afa27d80b3284cbf7edcb8234e55
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/Info.plist
+        artifact_id: art_b0fbd5d8401761bd3579c6ec7956c9827c1ffe2618c7ac59da83185ef6d5834a
+        sha256: 874f468308f8622706de73df4db31f20f36b58d8005cbcf056921c4a789e182e
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+        artifact_id: art_82cd6d7cab0acb827317481c6a798a10e0543ca2c555079f69d78803bb55bf74
+        sha256: 7186fa6052eb6bfcb8ab3fbfe6b40b92cdcf1a1a5fe915adce8f5d856069c784
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.supf
+        artifact_id: art_fe73145ad3d0761df1761d8ddda5c6818f4be26d4ce5dff3bb11bffb77f461b6
+        sha256: 02f5d84b6e4ed22a2c640d2196d27a9dcccf523ce5f6070d617d23762c8db14b
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.supp
+        artifact_id: art_dc6aa0a020a12006b4777edfbadb83300747bbcd62084b125317b0628afb2b64
+        sha256: 604d2b0af3b3b5e7ba3809b239e0ced64934094ce3b6a1a750953e062ff757af
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.v4.supp
+        artifact_id: art_d3d4f0194a9c5f35a3efa9aeef1956b4bab17cffa710fcc81ced4392c95db6de
+        sha256: 1798ebe02f2bdbbce9797d17dbdb2eee182cee05403b7b0647fbd282c59d5e97
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.v5.supf
+        artifact_id: art_91d19e605a2269c92e0bd186f3353b1832f938bc73d779a8b96fabf8ee4c7fd3
+        sha256: 9a730a7ff2fdb0bf2bba689cb0e9deb79d78d918aaef872cfc91e08c7121f286
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_ddbcc452eb6637e16d14ad448a08f1d99297f9336ba11d11f6401e47a6cac7d0
+        sha256: 4f83c755dc9222c12b619804cb7948eda26cf4ea6f4ef1f28fec7cc2d7743154
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/Info.plist
+        artifact_id: art_5ebe2d0a2299b2378a8dc43eb06965bc8dfba3f247a8466d310b2c4dc9f083ac
+        sha256: 030106ae430a6a72c5e8cd8aa4ae29db6694ea5ceba9137db3a230f0dfba47ff
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+        artifact_id: art_06c7d6fc683e6bbf3e2af5f0c215099ad65391cf77b8c68e6ec19a1e21aff443
+        sha256: 7f4a1a950b8281f878642a2590768289a71e865928fc068755c793af46fad440
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.supf
+        artifact_id: art_0d5ce31b29c45858900f879c9c68001aaf0738edda2e04522449e7d7537045da
+        sha256: 61dfaee1e1b9679719173d001fbc65439bd7fbb599ba81467cb553905eb0efa2
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.supp
+        artifact_id: art_db3ba2a4a20bbfede6e04a7fb90e57b67f90df5a53b6a1cb6e6db9e930c5e837
+        sha256: 4877948132d55e50bd3f961f4ba506e006c76b3c4291f5d214819fda1a341d02
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.v4.supp
+        artifact_id: art_7b4e2434a0a92985f3d6649ec036b18fbe3ee62942816aa1c9012dbc9c6cf960
+        sha256: 66698e5c8b5fe66f51318130165398fddb006519d87811906d87643d21c235e7
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.v5.supf
+        artifact_id: art_a3d2132a514d247e41744ceb0fc339f003e15c1a44fe9906186c022944edff3a
+        sha256: f3ea54e3de734b2b3533007c46f5138cf021144617e3c679fc350fb64228b805
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_cc623308622125587d0bfd3a16b966e77b2f37577debd0d482708063e23ede98
+        sha256: 5ab3e9fe01d667e80d4f76d4b591f895891444dec70efe29c8dca7b8455f2bb7
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/Info.plist
+        artifact_id: art_9c27891a97d915a8c4c9a2f9e3a3b2d9fdebb1c92058487b57ddebd5ad144f5d
+        sha256: 32a66efcefa88229c128d4c00783393772a9463b4f4aa09f3f1ad090a06c58e9
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+        artifact_id: art_42e5773be98cdb8d62522a5910f67a736a71a628f5d13b8302b493e00c49f5b6
+        sha256: e79ae5a67fd44249515ebf286ec30532de9406c935c1e62b0e1077c684eac019
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.supf
+        artifact_id: art_187829ee6a2b61de5b0d1314481c84274ac5b05ca10c3c156efab9f1f5d7c95b
+        sha256: 955d508bb905573ce63be65832ea3f4d82e5f9c5a98e3f9ae97cf19973e53e9f
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.supp
+        artifact_id: art_4edd97f77195184cbbedaac656208a81475c796d86b7cf453cc5a1737a7a9ce6
+        sha256: 1a11d7df02777db238e4c18c19803c9e0aa421ef0650110672b51ecba23851dd
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.v4.supp
+        artifact_id: art_36c3dcca40f1c7e69c18483fd31a5002172b9ba3bcf85ca1f22cc18c635dc9ed
+        sha256: 4631f50b170fa3394bdb635ef28b2d61cb5cac70dd50f5a101cc60a01846e3d5
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.v5.supf
+        artifact_id: art_c84d22761ecc4212a8c77908d15749ae001507b215519ebad272abaa3d079219
+        sha256: f5e9579de1f1e453db5e105513b7ae9627e1a94cdf27f80d4ad1a2b1815bbb57
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_e308edca5b40f215154df1d61d1c4cd1e7a72c5ca649103d7f04db3a015639c8
+        sha256: 575eb049dad0eba32952b5ee55a0c4f1a8ac696e017d92d60883a0dc719be076
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/Info.plist
+        artifact_id: art_211a49a2c424ff2c2a63f0dcc6f77be8410cf613f8f45150d5019760422c6a86
+        sha256: b46ec1913b7f712299726336fede565977a6b07f4a0660f16e6185811c246ff4
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+        artifact_id: art_f47f93f90a5b130431df2fcad60b76ea2d90af8418fc48ed8b1c29cfc8997553
+        sha256: dfb6d20aff90ca9605ef39ea48795b8bcbd42738efddb3b8e05db1431adc5f19
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.supf
+        artifact_id: art_fdc487313c82473d7fc125117890a0fdc63af851cf7c38a9312256d7e5ae0459
+        sha256: 91146729d93ee705c51509f647492c206805838e00fdeb54acc3f5ebba5e658a
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.supp
+        artifact_id: art_5cb10d2cb32d4261ada82a92ab0c953aee9e4c9f136b38fd4b824504ab87d4a5
+        sha256: 8d4ce72599f67ee9b5d2a58c9be94fdbc4bfe9177514b86c681a132ed283685b
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.v4.supp
+        artifact_id: art_a16d74063e7ac72a20f4304f2edae65d47cf599dd317ae6056f586a9ae779a9f
+        sha256: a4edaddfba81c90a95f1158aa8bd09379a41f710fd5cc4f2252b9cd46e091b68
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.v5.supf
+        artifact_id: art_5dd118bcef23d1452ea573977e4b73c89efb286044c0c83d7fa44888bb1c3fcd
+        sha256: a20c3b6b70ffe058fbda244798fe68a661b6deceb6391017f9ce749c23a068c2
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_f7cf3ac5bf89af0ce1ad92f357ba7c19247c9f176474b404cded5ede99408fbd
+        sha256: f679b3ccc3d632460c0ba13ca5cf04da7982561c0bc62125b85f7b7d328b2aa4
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/Info.plist
+        artifact_id: art_1139f27545f9e4da59841cae5937ac06f8f61abc57f22e67d108262716f27b0c
+        sha256: d30d0634383b36d5932ae3c9137dd99498880531a7fcc4113ec20e5cb5e3fd94
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+        artifact_id: art_0eb11a3c6eefc8a61ab7617ed08398980c94805171636b0afd0e9dc8299a6156
+        sha256: 23b4beb263372fe11d635c3311ea6bb56f09de4338ebc4a8c4cb85a437e3f383
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.supf
+        artifact_id: art_4f169ac2efaaea1e55a3ddc061c0bbae3eb8ba4408997a9b6be7da7befb2b9ee
+        sha256: 571dfccdde2b3ca6dfe08780d7f6e044acc384a3649590405f73350b87290cf6
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.supp
+        artifact_id: art_5fb5fbb81758085870cf8d3bb842080141eb5e5273c7eb449f63adeca85378a5
+        sha256: 2df8a8c4b93dc25d1dfb991cef9b4e91a5299e468c1c43d72ed71f7c372770a9
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.v4.supp
+        artifact_id: art_88e571fc918ca58207b9572fcde09accec5f59d58e3a853eabfb3c31b8fd9ce5
+        sha256: 0aedefb7a5a538cda5b21a47451d24f39574e1488cea7dca2bffea44fe226fc3
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.v5.supf
+        artifact_id: art_52c43f3f89a7022e68f386686af3e2a95b2e62a6342ea2d274b5f968e71c0257
+        sha256: 841874b22181cf05806615812af0b69c8988ba5213245734aa9526245a8e5d70
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_8fd717a04da04462c9929c524984e6621568aa3fb2eae4993eeac8e0898712df
+        sha256: f49d3d0ce8806640d2f572dfc9c7aa8a789092edf41c94abc91cd1950c515c4f
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/Info.plist
+        artifact_id: art_314dfdcb9d26a2c8340b3ea908b9d14dc59227c10e6ef03fa98df0da6695dd7b
+        sha256: eb931118374f399a0af037af97a50901acc61292c2279e039313e571e0a339a7
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+        artifact_id: art_da6ecc491e3d0db4cded923db51d06a23f6249ab5d1645c4a3e310609d66a2cf
+        sha256: a95702f7327ce19d9a8e8a991f97b6517bf7d1b76f78479fed80e8576dfac605
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.supf
+        artifact_id: art_7156534ffb0dbeb5bc824e5dcbeb764e0ed37cc3f646e60e12f1be74ddf7ab66
+        sha256: cf99810e2d7f60825545f6721a7b8de49536408de67e59e5f293c3b58c7d31a5
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.supp
+        artifact_id: art_20c42f80e0d9e56b5479be3def6b3086c1c6121f72c5493f8da882d43772b7f2
+        sha256: 1f1db559d98813f3ddbacfe539ee3c9bed7676b70a81045253fb7fc86e21bb20
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.v4.supp
+        artifact_id: art_dc3e096f0a8db690d084491eb95b1ebfbe3f41eaa9fb5e9715566d001c36348d
+        sha256: 04114b294013bd9d4722bcbee35e07da81b85e8335c57852a19b7da295c4870b
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.v5.supf
+        artifact_id: art_1240d9dfacb56119568dd6dd96c0f266d12e529fd04644a521aae49bb041f164
+        sha256: 76251d328a8d0976a3ef6cfd88f2a58bbc0472dee140a09948004c4ac6b65ce0
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_78958c3cea8cfbe5c7f54d8a259fbd0566f7b28e3e59512f48889ed01ed5741d
+        sha256: db440ce9c887e0012fde624aecd13ac5763ba4a18154df4cf91df85e0c6d5edf
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/Info.plist
+        artifact_id: art_bb8222d8275389256909bfe2869d6070fcf5b866713360702cc27b12f8fe2ad8
+        sha256: 9d455e9a47eb47aba36ce16a214e13199c319b098fdc25e1f5a5b6fbdb59a136
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+        artifact_id: art_76acdb3df45603b035fb2cbe735c5202caead242eddd03e60bbc6538bda2537f
+        sha256: 553c6ccd77ac1068c4ffa0442cf417cfe91d0af2465bb3bb9d404488b1617e42
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.supf
+        artifact_id: art_a3b2d99476bb3312bc1f09bca7431710766bd956fba3c33b49c7d48451834dac
+        sha256: a5e085e5898475abac61af29557b7a181196cc8066f9580e0d9f06418f4eeed5
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.supp
+        artifact_id: art_f85256fb485bc6a10f2a8c01bf40ba7c73b4508d62d750ebe79511308dd1ca8a
+        sha256: c1c0998d8ff09e93b92465405515964dafccc6798733a575ba8464e7b79214de
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.v4.supp
+        artifact_id: art_1dbb16f25e0873bb1590908378a526f81bbb371f490c50ba11c87a7a9678e181
+        sha256: 1fd16a4c4e7e34dcf9c48c0f3becace4d4b88c699027e1614c605f3a22b37734
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.v5.supf
+        artifact_id: art_1f4e96ba70486c6a20f0baa77dba87b70b5815d9930ab0ded689656d43374b1e
+        sha256: c353f8023469d9b408d1f6d3177ed50e62dd0fabcc5a7ae37ec5cd88695c5df7
+        format: file
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_350fea42a7210d5324698b2aa35994fed353d557baf1ab20d373c3322397e30c
+        sha256: e2937b881766f714b4ce2ffbd99fe1a1284bf8bf3b792fba2333df4827e6f846
+        format: plist
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/Info.plist
+        artifact_id: art_ba9c3a4fe82e0fa260ba027f72cae28d0adb897578acd110535f462032e87dea
+        sha256: c9c252a902b9ecce602238f44b352b87b3d4f3fc870975c519e1deb1b986e038
+        format: plist
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/SC_Info/lcms2.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/SC_Info/lcms2.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/SC_Info/lcms2.v4.supp
+        artifact_id: art_2a0776fe959b91de7309ef8f5a02e8113233e7ba6b727eb01219db03d66dff87
+        sha256: a3461b9b52c2fa80c56fb7ad014419332158092c61fe65bb86d34495b58fed7e
+        format: file
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/SC_Info/lcms2.v5.supf
+        artifact_id: art_c071e99518eadeeed31afe41cdd5f4a70ec394ca74d5168f65492ecc842a51e9
+        sha256: e889b8326d53fdbbcadd2057e1a47ff013e202871dec29cedb2d49b6a9e529e0
+        format: file
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/_CodeSignature/CodeResources
+        artifact_id: art_57f459a3994d5d838f2d3d4d115fc0f791c8f24400075f1fe155add4e073ca08
+        sha256: b39832e2b44b13bf33c770135d970bd844188411a12216dd92045d76a18ee672
+        format: plist
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+        artifact_id: art_81f3f6799391f3594ac16927b8b02e01fb10569a9b0210ac6f434066e74061cd
+        sha256: 4054a40ae7b159f682ccfa57bbe20dd63143339585a576e676566653ff56c5db
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libass.framework/Info.plist
+        artifact_id: art_3e91c50b3f7dbc92750da6addaf6164968d090f272885b529920c9ed28f51819
+        sha256: 5524f94804ecadf91a3c091a9ed27630b94f1594adf05cb8ec1932f4b5a8c07b
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libass.framework/SC_Info/libass.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libass.framework/SC_Info/libass.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libass.framework/SC_Info/libass.v4.supp
+        artifact_id: art_ba030378862a514dc77dde3bc773a787f7e3891bf4e3897e824aee512501ac20
+        sha256: f10aa22416d3e1293b1f45f210c01f830188afddad85f10352f704819a09bb0d
+        format: file
+      - path: Payload/Rex.app/Frameworks/libass.framework/SC_Info/libass.v5.supf
+        artifact_id: art_a4c6604327cb5729a6b6b8108a77a2451c13ac5423fb213c6415915d57c1f0d4
+        sha256: 3e08e3661614dc1224094d1b77b688870b35bfb7407c003005ced9c25fcc2014
+        format: file
+      - path: Payload/Rex.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+        artifact_id: art_6ae9a8cc07e34fa2354ec0a0dd69d350e2fe9b5afa163a963de39b7975014961
+        sha256: 7af8b5cd6b6d2054c635c9bdf22de7436148c8337f93955ecc15cdfe504f639f
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libass.framework/libass
+        artifact_id: art_2784a245b10bdcf17330c666869022fbefc017290bc8712762624dd2759f1b39
+        sha256: 051813612f252838eadcf68ff43ecc8073750a9f2898d834201653ecfb894964
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/Info.plist
+        artifact_id: art_3f2f36b66b681415b531157dca3b7da7689ad1120a20be2f0f343e799c96b394
+        sha256: 36ed7673b696493ca18969ad4faef92c60c3cc1714d17de832dc6349dd143516
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.v4.supp
+        artifact_id: art_2a0776fe959b91de7309ef8f5a02e8113233e7ba6b727eb01219db03d66dff87
+        sha256: a3461b9b52c2fa80c56fb7ad014419332158092c61fe65bb86d34495b58fed7e
+        format: file
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.v5.supf
+        artifact_id: art_2b33b289be97f7b26f951865dcb2f2edb57dea3b4064b5109a44c88cce9a8c51
+        sha256: 036498be1b16892e05597033b6e7b39f45a899a04c718b4c78294fc4c2eabe26
+        format: file
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+        artifact_id: art_0bd55a4345e30f36a3507df0ce70e65ea91a788bc0eda42a6310a5efe1916880
+        sha256: 3b645198dc98b02982ce3244fa6f0721c915ee5c4234f01f44242dc1812e63fd
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+        artifact_id: art_d602b3132f313ff0ac5f4ae0b2bae60094deeb3e6ea53770d8032d49913a075c
+        sha256: f7d95bfed9eb1b62caf710d8b4e8b33961896f947e1a3e47ccf0417fd0eb64c8
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/Info.plist
+        artifact_id: art_70090299a9ba206565b2e51669510f6c26ee8153bb3a07485e4f231e6b0d3ca0
+        sha256: d7729792a99917002839642558c87086605a56a5acc953099cb95b7c4d710e05
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.v4.supp
+        artifact_id: art_4774b9c72d15f3532ce3b678722bc1f04930cf4d219d23a49ede5d39b2d15f57
+        sha256: 829ae02ee9939122f1cc26c1a058c7d0ff40ebf6e6ace3701e6c33ae9d83ee56
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.v5.supf
+        artifact_id: art_c4f879434c1c07d68fc83461e16bdcd4d437a4bc611a3b1f6fdd6f83620ea627
+        sha256: 7aac237dc61a0aea91e8fc3acad14d2ffa602abd40a4e2a123d2a57d86991f09
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+        artifact_id: art_ae36f395b894428b5ae33afc1bb7d451e445ba967b1348e77afc0d02ae376746
+        sha256: 26e7152430153184f6c26db1f7a71c4a65550e0e1f58bfb304741aabe32194f3
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+        artifact_id: art_84b2ecb4e3af23f4f02c926101eb87fb5c66103dda158c6516dd0bf6b618f502
+        sha256: 0ad85e2a5d591b3dcf5f091a5d94aebf93151ccbcbd801d8f16ae30c2780bd03
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/Info.plist
+        artifact_id: art_a0ba80890c3a84f951d3f0ef10cec43c5a1f47590c6e9ad08867a9cab4dd4b65
+        sha256: c0877b210c9a819bedad0e25130313bb0c9960ac29ef277b4dceb0a444f90537
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/SC_Info/libdovi.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/SC_Info/libdovi.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/SC_Info/libdovi.v4.supp
+        artifact_id: art_ba030378862a514dc77dde3bc773a787f7e3891bf4e3897e824aee512501ac20
+        sha256: f10aa22416d3e1293b1f45f210c01f830188afddad85f10352f704819a09bb0d
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/SC_Info/libdovi.v5.supf
+        artifact_id: art_8602258415f893222f978e5d759b27a9978c56f1a2a54457774e08a818941d2f
+        sha256: fabc7542091b1cd92d82adcf8433db3d2a38118581231f532669b79bc17b306c
+        format: file
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+        artifact_id: art_38e9245e9829549e30b0d5dcd45b52ceb50a1fb2d805fc181c422e0521d1b9ac
+        sha256: 76b353c694aa00384d655c9c5d6ae4218002d8d59e3d3793ceb03c408162432b
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+        artifact_id: art_81bf9a5344050ac1504c13c9e675d720b811e3a7683a9a46ca0e84e95af8ab75
+        sha256: 4d5372ecb099c65354198e061977ce510110c55156b1c6532064f2aff9628dbe
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/Info.plist
+        artifact_id: art_026558ffe9e20117db75ba851b8f5c04da1c543f5d8cfb63989ff53e81a3bf92
+        sha256: 246721259e349880ad4c21180b2b7e9a2e4521d37edb680f46e6179c2d9f6dd4
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.v4.supp
+        artifact_id: art_d1ffd46cd6095de5c5239eba22d209e348718afe6c08031b0d771ece0b54628b
+        sha256: 7d919b571deb47b697c35b473b3cc9720736374931cd08f1a81dddd80b64ad4e
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.v5.supf
+        artifact_id: art_3cc4a9c51c31e2135be1c1c24bcf40a5e10c6c4521efd0208e710fc511d061fd
+        sha256: 87451abff893e166db85dc5258cf30fd009aea72e325469c6644bd19b4bc051e
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+        artifact_id: art_150eb486ad638a957940f7812c58fb6d8bf855f6d94e101cbbd37e30e5f30c01
+        sha256: fea4f1156bc4501ef81f53736047b98b08660ac1c17f396d404896995ae9a0ba
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+        artifact_id: art_429707bec448ac5ff52aeba0d7996b39b164eb574137abe06aa30626955a1be3
+        sha256: 0348cde39e8cbbe720ecef3f8f9c3c187b7d4b16e8289761b98d86d5b87c32f3
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/Info.plist
+        artifact_id: art_7d78cd8ea8418421774a1b05987c6c3709db7e64ed93c3898e4b5225bc8e9efb
+        sha256: ddecf24bdd754293bf25b71f0a7b6e46523c3292fb020270abfaed894cf463de
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.v4.supp
+        artifact_id: art_f80f3538fd18aa62d9bb594af4a2ac27a4c50c6d08e6c4d6b0d067aeca90667f
+        sha256: 0a5decb14516c23a8e839ad157f74d42ffd18317d80b3ad6d244077ca30f668e
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.v5.supf
+        artifact_id: art_7ed5e09670234690710a65bddc05889cb6d69b10771fad98d5932c083009f5f6
+        sha256: 21264d226d9822dab72859764e66e6c06dd719818958698cf9af7da756b68986
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+        artifact_id: art_f49d66a985ee51c3ca5c173a4542bb47a07cb3d4a26a934454db287bb270627e
+        sha256: 7e45e745e6fd1237034992e2e1c2feaa05bb15553a4a0c8a3ee41b625de05b32
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+        artifact_id: art_e30398a5a361355d4edfd176df7670f85c3855edf93876ae6b522006f909ca07
+        sha256: e78dea001a3ee6ffcac651241f563e5b0ee84726e3edba76f31c62c1ade68c07
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/Info.plist
+        artifact_id: art_24e3c52976ed94c8ffa534a38f0f0da5d93f78e274c4809d693dde5ffd018e9f
+        sha256: ef7f7f36a8ca27e7bbb700a07ba206f6de1138cff321a2aa5c93481e72e8ff9e
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supf
+        artifact_id: art_4403ad66f0045bc734199d5e5e10f65d0faaf7c1e0ec48eebab3bc4b0659e249
+        sha256: 616bbd04b91ddcce8b15c6c560268b668bec297753d2d464cf9cbc8e519b4394
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supp
+        artifact_id: art_8fa14c3e312a27cb3e58e77fefb519d618e4b6e5fdb1d6f21ce4f3b348e536b7
+        sha256: 96ecef126b1869abdd68e12baefac48dfcf17b723891dbbdbfbaab8d78aca38c
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.v4.supp
+        artifact_id: art_75e33ac71c14c1690ba28ecaf4e08e8593178858a36206f0714a0fb412d297fe
+        sha256: 94d7b687af3d0507df562e6b2016f0a597524baa90fdcf23e43ed346075f9092
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.v5.supf
+        artifact_id: art_dfa53834d4ca84753192a9e7cbb7ce14241ab3debec9275d0d77111d01c7408f
+        sha256: 24570b6b2fb8129c28ece4b659c5c9bd23856b137b108f59c714981ac757b2d2
+        format: file
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+        artifact_id: art_e4812c23d79905c93516e675ab42e087ac4e9d39f87520d53561f3a1ef3f32ec
+        sha256: 16f77d9d24e0fd33d45dc9f898e185f09d79d57542911e948ca65ec4e20e07b6
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+        artifact_id: art_ba41ad73bc04e1bb2835cbbed1a25fa78b3e821f1d4efddda2ced745908a33af
+        sha256: 9fd006f4887ded24955631d446e62ab233f407f5fd46e162933f3658188a6bd4
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/Info.plist
+        artifact_id: art_404dbf651a9297ed4c28206c2530f2602ddb5360ed760ce323472768a5524c53
+        sha256: fb1653bd623549d6f90939692647592de864e0782f795f99a5d1bad44546e37c
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.v4.supp
+        artifact_id: art_2a0776fe959b91de7309ef8f5a02e8113233e7ba6b727eb01219db03d66dff87
+        sha256: a3461b9b52c2fa80c56fb7ad014419332158092c61fe65bb86d34495b58fed7e
+        format: file
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.v5.supf
+        artifact_id: art_2b33b289be97f7b26f951865dcb2f2edb57dea3b4064b5109a44c88cce9a8c51
+        sha256: 036498be1b16892e05597033b6e7b39f45a899a04c718b4c78294fc4c2eabe26
+        format: file
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+        artifact_id: art_be042f6ecaa7669e4fe7850535b5bad858f6439cf59924ea838dd95f1f48a9b7
+        sha256: 89dac508f6bb98d89bd1dd60bdbb76f6a516a485ea52d760031f2f98499e0e40
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+        artifact_id: art_875220de4b0f4ee2e8ddf65e880e083acffd85c21bdbb6cae302419c24b9666f
+        sha256: 9f0059153a0707d4fc2c249feb5844961048c52e1caab884704f72cb1ae91ed2
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libopus.framework/Info.plist
+        artifact_id: art_fe452706ddcc1af6685096c90bf7edd19ec8d11c2ade347df829707f471601f3
+        sha256: 3cd6f1ee5ca099b07f934570eafbdf63591d58a5351636609e641bf5d827aded
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libopus.framework/SC_Info/libopus.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libopus.framework/SC_Info/libopus.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libopus.framework/SC_Info/libopus.v4.supp
+        artifact_id: art_1557feed12415e76da115be0a8f0eda2ed60692d03aadd759dd556b78b365de1
+        sha256: c9aa9ec67cf18f7cee2df75334b735a8c45dd1b09b6d9ddccc2e1e7379a9c12f
+        format: file
+      - path: Payload/Rex.app/Frameworks/libopus.framework/SC_Info/libopus.v5.supf
+        artifact_id: art_8602258415f893222f978e5d759b27a9978c56f1a2a54457774e08a818941d2f
+        sha256: fabc7542091b1cd92d82adcf8433db3d2a38118581231f532669b79bc17b306c
+        format: file
+      - path: Payload/Rex.app/Frameworks/libopus.framework/_CodeSignature/CodeResources
+        artifact_id: art_c722b3604fe135b6c7622690ddd310164317d74efd5f7cc862a87981aaf84a73
+        sha256: 68bec2e3ecf305b7a8c7ededd55fd601e7965e77ba8cdb36ee9afebfae4a6693
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libopus.framework/libopus
+        artifact_id: art_83baca12f3179ed772d1ed9b06ff263edb0119a6c5792ff73de0b2968b5a42f0
+        sha256: 1a4054755a4699d9b3a2dc7ecfd2f6fcde04f454eed7023058392e8c44428c62
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/Info.plist
+        artifact_id: art_5f029dad6860c3a8df98234cf3c999e6a9e90ba02fb00050e8a55f943e17982b
+        sha256: 1b5910dd378a9aa4659f25f71004b35997c082a58051c22cd649207cc2d4629e
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supf
+        artifact_id: art_c38c4a0367a4f3cf1e7e48e2a25ebdadd8d85b5a6655113af7a30b97a9bbeea0
+        sha256: eca6c9007cdd846e872d148342fee5ed8ac9c2e38615db989608257528f439d6
+        format: file
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supp
+        artifact_id: art_52d67fe02b44a775d4934ed6cbfeff21c896d6cb509df7558e525244f1dffa74
+        sha256: ed84285d402031a7dfe44491a999619dda4999b5d2a643dd99795d7ad63b8516
+        format: file
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.v4.supp
+        artifact_id: art_ea9419b89fa1b5faac74167c0a568a40946d0e678f96d25bb1e7950acb12faf8
+        sha256: 57d832b05a9044530441d3bbd19527bee365f52da3d2ab5f9fbdcb22a6d753ef
+        format: file
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.v5.supf
+        artifact_id: art_874d410a37ba883c3d88e5be9db6c1cc851dbdb14dc310b8d2c091de0427e83e
+        sha256: ac2348a9cdb406aae720e12a20e30e8ef661fe988fde6429fe76cdb31c176a04
+        format: file
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+        artifact_id: art_e1486d7fb34f17cbb8ea7afd419f799ba9f1d27c9715a735b58faa885e603431
+        sha256: 39f7b1ea1d7c62dbee2956afeb57b0e7a2519fa5fad9e2bce9bc03463c15f03a
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+        artifact_id: art_712f800d33787ba08236b12154d65ff4f25501180f2c5571e707031e92c4b60e
+        sha256: a5eb9575f0a38147a9c4a2e1129fe10013dc9cb3d769759f3ce01171f7d1c93b
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/Info.plist
+        artifact_id: art_24f727dc619248b3cf35d644482a683e9b629e2f938c4184b42d76e1c38498f7
+        sha256: f58fc5eb2b52f97576d1afc3a3089795d55f11198ab43914ab01f9bee12af482
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/SC_Info/libsrt.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/SC_Info/libsrt.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/SC_Info/libsrt.v4.supp
+        artifact_id: art_f80f3538fd18aa62d9bb594af4a2ac27a4c50c6d08e6c4d6b0d067aeca90667f
+        sha256: 0a5decb14516c23a8e839ad157f74d42ffd18317d80b3ad6d244077ca30f668e
+        format: file
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/SC_Info/libsrt.v5.supf
+        artifact_id: art_bcb556f6fe0d3114e2717bd1e0da0de28906b6330adde3aa0e2d0eaa02d393e5
+        sha256: 5c497e64917f611dbff598d9a5f1273907e3f99c053909cddd793aad0eddd740
+        format: file
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/_CodeSignature/CodeResources
+        artifact_id: art_6a1082f8eddc03152e521e53e7faf9cbb357c39af919935c16bb56c596671f70
+        sha256: f80c8a4b49836069310dcf22870503dce0a35cbd16a72ba5cb1ef56fb8a96a40
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+        artifact_id: art_8ca1e7bbdd4972653425307b13d2e41069fe32e9447f63f45145f169d461e0aa
+        sha256: 654cb8874f4c3b5fe229e2401f7179922a56eed7f56a90942c74ae4aca653d69
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libssl.framework/Info.plist
+        artifact_id: art_f7d1981525b062268424c98b5dd522358c43b691595045733daad3a13d93cd66
+        sha256: e88b7e2fd1f91f2fe55a40317396612d20a4213e08f86773acde8dd35adff279
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libssl.framework/SC_Info/libssl.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Rex.app/Frameworks/libssl.framework/SC_Info/libssl.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libssl.framework/SC_Info/libssl.v4.supp
+        artifact_id: art_4774b9c72d15f3532ce3b678722bc1f04930cf4d219d23a49ede5d39b2d15f57
+        sha256: 829ae02ee9939122f1cc26c1a058c7d0ff40ebf6e6ace3701e6c33ae9d83ee56
+        format: file
+      - path: Payload/Rex.app/Frameworks/libssl.framework/SC_Info/libssl.v5.supf
+        artifact_id: art_c4f879434c1c07d68fc83461e16bdcd4d437a4bc611a3b1f6fdd6f83620ea627
+        sha256: 7aac237dc61a0aea91e8fc3acad14d2ffa602abd40a4e2a123d2a57d86991f09
+        format: file
+      - path: Payload/Rex.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+        artifact_id: art_9d1769d48dffe7f3eb4984d81bec848d34d1aeef23e4f572fe6b228da242cbef
+        sha256: 9bfb8ec015b6185991a2d89fe246c48ede61c995b6aa0f0b233b975846d91d6c
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libssl.framework/libssl
+        artifact_id: art_1554ab1ac445891fe8172d64c36dbd40532ea5276b4d1352d636ebe4ba4e47c6
+        sha256: e0cf52ee04119414321ca06a31c08efcd2b4a60b42b02fbd8066874f8cdb4ed8
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/Info.plist
+        artifact_id: art_37b2e865e32bb46946163d30bee08bf2329b2576f3f6a60c0b5fd97404440f39
+        sha256: 9ea5ddb8fa96234b298ce9a287804379a59c37cf8911f118fefcbe1ba72b743b
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.supf
+        artifact_id: art_f3624b2bcc26f64fd5874662abe8fec47c09080da15948e13c909d2a20cafc80
+        sha256: dea0b5913d094ca392b21d96f228607ba0e97919098be14ff234cccf85a84d61
+        format: file
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.supp
+        artifact_id: art_dfc61dc22e7c6a36a084a8a8a2a51bf0bea2005f11e5ae0e5224f08c0b4162d9
+        sha256: 0f224f3dccb3fa18eaf0f08a9f504d3cc020d26037d08e535352234009470d4e
+        format: file
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.v4.supp
+        artifact_id: art_0717f660f90047c216a798c68e29a4a28afe18eea88358a2381a3b632664275c
+        sha256: 0f0ae7b3b703d51ab2b8bb25bdbbfdf9d428974bcdf5f2d0fe8132393b4b9138
+        format: file
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.v5.supf
+        artifact_id: art_0044d0d604e2b1595ebc1c2658b5b2f18205eb0b7ac45f71c4f3505309addd68
+        sha256: f0c451b023bf510da987c7fa4e63dcd91f544d9710efdef8c0b671bcfdbcaef6
+        format: file
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/_CodeSignature/CodeResources
+        artifact_id: art_5eafdb4b68cd1c43de56df8371e0a2df66d46ae0fc912111808cb3d225393446
+        sha256: 3e03b370610a3caf9c6d4457814dba73051e7c0f0988bbd7e1efb415ea0b88c9
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+        artifact_id: art_f5b8e53d4e4bf23dd460f6447faa7686429640c7c29e25c625ea67bd6a14c035
+        sha256: 8b3743a0522cc3f70be12cd8ddeb6de608c104d88843cf8e7ee5aaa3fd794ad7
+        format: mach-o
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/Info.plist
+        artifact_id: art_daab58d47815ec7e9283b1a47ada260c32db3f3b02b87ee8977bd52006550221
+        sha256: 2a71abe0ea1cd1a939f8d230de9a016df45d6e2ee7c873f900aeae055d50bdaa
+        format: plist
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/SC_Info/onnxruntime.supf
+        artifact_id: art_88cc7ce39f5f25ab0fcf08615461f686ba0a0677eafb8f44a5afd0bcf8c7e023
+        sha256: fd980517f7e420fe559f5b05449148096beb9bab4ed67c4ac3cb8c806c01f68b
+        format: file
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/SC_Info/onnxruntime.supp
+        artifact_id: art_d013197a516cc86c98c6007872656ff3e72cf1a9eaff7e8ad44cc2902924a0ae
+        sha256: dcaf73e711eebc512e88ca74e7288859badc2bb84d40d2a034df6f90cc419052
+        format: file
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/SC_Info/onnxruntime.supx
+        artifact_id: art_dd80a0ed5141e59c5b77f09b6f91b5529e3c0aa66148a61f0e5f95749ea4adf5
+        sha256: c65532097ba0ef2a094cc6639d8a9e82fb160a270c3df05d597cd6c22f32b998
+        format: file
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/SC_Info/onnxruntime.v4.supp
+        artifact_id: art_dbdfa09f6b9b54cfe6a82d5c1c3f2e8ad0015433d9b8c80f6f390c77b50013b8
+        sha256: 7246be6f33fbcc7de8dc1da9837848c17316c357238d2d008aff4984df69c90b
+        format: file
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/SC_Info/onnxruntime.v5.supf
+        artifact_id: art_c4f879434c1c07d68fc83461e16bdcd4d437a4bc611a3b1f6fdd6f83620ea627
+        sha256: 7aac237dc61a0aea91e8fc3acad14d2ffa602abd40a4e2a123d2a57d86991f09
+        format: file
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/_CodeSignature/CodeResources
+        artifact_id: art_60b9cac4cacf075a0ce3c591aeb321bcd5bf1dba73c160326ffcf6467f3565f3
+        sha256: a9273d318a38167175cb3444dafaf29a0626cdbef8cf186c48fa5f982b2cd5f4
+        format: plist
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+        artifact_id: art_473df886eacb77fb0de2e74239b3da653596c22bfed9a4a2fb22d9bff7a5e99d
+        sha256: 591d275944584c83f9889a047d595b16b8f28636e5265da371b09d0b7cfaf3cf
+        format: mach-o
+    native_libraries: []
+    javascript:
+      - path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+        artifact_id: art_56f3ea051a254f9506b80cdf8a76f6f6c0b95cedbb6f79a7b715e332671ac84e
+        sha256: ede29ac16135edf7d2d1e14d414a3712f1c052f16cc01ac3c12cbdb70a53707a
+        format: javascript-bundle
+      - path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+        artifact_id: art_4630defe97fff23e019d223a8d22e5a30b50d9aa5bd65ebfe7b33381006ffebe
+        sha256: 36f7fc1d2e4c7375498914a092a43868b1e06ea9544cc7f19ffdfd0f8e8d4b7b
+        format: javascript-bundle
+      - path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+        artifact_id: art_eb35172c776fa6e12e2e91d10bd0edf9aab6cc6755872171c9e83416520ec6ce
+        sha256: c822ae0036f0567c74774a7922d34bdd6ed8a0ba9cfd5692d2101614063bd72c
+        format: javascript-bundle
+      - path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+        artifact_id: art_5a7556d062ff2c3b19cf5da568e25ae87852c77b0203bdc566556b143f845813
+        sha256: 784cbaff5196912b5839331f55b3dda7283116f6fd188157ae7f681246328037
+        format: javascript-bundle
+      - path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+        artifact_id: art_f4d016e78b3151eb34e27b855fdde89aa17a3a2d386d1a461ecbfd4857ec9465
+        sha256: e6cfa46f0a6fe614df1b1f2c3dd68981e81d1e07763353c2ba3b05d3da27729c
+        format: javascript-bundle
+    signing:
+      - path: Payload/Rex.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+        artifact_id: art_e13f6809adee4fc7299d509bd77a966c9848d0f37a9af57b8cce1737ffdbcbf5
+        sha256: 5e788e32aaff78e8356d5888a3c0a67daca2afa27d80b3284cbf7edcb8234e55
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_ddbcc452eb6637e16d14ad448a08f1d99297f9336ba11d11f6401e47a6cac7d0
+        sha256: 4f83c755dc9222c12b619804cb7948eda26cf4ea6f4ef1f28fec7cc2d7743154
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_cc623308622125587d0bfd3a16b966e77b2f37577debd0d482708063e23ede98
+        sha256: 5ab3e9fe01d667e80d4f76d4b591f895891444dec70efe29c8dca7b8455f2bb7
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_e308edca5b40f215154df1d61d1c4cd1e7a72c5ca649103d7f04db3a015639c8
+        sha256: 575eb049dad0eba32952b5ee55a0c4f1a8ac696e017d92d60883a0dc719be076
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_f7cf3ac5bf89af0ce1ad92f357ba7c19247c9f176474b404cded5ede99408fbd
+        sha256: f679b3ccc3d632460c0ba13ca5cf04da7982561c0bc62125b85f7b7d328b2aa4
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_8fd717a04da04462c9929c524984e6621568aa3fb2eae4993eeac8e0898712df
+        sha256: f49d3d0ce8806640d2f572dfc9c7aa8a789092edf41c94abc91cd1950c515c4f
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_78958c3cea8cfbe5c7f54d8a259fbd0566f7b28e3e59512f48889ed01ed5741d
+        sha256: db440ce9c887e0012fde624aecd13ac5763ba4a18154df4cf91df85e0c6d5edf
+        format: plist
+      - path: Payload/Rex.app/Frameworks/Libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_350fea42a7210d5324698b2aa35994fed353d557baf1ab20d373c3322397e30c
+        sha256: e2937b881766f714b4ce2ffbd99fe1a1284bf8bf3b792fba2333df4827e6f846
+        format: plist
+      - path: Payload/Rex.app/Frameworks/lcms2.framework/_CodeSignature/CodeResources
+        artifact_id: art_57f459a3994d5d838f2d3d4d115fc0f791c8f24400075f1fe155add4e073ca08
+        sha256: b39832e2b44b13bf33c770135d970bd844188411a12216dd92045d76a18ee672
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+        artifact_id: art_6ae9a8cc07e34fa2354ec0a0dd69d350e2fe9b5afa163a963de39b7975014961
+        sha256: 7af8b5cd6b6d2054c635c9bdf22de7436148c8337f93955ecc15cdfe504f639f
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+        artifact_id: art_0bd55a4345e30f36a3507df0ce70e65ea91a788bc0eda42a6310a5efe1916880
+        sha256: 3b645198dc98b02982ce3244fa6f0721c915ee5c4234f01f44242dc1812e63fd
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+        artifact_id: art_ae36f395b894428b5ae33afc1bb7d451e445ba967b1348e77afc0d02ae376746
+        sha256: 26e7152430153184f6c26db1f7a71c4a65550e0e1f58bfb304741aabe32194f3
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+        artifact_id: art_38e9245e9829549e30b0d5dcd45b52ceb50a1fb2d805fc181c422e0521d1b9ac
+        sha256: 76b353c694aa00384d655c9c5d6ae4218002d8d59e3d3793ceb03c408162432b
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+        artifact_id: art_150eb486ad638a957940f7812c58fb6d8bf855f6d94e101cbbd37e30e5f30c01
+        sha256: fea4f1156bc4501ef81f53736047b98b08660ac1c17f396d404896995ae9a0ba
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+        artifact_id: art_f49d66a985ee51c3ca5c173a4542bb47a07cb3d4a26a934454db287bb270627e
+        sha256: 7e45e745e6fd1237034992e2e1c2feaa05bb15553a4a0c8a3ee41b625de05b32
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+        artifact_id: art_e4812c23d79905c93516e675ab42e087ac4e9d39f87520d53561f3a1ef3f32ec
+        sha256: 16f77d9d24e0fd33d45dc9f898e185f09d79d57542911e948ca65ec4e20e07b6
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+        artifact_id: art_be042f6ecaa7669e4fe7850535b5bad858f6439cf59924ea838dd95f1f48a9b7
+        sha256: 89dac508f6bb98d89bd1dd60bdbb76f6a516a485ea52d760031f2f98499e0e40
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libopus.framework/_CodeSignature/CodeResources
+        artifact_id: art_c722b3604fe135b6c7622690ddd310164317d74efd5f7cc862a87981aaf84a73
+        sha256: 68bec2e3ecf305b7a8c7ededd55fd601e7965e77ba8cdb36ee9afebfae4a6693
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+        artifact_id: art_e1486d7fb34f17cbb8ea7afd419f799ba9f1d27c9715a735b58faa885e603431
+        sha256: 39f7b1ea1d7c62dbee2956afeb57b0e7a2519fa5fad9e2bce9bc03463c15f03a
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libsrt.framework/_CodeSignature/CodeResources
+        artifact_id: art_6a1082f8eddc03152e521e53e7faf9cbb357c39af919935c16bb56c596671f70
+        sha256: f80c8a4b49836069310dcf22870503dce0a35cbd16a72ba5cb1ef56fb8a96a40
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+        artifact_id: art_9d1769d48dffe7f3eb4984d81bec848d34d1aeef23e4f572fe6b228da242cbef
+        sha256: 9bfb8ec015b6185991a2d89fe246c48ede61c995b6aa0f0b233b975846d91d6c
+        format: plist
+      - path: Payload/Rex.app/Frameworks/libzvbi.framework/_CodeSignature/CodeResources
+        artifact_id: art_5eafdb4b68cd1c43de56df8371e0a2df66d46ae0fc912111808cb3d225393446
+        sha256: 3e03b370610a3caf9c6d4457814dba73051e7c0f0988bbd7e1efb415ea0b88c9
+        format: plist
+      - path: Payload/Rex.app/Frameworks/onnxruntime.framework/_CodeSignature/CodeResources
+        artifact_id: art_60b9cac4cacf075a0ce3c591aeb321bcd5bf1dba73c160326ffcf6467f3565f3
+        sha256: a9273d318a38167175cb3444dafaf29a0626cdbef8cf186c48fa5f982b2cd5f4
+        format: plist
+      - path: Payload/Rex.app/_CodeSignature/CodeResources
+        artifact_id: art_6f8c1f28af89f25907b4516361527d38e5e85f71b9f09f86a6e81ae58536f1e4
+        sha256: 2577ea296dd5dbd568a61495cb6c90e0de47ff0ba99f1f9cdbcbf30763aa7e3e
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+  bridge_candidates:
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libass.framework/libass
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libopus.framework/libopus
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libssl.framework/libssl
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/bangumi.js
+      native_path: Payload/Rex.app/Rex
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libass.framework/libass
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libopus.framework/libopus
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libssl.framework/libssl
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/danmu.js
+      native_path: Payload/Rex.app/Rex
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libass.framework/libass
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libopus.framework/libopus
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libssl.framework/libssl
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/nlsearch.js
+      native_path: Payload/Rex.app/Rex
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libass.framework/libass
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libopus.framework/libopus
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libssl.framework/libssl
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/OfficialModules/rex-tmdb.js
+      native_path: Payload/Rex.app/Rex
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/AMSMB2.framework/AMSMB2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/Libavcodec.framework/Libavcodec
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/Libavdevice.framework/Libavdevice
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/Libavfilter.framework/Libavfilter
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/Libavformat.framework/Libavformat
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/Libavutil.framework/Libavutil
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/Libswresample.framework/Libswresample
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/Libswscale.framework/Libswscale
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/lcms2.framework/lcms2
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libass.framework/libass
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libcrypto.framework/libcrypto
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libdav1d.framework/libdav1d
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libdovi.framework/libdovi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libfontconfig.framework/libfontconfig
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libfreetype.framework/libfreetype
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libfribidi.framework/libfribidi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libopus.framework/libopus
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libplacebo.framework/libplacebo
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libsrt.framework/libsrt
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libssl.framework/libssl
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/libzvbi.framework/libzvbi
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Frameworks/onnxruntime.framework/onnxruntime
+      basis: javascript-and-native-content
+    - source_path: Payload/Rex.app/RexScript_RexScript.bundle/cheerio.bundle.js
+      native_path: Payload/Rex.app/Rex
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 120
+    emitted_candidates: 120
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_a1ab82b1e87ed89b07b1b330ef64a9f86aa02768ee0ca0c042dd5f7386f194ef

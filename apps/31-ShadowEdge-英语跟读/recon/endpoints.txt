@@ -1,0 +1,60 @@
+# 自有域名接口 URL
+https://webapp.shadowedge.app
+https://webapp.shadowedge.app/m/
+https://www.shadowedge.app
+https://www.shadowedge.app/legal/privacy
+https://www.shadowedge.app/legal/privacy).
+https://www.shadowedge.app/legal/terms
+https://www.shadowedge.app/legal/terms)
+
+# 接口路径
+—
+
+# 自有域名
+app.shadowedge.io
+shadowedge.app
+webapp.shadowedge.app
+www.shadowedge.app
+
+# 第三方/依赖域名
+43.com
+api.lingovea.com
+arrow.co
+check.app
+com.apple.dev
+com.apple.developer.app
+com.firebase.app
+com.google.app
+community.lingovea.com
+download.com
+download.pro
+etail.co
+firebaseappcheck.googleapis.com
+id.lingovea.com
+index.crates.io
+kern.io
+models.lingovea.com
+oauth2.googleapis.com
+org.openid.app
+scoring.com
+transcription.com
+transcription.pro
+upload.com
+userinfo.pro
+word.scoring.com
+wordedge.lingovea.com
+www.googleapis.com
+x.com
+yaml.org
+
+# 其他 URL（含 SDK）
+http://example.invalid
+https://api.lingovea.com
+https://community.lingovea.com/
+https://firebaseappcheck.googleapis.com/v1
+https://id.lingovea.com/region-policy
+https://wordedge.lingovea.com/deck
+https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/userinfo.profile
+https://www.googleapis.com/oauth2/v4/token
+https://x.com/shadowedgeapp

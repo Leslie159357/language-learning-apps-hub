@@ -1,0 +1,521 @@
+evidence_id: ev_64bce2c0ab83952f9db8cace46ddbaf9b06fdde86619bf84c1412774ee0467fb
+subject:
+  name: 6769710755_dec.ipa
+  digest:
+    sha256: 17d4ba8ca4c529dd42d5dbcdfe9e3493952256feed688bcf82a2530f0e627a36
+  local_path: /opt/data/downloads/batch20/6769710755_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_01e1481aa74c2b0b5b8d57f7cb1852e7c3fa406bee34e9cb4a99baa30ce28e8e
+raw_result: null
+normalized_result:
+  projection_id: aap_421e06e10f5d8bebf4196ade867ac1287fa8e57f2606e99abc7d03e688386232
+  root_sha256: 17d4ba8ca4c529dd42d5dbcdfe9e3493952256feed688bcf82a2530f0e627a36
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_01e1481aa74c2b0b5b8d57f7cb1852e7c3fa406bee34e9cb4a99baa30ce28e8e
+  application_roots:
+    - Payload/LinguoLand.app
+  bundles:
+    - path: Payload/LinguoLand.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/Info.plist
+      executable_candidates:
+        - Payload/LinguoLand.app/LinguoLand
+      signing_paths:
+        - Payload/LinguoLand.app/_CodeSignature/CodeResources
+    - path: Payload/LinguoLand.app/EXConstants.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/EXConstants.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/EXUpdates.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/EXUpdates.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ExpoApplication_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ExpoApplication_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ExpoConstants_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ExpoConstants_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ExpoFileSystem_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ExpoFileSystem_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ExpoLocalization_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ExpoLocalization_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ExpoNotifications_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ExpoNotifications_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ExpoSystemUI_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ExpoSystemUI_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/Frameworks/React.framework
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/Frameworks/React.framework/Info.plist
+      executable_candidates:
+        - Payload/LinguoLand.app/Frameworks/React.framework/React
+      signing_paths:
+        - Payload/LinguoLand.app/Frameworks/React.framework/_CodeSignature/CodeResources
+    - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/Info.plist
+      executable_candidates:
+        - Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies
+      signing_paths:
+        - Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/_CodeSignature/CodeResources
+    - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle
+      parent_path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle
+      parent_path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle
+      parent_path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/Info.plist
+      executable_candidates:
+        - Payload/LinguoLand.app/Frameworks/hermesvm.framework/hermesvm
+      signing_paths:
+        - Payload/LinguoLand.app/Frameworks/hermesvm.framework/_CodeSignature/CodeResources
+    - path: Payload/LinguoLand.app/RNCAsyncStorage_resources.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/RNCAsyncStorage_resources.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/RNSVGFilters.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/RNSVGFilters.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ReachabilitySwift.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ReachabilitySwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/React-Core_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/React-Core_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/React-cxxreact_privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/React-cxxreact_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/SDWebImage.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/SDWebImage.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/LinguoLand.app/ZIPFoundation_Privacy.bundle
+      parent_path: Payload/LinguoLand.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/LinguoLand.app/ZIPFoundation_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/LinguoLand.app/EXConstants.bundle/Info.plist
+        artifact_id: art_183347968f574870c0a719918409af806e133a3dfc48696874d6d211c52de808
+        sha256: c50c87a12b0fc13893cc08ff687af08452a4349c64062e5bcbdfdfcf956b10aa
+        format: plist
+      - path: Payload/LinguoLand.app/EXUpdates.bundle/Info.plist
+        artifact_id: art_b4de915b115090468656b46b33296e728383c5a7d901d72d482ad1ce44c1ca5c
+        sha256: 8c2f189869fb9fee4b1a585ef6649026fee667fcc8b6789cf558ab66426b2f74
+        format: plist
+      - path: Payload/LinguoLand.app/ExpoApplication_privacy.bundle/Info.plist
+        artifact_id: art_a1b4874df1b5de64a9a502567c5a7f6f52f751d8ecd94a98033566bc5a639f62
+        sha256: fbcd799481aea3fe387a6213857db47d4f74e5285670587da8eae213462a25b6
+        format: plist
+      - path: Payload/LinguoLand.app/ExpoConstants_privacy.bundle/Info.plist
+        artifact_id: art_41806f172df2d94947cf30e6ae802fbbc61e87d199ca6d46dd7813535c02f88f
+        sha256: 204a6780e702235391014d0533eb362e9526f311cb0314349042c72ed14a99aa
+        format: plist
+      - path: Payload/LinguoLand.app/ExpoFileSystem_privacy.bundle/Info.plist
+        artifact_id: art_34b5f1732d1e49fe4fa26483df192352bd8605fb5c0787e02480c8d8fcc093f2
+        sha256: 7ce1d34f259967a6e0efaca1310a1b2547e498bf9bdd748c3d4c8fc4a353d448
+        format: plist
+      - path: Payload/LinguoLand.app/ExpoLocalization_privacy.bundle/Info.plist
+        artifact_id: art_4006c49e37f5c6c8c785782a39e1803702d329dee4e547f191b5c81315ca0496
+        sha256: fe1571437fac51eb57a4b8f5394feb064766653885573b125d67bfbd086cdf13
+        format: plist
+      - path: Payload/LinguoLand.app/ExpoNotifications_privacy.bundle/Info.plist
+        artifact_id: art_a9cd3141c328d2d4513fe24d1d4090af36250681b34c7ad70cfb4352d7fa5fa2
+        sha256: 09487df1fbe535cfdbf381f4e5ada6064168e0119361bca183e9b93fc5925572
+        format: plist
+      - path: Payload/LinguoLand.app/ExpoSystemUI_privacy.bundle/Info.plist
+        artifact_id: art_42b397b1f4f271ec2db8806ab1f449e581a17b0cadacce3960aaa20c95dc570c
+        sha256: 62447715b23fd3c405b0cca54afc24f95552eee25ef2c17e718b1704fc61f0e3
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/Info.plist
+        artifact_id: art_933ef83f9ef3401291a3d546deb516bcba837deb6e0a3d217209ba17b1d27db5
+        sha256: b1f07d8e943ea034baf57c6372fe6a1ef7477f3e589cd240a76bec0294dd4762
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/Info.plist
+        artifact_id: art_c946954853cfda64ccb86238fe4e3926abee5cdeb1cb8408a1c1f4d3ba774893
+        sha256: a411c96d604609e74614b42b98fc0b3bc00afbe8187a775380da6b6c1e6b668e
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/Info.plist
+        artifact_id: art_40b5f00c47c2584fe84ac833d498d67e7197445a32d117eb2b6187f6f73f17c7
+        sha256: 8229713018b2631787566fee32890fffe64013a18ca26672f4e70a1a6ee4adcf
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/Info.plist
+        artifact_id: art_a02b487ed57a18d2f318f8a24e0c43b1d1ff70cea56797a2e4ac5ea2b6677b28
+        sha256: 201cad1d341dc9e9629e7573bbc85034026f63fe0243c5532bcb477240126eb4
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/Info.plist
+        artifact_id: art_7963a5a9ce2faf24bea0386a122ab79fe392fe92e8263f53610b4222b81ff16f
+        sha256: c505239c4095cfe4b669350e6d5baef37057a2596341d9e2a2ad6970ce4bea46
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/Info.plist
+        artifact_id: art_8786217ca83576c0c79284e2040517896dd414442a677f8bd363e66f8bfa2231
+        sha256: 645fce21f858669a09c357e1f49b3e5d507516cd45e51c1a2340a83dbbfd30b2
+        format: plist
+      - path: Payload/LinguoLand.app/Info.plist
+        artifact_id: art_6b89163e800979cd54ed334091ca0998c42f814a9d37c914e1ece3e2090c8158
+        sha256: ab594fbcb7ce6aa462e03e915a03199db0d9f09626c4610255ddc9cd136d9469
+        format: plist
+      - path: Payload/LinguoLand.app/RNCAsyncStorage_resources.bundle/Info.plist
+        artifact_id: art_f4145d09452939c6082aba1d0c54abc530f1c76c06af033129debf569493a692
+        sha256: 906fdeef97ffc20672a49e5831cfcd7ba4af8eec446e55b1b7ee2ca3532a1e07
+        format: plist
+      - path: Payload/LinguoLand.app/RNSVGFilters.bundle/Info.plist
+        artifact_id: art_57a7dac83c6321a39dce83581fadba8ec7160b11e7f30209a0501d29f3250e6f
+        sha256: c387939449a02d9d728435baa3e09e36ad3ed86126fcc10da7b0b2793c21471f
+        format: plist
+      - path: Payload/LinguoLand.app/ReachabilitySwift.bundle/Info.plist
+        artifact_id: art_e968547047148c9de35ad2141d4b8578b1dd57afa53af110cbc119d45b9eb4ff
+        sha256: d156f1691b742956f2457f900bbc5ea55d71a452feee80de2a52fdbbf41bf8da
+        format: plist
+      - path: Payload/LinguoLand.app/React-Core_privacy.bundle/Info.plist
+        artifact_id: art_5db0496e970ebcef61d52faf34594409d80038c77f78517c957ca1ba3b66af7c
+        sha256: 96f81ed44f7afc5a77e856d10ece3afa25ad8e17fbf6042860aa3083dfbec31d
+        format: plist
+      - path: Payload/LinguoLand.app/React-cxxreact_privacy.bundle/Info.plist
+        artifact_id: art_d5181c0f6855a41ceb384c3de8aa69b89a0cb5609b5b4be48cd6d6de2b29804a
+        sha256: d6a921063e02ee27d537d8fd0c89298dbf360714510c26043654e15fb7d50cb8
+        format: plist
+      - path: Payload/LinguoLand.app/SDWebImage.bundle/Info.plist
+        artifact_id: art_91979c17698249bf81ab66201208886af93250446cd4bc0ba7b87a790a096a96
+        sha256: a921fbfaeed601a8ba908853dbdf722c7ec1026bf742abd54507e7564c0657a9
+        format: plist
+      - path: Payload/LinguoLand.app/SplashScreen.storyboardc/Info.plist
+        artifact_id: art_1274aa2674ce3fa634223c20dc718f1e6e7fdf5411823c46458474cca700829e
+        sha256: 74dbceed6cf0a5e5c69834793328c9783ecab1de482d4954e257ca2132b743af
+        format: plist
+      - path: Payload/LinguoLand.app/ZIPFoundation_Privacy.bundle/Info.plist
+        artifact_id: art_f11c021ab9dab88a5da106a41e2df0f8466055b1236d3ea9ce8c6ea62edbc7b3
+        sha256: 0fe44fdc8d4478b04719a171a6ea16d150bdfe2349a1546f2b8661d48c11d376
+        format: plist
+    executables:
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/React
+        artifact_id: art_94a7236300bdfde858b55c3748d234cd0127aa11203b91d5b1580373bf45f01b
+        sha256: c72305edc0e26f73c628b3d67f885484bd796e2b0a2c42e184cc4f113f217125
+        format: mach-o
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies
+        artifact_id: art_252722a92ed0be1ed331edbc8f34c870ea2f17fe3e06289c41165269de4e9536
+        sha256: c27229baaf43dd9466a38152f7d96c01f5ee57164b7009b20afb83989e74a411
+        format: mach-o
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/hermesvm
+        artifact_id: art_810853e17d76fb1379a3831138eeb5b91f1574644f70df073b62aee709c3ab97
+        sha256: c2cf4033753a55bf470e4162b9ea544ef213f0c6eadfe7aa366dc7f6d4896418
+        format: mach-o
+      - path: Payload/LinguoLand.app/LinguoLand
+        artifact_id: art_9344dc554113f62cc49658e266d71e7b4965999148d524a3f43faa4f1272df95
+        sha256: 29c2ded2b697b2376edcc044813a36b96eb2cc742e527fe91cfbc298455bb994
+        format: mach-o
+    frameworks:
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/Info.plist
+        artifact_id: art_933ef83f9ef3401291a3d546deb516bcba837deb6e0a3d217209ba17b1d27db5
+        sha256: b1f07d8e943ea034baf57c6372fe6a1ef7477f3e589cd240a76bec0294dd4762
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/React
+        artifact_id: art_94a7236300bdfde858b55c3748d234cd0127aa11203b91d5b1580373bf45f01b
+        sha256: c72305edc0e26f73c628b3d67f885484bd796e2b0a2c42e184cc4f113f217125
+        format: mach-o
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/SC_Info/React.supf
+        artifact_id: art_31cccdf7c77cccb620cc0b118ae4602e776f034f974c8360e73ef1260c3e5c45
+        sha256: 78daf41b2e27ca98b899c7abddcc8879e8e7e45ea9ce720a8c55d04b28b2731a
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/SC_Info/React.supp
+        artifact_id: art_a3383f6782d3bf1b4c32e1bf6754696c79cbe02ea48d932f176a61c6a4a358dc
+        sha256: eeeac8bafe2d7a2bc67b8710173de619322967b717538ba227f5c30d0e9e66f7
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/SC_Info/React.supx
+        artifact_id: art_3fc41722ca8a21f829eb37b7c9fce5c19ee6bfa10bc618e3ecf886fa87320f8b
+        sha256: c7a6eff95ec6fa61a3b03f2af9fc64d4b1a428b02805bf6e191e9668eeefbc81
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/SC_Info/React.v4.supp
+        artifact_id: art_e6c49995e115d2b28e98c6faa9bb9da15f58aaf2f2cba6892acdd87f66444a92
+        sha256: 18d81e572e27a6c6a07bce717d59fe4569cbdb6ce10640ef230e8266a52fe726
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/SC_Info/React.v5.supf
+        artifact_id: art_a65dc4dc634ba7aca06d54ee14b745ea0e8ec8b5300d2494e10877d4a95e01da
+        sha256: 279257c945fdc0efc14b75f9b37761774d40cd941624ed757572168af55863d1
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/_CodeSignature/CodeResources
+        artifact_id: art_cb983a292e79951036b0d55e8960c3bf04b4544bdfdca20f5772efa7e669c21c
+        sha256: ca70b797ae14865903044aebaa2ed64293a380e212a0b635c8e4bfac56064d86
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/Info.plist
+        artifact_id: art_c946954853cfda64ccb86238fe4e3926abee5cdeb1cb8408a1c1f4d3ba774893
+        sha256: a411c96d604609e74614b42b98fc0b3bc00afbe8187a775380da6b6c1e6b668e
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies
+        artifact_id: art_252722a92ed0be1ed331edbc8f34c870ea2f17fe3e06289c41165269de4e9536
+        sha256: c27229baaf43dd9466a38152f7d96c01f5ee57164b7009b20afb83989e74a411
+        format: mach-o
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/Info.plist
+        artifact_id: art_40b5f00c47c2584fe84ac833d498d67e7197445a32d117eb2b6187f6f73f17c7
+        sha256: 8229713018b2631787566fee32890fffe64013a18ca26672f4e70a1a6ee4adcf
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_6c0aa81227896bff582faad2f1c522a293a2ac9af72323926a65b0fe4e9de79c
+        sha256: d3559c988dff940d4f758f37a0ba1863208304e33ab0b97c0e3dd5d3762f5f1d
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/Info.plist
+        artifact_id: art_a02b487ed57a18d2f318f8a24e0c43b1d1ff70cea56797a2e4ac5ea2b6677b28
+        sha256: 201cad1d341dc9e9629e7573bbc85034026f63fe0243c5532bcb477240126eb4
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_7157b92cb04895cd60f77b9757e7035f3094da1383998ce922dfb0e5f38dce69
+        sha256: 0587d155c56a6f4f0647ebc6b6a0bd026615cd610ee8f209a9786b79a96ad335
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/Info.plist
+        artifact_id: art_7963a5a9ce2faf24bea0386a122ab79fe392fe92e8263f53610b4222b81ff16f
+        sha256: c505239c4095cfe4b669350e6d5baef37057a2596341d9e2a2ad6970ce4bea46
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_7157b92cb04895cd60f77b9757e7035f3094da1383998ce922dfb0e5f38dce69
+        sha256: 0587d155c56a6f4f0647ebc6b6a0bd026615cd610ee8f209a9786b79a96ad335
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.supf
+        artifact_id: art_dddeef38bd8e071ec8875a7ba629404d1cbb715ef25dab4089168f12a1696f5d
+        sha256: 9aacf9bb17fbd00d51298ad4b2acc628baee69c69d4355ca1be39ff030718fa5
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.supp
+        artifact_id: art_1c68efa3454a61707dfb786445c33889b2f408bee32c37669ae61c1b1e4bb140
+        sha256: a888bf494d5f930c47daae0643bf4b4679c8a5f06be3cd28136295acc5065698
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.supx
+        artifact_id: art_3fc41722ca8a21f829eb37b7c9fce5c19ee6bfa10bc618e3ecf886fa87320f8b
+        sha256: c7a6eff95ec6fa61a3b03f2af9fc64d4b1a428b02805bf6e191e9668eeefbc81
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.v4.supp
+        artifact_id: art_b79304abd6bf09b2cd162a5a20df14dfca1bb619278b6cef9207081d0dbb2d38
+        sha256: 9e042354a066d601f9ecae4ad4f401386e10e9f806cb827acee30cd0625b40a8
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.v5.supf
+        artifact_id: art_7e49bcac385681c409f0281eab4c8efca294a5222e4458db8c695f0c23e26b55
+        sha256: 63ea0cb0c5141891027432342842f4a527ef42e04bea356aae8e1d80ef522231
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/_CodeSignature/CodeResources
+        artifact_id: art_717a00045a30745012303441d3525f0a10cb309a325edfb32e141cece1b9eb57
+        sha256: 995c0cb0388d95b53cf6e2369f45cbb8e464b989e8bb8544bb0e98ce67a6c6be
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/Info.plist
+        artifact_id: art_8786217ca83576c0c79284e2040517896dd414442a677f8bd363e66f8bfa2231
+        sha256: 645fce21f858669a09c357e1f49b3e5d507516cd45e51c1a2340a83dbbfd30b2
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.supf
+        artifact_id: art_22d17734559429a64fbff43dbec3c28e4a448098ba66abd8b3b7090d00293b97
+        sha256: 21e7da8e115ebedca31fb1b4621deffeb1ffd89a69c40cf376e625e303717355
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.supp
+        artifact_id: art_09d5b923b0db1fcd4d53e341a0e5b503e87092ecf0fc10336eb0e3d9d756a050
+        sha256: 2cac3886c3de9df8fbcc86b548263415f7105b7b3368f86897d1da75d323f5e1
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.supx
+        artifact_id: art_3fc41722ca8a21f829eb37b7c9fce5c19ee6bfa10bc618e3ecf886fa87320f8b
+        sha256: c7a6eff95ec6fa61a3b03f2af9fc64d4b1a428b02805bf6e191e9668eeefbc81
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.v4.supp
+        artifact_id: art_e6f2864e19f7a391a10ef6cb6fc51919ec43cb26a9bd742c96d344d3396eb9d9
+        sha256: 7090f1848f68574ddb055a3b69f2120c6733897353a9ac9e05e2ce8270792693
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/SC_Info/hermesvm.v5.supf
+        artifact_id: art_3b375b695f4864d4630499e9ac7cc6e15bd6b82c81e3a1b2b8689798d724b768
+        sha256: c7dee15def4003fc26ad368dea3bd37efa906cdddbdbe9face489632c046113b
+        format: file
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/_CodeSignature/CodeResources
+        artifact_id: art_a6dc699c9562fcb258886f8677ab01e3d61594d67b1232360cba245e6a329371
+        sha256: 67c289ab81f9b37043514c637ef652f12352d067ced3ae6e326cddd69de6db41
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/hermesvm
+        artifact_id: art_810853e17d76fb1379a3831138eeb5b91f1574644f70df073b62aee709c3ab97
+        sha256: c2cf4033753a55bf470e4162b9ea544ef213f0c6eadfe7aa366dc7f6d4896418
+        format: mach-o
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/LinguoLand.app/Frameworks/React.framework/_CodeSignature/CodeResources
+        artifact_id: art_cb983a292e79951036b0d55e8960c3bf04b4544bdfdca20f5772efa7e669c21c
+        sha256: ca70b797ae14865903044aebaa2ed64293a380e212a0b635c8e4bfac56064d86
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/ReactNativeDependencies.framework/_CodeSignature/CodeResources
+        artifact_id: art_717a00045a30745012303441d3525f0a10cb309a325edfb32e141cece1b9eb57
+        sha256: 995c0cb0388d95b53cf6e2369f45cbb8e464b989e8bb8544bb0e98ce67a6c6be
+        format: plist
+      - path: Payload/LinguoLand.app/Frameworks/hermesvm.framework/_CodeSignature/CodeResources
+        artifact_id: art_a6dc699c9562fcb258886f8677ab01e3d61594d67b1232360cba245e6a329371
+        sha256: 67c289ab81f9b37043514c637ef652f12352d067ced3ae6e326cddd69de6db41
+        format: plist
+      - path: Payload/LinguoLand.app/_CodeSignature/CodeResources
+        artifact_id: art_5675a776b630d4ac6dfd08692d25799e72d76935e550e988724500e241c04047
+        sha256: 5852e5b6dc085eccad4d6bdd9149700288f6baa38789077281432b55a1622540
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+    - react-native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_01e1481aa74c2b0b5b8d57f7cb1852e7c3fa406bee34e9cb4a99baa30ce28e8e

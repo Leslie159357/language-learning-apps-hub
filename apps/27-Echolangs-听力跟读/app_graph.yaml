@@ -1,0 +1,126 @@
+evidence_id: ev_f6ab3f81ce47df05f34427ddf91e8c3c069abc4e6ddece37ff8fb4de852ad0e2
+subject:
+  name: 6761864373_dec.ipa
+  digest:
+    sha256: c454d5b51bb0879797c961cd9e7e718e8e64e563ca0e3567eb240b3a47e07df3
+  local_path: /opt/data/downloads/batch20/6761864373_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_d2e780aec4eaa36f503db258f8f1945405ee44bb504016b96c8d856e1c4d5c91
+raw_result: null
+normalized_result:
+  projection_id: aap_7d09e41f604dbd8bded6c0eecac5a627bba4b105fbff1885e678b930781cfe22
+  root_sha256: c454d5b51bb0879797c961cd9e7e718e8e64e563ca0e3567eb240b3a47e07df3
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_d2e780aec4eaa36f503db258f8f1945405ee44bb504016b96c8d856e1c4d5c91
+  application_roots:
+    - Payload/EchoLangs.app
+  bundles:
+    - path: Payload/EchoLangs.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/EchoLangs.app/Info.plist
+      executable_candidates:
+        - Payload/EchoLangs.app/EchoLangs
+      signing_paths:
+        - Payload/EchoLangs.app/_CodeSignature/CodeResources
+    - path: Payload/EchoLangs.app/EchoCore_EchoCore.bundle
+      parent_path: Payload/EchoLangs.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EchoLangs.app/EchoCore_EchoCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/EchoLangs.app/EchoCore_EchoCore.bundle/Info.plist
+        artifact_id: art_8d86f0e83c2da23d79ae04da3e8b936725363eef06b4ff0c4537431a7222c927
+        sha256: 4b5bfc8c8de718237f33936c7d15a57a31b21aaf4ed8043e8d9bb8da828356d3
+        format: plist
+      - path: Payload/EchoLangs.app/Info.plist
+        artifact_id: art_d8aa8c3f57cc9445f81d5d5cb59e94cc7e5e12e196dcd14cfa42435bb06ce6c0
+        sha256: 2639863c6799a66111e97fd7b6dbf7bde41462fc30be53e2c55f6aa1af7d5f9f
+        format: plist
+    executables:
+      - path: Payload/EchoLangs.app/EchoLangs
+        artifact_id: art_13672cb4a71ec08dd7fbcd8e535a03a220888e5e3a17f66b586bde00495b67ed
+        sha256: 167a99a49414d03451c5760e7c5cfe34a234826d08e6797120c8a9164ea82d0d
+        format: mach-o
+    frameworks: []
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/EchoLangs.app/_CodeSignature/CodeResources
+        artifact_id: art_8f593228bbfd37984d69e856ddff56723953e2f75c3ce623469b52b3f1d47be3
+        sha256: 95037514be826e3cd0b2a82646b85f575294dfed9f31c99cb77b92649f342ed0
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_d2e780aec4eaa36f503db258f8f1945405ee44bb504016b96c8d856e1c4d5c91

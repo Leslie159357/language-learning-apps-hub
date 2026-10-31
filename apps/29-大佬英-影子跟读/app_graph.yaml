@@ -1,0 +1,136 @@
+evidence_id: ev_0603a541d62414e6ddcd05c61245b1ac1ad7db4499a925a6f9beaa9ac4bf6156
+subject:
+  name: 6811829292_dec.ipa
+  digest:
+    sha256: d9d5c4708776a2369309d28296d9d7e6f77af34f3e38790979ad003c9e3619ac
+  local_path: /opt/data/downloads/batch20/6811829292_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_22d7079e6f20f981d18837338b0099003441cc7be08ac898adc7f1ac2bffe2f9
+raw_result: null
+normalized_result:
+  projection_id: aap_bb7d25d18eb445cd78c4b5a09052c031d01e863e2266d984529eb11e96d9e1c1
+  root_sha256: d9d5c4708776a2369309d28296d9d7e6f77af34f3e38790979ad003c9e3619ac
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_22d7079e6f20f981d18837338b0099003441cc7be08ac898adc7f1ac2bffe2f9
+  application_roots:
+    - Payload/dalaoE.app
+  bundles:
+    - path: Payload/dalaoE.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/dalaoE.app/Info.plist
+      executable_candidates:
+        - Payload/dalaoE.app/dalaoE
+      signing_paths:
+        - Payload/dalaoE.app/_CodeSignature/CodeResources
+    - path: Payload/dalaoE.app/PlugIns/DalaoShareExtension.appex
+      parent_path: Payload/dalaoE.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/dalaoE.app/PlugIns/DalaoShareExtension.appex/Info.plist
+      executable_candidates:
+        - Payload/dalaoE.app/PlugIns/DalaoShareExtension.appex/DalaoShareExtension
+      signing_paths:
+        - Payload/dalaoE.app/PlugIns/DalaoShareExtension.appex/_CodeSignature/CodeResources
+  components:
+    bundle_metadata:
+      - path: Payload/dalaoE.app/Info.plist
+        artifact_id: art_f9d6798f109a2e29415ee00cc20cff265bc60da63b684df1b957e546a49d6b54
+        sha256: 3ea58d8d047cc54b250c8c9d1732187d697f6ba64cae06b64f947603ebf5cd48
+        format: plist
+      - path: Payload/dalaoE.app/PlugIns/DalaoShareExtension.appex/Info.plist
+        artifact_id: art_be2bb7c6ff3a3abcf377cc8dac225cc7a248f2f974097d39381258686c6884cf
+        sha256: 798a1fea0c4d8a93085bd916e4b6a5b2952449b9e6084349ae46034aa029a6f7
+        format: plist
+    executables:
+      - path: Payload/dalaoE.app/PlugIns/DalaoShareExtension.appex/DalaoShareExtension
+        artifact_id: art_217ca881150364a4ff808baad2a78b378e8e1625a30c821ca10b9aaa66c7f3fc
+        sha256: 89afea879586672043a2c2f77268afcb766127c016f690a1e18fbca69d6b7a58
+        format: mach-o
+      - path: Payload/dalaoE.app/dalaoE
+        artifact_id: art_3edad0a5d8f176385b0351b48dfc19e8292517476d6b49ad8ea52c7ec1f02a59
+        sha256: 54c6a2cc372d0873341bef016a1d139c9acd01af800d9a04f93238784cc22422
+        format: mach-o
+    frameworks: []
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/dalaoE.app/PlugIns/DalaoShareExtension.appex/_CodeSignature/CodeResources
+        artifact_id: art_e749b6e54ee537d548729bf3129be621c02da134384763b26c971880d20cae17
+        sha256: 48ff2db4d5cbbfe761d7f06c65296d147758ede7fbeca4ff0c3f4c980cefc869
+        format: plist
+      - path: Payload/dalaoE.app/_CodeSignature/CodeResources
+        artifact_id: art_0f378f86114625362fe350848399e2071fb845670c3462a3eef87a0c7ff0187f
+        sha256: 8c19aaf1701a9c4f294798928590d5c4641dbfb638318844511eea7b11e1b6e1
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_22d7079e6f20f981d18837338b0099003441cc7be08ac898adc7f1ac2bffe2f9

@@ -1,0 +1,250 @@
+evidence_id: ev_56f36bee44deed75e85111a2fe227fe053c36c79a3b37d5723b2fd89c20e45f7
+subject:
+  name: 6772523674_dec.ipa
+  digest:
+    sha256: 773a851aea6f1ad28411884d0f8ba8fbd8232b3f098b4d9192e05cdf7a0f21bc
+  local_path: /opt/data/downloads/batch20/6772523674_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_4848babbe9a592cc8ba8d421725e382135e37e01e53505ab2d81f7633681d460
+raw_result: null
+normalized_result:
+  projection_id: aap_1732cd81a528cd9f5ce45b51c8392f80faaba6ed8d88d99b46839c37e33b4027
+  root_sha256: 773a851aea6f1ad28411884d0f8ba8fbd8232b3f098b4d9192e05cdf7a0f21bc
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_4848babbe9a592cc8ba8d421725e382135e37e01e53505ab2d81f7633681d460
+  application_roots:
+    - Payload/Phrabbit.app
+  bundles:
+    - path: Payload/Phrabbit.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Phrabbit.app/Info.plist
+      executable_candidates:
+        - Payload/Phrabbit.app/Phrabbit
+      signing_paths:
+        - Payload/Phrabbit.app/_CodeSignature/CodeResources
+    - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework
+      parent_path: Payload/Phrabbit.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/Info.plist
+      executable_candidates:
+        - Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/GoogleMobileAds
+      signing_paths:
+        - Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources
+    - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework
+      parent_path: Payload/Phrabbit.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/Info.plist
+      executable_candidates:
+        - Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/UserMessagingPlatform
+      signing_paths:
+        - Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/_CodeSignature/CodeResources
+    - path: Payload/Phrabbit.app/swift-crypto_Crypto.bundle
+      parent_path: Payload/Phrabbit.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Phrabbit.app/swift-crypto_Crypto.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Phrabbit.app/swift-transformers_Hub.bundle
+      parent_path: Payload/Phrabbit.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Phrabbit.app/swift-transformers_Hub.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/Info.plist
+        artifact_id: art_64d6b59de185713042bb6f1824b30db17618ad07a9779d5b9b2cd78286efcdc3
+        sha256: c352540c7e8b7bfc0ecb10769923fc625328891773500125a1165ee2686d238b
+        format: plist
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/Info.plist
+        artifact_id: art_190f03011955a35be753951d791f1147fa25bf0ac10abb93593e558237e57a2c
+        sha256: dac509a65c31cbee9981b5a9a1cd721c78b3e31c8b53162eee87225c9b21d5eb
+        format: plist
+      - path: Payload/Phrabbit.app/Info.plist
+        artifact_id: art_4ee1e8065248df2487fc18bccb5f7d89b64bb22b866885b0f7e9f29f902569e2
+        sha256: adf7dc733c58019c3f07674e881a74b93b43668f34fbdc0a187dbc46f593fab4
+        format: plist
+      - path: Payload/Phrabbit.app/swift-crypto_Crypto.bundle/Info.plist
+        artifact_id: art_966f53b37a389ca476a48e9957e2c394a8a94bfc57e8376cd9fa841ae4c6def1
+        sha256: 9532da6072be879b174cc7673b58cc91131b5b565583ef1e6769adadbcfd6aa0
+        format: plist
+      - path: Payload/Phrabbit.app/swift-transformers_Hub.bundle/Info.plist
+        artifact_id: art_64ce5165db04c1f44fd5b3349c6c30c77450746a9b478a6f4237546c5fb5e532
+        sha256: 7a76ba0c6150d14f6195302cf01227b73bf3be58b015ffd7b5a55772b093c740
+        format: plist
+    executables:
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/GoogleMobileAds
+        artifact_id: art_908668f1a4275e2030e0cb4b722f7968282cbae4833e42cf28c9a54ca9e63166
+        sha256: 8d268f316ceb5b21169ad6ed0f18b506ec0982fd2606084f3132cb0545d5b702
+        format: mach-o
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/UserMessagingPlatform
+        artifact_id: art_0b59706e1cf30c0602c4a37cbe21727136c55fd6540084c72790a1f616665278
+        sha256: da90f3cf956d43196cd697821694bfc8af93d0c50e36c2815d4fc32e2c42975c
+        format: mach-o
+      - path: Payload/Phrabbit.app/Phrabbit
+        artifact_id: art_1db024f18cdfccb10240c83e8c41c00044c1e9306a75982fffdf96522b6d4f69
+        sha256: 16371caa6c47c78dc6dbc62afecefbb22a315e359d1385dca46bbbad4ba19d1d
+        format: mach-o
+    frameworks:
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/GoogleMobileAds
+        artifact_id: art_908668f1a4275e2030e0cb4b722f7968282cbae4833e42cf28c9a54ca9e63166
+        sha256: 8d268f316ceb5b21169ad6ed0f18b506ec0982fd2606084f3132cb0545d5b702
+        format: mach-o
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/Info.plist
+        artifact_id: art_64d6b59de185713042bb6f1824b30db17618ad07a9779d5b9b2cd78286efcdc3
+        sha256: c352540c7e8b7bfc0ecb10769923fc625328891773500125a1165ee2686d238b
+        format: plist
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_c326b9b7d20e611ae86eddc1a8f8d579222a50592284a068e0b6f1009e97018f
+        sha256: 69fb112582fc23fc06c635c961d262a3f7b4b5654d284787491de3000dadf9d2
+        format: plist
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/SC_Info/GoogleMobileAds.supf
+        artifact_id: art_d0e871440f7470cf3fb12e1cfb0551ad04255ceb3bb832c93aa42f0bac5d2b1a
+        sha256: e80f8c15204dd44f094b8a801581eb8eb6eed5a8f78c7775e1f6b35461712fb2
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/SC_Info/GoogleMobileAds.supp
+        artifact_id: art_c655fd8c29b101d737106c67a25a36306a04440b7527c2031c35bc933a87b053
+        sha256: 6bcaf3f743971c9b1902627dc0283b4fee3d00f16af4e457962fcba9793c8a9d
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/SC_Info/GoogleMobileAds.supx
+        artifact_id: art_f47b2e53d89540abe38184c62c6ba10ff729947baa0cf61981b41d64822c1658
+        sha256: 467e44bae271a8aebdd8cc66d9fbcc18e022a8cf5d544957038f9365f9cf60fd
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/SC_Info/GoogleMobileAds.v4.supp
+        artifact_id: art_2e1faace15bc9f6e5591b67a21d7ebef280df9c95ecaec7cd18c3e542f155b04
+        sha256: 089e8bdfdbd6b89123c50e37646b863c053271e6c7d63022d6707ad45c133486
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/SC_Info/GoogleMobileAds.v5.supf
+        artifact_id: art_7ed5e09670234690710a65bddc05889cb6d69b10771fad98d5932c083009f5f6
+        sha256: 21264d226d9822dab72859764e66e6c06dd719818958698cf9af7da756b68986
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources
+        artifact_id: art_9fcfd206cda012496bb69db0a68fe72a1069ee6c7999eee2d18127582716953f
+        sha256: d098aed6f681219ec8ca8d585779314f0fef0d655489ab7d1df8261b6c1d4da6
+        format: plist
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/Info.plist
+        artifact_id: art_190f03011955a35be753951d791f1147fa25bf0ac10abb93593e558237e57a2c
+        sha256: dac509a65c31cbee9981b5a9a1cd721c78b3e31c8b53162eee87225c9b21d5eb
+        format: plist
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_75db473020eec3c4eae964624ca53261490d7a68ca95ace8cb6c7178665394bc
+        sha256: 45b7adb99fcd2d962a1c800fbfcc1325b57a7fa4165f416182323bb5ffe9c900
+        format: plist
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/SC_Info/UserMessagingPlatform.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/SC_Info/UserMessagingPlatform.supx
+        artifact_id: art_f47b2e53d89540abe38184c62c6ba10ff729947baa0cf61981b41d64822c1658
+        sha256: 467e44bae271a8aebdd8cc66d9fbcc18e022a8cf5d544957038f9365f9cf60fd
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/SC_Info/UserMessagingPlatform.v4.supp
+        artifact_id: art_1116457bc7c7d72a8bc00c4a719ca4972bcdfd4b26a567853b71ae29c8bd2aeb
+        sha256: 5340ff2631bf6cde86b5676658a3f1256dcd14ea8bb79a8f04d083561597a642
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/SC_Info/UserMessagingPlatform.v5.supf
+        artifact_id: art_c071e99518eadeeed31afe41cdd5f4a70ec394ca74d5168f65492ecc842a51e9
+        sha256: e889b8326d53fdbbcadd2057e1a47ff013e202871dec29cedb2d49b6a9e529e0
+        format: file
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/UserMessagingPlatform
+        artifact_id: art_0b59706e1cf30c0602c4a37cbe21727136c55fd6540084c72790a1f616665278
+        sha256: da90f3cf956d43196cd697821694bfc8af93d0c50e36c2815d4fc32e2c42975c
+        format: mach-o
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/_CodeSignature/CodeResources
+        artifact_id: art_6940e9d58155bede95242aca0ab7b510c1303da13a40791dcba6b9ecc04dca06
+        sha256: b0854c7573f0f584f62ee048d13ca8154a270ba36446615ee074d5a404d31da1
+        format: plist
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/Phrabbit.app/Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources
+        artifact_id: art_9fcfd206cda012496bb69db0a68fe72a1069ee6c7999eee2d18127582716953f
+        sha256: d098aed6f681219ec8ca8d585779314f0fef0d655489ab7d1df8261b6c1d4da6
+        format: plist
+      - path: Payload/Phrabbit.app/Frameworks/UserMessagingPlatform.framework/_CodeSignature/CodeResources
+        artifact_id: art_6940e9d58155bede95242aca0ab7b510c1303da13a40791dcba6b9ecc04dca06
+        sha256: b0854c7573f0f584f62ee048d13ca8154a270ba36446615ee074d5a404d31da1
+        format: plist
+      - path: Payload/Phrabbit.app/_CodeSignature/CodeResources
+        artifact_id: art_fc5b505cb3d7e1e6f1821e876448aef63a75fd690b05e393324bbfb68e1ff91b
+        sha256: 3b99d1e4441df43ba1094e543eee0feead068630429762ac00e1e81f164f8408
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_4848babbe9a592cc8ba8d421725e382135e37e01e53505ab2d81f7633681d460

@@ -1,0 +1,157 @@
+evidence_id: ev_7b7821a2bbf486a343ba2f042fe1f39e9bd96e2888d9c78781c87d41818ce71d
+subject:
+  name: 6752853818_dec.ipa
+  digest:
+    sha256: 45eaf876cdb94c72fc97ac808ad475d1a6db124bd7dc42e3b8762205ab3b99ac
+  local_path: /opt/data/downloads/batch20/6752853818_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_697ed5079ecad2d4ec9f33b8f414c6c7492d880550df1357e98692bd5835d460
+raw_result: null
+normalized_result:
+  projection_id: aap_02198d4e891a7591e1d3a59c0de9ee7c7aebf1c154219a20ed88b70397c03cf7
+  root_sha256: 45eaf876cdb94c72fc97ac808ad475d1a6db124bd7dc42e3b8762205ab3b99ac
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_697ed5079ecad2d4ec9f33b8f414c6c7492d880550df1357e98692bd5835d460
+  application_roots:
+    - Payload/podcastLearning.app
+  bundles:
+    - path: Payload/podcastLearning.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/podcastLearning.app/Info.plist
+      executable_candidates:
+        - Payload/podcastLearning.app/podcastLearning
+      signing_paths:
+        - Payload/podcastLearning.app/_CodeSignature/CodeResources
+    - path: Payload/podcastLearning.app/Mixpanel_Mixpanel.bundle
+      parent_path: Payload/podcastLearning.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/podcastLearning.app/Mixpanel_Mixpanel.bundle/Info.plist
+      executable_candidates: []
+      signing_paths:
+        - Payload/podcastLearning.app/Mixpanel_Mixpanel.bundle/_CodeSignature/CodeResources
+    - path: Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex
+      parent_path: Payload/podcastLearning.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex/Info.plist
+      executable_candidates:
+        - Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex/StudyReminderNotificationContent
+      signing_paths:
+        - Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex/_CodeSignature/CodeResources
+  components:
+    bundle_metadata:
+      - path: Payload/podcastLearning.app/Info.plist
+        artifact_id: art_20f6f582ef1d03e7d7b6125aa17d6dc178c1af62cb3e75d1d4cd426e9f82db36
+        sha256: 0f6477051ac14bf24c2bce952e8971b022e7811ef201e05944ba0aa2948972e4
+        format: plist
+      - path: Payload/podcastLearning.app/Mixpanel_Mixpanel.bundle/Info.plist
+        artifact_id: art_b67bf27a53b046527872c6782a1c126f80c1de06ca5a848b8650832a511d12fb
+        sha256: 484ddbed42ba3905d4e7402c6a695249cc5996a7cbc5b62c9bd3607dfa7de6d6
+        format: plist
+      - path: Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex/Info.plist
+        artifact_id: art_fb92f4f9a52ff9df47361383909cb622dc4ccad38ee50f071dbabd05679a4e8e
+        sha256: 4d89abb241e15722bb60325ea687052a84c1f6303ac77f325eeb93f5e90a2345
+        format: plist
+      - path: Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex/MainInterface.storyboardc/Info.plist
+        artifact_id: art_96f1dc1fec0c41ec5f2737c5b01cd0f5f1dff02cbf8428864d4f6cfca297a0f0
+        sha256: 3fdf03ef86839e3cb6cf1271b6a5864324981acf9fb4a17e1fd2bbb561630455
+        format: plist
+    executables:
+      - path: Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex/StudyReminderNotificationContent
+        artifact_id: art_712f3782e5b5b8483ceb18a00b154362b3dacfb2660477c3400a134005397ec5
+        sha256: c963b2460662f936649968a0933829056fcf6dcbfa4dc19b3cd531f0236bf02a
+        format: mach-o
+      - path: Payload/podcastLearning.app/podcastLearning
+        artifact_id: art_482805b05dc801ffbf27167c7bd9f622491ede84a4ededcbcefaf6c18c1f288b
+        sha256: 285d3c8516fac9b98587daf72fb20311675e3a852c57792c3cf123e375a66616
+        format: mach-o
+    frameworks: []
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/podcastLearning.app/Mixpanel_Mixpanel.bundle/_CodeSignature/CodeResources
+        artifact_id: art_2fb0af772188bf75956125c2ded517d0653047aa592fc373c29ace2545eb73bb
+        sha256: 9234960b35f2e6c82e02a5ae145e895a23e2edbd6249fb2313fc2a39e1cc1f97
+        format: plist
+      - path: Payload/podcastLearning.app/PlugIns/StudyReminderNotificationContent.appex/_CodeSignature/CodeResources
+        artifact_id: art_03a93668ed89d0b256ec4056f98dcc422aa45903a45389a2575a2901ce1bb41a
+        sha256: f51a6937e111c3bbe345507689c0c22fdb1f8aa31e1d58c71254668c03bc0992
+        format: plist
+      - path: Payload/podcastLearning.app/_CodeSignature/CodeResources
+        artifact_id: art_60aad3c2c0c99bac1c52161f0c10d0cc8d39745aedcee6434758d85fe8036708
+        sha256: 8d31273237f14ccb449d62b9aaac4a1a0c83c61a9369b54420dc8ea618d52356
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_697ed5079ecad2d4ec9f33b8f414c6c7492d880550df1357e98692bd5835d460

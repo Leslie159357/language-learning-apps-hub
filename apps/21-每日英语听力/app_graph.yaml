@@ -1,0 +1,3002 @@
+evidence_id: ev_7ba757be074721f36b380f8519c2bac63736adcafa66e8ca626cdb9c39544f09
+subject:
+  name: 570118289_dec.ipa
+  digest:
+    sha256: 8dec0a08b79705e985e20a59e7c978c5a062f372b2f36cb07d52733cf11b336e
+  local_path: /opt/data/downloads/batch20/570118289_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_df19b0b282889c6202f4c19eb6c4e2d691f06e3029ca4406239947ed90cb59e2
+raw_result: null
+normalized_result:
+  projection_id: aap_c1a1f2f81ee3cd7912098b640cdf257104923298266a50f2631f498c87ac7f3f
+  root_sha256: 8dec0a08b79705e985e20a59e7c978c5a062f372b2f36cb07d52733cf11b336e
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_df19b0b282889c6202f4c19eb6c4e2d691f06e3029ca4406239947ed90cb59e2
+  application_roots:
+    - Payload/ting_en.app
+  bundles:
+    - path: Payload/ting_en.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/ting_en
+      signing_paths:
+        - Payload/ting_en.app/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      signing_paths:
+        - Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/Frameworks/FSPlayer.framework
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      signing_paths:
+        - Payload/ting_en.app/Frameworks/FSPlayer.framework/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      signing_paths:
+        - Payload/ting_en.app/Frameworks/GDTMobSDK.framework/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/Frameworks/Tquic.framework
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/Frameworks/Tquic.framework/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      signing_paths:
+        - Payload/ting_en.app/Frameworks/Tquic.framework/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/IQKeyboardManager.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/LangCornerResources.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/LangCornerResources.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/LottiePrivacyInfo.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/LottiePrivacyInfo.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/MBProgressHUD.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/MJRefresh.Privacy.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/MJRefresh.Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/MJRefresh.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      signing_paths:
+        - Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      signing_paths:
+        - Payload/ting_en.app/PlugIns/NotificationServer_en.appex/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      signing_paths:
+        - Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/SGQRCode.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/SJMediaCacheServer.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/SJMediaCacheServer.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/SVProgressHUD.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/SnapKit_Privacy.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/SnapKit_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/TOCropViewControllerBundle.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/TOCropViewControllerBundle.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/TZImagePickerController.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/TencentOpenApi_IOS_Bundle.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/TencentOpenApi_IOS_Bundle.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/UAAppReviewManager-iOS.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/UAAppReviewManager-iOS.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/UMSocialSDKResources.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/Watch/watch_en App.app
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: nested-application
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/Watch/watch_en App.app/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      signing_paths:
+        - Payload/ting_en.app/Watch/watch_en App.app/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex
+      parent_path: Payload/ting_en.app/Watch/watch_en App.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/Info.plist
+      executable_candidates:
+        - Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+          Extension.appex/watch_en Extension
+      signing_paths:
+        - Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+          Extension.appex/_CodeSignature/CodeResources
+    - path: Payload/ting_en.app/WeiboSDK.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/YDResource.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: null
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ting_en.app/YLFPopoverBackgroundView.bundle
+      parent_path: Payload/ting_en.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ting_en.app/YLFPopoverBackgroundView.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/Info.plist
+        artifact_id: art_246023c13ed6e7bd3fd8ee1819226d6d0547bf366fa58683094230058690813f
+        sha256: eeffd9863080bade5e08f28aaaa264d13e488a16354648b73e92e7776af9e637
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/Info.plist
+        artifact_id: art_dcc7c672df538290c09bb852c56af8d34a54cabf73b3b6f770771668b9f62e8e
+        sha256: a318de6ef70d7126fde01d0b01b4c003cb9da43c2c7085f8a664f3ee137c9952
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/Info.plist
+        artifact_id: art_e06ded65e8df8fe7115a0c078464cece5633eb1dd73dae94a9389961044562d0
+        sha256: 3a6fa83b79bf33d1f6e02bec9a0d95b8272cacdc846dd28df66537906211d9d5
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/Info.plist
+        artifact_id: art_934f5257773928621f74fc5b2a640536bcfc7a0d87903c5d52ce9a3152950a37
+        sha256: b81be6c314d89499326c07baac0ff566d4598639b7cc911cc4c54e2f9436ee65
+        format: plist
+      - path: Payload/ting_en.app/Info.plist
+        artifact_id: art_9282af28c3e54e91a60c80df5e031c50b61420b50c59ded8d6347e028ad20eba
+        sha256: e48633327cf5a3655a755c506c209aa7a523c85c9f42095339b91a86d14ec7e2
+        format: plist
+      - path: Payload/ting_en.app/LangCornerResources.bundle/Info.plist
+        artifact_id: art_0af7789c9c408b036b0d0605e551055d88deacf1ffc4185e43cd0c0d9ab56d6e
+        sha256: 1aa38327ccab3e43488ad3b993a81076bdde3019e2f36363ea7ab853032507b1
+        format: plist
+      - path: Payload/ting_en.app/LottiePrivacyInfo.bundle/Info.plist
+        artifact_id: art_fc3489a6230f2de0eca827cdd7077e800267f0a4e777329654fbdcf92dbb8999
+        sha256: 32a616589110930e2c1c04f968a42131b68c5f228fdade2a6dd4362880e659fa
+        format: plist
+      - path: Payload/ting_en.app/MJRefresh.Privacy.bundle/Info.plist
+        artifact_id: art_e87d9eed1079344aa4069ddcf272467729a2dd0d980da527cd422605911f19ce
+        sha256: 936dc3842fe10360e634d06efb832172d27e70933650cc7e491bbd9610a8ec3a
+        format: plist
+      - path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/Info.plist
+        artifact_id: art_f01767739fbb12721759b38e5c01f1ededd2b8a28181d63bf9d385b9d2c87d32
+        sha256: 4eacb1410b411b04ed0dd9e001154617d7f4d8be3d1426904085574767432553
+        format: plist
+      - path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/Info.plist
+        artifact_id: art_a9cd5216670e5ef2a9bd223dd83664f6b886e54292b83748f32079f414696d85
+        sha256: e42d306353ef63e1c6b83530c0ce98a5c849c7eab6eafe023093e62e9c882527
+        format: plist
+      - path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/Info.plist
+        artifact_id: art_487e48dc337ba14f4b5a4dfdc59ec078106bea1fb2da6cdaf4c9e8fa0bad15ff
+        sha256: 71dd9efdd548582ebd22f1823eaea35105153f35292a60d39dc2ec501794f814
+        format: plist
+      - path: Payload/ting_en.app/SJMediaCacheServer.bundle/Info.plist
+        artifact_id: art_4bdf8352453112461663ef3614ad44a6f7a3136cb23eb7ef0e5465e768ae9fb9
+        sha256: cc69bcac8cbbd23bf7fedbe70f11b1b03e5283728cc915673bc1dd33c21eeaff
+        format: plist
+      - path: Payload/ting_en.app/SnapKit_Privacy.bundle/Info.plist
+        artifact_id: art_c18236b27355956d38eb8cbb14b7cc60c114bb72fa784928c9fdeec9068ae19b
+        sha256: 0726bdca2bc6876286f9a425a81b82e185bdd93c9bb13065bf0b35ddfb27243c
+        format: plist
+      - path: Payload/ting_en.app/TOCropViewControllerBundle.bundle/Info.plist
+        artifact_id: art_bf0d804e3736d8d41e3f40437fc390a8a398da7adedc6019f7270d9ed2f659a9
+        sha256: b9fc406c0f90dd248d2736ff59d0aa5c7a7b0611b915f858c32eb23c3a931ab3
+        format: plist
+      - path: Payload/ting_en.app/TencentOpenApi_IOS_Bundle.bundle/Info.plist
+        artifact_id: art_e4cfb142a78cfff598dceaf08dfe5c9c857f1920c25db9ce975a5a3f9816e412
+        sha256: 072a984ca8a06ea589d210b2d7913a3277c713c6c4bef9b69299a67295810c12
+        format: plist
+      - path: Payload/ting_en.app/UAAppReviewManager-iOS.bundle/Info.plist
+        artifact_id: art_3d885b5245f3843eca2a2ddeab145213ffa617b443cd967dee00f681330e0a20
+        sha256: 888a8595d154b94c980c5e1843a759d1d149d09b98cc042ae96ab2cbf268efcc
+        format: plist
+      - path: Payload/ting_en.app/Watch/watch_en App.app/Info.plist
+        artifact_id: art_1c27518e6433642df0fb395f86f09c6cdb7d611377739edba9a3114f612a24c1
+        sha256: ba0676762083613ba5590bfea426360f16d5f517a72ebc9eee06a7ed021e77e8
+        format: plist
+      - path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+          Extension.appex/Info.plist
+        artifact_id: art_82e218881c02aa16d71262d0360526e1a63a0c4b46093bfaf437ecc7a0915600
+        sha256: c963f232deddea514cd1d5bf7840f75d270777a3bcbe6af516b4e08707b29c0a
+        format: plist
+      - path: Payload/ting_en.app/YLFPopoverBackgroundView.bundle/Info.plist
+        artifact_id: art_071905af1cda8da85ae49c599355d616b430a2f800c1164d909274191eac9626
+        sha256: d64c1d57a59cea412402f07dc51445d2349523333d2c1941f7c619d7a824cd4f
+        format: plist
+    executables:
+      - path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+        artifact_id: art_9b420fae72d33184b10b15f30abc66fae8ff0a37415291eb572604b6f85512ee
+        sha256: 7ba7d4a85324b37ec76f8e50f839ef033b573eef30637aec665334ba9fd16478
+        format: mach-o
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+        artifact_id: art_f146f264c46478978938887a5887b330b0aa9fa8206a35cf38465ab2e04df58d
+        sha256: 55afbcca8217d2f8cdf8c5c475672cbc84f3f716b819450c4b32a12106d1b1e7
+        format: mach-o
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+        artifact_id: art_d8c0bf9dac217403e167dcc48ad35b29fc9c4dc384586c1fa94573a42c227417
+        sha256: 014eb163f0562232cbf9634e5746b3967bc93784c4b2d67c66f3111597ff1377
+        format: mach-o
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+        artifact_id: art_6c1a05119dc1f8e6f8ac8e4740f5b830fa43b7ed491c3f31a01af6ea8f1f3474
+        sha256: 600b13660b815596208fdd38a66cf29310e7c17c41eac6e3b60adfdc7cc24994
+        format: mach-o
+      - path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+        artifact_id: art_bc23a7e28b2e873eb8ee562029d7876d450e36b2d9bb16233b0e5a6dabdd8f2a
+        sha256: a48c4de6ab8005b1c0eb6e0c2199b40e4f7339bfa68c9dbdafef859d4fee2ca7
+        format: mach-o
+      - path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+        artifact_id: art_4f1e64d0772ccfef3571c1842311ba2529a8b8771a58bb40531a52e5965798bb
+        sha256: 76e38d5df05afbc96b75ac4ccd34d5dd85bc4bbcab120291a8c8b04e8d3d4293
+        format: mach-o
+      - path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+        artifact_id: art_23e2557f18cef396f003f7184560a294b938cf763cb9a864633ae95d7892ed08
+        sha256: 7b7dead22d049ab32346c275ac6ef6e21a1c5ac038d776f0b89ebd7a833f0288
+        format: mach-o
+      - path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+          Extension.appex/watch_en Extension
+        artifact_id: art_a756b6c548223be1aa9585cb43c01787d6dba8c7f9e41bc40cea1619c4b5b1b9
+        sha256: debb67847bda70987b47310a9792ee763132efe914b1189257f2e07926a7de19
+        format: mach-o-universal
+      - path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+        artifact_id: art_81d64c7557685c06626f5809f963fd98d8d6d006859d6dcca45f467cfe98004a
+        sha256: 0803930b3e6dc78696665812f8f0bc7a20c3a7696f9bb52f65999a9a2c59341e
+        format: mach-o-universal
+      - path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+        artifact_id: art_64e7153e89630c8f68c3ae5cd5fd7eb4e56395f77c7e70523029b748afd5bac4
+        sha256: fa59ca99f6944a3e52d902cadbbb88852206f7d831a6ec66174f9c6d0dc0b925
+        format: mach-o-universal
+      - path: Payload/ting_en.app/ting_en
+        artifact_id: art_0b4fcd6f9df83d41f8a38dfaa5c555b75c4c72f5fb541805289594ee730349c0
+        sha256: 4af70e3a6413cc72b57040f973eb31d7eb3e2401353f49e676b7f453eead9ce5
+        format: mach-o
+    frameworks:
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+        artifact_id: art_f146f264c46478978938887a5887b330b0aa9fa8206a35cf38465ab2e04df58d
+        sha256: 55afbcca8217d2f8cdf8c5c475672cbc84f3f716b819450c4b32a12106d1b1e7
+        format: mach-o
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/Info.plist
+        artifact_id: art_dcc7c672df538290c09bb852c56af8d34a54cabf73b3b6f770771668b9f62e8e
+        sha256: a318de6ef70d7126fde01d0b01b4c003cb9da43c2c7085f8a664f3ee137c9952
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/SC_Info/FSPlayer.supf
+        artifact_id: art_30724682a78c3c139237ff7053ce5d8201f26d3e1dbf54fd9ffd5822d6d3f96c
+        sha256: bb6037d83aad64ddedb07f9115fa6fc8e5b47c42c0124d06599d929f99d76cce
+        format: file
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/SC_Info/FSPlayer.supp
+        artifact_id: art_e32c77fb506e7688c0d5ed159be613f0f4a43d487b8496ab70ec7ed01bd26aa5
+        sha256: 0f09541e3d30ae8c3c407223ba600d61b40e489406f595cd24015062ecd080c4
+        format: file
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/SC_Info/FSPlayer.supx
+        artifact_id: art_5aeacf5458792579302b3f72fcdc7f92e85c58222cca5d141bb04b0ce0730959
+        sha256: 4c10a2eb996f2f2587537044fbba839b8e8acc61a93e4c5a1984cd13def6575c
+        format: file
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/SC_Info/FSPlayer.v4.supp
+        artifact_id: art_9b01de2417225ef9c98cbf62e1f631f979be607b0297ef62336a4ba310c827ee
+        sha256: e2fdc29db86a059adee0cbc0c907ca21b480e4f8adc28128638f1a9dbd0964bb
+        format: file
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/SC_Info/FSPlayer.v5.supf
+        artifact_id: art_0ba957b649ca917e101a2784fea699bf8e17b546b2fc9e311321351d47e8ac36
+        sha256: 46e78cecd3b7e47d201be87ee15bccb70b34b43efe98d07cdb83951cda7df547
+        format: file
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/_CodeSignature/CodeResources
+        artifact_id: art_31767e6bfd964658f492fae69ee99a40cab0bff3625488429824d7833eb835ec
+        sha256: f5be35d4e12ec9c3643fccb57f9e1ec5fcb8d442433ae04f7a68aa5467b5efb0
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/default.metallib
+        artifact_id: art_14043eab470a2cf817a7fe0d5941fd82dee8cfb9509d5bb4efb746f842d8fc4c
+        sha256: accfdc22f1186dae5745168e266170c8fbe247643514fb090787c29afa26f99c
+        format: file
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+        artifact_id: art_d8c0bf9dac217403e167dcc48ad35b29fc9c4dc384586c1fa94573a42c227417
+        sha256: 014eb163f0562232cbf9634e5746b3967bc93784c4b2d67c66f3111597ff1377
+        format: mach-o
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/Info.plist
+        artifact_id: art_e06ded65e8df8fe7115a0c078464cece5633eb1dd73dae94a9389961044562d0
+        sha256: 3a6fa83b79bf33d1f6e02bec9a0d95b8272cacdc846dd28df66537906211d9d5
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/PrivacyInfo.xcprivacy
+        artifact_id: art_1e9a15e1f5398693d3bc36efdf37d5e1c4a3cf57d668b15ada84039a7d339d3e
+        sha256: e7bed22e808bd13bcee4141d014b358edca41d3ef344f20fffa63d95a742c804
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/SC_Info/GDTMobSDK.supf
+        artifact_id: art_dace7df621c4c1987aa2c24123adb9de9bebd038b4dae31d1a2c0d65d9706439
+        sha256: ab5568f6f69e714961c2cdda461daed6a596520cdef87a0ef924b90e3d6366f2
+        format: file
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/SC_Info/GDTMobSDK.supp
+        artifact_id: art_d132a7dce8860c574a3eb7ae10db92f1129c61eddaf69d5ffd76eb6373584080
+        sha256: bed2702a400eaa0e7a008c835521df4b5a06268baf6e7ab835c7047422d0633a
+        format: file
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/SC_Info/GDTMobSDK.supx
+        artifact_id: art_5aeacf5458792579302b3f72fcdc7f92e85c58222cca5d141bb04b0ce0730959
+        sha256: 4c10a2eb996f2f2587537044fbba839b8e8acc61a93e4c5a1984cd13def6575c
+        format: file
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/SC_Info/GDTMobSDK.v4.supp
+        artifact_id: art_e31206ea5de44cd50a90da5789d3c0e2251e2674940f817657d5f34ac956be6f
+        sha256: 90c8c7ef531f6455232b2742a057ea33db343e2e23cd559b12806a8a441faba3
+        format: file
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/SC_Info/GDTMobSDK.v5.supf
+        artifact_id: art_c642ff78e6631153f70f599ee83c5ae8c94e0b80ae9b8a0e1f2a42c0106820c4
+        sha256: c897dfa9f0641a603cb7d74666786e819be7056d535c70fc8d16c6e08e1f5ed8
+        format: file
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/_CodeSignature/CodeResources
+        artifact_id: art_e9bb287421b1efcf13554f054b5adff3437b5019837313782054f89cdf1e4ffd
+        sha256: a7df74f17785e41f27240e9489268d6f29d0513d7c097a5af8be02da9f67ba98
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/Info.plist
+        artifact_id: art_934f5257773928621f74fc5b2a640536bcfc7a0d87903c5d52ce9a3152950a37
+        sha256: b81be6c314d89499326c07baac0ff566d4598639b7cc911cc4c54e2f9436ee65
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/SC_Info/Tquic.supf
+        artifact_id: art_dad73e2440632cdfc1e468e19dd4d9d82c54075667dc1b567712f77f5a3580a7
+        sha256: 7d9b5a6137399c8a3cf4c0ea04a0a2f9ee63e7864372be9dd8f9be72848639c3
+        format: file
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/SC_Info/Tquic.supp
+        artifact_id: art_a902f54e02903f1ce99850c04765ef5e121459c898e45b41da8ae3f9e3023425
+        sha256: 9605cb4f971d618ac75a3de270434422e3a61011daa35addb953ca3995a8affe
+        format: file
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/SC_Info/Tquic.supx
+        artifact_id: art_5aeacf5458792579302b3f72fcdc7f92e85c58222cca5d141bb04b0ce0730959
+        sha256: 4c10a2eb996f2f2587537044fbba839b8e8acc61a93e4c5a1984cd13def6575c
+        format: file
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/SC_Info/Tquic.v4.supp
+        artifact_id: art_165b4095ef162e2b3019a46c498f26e4088bc19fe66a14c55f9f788337c68b35
+        sha256: 503a1b6e084d710fb1374b98519b1c061505ecd17292e939a5287762d5c8a7f2
+        format: file
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/SC_Info/Tquic.v5.supf
+        artifact_id: art_33f9d41f3570cf10ebb67d1b34778e5790e5d16c1c0173918eda55ee574f7106
+        sha256: c37865211a8c63e4aef3391c7aab76f03c7c09e0425481af8f0b31c58dae8899
+        format: file
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+        artifact_id: art_6c1a05119dc1f8e6f8ac8e4740f5b830fa43b7ed491c3f31a01af6ea8f1f3474
+        sha256: 600b13660b815596208fdd38a66cf29310e7c17c41eac6e3b60adfdc7cc24994
+        format: mach-o
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/_CodeSignature/CodeResources
+        artifact_id: art_78105f425469c1c4966564e4bbde4b5c583270eb829304138dc0e87e43b32f49
+        sha256: 68f4a245e728d5e1d89e8e6e25b292edf90b46bdd627e0adafd751a746b4dc26
+        format: plist
+    native_libraries: []
+    javascript:
+      - path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+        artifact_id: art_000f5838f9657b53ba5e39b10a6d4bbc8caa6f05805a2f79f85b8fc6ceae4f14
+        sha256: c0b44d8dffd55e9721197228a932cc159d21ba618f32788ba31c22df54a21e59
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+        artifact_id: art_1c03f60e4774c3c0fc7e740433f10b81967a1ba108dd4d6afd3827f535e26abf
+        sha256: c0ede9e8427498901b0ad84170359e1f3ceb843308743284bea308dabd96098e
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+        artifact_id: art_519b6a9c95cdb87f5a3b9dcd70717250d08743683aaa23a45903e13f4f2ca25f
+        sha256: 215db18f59c3f9cb7f3ecfa18bf30580da915de6c015d354b58505d4c8a60a57
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+        artifact_id: art_90b4d18b0a98285bf497b089231f00690c7e882fae70e8dde289dd4c7c478c0c
+        sha256: 218c3e8260b29f8fca8dbdb487bb148f2085ccd09e7916db11a6dec1580ff89a
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+        artifact_id: art_6a6e53086f9a014ebf7583d40ec072fb0131d6f70e00ba2744d5fde8aee2d3b0
+        sha256: b078693e51f7563a2656a9cc10064c32c8ccd578f400b8f92b8fa2f3710832f2
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+        artifact_id: art_f398d53f4758b7ab9904b5ad29ebef2498b54303c9bef93742cee675ba228bbb
+        sha256: 04ea2a9f7115104532f18a14c32a3e1ad57966a45b38a7ec2beb667ad6e6cd87
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+        artifact_id: art_9ef2aa65850e5f01232a831a21188ec5720c098849200ffd40dda72f3b0086b3
+        sha256: 76095a25aebd763291af116eebd7d340cd79e77d14793b6599bedd6aa597b012
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+        artifact_id: art_b8d918aa07f6b84f3c543fdd3984283442393f3affcc5607c4b358a9d395e636
+        sha256: fbae2246729c7becc2c4ab1de7e2418199d8e7d52a0a8d75b3978aa6d7bc6b22
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+        artifact_id: art_23f3b193a1fb9a47599383b90bfd680850d7351d755089c1264fd3208a130e91
+        sha256: 1136da940d7aa1362e653a93f039e479d36b5d0ad290c51ef5b4515ead4b8356
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+        artifact_id: art_e58b78aa7fb49fc0ddd8ae8ac94da3449a236c18971e30fa80661b1c7b9771d7
+        sha256: 0c0111c01dd8c465e19a81903ae5bfbcee8ddef50f57591eae7a871d1b3c4710
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+        artifact_id: art_e900cf7b77694aff20d6ddc99f3867c53288b0d6175a3b230d9afdf593222a6f
+        sha256: f2487bb2b651e278b8139a63367133120d6cc45dd57a3f3becec145a24785821
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+        artifact_id: art_280632d82a555188e028086d9e0e9b0db9dc9f5ef0d3fd1c8b0479c5e630fe4b
+        sha256: 53efcc9c1b6890c4ba2fb2f7997619d927832c680b3d341285c9c48a3e7245ef
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+        artifact_id: art_6a35f8e1dc94f1dd0cfab24c6c98e659a4db710a2c402b5be2c8b6deea67bfb2
+        sha256: 504cabfd2df65584a36557ec9b9d8fdfe4c69452d3f77d83a0f2de54456482cf
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+        artifact_id: art_70ed4450fdd5543b3305e2de7adde6b153cffe705e265e560771c48ebb93cf74
+        sha256: cc828edc8f464a0e4b0e4a975ba946de89e0f14693a9738cdee538f7efb01f49
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+        artifact_id: art_14364e8abcf9608cca0a7693dfb20e53047529a654fb0035a6e951c0c209f20f
+        sha256: 7bd6c6ed06e6616c5d77dcf4d244de95221fdfa9922e0d2153f96d9255e6e411
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+        artifact_id: art_5eac54503860ab1ebfeea5c71d5fe42ae1ba6e74c2c8148d00e98e838e108548
+        sha256: 8dd994cb53bdefd91579d85d0398f02c2491e552d6b976e1ae3ab3781df16311
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+        artifact_id: art_f50c1d02f26ccd159b97acc52ef72f312234284d23e676376de622ff13bd7c96
+        sha256: 87221a6268ba0be25de22f5f7a0ade1cc5e63c97ed370753f4f29dbfee84a10d
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+        artifact_id: art_b564f4507a95dd4fefde1789b02c2f182cada18a09941b6fdd0d42a694e212da
+        sha256: 4eea8fa78dcc0853b1595bde56612e708f41a358aa6a741dc7ce9da23fa710dc
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+        artifact_id: art_cf94e3204a5fd2ff5a8fdf8d082774e8abe3f56989e432e6d3c5442537415e61
+        sha256: aaf414e7fbf7afc7e8b2d33631c4a45d368f14b0068edae59b53365a6e76bb4d
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+        artifact_id: art_7d2f92c5386bf2a84424bc3f2c9190f3df0f9100c9b0de18f65159c51ff5d58a
+        sha256: 62d670869536cbbaab5a720b320390344040db9b807448cd8c4ed18ec8119bcd
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+        artifact_id: art_88db555cafc3637bc1b60db555f9371a274039c94b1d480ddffd89dd3210ae56
+        sha256: e31e6499c1a26aa6fc3323e7843d3bef8d535596606d80178a76e86fd529fe16
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+        artifact_id: art_216f256a1f1ded7972aa1680692ecc7b945563a6fe7eefab27bc59937137a887
+        sha256: c7361c662c56005af038d0fb63302e2b512d3c31beda8b44b0d8ba35c70f043a
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+        artifact_id: art_852efe560e259a2bb040ae70d368ba477faeb004ee9c05a36f8f6c8b0c312f98
+        sha256: 3b3926b074670df50b6bf3dd702a5ae3e14b4d0aa2e0f0f7405786952e06b376
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+        artifact_id: art_05b3e58e46bfd853bc995055a7c312d5b9742c5856eeb5b95c725492517b0639
+        sha256: ab1f4a3bba373c40278200e5b19ebcf81666bcfa114688099448e9b0b30462ed
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+        artifact_id: art_8fd06b7a5446749854fd89eb9a85dc04d0a5ff4cd8296443e2c1ef2671098101
+        sha256: c7b60688f2a9107f8493e12b9579e3e88dd2a2c31de90985ada5ceb085122df9
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+        artifact_id: art_572965d31d0b43f5858a7d3e8faa26617baf22e33e7ff6532626b7d888a815e5
+        sha256: 6b76dbca46bba4d806e9217477835c64f173135757ddbeaaf2a8096d08e56d22
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+        artifact_id: art_abbd19f6c4c5ea0e9571116dd244327c573ada338440fc5bcabe5b557a34e7e9
+        sha256: 6dc3ef5bc19526000ebc642388d2980c6583ed79095e0286d96da0f8e124b5e6
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+        artifact_id: art_b3ae45a37d8c6c614e15130a67c0a6ee9bdf24348f05f924397acf467f759cdf
+        sha256: fc6dd5503cfcb46c787aa5fca54f59c9de255ff39d31809fac2dca7c7aaef198
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+        artifact_id: art_4e44ddf1125617736bf122fa6c7645ce3e075eed48edc02987a71d283b808ab2
+        sha256: 88eb3002a200d13427453e26538ed93bb6d9911e998779db736eeb60250198c0
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+        artifact_id: art_cb1cc71d1a2102a0600c5e9b9a12aa0714c765cdb05217a128c4caa70462fad9
+        sha256: b1efc91ce64d83a775f421584a35f49af64693220a2c41549120ab20fd2c56f8
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+        artifact_id: art_4be9978c39db61cb3a3f28391b7a5ee88f8ef0b3fa131f4080082efd17e29de8
+        sha256: f6e0a0464aa12e52dbe142238d9a7a8564b67caf28cdea5f500a468d9fa431b6
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+        artifact_id: art_fab588748abefc65a4912edc4647d6bc3f76544c1fbc7ab1482495d525bf55e7
+        sha256: e75f98bd93df66fe1e80abaa10ed793fd0ed7f5270c3146c4c8e6995baf34a95
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+        artifact_id: art_531066486172ae0c5b3b09d1d8a3dd9ba979f3c968abe0e30f00bd88f131b7ca
+        sha256: 7b126cf7aa4e29f16963c5de91b312022e3833f31f124398dd42bb6ce72fc9a5
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+        artifact_id: art_df191ac762106d5b94f97dc47c5a59e4f499b64fddff9d89c79e0abccb660a51
+        sha256: dea4b2086c87f7d5513f0c6089d43a4911ae5829fb2b03f4ae2a4852e2baedda
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+        artifact_id: art_53edb504de74cafc8984246ac28b766fa5915cdcee35a89357f885db305f4ea4
+        sha256: 02e7afacf753f41e9cd4832f0f981b0d1c09b19a24e24a6319e9d8a7f43b886a
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+        artifact_id: art_1e6b2a7cdc8ae1f71898983f4a90ccb5c35cba1b85bb2d8c2d96463bf20a59af
+        sha256: 1c42bad8b6c8b60454d9441773447ffffb93bfb00fa3cf3f487374cfc2eb58dd
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+        artifact_id: art_ecff0759545d8b739f85982b25d3d81be62398e84fc055b2d0408d5ee06c5fb0
+        sha256: d7d19a35d3b999eebe4119fc75ba73bc241857aadca41f8f14b828839df2b77c
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+        artifact_id: art_6c99f23bbd2076fc00c9fddf27927c04fbccba34648fa417f33fd4833be6044a
+        sha256: ef3fc0e6a55c3483c5bc79d3bf70265b43f4db063a3843a30e7e9cbe5ae87397
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+        artifact_id: art_078d20eb2ed1b3337e1296a0193045bae84c937fceb0f1900f61af4808182adf
+        sha256: 151bf9d09fb3e9001759605f4bbc023f1fd045f6500303be7d7356e3f5801847
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+        artifact_id: art_55c3617ba4d1b0a422c5f3c20d99f2d68d1b4e578c43c3af3c58f5ba6c2e318c
+        sha256: 79e2bfa8d1104d5877079210d5bbba450e4aa98f448d493618e0a5a3ec310dc6
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+        artifact_id: art_26e46a4497342d8174cdd81ab9381dda3d46c909679c5f33b9c278bfecd78b78
+        sha256: 7539dc08f5f3eee73800f8b7407cc41f335dfc15877eda75630b5b1e2ba18caf
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+        artifact_id: art_4bd17e8892182b1b66b405cd0623ea7899d425cb569614513ce5850361e9b82f
+        sha256: 9a35717c479a027c67e1b93ea26aafb1150113b6466f8906b63d386518a1e14d
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+        artifact_id: art_df370bcab764c251a037dafffab47d0240c50069f78ae7e82ef0a5c74d99a463
+        sha256: 999f3b0cfcdb4b2cd0de8174390641d9a0d86e3594dc609d67754e05a4599e59
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+        artifact_id: art_f6aec9f5cb58b40e96550ab705123c2be23ffaada6ed5c3df4349fca768e016d
+        sha256: 63f8dbf6945363c8c3d3756ccb80ee80d5e247742dea8c3b8d44f8d30c990793
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+        artifact_id: art_f94be908194fd7ea0804f4bfa11f670e415459be8ebe05feff2752a03150cd82
+        sha256: afb77ae1a66a0b5e1c36a462c2a51da429642a313f1c6c7bdbfb3e44d103e568
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+        artifact_id: art_73296c9d41f1d48462e0e9d1222dbe8b7ba7acc9f70cce6f7292b6f6e63c9002
+        sha256: 41b26813f4dd24273524e558829b383f0b968e54591922e48de755d30b5d5681
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+        artifact_id: art_0f508ac46c6cb4be270a69919b1d0affd2bba1a0a756f18b08300f5b338221f5
+        sha256: 39afb9fe07865f902259d71cdf1001a6e232d2c663111db2e418f13f196f5153
+        format: javascript-bundle
+      - path: Payload/ting_en.app/HTMLRes/reader.js
+        artifact_id: art_f6abfaff516ab4ad943d2afe4524963be8f36d0ca78c030660888ac2da74d182
+        sha256: 0e42ba94755e4c7c05d3f6d3831cfb476b6400c607730399e571e2abf06e2683
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/jquery.js
+        artifact_id: art_b8ef5c7ff3c22b96c556412d7d6c908669545600c61b4395b50c757481666c98
+        sha256: ff1523fb7389539c84c65aba19260648793bb4f5e29329d2ee8804bc37a3fe6e
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/main.js
+        artifact_id: art_73f270a08b552ce502d68ec57549274e57c030574be83b373ee3d5719ff6a5e9
+        sha256: e8686e8d42a10f0d13187af02d3f78d82c795229c570ad2869ade1d822f26795
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/marked.umd.js
+        artifact_id: art_303d529eda289d8022c0dd1978e923afd08532ef615cc0dbe0347e1dd13297d4
+        sha256: 5d35f05a51554f8665066455535e3adf642df0da7e2a18d39766d5a3ecb4846c
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/recite/chart.js
+        artifact_id: art_febc39d40b1e9aa81f8edbbd9b50ecae1fb524b21b0edefd21c659784c74afbc
+        sha256: 1a58b4515c4a86f3eaa50e77125fa3e243ce76431542e7dc35caa6599715845d
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/recite/progress_chart.js
+        artifact_id: art_c19e9d8f7119c9bf19cab47a92db16f1a5ff21c1ae487847caae83c78399421e
+        sha256: ac7df0d8ffb9766ecd56a372690082136c2e60d75cf04443c0b43ec7e277ff09
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/recite/time_chart.js
+        artifact_id: art_611731175bb51276b40b973dc227b42bda378509b7a4ff4d4d53677bdaf2d949
+        sha256: acedcc17b934200d2ab28e84b75e4ce75be3a8d8b752a111522b5dae267a04c0
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/recite/word_chart.js
+        artifact_id: art_ddf0126d46499e318c874717ce274fb6c8c197c4f558e808d3d80109ff74df1e
+        sha256: 74c3a0b83a7bbdf49bc48b2f284da15856c1936a4905b7e47a216b304199050f
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+        artifact_id: art_9d9479003d614c70b047932a1568c1d399ccb082586fcf5b1e5e2f94fcf3bdf4
+        sha256: b3821c4ecc1ac80918388fe1b9f205f9cef4a28eb5d220b354226018f89a4c23
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+        artifact_id: art_b3542bd691af54626ca13d8bffedead47d11fe6094ec218b90df7f3658fd12db
+        sha256: f9bc83d43cb14c6fce4123a1faec642f8c8fee2d13be9f8b3aec008b5faad0ef
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+        artifact_id: art_0e07298657bae003be18ebe123c230ca892480159d775eadcf550eb5fca36764
+        sha256: 1322ade1d0d3ca0c2858f4c6205a532cae838e7278adb1e1065c2234b5b078e9
+        format: javascript-bundle
+      - path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+        artifact_id: art_a30f30837f4f4b80989601a44c4f9bce40bba1dd249a7623e3de3693fdd75cb1
+        sha256: 6e036340a3f79efcae6b7f8814db8827fa5b9831bab93250a9c61e5dfad16ced
+        format: javascript-bundle
+      - path: Payload/ting_en.app/bridge/index.js
+        artifact_id: art_6811f6b5ce5aabbf9ba83c05b5850a7ca775f372ae28cd1550925b1a6cf8bbf9
+        sha256: ecaaf59a1a38b96e660cdf71361f75481a8fb32bec9471f59a0930f9ad197df2
+        format: javascript-bundle
+      - path: Payload/ting_en.app/bridge/polyfill.js
+        artifact_id: art_cb319320f9f346de244704c44b7e431a6616068db006edd9be96730e8ea25f60
+        sha256: 02ff58775adb64ce39d22a31e2d9ead546e5c6170ba539df69fdfd3f1247eaf4
+        format: javascript-bundle
+      - path: Payload/ting_en.app/epubjs/main.js
+        artifact_id: art_1e77dbbd1f8c1a5335827ec6d4f1614cf5641fb4859202513a5296fc4ef1a843
+        sha256: 3c82780f623dd7f4d8b1f4d61359c896b6c7cd531564bb24ecd054a847ba2abb
+        format: javascript-bundle
+      - path: Payload/ting_en.app/epubjs/polyfills.js
+        artifact_id: art_29f6f7c77bfaa6789d2edcd8229ab6e5634e936ee676a38294c02142f1fb4716
+        sha256: cebd40b26ef17b677dbb334ae9540a3e4c40c3765e1e95982716566c84ff76dd
+        format: javascript-bundle
+    signing:
+      - path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/_CodeSignature/CodeResources
+        artifact_id: art_2f0c79997157986ffd5a32d72f55d9904ea730fcac3b8af26313ec14a4c913fd
+        sha256: 60c71218bea483d43c5f371d06da0bd6232dd2d1ef8b75afa2fbeff9b15d9c62
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/FSPlayer.framework/_CodeSignature/CodeResources
+        artifact_id: art_31767e6bfd964658f492fae69ee99a40cab0bff3625488429824d7833eb835ec
+        sha256: f5be35d4e12ec9c3643fccb57f9e1ec5fcb8d442433ae04f7a68aa5467b5efb0
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/_CodeSignature/CodeResources
+        artifact_id: art_e9bb287421b1efcf13554f054b5adff3437b5019837313782054f89cdf1e4ffd
+        sha256: a7df74f17785e41f27240e9489268d6f29d0513d7c097a5af8be02da9f67ba98
+        format: plist
+      - path: Payload/ting_en.app/Frameworks/Tquic.framework/_CodeSignature/CodeResources
+        artifact_id: art_78105f425469c1c4966564e4bbde4b5c583270eb829304138dc0e87e43b32f49
+        sha256: 68f4a245e728d5e1d89e8e6e25b292edf90b46bdd627e0adafd751a746b4dc26
+        format: plist
+      - path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/_CodeSignature/CodeResources
+        artifact_id: art_bb77ff4428e491485f5bea3f12c2fd234b2a835955b2dd498670d2e4600c50ba
+        sha256: 16748e241d4028d6a490b98842d20d708112094b232526c2e61f589e3e7ef464
+        format: plist
+      - path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/_CodeSignature/CodeResources
+        artifact_id: art_f3c7a859f1e5b1dda4ae146e49da98b4c5e8e8fe718cfc35c2798d5561b282d3
+        sha256: 59471e8c4e6ebbed8236fd2ab8ffda14d0aa22d8be78b4caecf2b032a6533f1a
+        format: plist
+      - path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/_CodeSignature/CodeResources
+        artifact_id: art_2c62414d374552c44cea986492928f3463d05bdbf2c4e8334315e3b39bb7c13b
+        sha256: 1649c9fe611461a09703bb4d573516ddd04463bd9e004b7391755d10d4bb766b
+        format: plist
+      - path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+          Extension.appex/_CodeSignature/CodeResources
+        artifact_id: art_b57847b44fde815a2d7de63ba8e3bc7a0529b7f317701e617919c7351359a8d4
+        sha256: 48e6a3312c609c09a2f148f21288ec2972cf60723783a1e6cc81d0faf02b59bc
+        format: plist
+      - path: Payload/ting_en.app/Watch/watch_en App.app/_CodeSignature/CodeResources
+        artifact_id: art_23dda897bbeeeb3d133bb033a65e229ecadf0ae9e55dfbe395cb2f3dcd0adb6d
+        sha256: a1c5e3f275070ffa9e0ee9b4d4f71387ebb74b3936b8f53d6db51d55d4fb6299
+        format: plist
+      - path: Payload/ting_en.app/_CodeSignature/CodeResources
+        artifact_id: art_147d958aebe69e13ad76ab899b15017037a5c87659e44dbb233243135d86f521
+        sha256: 671a6aa03000a2f5aa83cb14a9e4b3901978a79786cc1db150f9c0bef8984ca3
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - javascript
+    - native
+  bridge_candidates:
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/AllFramesAtDocumentStart_Eudic.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2ASQGDTH.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-2Q67Y2U4.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3GWM7LKP.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-3QOTMKZV.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5H3NVEGM.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5QUJOGDV.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-5TIWHL6F.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-6KPMBXZV.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BG6NGVVS.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BPK4IPYF.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BSO5LVA2.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYF3LMW6.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-BYJTKISN.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CILJS5TU.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-CZY55EUD.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-DKYTIUNY.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FABWBADH.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-FBDNUTJW.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-G5GGCXQW.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-JJOJLO5I.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-KODOM3KU.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-MRPJG6UD.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-NSFYUWPB.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ODOY6FQY.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-OEZXCGNG.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PGF526RV.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PQCWEMWE.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-PWSNVZRF.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-QO6VOH2F.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SHQXQJ3Z.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-SZ33I5A2.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-T2OKDQIF.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-TSN2AK5Y.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-UIAIXBFU.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WKXG2Q7U.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WTEJMOX3.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-WURDZAKK.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-XLELJL2X.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/chunk-ZLWI2RLI.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/main.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/polyfills.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/page/scripts.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/page-inject.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/assets/js/subtitle-bootstrap.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/main.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/TranslateScript/userscript/polyfills.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/HTMLRes/reader.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/jquery.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/main.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/marked.umd.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/chart.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/progress_chart.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/time_chart.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/recite/word_chart.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/873.fe019c93cba2c567.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/main.35cf70f2eb41ac60.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/polyfills.d5c185b30cf879ad.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/Html/wifi/runtime.3f9d963ed5f0d3f7.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/index.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/bridge/polyfill.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/main.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/Extensions/OfflineSpeechDownloader_ting_en.appex/OfflineSpeechDownloader_ting_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/FSPlayer.framework/FSPlayer
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/GDTMobSDK.framework/GDTMobSDK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/Frameworks/Tquic.framework/Tquic
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/IntentsExtension_en.appex/IntentsExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/NotificationServer_en.appex/NotificationServer_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/PlugIns/WidgetExtension_en.appex/WidgetExtension_en
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/PlugIns/watch_en
+        Extension.appex/watch_en Extension
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/_WatchKitStub/WK
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/Watch/watch_en App.app/watch_en App
+      basis: javascript-and-native-content
+    - source_path: Payload/ting_en.app/epubjs/polyfills.js
+      native_path: Payload/ting_en.app/ting_en
+      basis: javascript-and-native-content
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 693
+    emitted_candidates: 693
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_df19b0b282889c6202f4c19eb6c4e2d691f06e3029ca4406239947ed90cb59e2

@@ -1,11 +1,11 @@
-# 全球语言学习与精听赛道 · 16 大主流 App 全量逆向与自研架构母库 (Language Learning Apps Hub)
+# 全球语言学习与精听赛道 · 36 大主流 App 全量逆向与自研架构母库 (Language Learning Apps Hub)
 
-> 本仓库汇编了全网 16 款主流视频精听、有声书阅读、影子跟读与双语字幕商业 App 的**100% 真实离线脱壳与 REA (Reverse Engineer Anything) v6.8.0 架构图谱**。
+> 本仓库汇编了全网 36 款主流视频精听、有声书阅读、影子跟读、播客与媒体播放器商业 App 的**100% 真实离线脱壳与 REA (Reverse Engineer Anything) v6.8.0 架构图谱**。
 > 统一为自研沉浸式多语种学习软件提供最顶级的工业级架构蓝图。
 
 ---
 
-## 一、 16 大商业 App 全景目录规范
+## 一、 36 大商业 App 全景目录规范
 
 ```text
 apps/
@@ -24,14 +24,34 @@ apps/
 ├── 13-LingoReactor-播客双语字幕  (React Native / 沉浸式字幕播放)
 ├── 14-Echotter-小獭播客          (SwiftUI 极简播客)
 ├── 15-ListenGenius-播客学英语    (轻量级播客精听)
-└── 16-PearDog-啤酒狗            (单音频播放)
+├── 16-PearDog-啤酒狗            (单音频播放)
+├── 17-Reloop-多语精听跟读        (SwiftUI / StoreKit2 / 多语种素材精听与口语跟读)
+├── 18-LinguoLand-英文原著查词    (React Native / OpenIAP / 原著阅读 + AI 语境查词)
+├── 19-每日德语听力               (Swift/UIKit / EUStoreKitTool / FSPlayer 音频引擎)
+├── 20-德语助手-Dehelper          (Swift/UIKit / 离线词库 + 在线词典服务)
+├── 21-每日英语听力               (Swift/UIKit / EUStoreKitTool / FSPlayer 音频引擎)
+├── 22-墨墨背单词                 (Swift/UIKit / 自研记忆算法 / Adapty 订阅层)
+├── 23-Pollykann-全能播放器       (Swift / mpv + FFmpeg + libass / 硬字幕 OCR)
+├── 24-影子跟读Pro                (Flutter / mpv + ffmpeg / ONNX 端侧能力)
+├── 25-Hanas-英语影子跟读         (React Native / RevenueCat / 发音纠正)
+├── 26-Phrabbit-跟读听写          (SwiftUI / WhisperKit 端侧 ASR / A-B 复读)
+├── 27-Echolangs-听力跟读         (SwiftUI / Clerk 账号 / 听力跟读)
+├── 28-木瓜跟读                   (Swift + 本地 whisper / 大素材库)
+├── 29-大佬英-影子跟读            (SwiftUI / 自建 StoreKit / B站・YouTube 导入)
+├── 30-语幕Mora-AI字幕            (SwiftUI / 额度制 AI 字幕 / 视频精听)
+├── 31-ShadowEdge-英语跟读        (SwiftUI / 自建 StoreKit / 三档订阅)
+├── 32-Rex-聚合媒体播放器         (Swift / ProAVPlayer / 多协议媒体聚合)
+├── 33-SenPlayer-网盘播放器       (Swift / 自建 StoreKit 买断 / 网盘直链)
+├── 34-Infuse                     (Swift / AVPlayer+自研解码 / Adapty 订阅层)
+├── 35-VidHub-云盘播放器          (Swift / 自建 IAP / 云盘媒体库)
+└── 36-EplayerX-播放器            (Swift / RevenueCat / 视频播放)
 ```
 
 ---
 
 ## 二、 自研播放器（Lumina Player）终极选型决策
 
-通过对上述 16 个商业 App 的全量横向代码审计，自研播放器必须坚持以下四条铁律：
+通过对上述 36 个商业 App 的全量横向代码审计，自研播放器必须坚持以下四条铁律：
 
 1. **播放内核（坚决摒弃原生 AVPlayer）**：
    - 采用 **`libmpv` (C/C++)** 或 **`FFmpegKit`**（与 OneBook、Miraa、Linguagua、EchoSpeak 保持一致）；

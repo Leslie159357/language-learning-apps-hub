@@ -1,0 +1,238 @@
+evidence_id: ev_da8001f3aec2009fc2120d2bfebd4313fd5cd95eb495a16bc7dc4bab3ab64825
+subject:
+  name: 6786110801_dec.ipa
+  digest:
+    sha256: 7f488847631d24cb64512b1ac48d8cf06b5f4ed2f27299a5a0c31fb5e2817351
+  local_path: /opt/data/downloads/batch20/6786110801_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_a2a3ecd37b551f6abcc035969342636bafb4ad78f2001ae79ffa826473ece62a
+raw_result: null
+normalized_result:
+  projection_id: aap_7c40319a5cd0e3ce43e2b23758716afd8323dc88ebe76881b2110bc3786eb891
+  root_sha256: 7f488847631d24cb64512b1ac48d8cf06b5f4ed2f27299a5a0c31fb5e2817351
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_a2a3ecd37b551f6abcc035969342636bafb4ad78f2001ae79ffa826473ece62a
+  application_roots:
+    - Payload/ShadowEdge.app
+  bundles:
+    - path: Payload/ShadowEdge.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/Info.plist
+      executable_candidates:
+        - Payload/ShadowEdge.app/ShadowEdge
+      signing_paths:
+        - Payload/ShadowEdge.app/_CodeSignature/CodeResources
+    - path: Payload/ShadowEdge.app/AppAuth_AppAuth.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/AppAuth_AppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/AppAuth_AppAuthCore.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/AppAuth_AppAuthCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/GRDB_GRDB.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/GRDB_GRDB.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/GTMAppAuth_GTMAppAuth.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/GoogleSignIn_GoogleSignIn.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-Environment.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-Logger.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/ShadowEdge.app/Promises_FBLPromises.bundle
+      parent_path: Payload/ShadowEdge.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/ShadowEdge.app/Promises_FBLPromises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/ShadowEdge.app/AppAuth_AppAuth.bundle/Info.plist
+        artifact_id: art_c56d01b69c66125f8e1ae985be8376d0e39c19a1824eca59621a254a795fb036
+        sha256: 218ab303383de83c5f5509d8bfaa00db310edae194cac8506cfe83f2e6d712e5
+        format: plist
+      - path: Payload/ShadowEdge.app/AppAuth_AppAuthCore.bundle/Info.plist
+        artifact_id: art_a30b5b58e7ca85844fb7f94a10f4f4477b48b32d2be15bd2161f516c91dc5622
+        sha256: 9303e0eff3a937637e4431791bc3f8a4e0370ae2d8e627400bf20404060bf6a9
+        format: plist
+      - path: Payload/ShadowEdge.app/GRDB_GRDB.bundle/Info.plist
+        artifact_id: art_ad83230272e8cee40a20d170f85d97861c642f50edc534e6cee14e7211d30816
+        sha256: 8aadc09801feee889dea7926b677d716dbd0473f94791645aa83efd73022b7aa
+        format: plist
+      - path: Payload/ShadowEdge.app/GTMAppAuth_GTMAppAuth.bundle/Info.plist
+        artifact_id: art_dd6333a957fd7a2d5f71c9b35886bcbf75ab9f88a793a6f2050b331eec037340
+        sha256: 3d0a6502ed6060e5ca2d7876a076f4cd32753297bd91aa10cbfedd1b6c5af9c2
+        format: plist
+      - path: Payload/ShadowEdge.app/GTMSessionFetcher_GTMSessionFetcherCore.bundle/Info.plist
+        artifact_id: art_1bf09d66b66fb0fe0146c8a14f20d964c6781125ce2e75897501fa9e6e038c8a
+        sha256: 6b045483516ac3394b64798438024a91b250e61dc3aa46a8e3d0d5a8e1b56463
+        format: plist
+      - path: Payload/ShadowEdge.app/GoogleSignIn_GoogleSignIn.bundle/Info.plist
+        artifact_id: art_c9d83b2070a889648d75c38ba01fdd4b0a4c4f59216693e7fec81b0efab0134c
+        sha256: 1856d12c8133948f09d98b7693574a8f2ce4424b4297d62d3a8c7128458e9818
+        format: plist
+      - path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+        artifact_id: art_f81ae39d230bd5e4a9ebab197824f00f994e1621d80cd62f66e73b740c8dd06f
+        sha256: 373da90e784e22c20fdb16d772f9e54869f59a93ebaa43aed142be009b7d8464
+        format: plist
+      - path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+        artifact_id: art_f533c36cf060f825d42c002d2f2985e0876bed35481e61e3cd9024ee7e2fc7a4
+        sha256: a74f4afc3d94ac169b09932760752468250f182ed8d02da027b008d5a8428aff
+        format: plist
+      - path: Payload/ShadowEdge.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+        artifact_id: art_67115ba0b38e25db82956bbb42105def4d96c962c7ad5fcb502deabe63d6fed0
+        sha256: dd1c86986631c2437a588bd318c1d0683e9f567379ef9f91a4a5a3b6217f8781
+        format: plist
+      - path: Payload/ShadowEdge.app/Info.plist
+        artifact_id: art_1c9934fb5782385493eaf4ca1cb893716e5da1fe7c8dcd849268204d0d440509
+        sha256: 1ebb2637726d7080dbb02516d98f34a168b5948121257bd7437b1ad7b9b7f463
+        format: plist
+      - path: Payload/ShadowEdge.app/LaunchScreen.storyboardc/Info.plist
+        artifact_id: art_891cfaef358a3c8ca6fa01831724be4a5b63b420ccf08c7a4a3b5b6438c5ad3f
+        sha256: 1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8
+        format: plist
+      - path: Payload/ShadowEdge.app/Promises_FBLPromises.bundle/Info.plist
+        artifact_id: art_abdd7d52bfcd9da97d2d2a549fb4d588179d8b932b2af689c02ec8d51f4bd9a1
+        sha256: cfa8527edec1785230e8ab67b3e71b972f60f38d070b5acd27961a92e354ee95
+        format: plist
+    executables:
+      - path: Payload/ShadowEdge.app/ShadowEdge
+        artifact_id: art_a3d3ec35923107a56066386d8aca78ae392e0f10761efff70831c82b7c9ac0a7
+        sha256: c63ae13756d62634fe17ca523f75a516f27cce974219ea1238f05244da293320
+        format: mach-o
+    frameworks: []
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/ShadowEdge.app/_CodeSignature/CodeResources
+        artifact_id: art_e3c5badfed406fc2ee9d3de5dd7728efbca4a59d7924558be6f42ada98284c77
+        sha256: 78977a58efda600b226516c4b80bf2867dca4ba970572fc0c7b0b2c52ebe2748
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_a2a3ecd37b551f6abcc035969342636bafb4ad78f2001ae79ffa826473ece62a

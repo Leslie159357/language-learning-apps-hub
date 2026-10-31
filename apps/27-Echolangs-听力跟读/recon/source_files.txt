@@ -1,0 +1,22 @@
+# 应用自身源文件（#file 编译期路径）
+/EchoLangsApp.swift
+/HomeView.swift
+/MyProfileView.swift
+/ShadowAccountView.swift
+/UpgradeProSheetView.swift
+/api-cn.echolangs.c
+/apps.apple.c
+/arm64e-apple-ios.swift
+/clerk.echolangs.c
+/crl.apple.com/root.c
+/echolangs.c
+/guide.echolangs.c
+/images.unsplash.c
+/ocsp.apple.c
+/resource_bundle_accessor.swift
+/richapi.echolangs.c
+/tnet.echolangs.c
+/www.apple.c
+
+# 内嵌三方库源文件（C/C++/Dart 运行时等）
+—

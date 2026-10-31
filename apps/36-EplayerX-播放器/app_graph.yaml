@@ -1,0 +1,1942 @@
+evidence_id: ev_fcd9bf6d4be6294fc5a2532ad467e316eb624ba19ff4196c67f0fff5a8205379
+subject:
+  name: 6747369377_dec.ipa
+  digest:
+    sha256: 410c84d29a34f1a67867510bef4efefc02c6c42f81706450ebbc8341f83a1b03
+  local_path: /opt/data/downloads/batch20/6747369377_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_4f0cfa4a521fe2e28316872e2515844fed9797f0368d780cf5b23d157f42ed70
+raw_result: null
+normalized_result:
+  projection_id: aap_3932d62b9fbe8e9c28ed5385aa0dfcf4668a0e73b86cf919a8e49e0aa873104f
+  root_sha256: 410c84d29a34f1a67867510bef4efefc02c6c42f81706450ebbc8341f83a1b03
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_4f0cfa4a521fe2e28316872e2515844fed9797f0368d780cf5b23d157f42ed70
+  application_roots:
+    - Payload/EplayerX.app
+  bundles:
+    - path: Payload/EplayerX.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/EplayerX
+      signing_paths:
+        - Payload/EplayerX.app/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/DoviMatrix_DoviMatrix.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/DoviMatrix_DoviMatrix.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/FFmpegKit_FFmpegKit.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/FFmpegKit_FFmpegKit.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/FFmpegKit_ObjectAudio.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/FFmpegKit_ObjectAudio.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Firebase_FirebaseCore.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Firebase_FirebaseCore.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Firebase_FirebaseCoreExtension.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Firebase_FirebaseCoreInternal.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Firebase_FirebaseCrashlytics.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Firebase_FirebaseInstallations.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Firebase_FirebaseInstallations.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/AMSMB2.framework/AMSMB2
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/DTSX.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/DTSX.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/DTSX.framework/DTSX
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/DTSX.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/Libavcodec.framework/Libavcodec
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/Libavcodec.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/Libavdevice.framework/Libavdevice
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/Libavdevice.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/Libavfilter.framework/Libavfilter
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/Libavfilter.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/Libavformat.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/Libavformat.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/Libavformat.framework/Libavformat
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/Libavformat.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/Libavutil.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/Libavutil.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/Libavutil.framework/Libavutil
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/Libavutil.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/Libswresample.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/Libswresample.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/Libswresample.framework/Libswresample
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/Libswresample.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/Libswscale.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/Libswscale.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/Libswscale.framework/Libswscale
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/Libswscale.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/MoltenVK.framework/MoltenVK
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/MoltenVK.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/ObjectAudio.framework/ObjectAudio
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/ObjectAudio.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/TrueHD.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/TrueHD.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/TrueHD.framework/TrueHD
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/TrueHD.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/lcms2.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/lcms2.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/lcms2.framework/lcms2
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/lcms2.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libass.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libass.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libass.framework/libass
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libcrypto.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libcrypto.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libcrypto.framework/libcrypto
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libdav1d.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libdav1d.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libdav1d.framework/libdav1d
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libdovi.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libdovi.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libdovi.framework/libdovi
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libfontconfig.framework/libfontconfig
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libfreetype.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libfreetype.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libfreetype.framework/libfreetype
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libfribidi.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libfribidi.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libfribidi.framework/libfribidi
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libharfbuzz.framework/libharfbuzz
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libopus.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libopus.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libopus.framework/libopus
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libopus.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libplacebo.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libplacebo.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libplacebo.framework/libplacebo
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libsrt.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libsrt.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libsrt.framework/libsrt
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libsrt.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libssl.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libssl.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libssl.framework/libssl
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/Frameworks/libzvbi.framework
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Frameworks/libzvbi.framework/Info.plist
+      executable_candidates:
+        - Payload/EplayerX.app/Frameworks/libzvbi.framework/libzvbi
+      signing_paths:
+        - Payload/EplayerX.app/Frameworks/libzvbi.framework/_CodeSignature/CodeResources
+    - path: Payload/EplayerX.app/GoogleDataTransport_GoogleDataTransport.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Environment.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Logger.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-NSData.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Network.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Reachability.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/KSPlayer_KSPlayer.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/KSPlayer_KSPlayer.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/MMKV_MMKV.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/MMKV_MMKV.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Promises_FBLPromises.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Promises_FBLPromises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/Promises_Promises.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/Promises_Promises.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/RevenueCat_RevenueCat.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/RevenueCat_RevenueCat.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/SDWebImage_SDWebImage.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/SDWebImage_SDWebImage.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/EplayerX.app/nanopb_nanopb.bundle
+      parent_path: Payload/EplayerX.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/EplayerX.app/nanopb_nanopb.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/EplayerX.app/DoviMatrix_DoviMatrix.bundle/Info.plist
+        artifact_id: art_ea50a956474bb4ebcdfa095c58aa389e2ba916faafc4fe8f615bcab70e2d64f1
+        sha256: 4bf539b1fb5e24fcaee32cb5984bf818417098d1c678b2ed954fbfd045228cb1
+        format: plist
+      - path: Payload/EplayerX.app/FFmpegKit_FFmpegKit.bundle/Info.plist
+        artifact_id: art_d7c1f728ad9f45a296e224223b8c6db81a1606ab4c4c1d7dfaa805e0317f3984
+        sha256: 2337abc9c3071eadbe9d1e02e82ceec4849f8b897300d3b61a41e4527a1766b3
+        format: plist
+      - path: Payload/EplayerX.app/FFmpegKit_ObjectAudio.bundle/Info.plist
+        artifact_id: art_f62f21c80523833bc21b4da2ee0262c1f279fc2315c80edb9f934f0b3f54ef98
+        sha256: 72da3353a80a7474598f67ab7f51623ea906f2fcd799e9c65cab541adc72bead
+        format: plist
+      - path: Payload/EplayerX.app/Firebase_FirebaseCore.bundle/Info.plist
+        artifact_id: art_44116b5edec2e0c3df70e5f2ec6e57ad5141d3b19095fda407d5cc80ed10ef93
+        sha256: f92d365716155c5c14d24c31201b817734f8f2ee3beb051ec31d38d46bbe5ab5
+        format: plist
+      - path: Payload/EplayerX.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+        artifact_id: art_09d097b37f53e22ee716836d701a5b02a12d97db61b2d190f8c3012ef0bd9712
+        sha256: 83fd4db708226ee487031c4ba77397e2e9e4fc0ae91fe3cc1b1f84c2fbf36841
+        format: plist
+      - path: Payload/EplayerX.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+        artifact_id: art_a456a73d325d7b1a8c531d4ed0ee3e1e02c6d5b094936bed9ffdc2c4352a2f61
+        sha256: ba64d5a82c0ac91b2c1861e949f1843b54c989553fd8eb9d49f26f0daee64860
+        format: plist
+      - path: Payload/EplayerX.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+        artifact_id: art_45799686dc706b041fae6979b5b612be58eb2ad4ddfb0f0758fda47b13901a6b
+        sha256: 70fa20d9486ca5bec39f39a13d1e4f4f8f4617dbc9ba8fb3efca0ec42c20e7f8
+        format: plist
+      - path: Payload/EplayerX.app/Firebase_FirebaseInstallations.bundle/Info.plist
+        artifact_id: art_fae7d494647c8cc330ff26e60e9a494f37effd9eeab7a1d1d0c689822c7df969
+        sha256: a60b132de702fd1c00425e0d0319a9c68591c89f048b4dfa9f5ad65d071f8550
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/Info.plist
+        artifact_id: art_adbcc809ec22e628148f3bf32c0cee5d2bb1ae205ad24f9b9df25922cf8528fc
+        sha256: 50f2d9da9508b2e3887e0780690c22d97b1c94b3f7c2744f8ec3b17c78927bfd
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/Info.plist
+        artifact_id: art_26e052aea32b4ea474ecad6c7568274a3c7a3e00a0d2109694702c807fec66b9
+        sha256: 4bc9e283692fc8cbe8301171fb39bdf63f26df9b0b59b353fb1555066aa63f57
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+        artifact_id: art_92655239e45d38727a78db91252c1ef3c0d33ddaa82e9fdb64fb991de45c7c54
+        sha256: 924d738fab9cba876ee0f14bf46f29957a386a90de0316ea8d71ac9b3d9020cc
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+        artifact_id: art_f362d54f00bbf488d12e016bb62280c515d10b00a26512a753d92e03f245a58b
+        sha256: 98602392320b4ef6c5e7093dd73903be50b6b66361a25369143ffc4d6f0906b5
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/Info.plist
+        artifact_id: art_c96e0c9bd5851f389ac26d46457e3f950606383c55a2e2674521a82f2c9ccdfa
+        sha256: 8428ede8c1c501834765c9f886d14ec913cc08c0cdec9fc79648e9fb8cae97b3
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/Info.plist
+        artifact_id: art_bdd32feb92b60b022ada73c001b449631278e98f1dd27e4eae7f523c2ecd1584
+        sha256: 20152a4ca7fe061bd95bf28752e71ca485e2b2659c37d62d7a8764d7daca5efb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/Info.plist
+        artifact_id: art_e1bef429275a2541f2879a4e82cb0926498519313181f87d42aff8354c0efe2c
+        sha256: 01ceae3475751e2385739708e94c1ff49cae67d172debc28ff688afc73040008
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/Info.plist
+        artifact_id: art_8b0067fb5e9d7c0d479ae129729b4856abc6cad9d0519e82e1e4c655d8d44435
+        sha256: 4c76ca1f816a2ca51a9b5d7781eafc125d91e1f6a19d2d6951e1bbc82aaaed46
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/Info.plist
+        artifact_id: art_f26374656644d528ae9c48dcd4824fd0011d7f789aa162ea8efd04fa84f55c97
+        sha256: c39509c9f2e03b6df17527d453db84213bb9e39f9f9b1f639c05672bdfff8675
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/Info.plist
+        artifact_id: art_aa60cf2cd73b1c467b6d5d0e253ac1161cb2bda36f2360e4a5fb1d13e53e32f7
+        sha256: 6111f29a779aebce708b765a4834ac9a49623f80dd68678429d47c37f5a11767
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/Info.plist
+        artifact_id: art_058f5ddf7012ae7fc0e71d890f2830cebb9a9b15dd6663032f5930d729f746a5
+        sha256: 8c257b7d88a0abee702408c9fe94eee59f67b48e1b80e9b220ddf44201c46cdf
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/Info.plist
+        artifact_id: art_abfdcf5aeb1a99e2737bf674732d7819795678de22085bc0581e64d24d1980b5
+        sha256: 7dd3b1710a0d19412cbbe64f4ff45ca0c774a3559ec9badc6f34f16d5ad1584a
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/Info.plist
+        artifact_id: art_6d20706c767c873cfc6377841cbe12c5b35f695b5705c4d570a7a725fdd13cc5
+        sha256: a7a4cabd876e4dad27900c4dbf565543dbca7421cf283b5d4ad12f271f161e2e
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/Info.plist
+        artifact_id: art_8f9bac8997d166eca246a3eb6d777a1b6c145fdfaf60dc4b3028af80a696af16
+        sha256: a61118b2a8bdaae00d5645ad86c5923e77c118b85c471c2c51da824395831deb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/Info.plist
+        artifact_id: art_b917dfbac5f888126527309ec71eb41537887e6f5945ee971177023a95c84eb6
+        sha256: b895a657413eab921b6194f3671d099f928a0a1b7000b5509ca6892a24a3e34c
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/Info.plist
+        artifact_id: art_a657f53f66d76b7b1e555036e33efcdd955c0aea6a195c1265028a7eb8582ec9
+        sha256: f90adec43706f2b7bdb7937e2b1f6b776623b9f6ae5394794b6ecebd5db397e4
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/Info.plist
+        artifact_id: art_7edeffd0e286cb3c8319dbcd18b498474bb855f4f3aece0b728d7a64ba0e3dee
+        sha256: 18f2310421bd53bcb92ee83bbab32b1d046c7926a87a392264829592dedaf76e
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/Info.plist
+        artifact_id: art_5b6f683167adf279f4c27c8d6534aa3951da15e6d56d898f724403dadfd905e5
+        sha256: 363ccbdd464f46de49f1936f013af5e4005dd18a609aeba2e7e2573a590af0bb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/Info.plist
+        artifact_id: art_b78ebb7fb457a95e074c9637623150c28fdc8a481fe2a7f60d75ce499fe67afb
+        sha256: 7bfbda6c2d763c6e0a501f6b2b7bc4c24c4e644a87eb897b9e28ae0e83697356
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/Info.plist
+        artifact_id: art_adab0b2a5e1b0c0f7a0de3499efba8faccc11925a96d19b521e5dc9af09781a1
+        sha256: bc3145e151f7842da688024cb6cf86bfa78f2d99abc1242b1347bb5c4bd56be8
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/Info.plist
+        artifact_id: art_3f6dd7501666626650dfafb80edd81289924b04ff9c0792e04c221eec6de4fa1
+        sha256: 854060310d95689075e3c985d177a0485248003379d04c3141e61799571a5bba
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/Info.plist
+        artifact_id: art_f523a3a782df263e72296f6e04f0195af1174b05e448b6959580077e47737b24
+        sha256: 96545227b80d9fdb3bd5d168b53d7b81e51e3cd268a963c6cee3e9c6e512db8a
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/Info.plist
+        artifact_id: art_c5ea019282fa944445fab2bba3e256812ee43d807a99e47ecc83da1b68cc6838
+        sha256: 06aafa7a744b9f590affd7b81ed8c3c1275dce1d1e427b138cab2f21fb9f4846
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/Info.plist
+        artifact_id: art_b671dcac0c956423a67f1aeba01ce77d1c49ab6ed1be09c5fdc96c93fbb76b21
+        sha256: eb81cae936df25bc980feb22060b2ff7d7bbaeb1e73ac709d7d8f07d58875286
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/Info.plist
+        artifact_id: art_cd1b6466fd4e98edb4bbd544e298a5ed299d371b87fa097b20c12145f0120642
+        sha256: 35d25409c380fb756134e79bdf3e5bea665991c4c6a455cadc7c3a2b8d718049
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/Info.plist
+        artifact_id: art_e44761ad74b9d6d526fe089861baa5d0fff990e7d6b95f3685e2b633f2a18680
+        sha256: 9af8ffe52ebe5282af1f8b2d7e58ebc8e26de426f7be56a879787150619b0f1c
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/Info.plist
+        artifact_id: art_00e27da7784bcd9a6b142bf4d10426f632a1bda8cc23c82753668b90e5f01e40
+        sha256: 3fa2a5ca3417ad7e134de881f6741f47f302e4a60c22cb183ce127bdf1a33717
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/Info.plist
+        artifact_id: art_944963d45dadc9e5f741b69c16801074fb17d736e8002b332b592d2b8000e5f7
+        sha256: 9052a1247591b9bb07bfd9031ef05855bf1765dedc1bb09f1ab1f669d7699a8f
+        format: plist
+      - path: Payload/EplayerX.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+        artifact_id: art_9fc3cf733719fdbacdb7c068a6aae1bbdbf78c7e4e4949d780833627ff493e36
+        sha256: 889ecbe014768d89c8c3bb1c667287cccbb27d64f93c70c00992f4acfb1576b9
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+        artifact_id: art_f05d9a37f198462c91b51cfbd6d6b9133c45e913613c6919076f9c2f51e71f71
+        sha256: 96c6a443a703504fb793da114619a7a3307aa9aba53f3e6c7608d1a3eeffc903
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+        artifact_id: art_7c4475a8e617ba99ee2630851f92593d439d0796ab95a05d950debb9d72fdf79
+        sha256: 0af917b82df055a6c7765fbb68c75cc4ac120160bf1ae867cd8584e49cbda0ef
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+        artifact_id: art_cdcef8ba3ac5329d78f9188ec62556f47fd56869ca9bca8251477e787ead796e
+        sha256: 002fa97fd252b3f626b3a9948791885d0a64303a2fe5bc03f1b2e7aaede9dccf
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+        artifact_id: art_e1bb71451a5607325021c08f48d0075e946c315214db569317f5a3fee1ecc6d4
+        sha256: e330f7e360fb28fc000ff51aa9f595927755cd2cc871a678cdf2724097a78409
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+        artifact_id: art_c4313cc3839316b311f6bba0fd7573c170aa39782de0fae657669d78a44b78e4
+        sha256: e8fc92c8003ea51f811849097bdabd9c497fda0c9b7386fc6b4690caedc2b63b
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+        artifact_id: art_bd2524ca0244b49b387301a7fa187c1787026624e34babf07e19cbdc10ee4a42
+        sha256: ca05f25a24dc2e678e5ede71bc0858f6ffcfcdc427ced7ba6097c1f0f6752a83
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+        artifact_id: art_b516f8ee72efcc5213c9e0d13ff1c8ff712df6de472597ef2e7b0b006bc0033b
+        sha256: 60852affc818a8930e67f2c1fd3ab314f68224e797d021862a9213b61d8cbeb8
+        format: plist
+      - path: Payload/EplayerX.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+        artifact_id: art_8edbbd6f734f04519a3b6c31c3fbadc8308215ec56384420e46d0a06b2d84044
+        sha256: 40b97ae3003979cd45e2379ebac4f8138dd1fffb3ce8263d9edc64c92da45107
+        format: plist
+      - path: Payload/EplayerX.app/Info.plist
+        artifact_id: art_d433fd488d9bda380c3a598d88f79aae0dbc5dbcbde89b362f4152fc42d403aa
+        sha256: b4bfdb940b51d5f03fc76266103c8c261cc9f0ab26c95dda2735b890b014e125
+        format: plist
+      - path: Payload/EplayerX.app/KSPlayer_KSPlayer.bundle/Info.plist
+        artifact_id: art_adc204a325c9c64265364b239193824dbcb669ef0e4db029e0c167720141ca9d
+        sha256: a6d5aaaea21ebd2121e1d59901dddf5af45ae8afef0c5363f2bbe51e044f8c55
+        format: plist
+      - path: Payload/EplayerX.app/MMKV_MMKV.bundle/Info.plist
+        artifact_id: art_d8e3de0abbad62d2f77eff5045a0efaff97b04ed46bd32803cef8586c76a25d2
+        sha256: 0a50975b4841a5ca16077d08afa0c2e44858255aa92b44206b448a0bf0c7c9a1
+        format: plist
+      - path: Payload/EplayerX.app/Promises_FBLPromises.bundle/Info.plist
+        artifact_id: art_7f8d53c4c6ebcbf18ebd1764d3dd7484dc65d3f8fdcab6eb0a59434d672a82d6
+        sha256: 11fa261f67a7e5ed814875a05bd16afacfea0740a08a3fea6d05376106584cbe
+        format: plist
+      - path: Payload/EplayerX.app/Promises_Promises.bundle/Info.plist
+        artifact_id: art_eb7d22fe7c4f075e03f67f5d38f2f5847602ff34368adf09dcc72b540fa07d84
+        sha256: b6fd59c742017261c153437d3d75df3ae7a8fa09f42bb514394aac192d24c081
+        format: plist
+      - path: Payload/EplayerX.app/RevenueCat_RevenueCat.bundle/Info.plist
+        artifact_id: art_fd194cc42eea87db123f2220465e13ce5ae5a1f0ab6aa62bdb73d44737268a5a
+        sha256: 5765d2f399c5436a70411bf417740ae0b68f626f6817b16cad51097d009018fc
+        format: plist
+      - path: Payload/EplayerX.app/SDWebImage_SDWebImage.bundle/Info.plist
+        artifact_id: art_01e64199a614d2b5263e32d95f6d54e7795a5d5e58485b45e44f364f80743c1f
+        sha256: 2eda0f8211a0d6613bd962c87e8f8b8a377e076cf0f3671428698fed043eba45
+        format: plist
+      - path: Payload/EplayerX.app/SplashScreen.storyboardc/Info.plist
+        artifact_id: art_1274aa2674ce3fa634223c20dc718f1e6e7fdf5411823c46458474cca700829e
+        sha256: 74dbceed6cf0a5e5c69834793328c9783ecab1de482d4954e257ca2132b743af
+        format: plist
+      - path: Payload/EplayerX.app/nanopb_nanopb.bundle/Info.plist
+        artifact_id: art_35d0bbea093a50c68bba9f1dd61cf2f44dc4d8b966aa817620678725623b1536
+        sha256: 6e1ab5f16e41c58e6cdddac03d06f7f1fd257bacd535c45fb3172bbb266e2c69
+        format: plist
+    executables:
+      - path: Payload/EplayerX.app/EplayerX
+        artifact_id: art_174cae80b3b8457946d1fbfe3170a77136061d1e813bf64d567d0ce08d36f546
+        sha256: 3ee439a19bd84f542274d7b3a4800ef2cf93f52138a78fe1867262124c065dd4
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/AMSMB2
+        artifact_id: art_8c1c163a6d77e98f3d73c86f2f964d1c4bfadbc03cd7851715f7b6097526a378
+        sha256: f6ad90b3dc01eb2a3cbeac63af585abe82c25451c5fd882d56b97dd64a290518
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/DTSX
+        artifact_id: art_b08c177013e6ea265cdea159888e833aeaef3c91e9519c588792423121d74cff
+        sha256: 5525bd76e5522336d70e25f9fe0043a009d839a43b407063e10aaca4aa297996
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+        artifact_id: art_4c84f93974010aafc456489f5f009d80aecd1a0aee24d7dbd44dc92e4585b6ba
+        sha256: 54c5c6c4eadb2b5d21cc332ba71cfda646548b1a240efc763e2819af110d8ce1
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+        artifact_id: art_472370243f4318f5e4683d8d1366762b304e8df21616ee38986db9489a95a5e6
+        sha256: d5484a181d1b9bb837ae94f3bf3318a3834ba40cf3be58141fe1386066140888
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/Libavcodec
+        artifact_id: art_2a1c6f5b7597324e451c005d94f5b3df808aa4f1301e4f984a01087b05589e92
+        sha256: f3b37bafc30f8eda5475e1aec568e848cb6030156e9479230ebd907d2be264de
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/Libavdevice
+        artifact_id: art_c8b814efbf15e9b683a4c67f615b8d9fb31841c84e842449b673db5acfa2907d
+        sha256: 92e1af927b01f0c4afa63d300d26226bc94bfa4d7012727c11b43e0e1da4ebc2
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/Libavfilter
+        artifact_id: art_b8019f988280b85697de5c07e043796a80838d1c1390428382dc44a451ba2be3
+        sha256: 32f8f25188fc7a74b9b866c03083dc060427216777791e4abb27ad92bc2bf7e3
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/Libavformat
+        artifact_id: art_84301faa5792765950eab249e4ce8e05e1712d07faec5fd1270dcf959edc9385
+        sha256: ecc3220d608bd27b1c76f2704ba7973c3c3459191b369366281b09ec231c0055
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/Libavutil
+        artifact_id: art_5bfd68e7a3d390b23a439bb479623e91a9e71d4bea18cad50bc3eec0b30439e5
+        sha256: 8ed97276fd1d3ad8ecc4c32c2c24571edce79579c309af3270ac2694909d092d
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/Libswresample
+        artifact_id: art_8079b79d016eb175bc42febec269b8d656f28dc9d424b70bf1f4b571a18fa8b8
+        sha256: bc35defc9f8d03aeb1ec71ac892fa1337f8383d1e8b4ca13195801552bcd562a
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/Libswscale
+        artifact_id: art_82de7b4f5642a534ca81aaf72356006221404b06dfab8769eedfcb9d2a7c8938
+        sha256: 9848c0a566ee559969da4c585a171aa1af00c667437a1421590fd0156139e66c
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/MoltenVK
+        artifact_id: art_93586f929dcbc75d182c0e202627d31cc79ceabcfe141d25c60767a0a898e8b4
+        sha256: 7b3d180e560a40e01cfc77d26a930552561a779099f562809cd7e1eb30b04bec
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/ObjectAudio
+        artifact_id: art_86741b15f38970634dade9dc776c91b3dc50e2c17d363a66c08ee50b771775f5
+        sha256: eabcdabe2a00e3b2c2782c8853f2f2ba9f95d2fde86801b1283d88149b3a2615
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/TrueHD
+        artifact_id: art_9f324e9c285e40db54e91212d00c2d1efeeb54cfe8e76f70984530e6ae3aef78
+        sha256: 1e330c166e05880fdcfc9ab54cf5dac08a294ce68046c3f23858c496d2099f8b
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/lcms2
+        artifact_id: art_288150dbbba97ad839cf57c4e5dad42a784e978031d2c8b9ad079ec4f2e7a4e9
+        sha256: fd13367243507a74b298f99b2e429f9f3cd76760bafe1120660b4e0d8dc9ecaf
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/libass
+        artifact_id: art_cadef4f4581ca7296a672020d72f718ea3c1ed2819bf381743e60b263c1db75e
+        sha256: f17a84c0cecb49a00225c070fb195c841e614de85a1be5d44f1f64f43774812b
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/libcrypto
+        artifact_id: art_5672b7a5065e6c4b3a4eb65d4fb4678547242d26843243f33cb8fb0d168e5c23
+        sha256: 4a69fff6a08a882ba40689fb60491660ac6562e9b4aaa314dd5ee0b9a506349e
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/libdav1d
+        artifact_id: art_e0e3a4237171d7c2267cbd0710b7493594ff04f85da48d38cc0a4778ea505eff
+        sha256: 2d999cd94776d89ba9f8c8e722bd29b78dcffca7cf851e799d78c7afb46ea136
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/libdovi
+        artifact_id: art_b5da4f70e93b073a41640b40014b657c0280546dc4f235c5c5e3f7d434139a2b
+        sha256: de503ecff8a1cfa2a6af4b48a733401ec101c20219e63abe1ea9d293697d0846
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/libfontconfig
+        artifact_id: art_9dd30914a40f6ce604f27c9a65fab29143f4412546c92326356ed83034f04628
+        sha256: 18c3eb70cf9442e1405b9779fa0d2c9bb57369ad240b031c6a86730d876ccd65
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/libfreetype
+        artifact_id: art_ce5108dd6f25c5a44426ccbce196ee4b1141873f5a7e69adee06d84a4d2997b6
+        sha256: 9ef49ae0456e3f17a389660fe13652335e34d5a47b4dc6c20d429beb56d38215
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/libfribidi
+        artifact_id: art_cf3758c54d92dead6911e9e196d6b5a4db11241b835afb7f530dac79120bbbb7
+        sha256: a59da8a788fbf5c25c4332e9e52fd16a630129ad27050e8275dd5fad66fc7196
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/libharfbuzz
+        artifact_id: art_e51cb86b402319fad0e5b3e220a43070d71940a14330f8f6577f733274d99c49
+        sha256: 890898e597f7d6ecbafe78e3dcdf89f195f34a3067f5c0170004ffb09a331a05
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/libopus
+        artifact_id: art_4b6226edef6c6ecf57136c39847d15a77f9610aeb1226aea27f30a93607c2a9f
+        sha256: 3ecd537a3d2c904050a7e0df12a4e520e5c4d9bf4fbb2cb4cebee85ca77e39fe
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/libplacebo
+        artifact_id: art_cf075a5923aa3863d663296789f26c0cc89c488100fa4c2ceea1206df379347e
+        sha256: 3e0c0c490649085925ddd1bafb3f0ab5c3248e45a1f8dede227124224a9f75d8
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/libsrt
+        artifact_id: art_c27aa265066c0f0c33d6f933927673aa63704b5eff0dac35c94a962f717461bc
+        sha256: 4b8ca6ca316fe3fe829dfd24324180d42500d3dc62f4993a0afbccc648c55eea
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/libssl
+        artifact_id: art_7a60a6c61f39c5d44ac232f5fe8ba5387e08e0291174437eebd796518ce2eab9
+        sha256: 34684eebd098ae9d5f01f4fe091a452fbc6c434e20fff7e37e3f333859c5d656
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/libzvbi
+        artifact_id: art_927bc1fcb3067d72cc4424f840dcac5b33db7d6b70c631c2d3ec9465a89bcd7f
+        sha256: 935946bc1375df8548353be5f404fc33a777827ff39527b41213390f946ff628
+        format: mach-o
+    frameworks:
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/AMSMB2
+        artifact_id: art_8c1c163a6d77e98f3d73c86f2f964d1c4bfadbc03cd7851715f7b6097526a378
+        sha256: f6ad90b3dc01eb2a3cbeac63af585abe82c25451c5fd882d56b97dd64a290518
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/Info.plist
+        artifact_id: art_adbcc809ec22e628148f3bf32c0cee5d2bb1ae205ad24f9b9df25922cf8528fc
+        sha256: 50f2d9da9508b2e3887e0780690c22d97b1c94b3f7c2744f8ec3b17c78927bfd
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supf
+        artifact_id: art_989f1b19e837c7c8311bde8ef016291b87bb1c947a6131b6202ad3bcc360bd40
+        sha256: 2216abaf90974c927b18f859797daae320ba1d7434cb26066c4723c611c5ff21
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supp
+        artifact_id: art_a564e793313ed2492609a84c8f9ce27b4a85496f545f0ebe1f40f389b05d6be7
+        sha256: d434e47de1917f5b2963f30ffbd615d54de1ddb1463448ab7a65624391cd1840
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.v4.supp
+        artifact_id: art_708f0377278f8930527eea58fdf5416df9e7b351b06f4abed388cc05471f4bc2
+        sha256: 2499232b9dec97e3970e0c3a199d161e0f80696af4a24371893d0fe8c8855296
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/SC_Info/AMSMB2.v5.supf
+        artifact_id: art_b80edc06377dbbfb3270e85135ea65b4872bcf13dd2999e52d1dff4ac190efa5
+        sha256: 6b5c6476c3901df4fb986bbbee662cbcaf71b4eca66f127fafb81019dd4f7171
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+        artifact_id: art_c1c25d30f78012b19a3bfe195af3a2cd53b87418581b5c72c3c88cfed8de7e02
+        sha256: eaab8a6c392337ec033067ca937b0b80d34d53ef95cb011228ce1885b0831083
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/DTSX
+        artifact_id: art_b08c177013e6ea265cdea159888e833aeaef3c91e9519c588792423121d74cff
+        sha256: 5525bd76e5522336d70e25f9fe0043a009d839a43b407063e10aaca4aa297996
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/Info.plist
+        artifact_id: art_26e052aea32b4ea474ecad6c7568274a3c7a3e00a0d2109694702c807fec66b9
+        sha256: 4bc9e283692fc8cbe8301171fb39bdf63f26df9b0b59b353fb1555066aa63f57
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/Licenses/LICENSE
+        artifact_id: art_7e5d0ad7072d741e278f4c09d734907fb6e082f825dbf4d31e1ec54633f168cd
+        sha256: 0b137648922ebbb5e5d1188ec08b5e2e7873e7eab282d039d8db740cba5bd805
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/Licenses/LICENSES/GPL-3.0.txt
+        artifact_id: art_86861b3f8adee6607ceb541fc5da7fba3f4a9559685fd1e6c6ce09457690837d
+        sha256: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/Licenses/LICENSES/LGPL-2.1.txt
+        artifact_id: art_58dd352691c6abe1f068d394198cd9864510bf7ab02cbd8fd1c712fac84b292b
+        sha256: 246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/Licenses/LICENSES/LGPL-3.0.txt
+        artifact_id: art_1ed8dff0f0b7c8c413f8d9cb2d410ecacb806974b941e2bfd3553088e86bfb0d
+        sha256: da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/Licenses/NOTICE
+        artifact_id: art_70431c091a08b058001206ce5a877bd02d9722c3140bc1c68b14ea87cc227a84
+        sha256: 34c56bb51d39ad7436d536db841383bde91cb0109c48099900c5bcb1c4b52dbc
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/SC_Info/DTSX.supf
+        artifact_id: art_6314b79992ac2177884366ce37059d459b32f61167da1af20c6a88f3f8b723bb
+        sha256: c52289eeacd361e1c1ca3e1ad0ddf3ec8602094aa8e81038a2707ea387fea406
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/SC_Info/DTSX.supp
+        artifact_id: art_8f6513ccf3bcfc57c88a9521c4dd54303abffa416d1fda6e275baeefa765474a
+        sha256: a9392ce9d8e3d53014eff298ec926b5cc851ab403608d7d194bd42c10575d959
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/SC_Info/DTSX.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/SC_Info/DTSX.v4.supp
+        artifact_id: art_c2ba1b5692dbac430d2909b0b234cc02453caf198ec8f81ab160cced4d79fd10
+        sha256: b49653727e2bb28a281fcfb88e71d1aafa3c816fd26333c93c0e5b79cbe592ea
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/SC_Info/DTSX.v5.supf
+        artifact_id: art_8cac4be677da93556d795bb06614460ed86cf63a900cbf4ed3e55826a2d1e40f
+        sha256: c7c4fb9a4181be5dba96b54baf924dfe3b7d0b35da8c75aebff2b3d0d7a0d9d6
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/_CodeSignature/CodeResources
+        artifact_id: art_dfe5ef9417200dc13a8573f0978e537168db67ea0828177c55b9c60bbc6c8bb4
+        sha256: 92cd37ef6ed8faaf7effc4a3ad8b79484b66f93d25da69b96f9c326ac3dbd64f
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+        artifact_id: art_4c84f93974010aafc456489f5f009d80aecd1a0aee24d7dbd44dc92e4585b6ba
+        sha256: 54c5c6c4eadb2b5d21cc332ba71cfda646548b1a240efc763e2819af110d8ce1
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+        artifact_id: art_92655239e45d38727a78db91252c1ef3c0d33ddaa82e9fdb64fb991de45c7c54
+        sha256: 924d738fab9cba876ee0f14bf46f29957a386a90de0316ea8d71ac9b3d9020cc
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.v4.supp
+        artifact_id: art_1116457bc7c7d72a8bc00c4a719ca4972bcdfd4b26a567853b71ae29c8bd2aeb
+        sha256: 5340ff2631bf6cde86b5676658a3f1256dcd14ea8bb79a8f04d083561597a642
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/SC_Info/FirebaseAnalytics.v5.supf
+        artifact_id: art_2b33b289be97f7b26f951865dcb2f2edb57dea3b4064b5109a44c88cce9a8c51
+        sha256: 036498be1b16892e05597033b6e7b39f45a899a04c718b4c78294fc4c2eabe26
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_f90ddd64893f84bc340db5e75a38906223f2a435f0e56b8c8113117616ea644c
+        sha256: 51ac1e57b2d7fdcf2e40f265fd34d5a994334dc2e7acff277514e5d3a92575f6
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+        artifact_id: art_472370243f4318f5e4683d8d1366762b304e8df21616ee38986db9489a95a5e6
+        sha256: d5484a181d1b9bb837ae94f3bf3318a3834ba40cf3be58141fe1386066140888
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+        artifact_id: art_f362d54f00bbf488d12e016bb62280c515d10b00a26512a753d92e03f245a58b
+        sha256: 98602392320b4ef6c5e7093dd73903be50b6b66361a25369143ffc4d6f0906b5
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.supf
+        artifact_id: art_06fe957dd9e718e515484fe073090638b07ba2e8eddcc914fc8fb62dbd34924e
+        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.v4.supp
+        artifact_id: art_2a0776fe959b91de7309ef8f5a02e8113233e7ba6b727eb01219db03d66dff87
+        sha256: a3461b9b52c2fa80c56fb7ad014419332158092c61fe65bb86d34495b58fed7e
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/SC_Info/GoogleAppMeasurement.v5.supf
+        artifact_id: art_3cc4a9c51c31e2135be1c1c24bcf40a5e10c6c4521efd0208e710fc511d061fd
+        sha256: 87451abff893e166db85dc5258cf30fd009aea72e325469c6644bd19b4bc051e
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+        artifact_id: art_f325696d56a3ff2b366cba7e93a2e0f1c3f77bc574a0db56be53d42526465e04
+        sha256: 1c30e4e2f6a54f4243bb6a20cfb0c0f0eee49378ed557066b08cb8ee9e161ca9
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/Info.plist
+        artifact_id: art_c96e0c9bd5851f389ac26d46457e3f950606383c55a2e2674521a82f2c9ccdfa
+        sha256: 8428ede8c1c501834765c9f886d14ec913cc08c0cdec9fc79648e9fb8cae97b3
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/Libavcodec
+        artifact_id: art_2a1c6f5b7597324e451c005d94f5b3df808aa4f1301e4f984a01087b05589e92
+        sha256: f3b37bafc30f8eda5475e1aec568e848cb6030156e9479230ebd907d2be264de
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.supf
+        artifact_id: art_a1ce8c6412222815219e2c3f3d309060a12559ac9810db9dc33081f51fd994b6
+        sha256: 082bdf40266f50464f44871ab1a2c0447d95873fc2c88b60ee01b3bb6db4314c
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.supp
+        artifact_id: art_9d96bf449b731c75e94c140b6fc747c48fb0e45a6c23a4242e4f80942c8a8b60
+        sha256: e3965935e05980501a88e8e50e5cb4bd858d45aadbc8ad27ca1dccc1560c1210
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.v4.supp
+        artifact_id: art_480673951d5fb01b988dc453bacfdf4f007af31dd5ea95d005899005a0f1d2f0
+        sha256: 139afbbdc3fad7aa5766040f1108e2fce78591cbd9f9ad9edb4789d0f2b50400
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/SC_Info/Libavcodec.v5.supf
+        artifact_id: art_4a828b759f931a69303e458e48f09fbc88a08582270ca26eef5b864812ad88ab
+        sha256: 3f08fd3d0c9f57ecce2a671da40f284cc04c6ed9cb3a9bd3aeecdf722271cab0
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_cc79cac1874ed78ac545f6e681a14e07b38138073a42fa29699740e63a238122
+        sha256: 9dda95f5fc482110a2f3d181e7f97631cceb9555a7d81077142e4ab49eab1dc6
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/Info.plist
+        artifact_id: art_bdd32feb92b60b022ada73c001b449631278e98f1dd27e4eae7f523c2ecd1584
+        sha256: 20152a4ca7fe061bd95bf28752e71ca485e2b2659c37d62d7a8764d7daca5efb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/Libavdevice
+        artifact_id: art_c8b814efbf15e9b683a4c67f615b8d9fb31841c84e842449b673db5acfa2907d
+        sha256: 92e1af927b01f0c4afa63d300d26226bc94bfa4d7012727c11b43e0e1da4ebc2
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.supf
+        artifact_id: art_3965ab66e934febdfefb11bd064ad300109709e1ea1d68c343538ca1bf0660bd
+        sha256: eabae28e08c55600db59a8fec11b6e53e20bd93fd306145f725e6bb3c0a04f50
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.supp
+        artifact_id: art_8b974bafb4448411082618a242abe563c06061206530ebbd728c2eca026b79f5
+        sha256: 3d46fec54c017584ec2633f678cad423c6c0410be17e601746f22a0250f5fa7a
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.v4.supp
+        artifact_id: art_d3e42f9cb13509885a177bc5b805e0741ac72022612d447768a88d9238c51eb6
+        sha256: add6feb398e4f1ccb3a5e014d50472c024f41c6593ff7be8ad112ad9e4d56fa2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/SC_Info/Libavdevice.v5.supf
+        artifact_id: art_bbdecffcdc8204648e3ed82d6c614b859582bf1b7bcd1ab5a56f1d0e44b91f4b
+        sha256: 7fe7403ad6e08ec764807ad1d0d9ddfc587cb1b32d6ab6dbce1364a56ff96003
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_3425f861963952e566797956892b7c65ffeaa4c10bff72a24e5df4952e0d0d10
+        sha256: 0fa3c645dcdcf69199858a759752ceb174ec643a2efa7500f6ce2ce62ecc25a1
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/Info.plist
+        artifact_id: art_e1bef429275a2541f2879a4e82cb0926498519313181f87d42aff8354c0efe2c
+        sha256: 01ceae3475751e2385739708e94c1ff49cae67d172debc28ff688afc73040008
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/Libavfilter
+        artifact_id: art_b8019f988280b85697de5c07e043796a80838d1c1390428382dc44a451ba2be3
+        sha256: 32f8f25188fc7a74b9b866c03083dc060427216777791e4abb27ad92bc2bf7e3
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.supf
+        artifact_id: art_481b5b3779c4c698e472a722bfb78ae52d47578ad509f59d8212c6c257090310
+        sha256: 1fe1bfc7d3eee5eef5712c29344bcf58b6abe4811cac5a874a6291a04aaa6f18
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.supp
+        artifact_id: art_8e418f5daedc8bd88b32aba87bc0d219c6de8d081ddb758eafc7c6cbc95b9fcf
+        sha256: ee810d3162f427a3443c867cc32597aa2cbad3d8e3805dd925f950c094fe2378
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.v4.supp
+        artifact_id: art_a29cc269e64e9b50e02808f45f4c5a48537b8dab86f3886f489dc60e40f99963
+        sha256: 1cb32f999b5d9afe1e7eeaee64f3da891eb82687859be9cd7cd39ebc45a2bf5c
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/SC_Info/Libavfilter.v5.supf
+        artifact_id: art_7d5c9fdda6e84f1b4020183787ffc2de235df52a78d3932677d0e7b53ca68d7b
+        sha256: 10d0a57fa8b8536b4a26228be034ed91acf234479446ef5383e5c1852b08ce97
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_42758f390c241712093f45207285ad753862ab17046b63d541c6007774fd6942
+        sha256: a13216d93402816dc7f600ba8866b60c3d8ac78b89b99a9e6592ab216abecdfb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/Info.plist
+        artifact_id: art_8b0067fb5e9d7c0d479ae129729b4856abc6cad9d0519e82e1e4c655d8d44435
+        sha256: 4c76ca1f816a2ca51a9b5d7781eafc125d91e1f6a19d2d6951e1bbc82aaaed46
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/Libavformat
+        artifact_id: art_84301faa5792765950eab249e4ce8e05e1712d07faec5fd1270dcf959edc9385
+        sha256: ecc3220d608bd27b1c76f2704ba7973c3c3459191b369366281b09ec231c0055
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.supf
+        artifact_id: art_4895746e68c7a31b5e4dcaf8a9c475746b62869d3d5388e479af76c80ed7c7f2
+        sha256: 89118a405d3927d284e795bd397ca95bf119b02afb9570b4d50f86a7616b7250
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.supp
+        artifact_id: art_32d4c391f446ad0cfad46f93ca09cfc4f7b3d250969785e4d6c2587474c57270
+        sha256: 1f1bd70b52d19bc5b636e6cb2d448ed828ff1255989faa3fd43e30e6597c26a8
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.v4.supp
+        artifact_id: art_3059537b7acd399e8cc1bb1afc71a00d3f4ce56ed0dd76905ba31f915395e0fa
+        sha256: dcfa2cb76b2d9e53929bc1c94af84de11d088d62afef3db1bd4a7bf64f0c0d3f
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/SC_Info/Libavformat.v5.supf
+        artifact_id: art_8fd09472831de5ac75a2abb00929e2624aec2476dc2f90c582e3dc417b1d2935
+        sha256: 55ad7f8aeabae68fbd1fd2c8c9cb15d261800266c0a04143d9c8ec680507d36a
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_91cf1f09f10474901dae25a567e858c5bec23fd36e696916371b05ad17f9d633
+        sha256: 679a1c20ea7f6fa93194909af6c39a2fd0750a144290c2d924b0e8e91a780424
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/Info.plist
+        artifact_id: art_f26374656644d528ae9c48dcd4824fd0011d7f789aa162ea8efd04fa84f55c97
+        sha256: c39509c9f2e03b6df17527d453db84213bb9e39f9f9b1f639c05672bdfff8675
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/Libavutil
+        artifact_id: art_5bfd68e7a3d390b23a439bb479623e91a9e71d4bea18cad50bc3eec0b30439e5
+        sha256: 8ed97276fd1d3ad8ecc4c32c2c24571edce79579c309af3270ac2694909d092d
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.supf
+        artifact_id: art_b437eadf7713f656dba66daafde6cd53a15ca1962f3a51318793a34b7dff51c9
+        sha256: 94f592144775ab82f9752f3bd16f237468b780ead745e92b3a62a820fc1bce50
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.supp
+        artifact_id: art_7f3c1c7a15c01921f4bbfe57b46b4663c96687fbb7024bf837b899643589c66e
+        sha256: 72879a1fe37894c5aebba78d652da4ce39219443a76b7149a7589e650b45f923
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.v4.supp
+        artifact_id: art_e8e27285c238118682b2d50e94e8b953c7e59e0930712d9ab44dc2b1c89c368c
+        sha256: 457a733518e13dfd3d3320f0f21d441782a58adb8abd4f75f6cc900bbb1eb14e
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/SC_Info/Libavutil.v5.supf
+        artifact_id: art_b87946dd4fdcd5825bf73d09010fbf74d6a4316fd5f8d2652a14f1ab9eba8e3e
+        sha256: 60487d6c595dcbb98be3f8b1a38c8c05240be4a53920391fa175258338287fb2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_00df11465a0fd3d6aaae77364a2b610dd9051f7573807d0e1d9f579170a7c387
+        sha256: 98d2b9c25e12f58b310b6240e09db4f93c530b820a06408d9dfe6f8a6a38fbd4
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/Info.plist
+        artifact_id: art_aa60cf2cd73b1c467b6d5d0e253ac1161cb2bda36f2360e4a5fb1d13e53e32f7
+        sha256: 6111f29a779aebce708b765a4834ac9a49623f80dd68678429d47c37f5a11767
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/Libswresample
+        artifact_id: art_8079b79d016eb175bc42febec269b8d656f28dc9d424b70bf1f4b571a18fa8b8
+        sha256: bc35defc9f8d03aeb1ec71ac892fa1337f8383d1e8b4ca13195801552bcd562a
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.supf
+        artifact_id: art_a00884e329158af53c093f8136604fd78a5a008d59bfa1007b4361a9a195ed69
+        sha256: bd9c651bf09344f4704aa8879be05efc46680654caa28bb72bfa01d7451dbb89
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.supp
+        artifact_id: art_8049a7d50eb1cca71f595ecda514c3d985dc0b56bd632d4928da4cd5ba8ba2d5
+        sha256: 541a3c9ff6f4d55ec59c17e5bc952ad4dbffffab4e626a212ea86da1d2eae072
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.v4.supp
+        artifact_id: art_b6b735650f2be3d425792201dce4d022fa825708fc90f1954b0130dfd9aa7750
+        sha256: d26ca4d85ef1b051f24249e8e44b48c6daa562450ad8f19f7b75a15c4d0bd51e
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/SC_Info/Libswresample.v5.supf
+        artifact_id: art_a70a0a8fc54caefc4f9a5ea3e9ccd15db2a844faeb6ac1d3c7f842e6e4223826
+        sha256: e089cd3d021775850f725847ee36b55539c888edff41091dec3f830ce7e8381a
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_61d7c6fead9a8c32400c1b79927dd0b6370ac77f62292de51f8fbf188b057588
+        sha256: 2fbf8a51c6922ac0ddb9b286eb76042cf060a4bb75751e5639452d57b9d1fd14
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/Info.plist
+        artifact_id: art_058f5ddf7012ae7fc0e71d890f2830cebb9a9b15dd6663032f5930d729f746a5
+        sha256: 8c257b7d88a0abee702408c9fe94eee59f67b48e1b80e9b220ddf44201c46cdf
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/Libswscale
+        artifact_id: art_82de7b4f5642a534ca81aaf72356006221404b06dfab8769eedfcb9d2a7c8938
+        sha256: 9848c0a566ee559969da4c585a171aa1af00c667437a1421590fd0156139e66c
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.supf
+        artifact_id: art_7e4da1c7bf576c0fff713b0a9830cc186d596904e083fdba650494f4f3ac3c55
+        sha256: f8677d13d88312cc2654a7507fa3f1a229a0e09601306246f4d8b6ead3171ee6
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.supp
+        artifact_id: art_975eb7910cb3ec1c5f4473ff88fae3dd30f09c49723c93e25476ed69b318a0ba
+        sha256: e8e97de3cef46efbe444d24c95ec5f23fa802bbe0785abd51e8f796a6fde3d60
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.v4.supp
+        artifact_id: art_2ca0c17d920b7442852c5068f29dc5e8d2fa4f9a4886c7c5e62df2c9db1ee42e
+        sha256: 10aa4d7a719b3dfefe3e7a2315691d5befa699af973b476a9a8f16963373e00b
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/SC_Info/Libswscale.v5.supf
+        artifact_id: art_b08b110960be05dd86bafc479afa384fcec41c14c434fb58a21c667b57e46bce
+        sha256: b2363b2f4328465a1b9aa9203ab4f34140aa3e39640762dee61dfb88cc46bb1a
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_6e031135d3f1345f0c42775874f33fb23cae0e70724ea5376199847cc79bc2c3
+        sha256: a9d1964af7c8d735e6fb3c84afff042064437d0ada602c3299fa91076b20ef5a
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/Info.plist
+        artifact_id: art_abfdcf5aeb1a99e2737bf674732d7819795678de22085bc0581e64d24d1980b5
+        sha256: 7dd3b1710a0d19412cbbe64f4ff45ca0c774a3559ec9badc6f34f16d5ad1584a
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/MoltenVK
+        artifact_id: art_93586f929dcbc75d182c0e202627d31cc79ceabcfe141d25c60767a0a898e8b4
+        sha256: 7b3d180e560a40e01cfc77d26a930552561a779099f562809cd7e1eb30b04bec
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/SC_Info/MoltenVK.supf
+        artifact_id: art_75dcda4a3b519b1eb99c47c14141e71f5f52ef0c944d294b8c64e2b84996b6f4
+        sha256: a97e3fdbf44e29180cf5eb330f5bc1574fadad29718e692dc9d9297a6c8a633d
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/SC_Info/MoltenVK.supp
+        artifact_id: art_9aa212a8945a2323261eda95a28feb97cfd96b90eb605896e183a60dc9479480
+        sha256: 5377c3d959a2f7f4a6e6953c3de14ac71dcc709af77fb55be314815ebc0c1c09
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/SC_Info/MoltenVK.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/SC_Info/MoltenVK.v4.supp
+        artifact_id: art_20776107cb76aab5d52721a3b4e7c31be969acca13bb3e08d338d83274b51a16
+        sha256: 37f5253aaa6c0a89ac2ef83379c8411c5df9aad98ff6e6138fb57e541ad9809c
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/SC_Info/MoltenVK.v5.supf
+        artifact_id: art_999c43b6866f5bbc281be170bf21240c7635a5e9cec6b79958091879d682e1fe
+        sha256: 6f1e8c6bfaf2f394497f575ca60ed4ac99554247f8ad4068ffb3191cbb686c17
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/_CodeSignature/CodeResources
+        artifact_id: art_5a70ee90a1d80c4c1909492523731dd7abbdb9d3a7e696c4af2ad8f573e78d4f
+        sha256: 2721bb0b4d9e9bafc4220b43cd8b73f52f2675ed1a52566fbef02b1b618dbb92
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/Info.plist
+        artifact_id: art_6d20706c767c873cfc6377841cbe12c5b35f695b5705c4d570a7a725fdd13cc5
+        sha256: a7a4cabd876e4dad27900c4dbf565543dbca7421cf283b5d4ad12f271f161e2e
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/ObjectAudio
+        artifact_id: art_86741b15f38970634dade9dc776c91b3dc50e2c17d363a66c08ee50b771775f5
+        sha256: eabcdabe2a00e3b2c2782c8853f2f2ba9f95d2fde86801b1283d88149b3a2615
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/SC_Info/ObjectAudio.supf
+        artifact_id: art_815359eb02f6614ddaadb56b0f8b2257bbda557294ff7679e2f6c18819e2d3cf
+        sha256: 48277393cf174cb72494c944c9e96134d79187a227c09c83a44803a83c4cb908
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/SC_Info/ObjectAudio.supp
+        artifact_id: art_11a523a8353a3824bce8b894a065ae6d7e07b6760cb6d79488bbd36c182804e5
+        sha256: ccff0bf94a5bb4facb1f43b8c76a74d08df7152cced759f691d5ac78d7d70fb0
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/SC_Info/ObjectAudio.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/SC_Info/ObjectAudio.v4.supp
+        artifact_id: art_e75f91eb292bae4b8e41cac55a8853a5a047d6525f943950ef7adddf6777d35b
+        sha256: 8329f0ba5c999851361c56e9dcbe92956f9df41d0304cdb51d615de48a0f9465
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/SC_Info/ObjectAudio.v5.supf
+        artifact_id: art_81cc36c64d4d2767983c8b379b4d6dc8ff4ad25a65451b5d71d08118fc9d03d7
+        sha256: ea5488072f11f2da730d0c9eb516fb10c1200ce4a8aea71d4a683f0e559ef1ce
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/_CodeSignature/CodeResources
+        artifact_id: art_21b9327ec8a3447dae3914d580f6c3d0385bc4695be64498c56d220711a51ced
+        sha256: 7b5bedc22450fb7746c1bb4a4d323edb7c5e164397f37724177dc0f90ebe8ff0
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/Info.plist
+        artifact_id: art_8f9bac8997d166eca246a3eb6d777a1b6c145fdfaf60dc4b3028af80a696af16
+        sha256: a61118b2a8bdaae00d5645ad86c5923e77c118b85c471c2c51da824395831deb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/Licenses/LICENSE
+        artifact_id: art_ba95818dd0def51ebcbe4b74c6cfa98dead189e6c4b77423892aa92d4eef26db
+        sha256: 07e0b18002d1bb9c04e60478860160521e6a0cd4c5849cdfbdacdc0c1f5ebd3f
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/Licenses/LICENSE-APACHE
+        artifact_id: art_7e5d0ad7072d741e278f4c09d734907fb6e082f825dbf4d31e1ec54633f168cd
+        sha256: 0b137648922ebbb5e5d1188ec08b5e2e7873e7eab282d039d8db740cba5bd805
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/Licenses/NOTICE
+        artifact_id: art_84d51ddce958c70605e8493164edad1dd207c9208a12b0193335a4824419aebd
+        sha256: 57f7b06a3eb3fbd6d2e8a5a96866dec1d68738532bb1e93e816981a3e2bbf703
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/SC_Info/TrueHD.supf
+        artifact_id: art_bffcdc9bc3a601515a1af1d74177c5f4575fddae3d83a3d8194dfd7cd2016c06
+        sha256: afc6ba8e2cfb1aae173ad2f9e21bdb80c2ef9cb5d1b8c3fbf85e5f35f917317f
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/SC_Info/TrueHD.supp
+        artifact_id: art_743587c7f3c9200b5b95775c37f7bfea32ce49d4f8a4b428825123f3ecd7ed49
+        sha256: b092cb4d76159474fedcdd7f708161f02f15a193951514c9618c9161f3eb3c97
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/SC_Info/TrueHD.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/SC_Info/TrueHD.v4.supp
+        artifact_id: art_41ec085c6294ab457662494b7d3acb56c70c16b1c94f715ffce282dee3642e49
+        sha256: 1da073aae2dabf9305f29ec7f39671826aff4116e3c6ca030ae6f3369ccfe072
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/SC_Info/TrueHD.v5.supf
+        artifact_id: art_aee819bbedc8e94d88128c86da1a9a22bd19f43bcfd9d659b6423e96c604ebe0
+        sha256: 8c19f3b6907eb8d5ce779c1eebfa9540cb540fa855e2020614d9de89ff5031e7
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/TrueHD
+        artifact_id: art_9f324e9c285e40db54e91212d00c2d1efeeb54cfe8e76f70984530e6ae3aef78
+        sha256: 1e330c166e05880fdcfc9ab54cf5dac08a294ce68046c3f23858c496d2099f8b
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/_CodeSignature/CodeResources
+        artifact_id: art_bca016eecea2606c173a70f02961f46b88544e40b43c8c1a3192f07ccf4ad2c6
+        sha256: 2b90b6105524d0e1aa10709872574591ad15bea74b20124f7abf6161ec604753
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/Info.plist
+        artifact_id: art_b917dfbac5f888126527309ec71eb41537887e6f5945ee971177023a95c84eb6
+        sha256: b895a657413eab921b6194f3671d099f928a0a1b7000b5509ca6892a24a3e34c
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/SC_Info/lcms2.supf
+        artifact_id: art_7e0a7bc7f2ec514b5f064a0ddf3a233217463efef4ec0949f34bd8abff1674b8
+        sha256: 8f2f2870fe1650d46d02e0fe12ef70c82ef371089cdb38822f76d18b7db3096b
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/SC_Info/lcms2.supp
+        artifact_id: art_d4ec95566a7ad11785ba51c64f0553f35ad4af12e35f9d8464df20c1e569e028
+        sha256: af4099547dfd2da5fb54302a2a1f10836ebf461cb227ec0225d7f97b2ff6cf55
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/SC_Info/lcms2.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/SC_Info/lcms2.v4.supp
+        artifact_id: art_d1ffd46cd6095de5c5239eba22d209e348718afe6c08031b0d771ece0b54628b
+        sha256: 7d919b571deb47b697c35b473b3cc9720736374931cd08f1a81dddd80b64ad4e
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/SC_Info/lcms2.v5.supf
+        artifact_id: art_31959ee2538e2118b419dfcf0501ef816cca3d4e33d9b6f0a00ee054111ab34b
+        sha256: 847dd8ce5d57d24b6451f14927b1a1044fa14ba73e9c9fc2d189f1409a3738da
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/_CodeSignature/CodeResources
+        artifact_id: art_17426f2428265eb5a10c84b139d3bcae264217be0b625f0ba53f60c12add01be
+        sha256: 29d36ada9e2ebfb05fcc4eda051a8997be1e0bbbf18a13836ca2f8789b49192f
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/lcms2
+        artifact_id: art_288150dbbba97ad839cf57c4e5dad42a784e978031d2c8b9ad079ec4f2e7a4e9
+        sha256: fd13367243507a74b298f99b2e429f9f3cd76760bafe1120660b4e0d8dc9ecaf
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/Info.plist
+        artifact_id: art_a657f53f66d76b7b1e555036e33efcdd955c0aea6a195c1265028a7eb8582ec9
+        sha256: f90adec43706f2b7bdb7937e2b1f6b776623b9f6ae5394794b6ecebd5db397e4
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/SC_Info/libass.supf
+        artifact_id: art_d50b83d956682d773e691276cdacdf3f9b0de60f7287b043bc2e876a36ded4b2
+        sha256: 8a96cbe974db3da9327eb0cf2b19c8ea53f1f75c345cd68d55d2d239d94b1ba5
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/SC_Info/libass.supp
+        artifact_id: art_50bdd4887f93915566f5b25bed16567f08dfab0565a1f75e76c3eca771d87e0b
+        sha256: 9da80040c236b00c8c0a6e90982a7e3cf9965a87077513624c68cfd55352de82
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/SC_Info/libass.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/SC_Info/libass.v4.supp
+        artifact_id: art_2e1faace15bc9f6e5591b67a21d7ebef280df9c95ecaec7cd18c3e542f155b04
+        sha256: 089e8bdfdbd6b89123c50e37646b863c053271e6c7d63022d6707ad45c133486
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/SC_Info/libass.v5.supf
+        artifact_id: art_31959ee2538e2118b419dfcf0501ef816cca3d4e33d9b6f0a00ee054111ab34b
+        sha256: 847dd8ce5d57d24b6451f14927b1a1044fa14ba73e9c9fc2d189f1409a3738da
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+        artifact_id: art_97670cab3dadb064454a916f7abe98436cf0ea5c34548fc4e743220c2d331de9
+        sha256: 7a57942e531b5dabec5b6c4744f4c9d96684d3237f7bfe4aac1b6e00a1e062c2
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/libass
+        artifact_id: art_cadef4f4581ca7296a672020d72f718ea3c1ed2819bf381743e60b263c1db75e
+        sha256: f17a84c0cecb49a00225c070fb195c841e614de85a1be5d44f1f64f43774812b
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/Info.plist
+        artifact_id: art_7edeffd0e286cb3c8319dbcd18b498474bb855f4f3aece0b728d7a64ba0e3dee
+        sha256: 18f2310421bd53bcb92ee83bbab32b1d046c7926a87a392264829592dedaf76e
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supf
+        artifact_id: art_5325f25e6f78064e262f86688ebdfae9de0ebc4504317561c43cd62f1658ae14
+        sha256: 0960ffd5dfa46658e2e9b40c73d9b5186a9f16c7fe391fe776f81791c9597278
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supp
+        artifact_id: art_8fc9071753242205ce9468a350a75a2bb07ecd0b010d8f618333ed874b9cb2bf
+        sha256: 58e6a03b11dc23fb0025cfa4256e82121d5cf08aeb4f11f3920bd9a49de25fcf
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.v4.supp
+        artifact_id: art_dbdfa09f6b9b54cfe6a82d5c1c3f2e8ad0015433d9b8c80f6f390c77b50013b8
+        sha256: 7246be6f33fbcc7de8dc1da9837848c17316c357238d2d008aff4984df69c90b
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/SC_Info/libcrypto.v5.supf
+        artifact_id: art_e4ae16d7d6d951cde7454748efdbd39db42d7115b96db3e3e9a0f140e41c6f3a
+        sha256: 6b0325d5d8a621fa938d94f776854f631a159a5eb88142b5972066311aabff6e
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+        artifact_id: art_c0e79fb765e1f280562d2397f4fce5d69ff61c86681a51e005920e7a562db9a0
+        sha256: 5fa5c8572b460675dcc85040340355c5129fb08cbd4e292b2223813f34a4e6f1
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/libcrypto
+        artifact_id: art_5672b7a5065e6c4b3a4eb65d4fb4678547242d26843243f33cb8fb0d168e5c23
+        sha256: 4a69fff6a08a882ba40689fb60491660ac6562e9b4aaa314dd5ee0b9a506349e
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/Info.plist
+        artifact_id: art_5b6f683167adf279f4c27c8d6534aa3951da15e6d56d898f724403dadfd905e5
+        sha256: 363ccbdd464f46de49f1936f013af5e4005dd18a609aeba2e7e2573a590af0bb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supf
+        artifact_id: art_e0865bfb13f237fba36d224fa3d4cfae84b45fee577621c500bb12aae433a830
+        sha256: d76eb601e274ede6ccdffdacc4802cd88287e16c6f4e2dae647e9031d2800668
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supp
+        artifact_id: art_eb241f2654c60d7a6603c4d2e88d18bf3b8d0949abd2926255fd2e4a706290e0
+        sha256: 7986ef3b4c8bd13f904fe73982bbae54faee02d4e0e4bbc637ae3a8d2f6127db
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.v4.supp
+        artifact_id: art_2a0776fe959b91de7309ef8f5a02e8113233e7ba6b727eb01219db03d66dff87
+        sha256: a3461b9b52c2fa80c56fb7ad014419332158092c61fe65bb86d34495b58fed7e
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/SC_Info/libdav1d.v5.supf
+        artifact_id: art_ce204c6284cbaffba6f6457d6afb1f7d9a13cf0c364c2c7b978a68a941cd8ec2
+        sha256: d20d81e8aa385bcbb025de6e02eeacfaf6c09413c09609414dc278170aa01f99
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+        artifact_id: art_9a89c0d1ddbada2508bf1f0ab95b7deed623b81964f1040dce65e8c725012558
+        sha256: 4415e667f520928e1552d30e0b137470f58c877f0d0d01fdffc7a03e1d6634c4
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/libdav1d
+        artifact_id: art_e0e3a4237171d7c2267cbd0710b7493594ff04f85da48d38cc0a4778ea505eff
+        sha256: 2d999cd94776d89ba9f8c8e722bd29b78dcffca7cf851e799d78c7afb46ea136
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/Info.plist
+        artifact_id: art_b78ebb7fb457a95e074c9637623150c28fdc8a481fe2a7f60d75ce499fe67afb
+        sha256: 7bfbda6c2d763c6e0a501f6b2b7bc4c24c4e644a87eb897b9e28ae0e83697356
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/SC_Info/libdovi.supf
+        artifact_id: art_b3471e6b74508a672d085004d2c41e91995d732c4ed6dbe8253d9cef9fe1fbb9
+        sha256: c0ecffc278790c6f6b2a43c1b89234fbe1defe68f24a5fb629117cefba9cd1a0
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/SC_Info/libdovi.supp
+        artifact_id: art_587026dd0c13117e9a8ca7866538b782dfc2af43792e00f357ce44e0985d5cac
+        sha256: 15f5c33d6427746fb2eaeeee036bd12056bfcd82a730fbd892363895e9ea3f5a
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/SC_Info/libdovi.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/SC_Info/libdovi.v4.supp
+        artifact_id: art_dbcec2cdbde0427f2e22c07d20d7d9892d6addb8c41b7e05d37a6b4f80765872
+        sha256: 164e6f49bfaff05e132094eedd8a1c8cf3c314baa38d79d41d3eaecb2f05cbd6
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/SC_Info/libdovi.v5.supf
+        artifact_id: art_c071e99518eadeeed31afe41cdd5f4a70ec394ca74d5168f65492ecc842a51e9
+        sha256: e889b8326d53fdbbcadd2057e1a47ff013e202871dec29cedb2d49b6a9e529e0
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+        artifact_id: art_c47bccf290068209cfed12ae67bcc3480ba960078b39fa79f7e2518499d10dc7
+        sha256: 8c658cf2c844a3239ac81abba2add7109b6e841962d092b5bde1af45668c4b74
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/libdovi
+        artifact_id: art_b5da4f70e93b073a41640b40014b657c0280546dc4f235c5c5e3f7d434139a2b
+        sha256: de503ecff8a1cfa2a6af4b48a733401ec101c20219e63abe1ea9d293697d0846
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/Info.plist
+        artifact_id: art_adab0b2a5e1b0c0f7a0de3499efba8faccc11925a96d19b521e5dc9af09781a1
+        sha256: bc3145e151f7842da688024cb6cf86bfa78f2d99abc1242b1347bb5c4bd56be8
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supf
+        artifact_id: art_81cdd8cd81306df0fed71a839f3ef3307afbd18a4d1afdc3ecabc25a5a1b830b
+        sha256: a8ced647c1b05d4e6527b90b32cb2802fe5b8340e758fe8ea99f5ce23b1ea3e8
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supp
+        artifact_id: art_7c51465e20a42cf89a3f1ccad1d12b692f8b64d2c4c473e32a4a2d7c9b05ad11
+        sha256: ecd7daa268fdd5e3fcd754cc2083978390b577c6cc1ed793b25b0114eb727c06
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.v4.supp
+        artifact_id: art_4774b9c72d15f3532ce3b678722bc1f04930cf4d219d23a49ede5d39b2d15f57
+        sha256: 829ae02ee9939122f1cc26c1a058c7d0ff40ebf6e6ace3701e6c33ae9d83ee56
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/SC_Info/libfontconfig.v5.supf
+        artifact_id: art_bcb556f6fe0d3114e2717bd1e0da0de28906b6330adde3aa0e2d0eaa02d393e5
+        sha256: 5c497e64917f611dbff598d9a5f1273907e3f99c053909cddd793aad0eddd740
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+        artifact_id: art_7ebeec91b9162677b7e2eea69f852d3b8c6f4c63731d6fa3800f9fd74c87784d
+        sha256: 3992957c71afa09335a841aadf58b017861e104751e30e0baa52a4dbfbefed20
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/libfontconfig
+        artifact_id: art_9dd30914a40f6ce604f27c9a65fab29143f4412546c92326356ed83034f04628
+        sha256: 18c3eb70cf9442e1405b9779fa0d2c9bb57369ad240b031c6a86730d876ccd65
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/Info.plist
+        artifact_id: art_3f6dd7501666626650dfafb80edd81289924b04ff9c0792e04c221eec6de4fa1
+        sha256: 854060310d95689075e3c985d177a0485248003379d04c3141e61799571a5bba
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supf
+        artifact_id: art_4fc0f1b9606058c5eb90dfa8bcd0bacb5e501f5c87f48ee46e9ae768588b2579
+        sha256: ae862bf3530d0954e12e0fb6b3afc6ee0e309eb20f72e26e1e662753946d6956
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supp
+        artifact_id: art_d00eb3aab661f4e2d3e5a0b6b4388cd8990a63c77db1f588fcbea2d9412e0e39
+        sha256: 591639f740cc552bb6d97ecdd30aff37e385fbe416cae80462612781b1a45e09
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.v4.supp
+        artifact_id: art_dbcec2cdbde0427f2e22c07d20d7d9892d6addb8c41b7e05d37a6b4f80765872
+        sha256: 164e6f49bfaff05e132094eedd8a1c8cf3c314baa38d79d41d3eaecb2f05cbd6
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/SC_Info/libfreetype.v5.supf
+        artifact_id: art_a4c6604327cb5729a6b6b8108a77a2451c13ac5423fb213c6415915d57c1f0d4
+        sha256: 3e08e3661614dc1224094d1b77b688870b35bfb7407c003005ced9c25fcc2014
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+        artifact_id: art_f8687d435cef1a77836a4051ac8759d90ba544ec0f1a84af92819cb9a97bbccf
+        sha256: de9344afd305776ccacf9db389c2a81228908d17fe4aab62d6ecf2b999dec1b1
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/libfreetype
+        artifact_id: art_ce5108dd6f25c5a44426ccbce196ee4b1141873f5a7e69adee06d84a4d2997b6
+        sha256: 9ef49ae0456e3f17a389660fe13652335e34d5a47b4dc6c20d429beb56d38215
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/Info.plist
+        artifact_id: art_f523a3a782df263e72296f6e04f0195af1174b05e448b6959580077e47737b24
+        sha256: 96545227b80d9fdb3bd5d168b53d7b81e51e3cd268a963c6cee3e9c6e512db8a
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supf
+        artifact_id: art_3ff1145d167fd6cc6e5d60ec4d453593a99afd444ecb174bba21eafb129625c0
+        sha256: 9bb150a1343674dab83f3161519b7506c01ccad87bde1f0e0d5ae6904063eb52
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supp
+        artifact_id: art_f3c9b4adf70781d7e1e48a89cb5a0dbadaade2677528114fdd32660047a23236
+        sha256: 2bb6acf6b002ccc45b1775233bb4b0ef373116637cdeb6896edad592a01e9479
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.v4.supp
+        artifact_id: art_9ada6fa95cd9fecdf7edfee828369b6dbb1429f8f1bb724bd1697c32d88a392a
+        sha256: 800a4749c61a631d5bb1f63711a5af4518986a09ba461c6d875109e682f32437
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/SC_Info/libfribidi.v5.supf
+        artifact_id: art_9c1505edb63231cb8009205cf4800d8d070a8ccd255d3969a905d816b5ccb098
+        sha256: 24612e343de218be18a08ec8d6e3bab9e5a007887a716d36ab983bd9a9b338eb
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+        artifact_id: art_cb6e9caec1602e9dae4f4c8b6014fa12793bcba574553fe0c68abdc9f0e1acc4
+        sha256: 0796a22f64ca1199113d87164f1abcebd49e37e0ec33d71a8acfa27dac1a4851
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/libfribidi
+        artifact_id: art_cf3758c54d92dead6911e9e196d6b5a4db11241b835afb7f530dac79120bbbb7
+        sha256: a59da8a788fbf5c25c4332e9e52fd16a630129ad27050e8275dd5fad66fc7196
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/Info.plist
+        artifact_id: art_c5ea019282fa944445fab2bba3e256812ee43d807a99e47ecc83da1b68cc6838
+        sha256: 06aafa7a744b9f590affd7b81ed8c3c1275dce1d1e427b138cab2f21fb9f4846
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supf
+        artifact_id: art_25e1ee2700924d9949c0a0fbdaf232569ccaf2dd892691e3596db06ca3a52051
+        sha256: 0694f9c55268ece86d22405538a536a5ec3c4213fa9daddc928f18f70d970cc7
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supp
+        artifact_id: art_d7e67d69aa4c37d2f120d7719db02affdd20498eae10d975d3cf9eb28d98b73e
+        sha256: e077a4ff09513be1434e00536f0bbf8bca2177ceb9cd9bd4c19e9e09ce4631b6
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.v4.supp
+        artifact_id: art_2e1faace15bc9f6e5591b67a21d7ebef280df9c95ecaec7cd18c3e542f155b04
+        sha256: 089e8bdfdbd6b89123c50e37646b863c053271e6c7d63022d6707ad45c133486
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/SC_Info/libharfbuzz.v5.supf
+        artifact_id: art_a4c6604327cb5729a6b6b8108a77a2451c13ac5423fb213c6415915d57c1f0d4
+        sha256: 3e08e3661614dc1224094d1b77b688870b35bfb7407c003005ced9c25fcc2014
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+        artifact_id: art_dbff3357a0c253655b46c9d0d4bb322109076603c26be6accd1049b4a9101219
+        sha256: 57ed68ba9bc8c341ed29f96ca16c84637e1080be426aecee50256bfb587ca4da
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/libharfbuzz
+        artifact_id: art_e51cb86b402319fad0e5b3e220a43070d71940a14330f8f6577f733274d99c49
+        sha256: 890898e597f7d6ecbafe78e3dcdf89f195f34a3067f5c0170004ffb09a331a05
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/Info.plist
+        artifact_id: art_b671dcac0c956423a67f1aeba01ce77d1c49ab6ed1be09c5fdc96c93fbb76b21
+        sha256: eb81cae936df25bc980feb22060b2ff7d7bbaeb1e73ac709d7d8f07d58875286
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/SC_Info/libopus.supf
+        artifact_id: art_8fbc90c12fe220b0e76bc65458812f889747554acc6f0e6dcfdaac8625c052be
+        sha256: e51717d0f3912cfdd3aa1217c74d5fbf92438e299c99e7cab4d8155111b3cf82
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/SC_Info/libopus.supp
+        artifact_id: art_cf7925a9aada25af4b10d936e70a10f19586893c389040ad7f0eb5e8f64febbb
+        sha256: 22ab399ab1e8da12d6fa083a3c1859fb1b97da2e10cbb91f507878e83d5fa165
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/SC_Info/libopus.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/SC_Info/libopus.v4.supp
+        artifact_id: art_1557feed12415e76da115be0a8f0eda2ed60692d03aadd759dd556b78b365de1
+        sha256: c9aa9ec67cf18f7cee2df75334b735a8c45dd1b09b6d9ddccc2e1e7379a9c12f
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/SC_Info/libopus.v5.supf
+        artifact_id: art_bcb556f6fe0d3114e2717bd1e0da0de28906b6330adde3aa0e2d0eaa02d393e5
+        sha256: 5c497e64917f611dbff598d9a5f1273907e3f99c053909cddd793aad0eddd740
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/_CodeSignature/CodeResources
+        artifact_id: art_dc14feb53b793170cdf31e59ebce949682ed110322d9be73c25f228306f5b8ed
+        sha256: c8fdde819e8471ebffe959c1f1c93197c3a2fd5df977c5d5d6440d48eba59bee
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/libopus
+        artifact_id: art_4b6226edef6c6ecf57136c39847d15a77f9610aeb1226aea27f30a93607c2a9f
+        sha256: 3ecd537a3d2c904050a7e0df12a4e520e5c4d9bf4fbb2cb4cebee85ca77e39fe
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/Info.plist
+        artifact_id: art_cd1b6466fd4e98edb4bbd544e298a5ed299d371b87fa097b20c12145f0120642
+        sha256: 35d25409c380fb756134e79bdf3e5bea665991c4c6a455cadc7c3a2b8d718049
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supf
+        artifact_id: art_53c495d8ea87007eae78da9fe30ca3c942aeb7fda58407c5c44618f0ef38a833
+        sha256: 9df4505d6baf15a18582ab9668e573b8e1f688c57e9e268e9c9e4197d33f5b76
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supp
+        artifact_id: art_747befa0c95c9b6c8dd7c55600c0373642dae1bfaec9aa4b199d95ccb2b750f8
+        sha256: 0885e925af28633edbf8a67fff4b2d20875e32c5d79f0eb63859c90c165749df
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.v4.supp
+        artifact_id: art_d27711ec0a8c41a326394eaae53807b8ccb4de102b6e69273f2fb79f270ca6c0
+        sha256: faaa1859381eb55c3066fd02877ed7aab233c9af0a9b8e94787d891fa2897bd0
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/SC_Info/libplacebo.v5.supf
+        artifact_id: art_24061171539c0b8a1531df03280d1a9f64dfd27c09eebaddf5e4c09f1520d9e8
+        sha256: f0f4202ac0bf6b51d25f26011c8cdb2da99b050dfcbd6cc1ade27d608fda11be
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+        artifact_id: art_30c64eb38ce6d03593ead982d3035dcab8563e80ba88433dab0b7ff4192e40b8
+        sha256: fe659e2c29c432bb61282f997bcd1260538089bc4fab0e722d7d0fb636585eea
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/libplacebo
+        artifact_id: art_cf075a5923aa3863d663296789f26c0cc89c488100fa4c2ceea1206df379347e
+        sha256: 3e0c0c490649085925ddd1bafb3f0ab5c3248e45a1f8dede227124224a9f75d8
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/Info.plist
+        artifact_id: art_e44761ad74b9d6d526fe089861baa5d0fff990e7d6b95f3685e2b633f2a18680
+        sha256: 9af8ffe52ebe5282af1f8b2d7e58ebc8e26de426f7be56a879787150619b0f1c
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/SC_Info/libsrt.supf
+        artifact_id: art_33c56e79040e2f1797718f107575f60fc7bfc33de154aa6bf165bb1c609b7226
+        sha256: 0219607b4684af1dc13cab3ad1ed9ebd54e4dabb48ee768fda528591908444b3
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/SC_Info/libsrt.supp
+        artifact_id: art_b2215567bfc80ee2c944332320f7cdd1ad89ac0143e3f892a0df68123205e3a5
+        sha256: 1909c5bb80b111b6754cdb93d80e39a3b261bf9f1035494072da20bc64759687
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/SC_Info/libsrt.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/SC_Info/libsrt.v4.supp
+        artifact_id: art_ba030378862a514dc77dde3bc773a787f7e3891bf4e3897e824aee512501ac20
+        sha256: f10aa22416d3e1293b1f45f210c01f830188afddad85f10352f704819a09bb0d
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/SC_Info/libsrt.v5.supf
+        artifact_id: art_2b33b289be97f7b26f951865dcb2f2edb57dea3b4064b5109a44c88cce9a8c51
+        sha256: 036498be1b16892e05597033b6e7b39f45a899a04c718b4c78294fc4c2eabe26
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/_CodeSignature/CodeResources
+        artifact_id: art_a7ad81d49c4354af891ea80bb2f4f213dca81ac164728524d0cb41dead6011ac
+        sha256: 1578daac1a4cb6e4609b119e0980443805e0d1233ff24dfb8987c1cd8d1931a2
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/libsrt
+        artifact_id: art_c27aa265066c0f0c33d6f933927673aa63704b5eff0dac35c94a962f717461bc
+        sha256: 4b8ca6ca316fe3fe829dfd24324180d42500d3dc62f4993a0afbccc648c55eea
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/Info.plist
+        artifact_id: art_00e27da7784bcd9a6b142bf4d10426f632a1bda8cc23c82753668b90e5f01e40
+        sha256: 3fa2a5ca3417ad7e134de881f6741f47f302e4a60c22cb183ce127bdf1a33717
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/SC_Info/libssl.supf
+        artifact_id: art_d87722f38c1c1a44fcec02f99598f5dedfad403bc94038eecaa27a9bf9c1e906
+        sha256: 06bdcc030b84d56c8bf892193d5b45c69c62dcdefcc8a7833217f7baf5248482
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/SC_Info/libssl.supp
+        artifact_id: art_03a871796ecf4cbd01a6021c6c88ef07f8f1e9a4f2d09fad0023d9044c5acfe6
+        sha256: 17bb638866f4e7578da2c348689639b30f2bc2c88e7a6f18759d509d78b2777a
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/SC_Info/libssl.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/SC_Info/libssl.v4.supp
+        artifact_id: art_1557feed12415e76da115be0a8f0eda2ed60692d03aadd759dd556b78b365de1
+        sha256: c9aa9ec67cf18f7cee2df75334b735a8c45dd1b09b6d9ddccc2e1e7379a9c12f
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/SC_Info/libssl.v5.supf
+        artifact_id: art_bcb556f6fe0d3114e2717bd1e0da0de28906b6330adde3aa0e2d0eaa02d393e5
+        sha256: 5c497e64917f611dbff598d9a5f1273907e3f99c053909cddd793aad0eddd740
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+        artifact_id: art_09acd7fb880579e0f0a6368e76d008927928851c9c6e6661b91b7495d8eade81
+        sha256: a0464b7aefa0d3dc0e9d1b2842b0bcfca302c6117badbcdc84a04bbb39d6189b
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/libssl
+        artifact_id: art_7a60a6c61f39c5d44ac232f5fe8ba5387e08e0291174437eebd796518ce2eab9
+        sha256: 34684eebd098ae9d5f01f4fe091a452fbc6c434e20fff7e37e3f333859c5d656
+        format: mach-o
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/Info.plist
+        artifact_id: art_944963d45dadc9e5f741b69c16801074fb17d736e8002b332b592d2b8000e5f7
+        sha256: 9052a1247591b9bb07bfd9031ef05855bf1765dedc1bb09f1ab1f669d7699a8f
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.supf
+        artifact_id: art_a9a9b70a4e182156dc66065d15fe29da0ef4fa934df01e7d6676567b56db9cac
+        sha256: d46ff145a70d0ce3f964715e2787d1c064da675ba00511e1c0d1926e642bc559
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.supp
+        artifact_id: art_3ba1c1c7894aea258f4d0967fb8eb766e12b085b0fdc52bb4b9bb9b4d1df69aa
+        sha256: 8968ac0e4d95f34964c6d449254f97b0cf66899e280108ea18a81ee2811ce652
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.supx
+        artifact_id: art_fd66735021768c66de69cd2c138b892aac7452ac93de268983e57e8fa77df4f7
+        sha256: f6bfe3a646475c9de9fc7f6f97160372ea6334afa5a6a6fc0c1a0a4cb829e9c2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.v4.supp
+        artifact_id: art_f41a7a75b43dbffca78b293a87d078648a68ff562356e93adbe7b93e4004e479
+        sha256: 9c0aa14eaa8882eab251764aac683321cda98abfeb57b854aae3cb9bfc4220aa
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/SC_Info/libzvbi.v5.supf
+        artifact_id: art_b1f8c99fadc0a6db682d000770e821a881b04f14436595fedb22d5516d887bc5
+        sha256: 523abbe5eaba887d9c92393fe532490cfc9a409ac4b781228e749390e5b8dbf2
+        format: file
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/_CodeSignature/CodeResources
+        artifact_id: art_8e1fb1f81ebfa503af6bf1fee71f78cd4776a5ee48a4806ad28dddd9564c17c0
+        sha256: 586a044967166cd5fe2bf0242347b9e88ff8dab83905c6b3130f4e407839e196
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/libzvbi
+        artifact_id: art_927bc1fcb3067d72cc4424f840dcac5b33db7d6b70c631c2d3ec9465a89bcd7f
+        sha256: 935946bc1375df8548353be5f404fc33a777827ff39527b41213390f946ff628
+        format: mach-o
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/EplayerX.app/Frameworks/AMSMB2.framework/_CodeSignature/CodeResources
+        artifact_id: art_c1c25d30f78012b19a3bfe195af3a2cd53b87418581b5c72c3c88cfed8de7e02
+        sha256: eaab8a6c392337ec033067ca937b0b80d34d53ef95cb011228ce1885b0831083
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/DTSX.framework/_CodeSignature/CodeResources
+        artifact_id: art_dfe5ef9417200dc13a8573f0978e537168db67ea0828177c55b9c60bbc6c8bb4
+        sha256: 92cd37ef6ed8faaf7effc4a3ad8b79484b66f93d25da69b96f9c326ac3dbd64f
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+        artifact_id: art_f90ddd64893f84bc340db5e75a38906223f2a435f0e56b8c8113117616ea644c
+        sha256: 51ac1e57b2d7fdcf2e40f265fd34d5a994334dc2e7acff277514e5d3a92575f6
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+        artifact_id: art_f325696d56a3ff2b366cba7e93a2e0f1c3f77bc574a0db56be53d42526465e04
+        sha256: 1c30e4e2f6a54f4243bb6a20cfb0c0f0eee49378ed557066b08cb8ee9e161ca9
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavcodec.framework/_CodeSignature/CodeResources
+        artifact_id: art_cc79cac1874ed78ac545f6e681a14e07b38138073a42fa29699740e63a238122
+        sha256: 9dda95f5fc482110a2f3d181e7f97631cceb9555a7d81077142e4ab49eab1dc6
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavdevice.framework/_CodeSignature/CodeResources
+        artifact_id: art_3425f861963952e566797956892b7c65ffeaa4c10bff72a24e5df4952e0d0d10
+        sha256: 0fa3c645dcdcf69199858a759752ceb174ec643a2efa7500f6ce2ce62ecc25a1
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavfilter.framework/_CodeSignature/CodeResources
+        artifact_id: art_42758f390c241712093f45207285ad753862ab17046b63d541c6007774fd6942
+        sha256: a13216d93402816dc7f600ba8866b60c3d8ac78b89b99a9e6592ab216abecdfb
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavformat.framework/_CodeSignature/CodeResources
+        artifact_id: art_91cf1f09f10474901dae25a567e858c5bec23fd36e696916371b05ad17f9d633
+        sha256: 679a1c20ea7f6fa93194909af6c39a2fd0750a144290c2d924b0e8e91a780424
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libavutil.framework/_CodeSignature/CodeResources
+        artifact_id: art_00df11465a0fd3d6aaae77364a2b610dd9051f7573807d0e1d9f579170a7c387
+        sha256: 98d2b9c25e12f58b310b6240e09db4f93c530b820a06408d9dfe6f8a6a38fbd4
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswresample.framework/_CodeSignature/CodeResources
+        artifact_id: art_61d7c6fead9a8c32400c1b79927dd0b6370ac77f62292de51f8fbf188b057588
+        sha256: 2fbf8a51c6922ac0ddb9b286eb76042cf060a4bb75751e5639452d57b9d1fd14
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/Libswscale.framework/_CodeSignature/CodeResources
+        artifact_id: art_6e031135d3f1345f0c42775874f33fb23cae0e70724ea5376199847cc79bc2c3
+        sha256: a9d1964af7c8d735e6fb3c84afff042064437d0ada602c3299fa91076b20ef5a
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/MoltenVK.framework/_CodeSignature/CodeResources
+        artifact_id: art_5a70ee90a1d80c4c1909492523731dd7abbdb9d3a7e696c4af2ad8f573e78d4f
+        sha256: 2721bb0b4d9e9bafc4220b43cd8b73f52f2675ed1a52566fbef02b1b618dbb92
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/ObjectAudio.framework/_CodeSignature/CodeResources
+        artifact_id: art_21b9327ec8a3447dae3914d580f6c3d0385bc4695be64498c56d220711a51ced
+        sha256: 7b5bedc22450fb7746c1bb4a4d323edb7c5e164397f37724177dc0f90ebe8ff0
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/TrueHD.framework/_CodeSignature/CodeResources
+        artifact_id: art_bca016eecea2606c173a70f02961f46b88544e40b43c8c1a3192f07ccf4ad2c6
+        sha256: 2b90b6105524d0e1aa10709872574591ad15bea74b20124f7abf6161ec604753
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/lcms2.framework/_CodeSignature/CodeResources
+        artifact_id: art_17426f2428265eb5a10c84b139d3bcae264217be0b625f0ba53f60c12add01be
+        sha256: 29d36ada9e2ebfb05fcc4eda051a8997be1e0bbbf18a13836ca2f8789b49192f
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libass.framework/_CodeSignature/CodeResources
+        artifact_id: art_97670cab3dadb064454a916f7abe98436cf0ea5c34548fc4e743220c2d331de9
+        sha256: 7a57942e531b5dabec5b6c4744f4c9d96684d3237f7bfe4aac1b6e00a1e062c2
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libcrypto.framework/_CodeSignature/CodeResources
+        artifact_id: art_c0e79fb765e1f280562d2397f4fce5d69ff61c86681a51e005920e7a562db9a0
+        sha256: 5fa5c8572b460675dcc85040340355c5129fb08cbd4e292b2223813f34a4e6f1
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdav1d.framework/_CodeSignature/CodeResources
+        artifact_id: art_9a89c0d1ddbada2508bf1f0ab95b7deed623b81964f1040dce65e8c725012558
+        sha256: 4415e667f520928e1552d30e0b137470f58c877f0d0d01fdffc7a03e1d6634c4
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libdovi.framework/_CodeSignature/CodeResources
+        artifact_id: art_c47bccf290068209cfed12ae67bcc3480ba960078b39fa79f7e2518499d10dc7
+        sha256: 8c658cf2c844a3239ac81abba2add7109b6e841962d092b5bde1af45668c4b74
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfontconfig.framework/_CodeSignature/CodeResources
+        artifact_id: art_7ebeec91b9162677b7e2eea69f852d3b8c6f4c63731d6fa3800f9fd74c87784d
+        sha256: 3992957c71afa09335a841aadf58b017861e104751e30e0baa52a4dbfbefed20
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfreetype.framework/_CodeSignature/CodeResources
+        artifact_id: art_f8687d435cef1a77836a4051ac8759d90ba544ec0f1a84af92819cb9a97bbccf
+        sha256: de9344afd305776ccacf9db389c2a81228908d17fe4aab62d6ecf2b999dec1b1
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libfribidi.framework/_CodeSignature/CodeResources
+        artifact_id: art_cb6e9caec1602e9dae4f4c8b6014fa12793bcba574553fe0c68abdc9f0e1acc4
+        sha256: 0796a22f64ca1199113d87164f1abcebd49e37e0ec33d71a8acfa27dac1a4851
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libharfbuzz.framework/_CodeSignature/CodeResources
+        artifact_id: art_dbff3357a0c253655b46c9d0d4bb322109076603c26be6accd1049b4a9101219
+        sha256: 57ed68ba9bc8c341ed29f96ca16c84637e1080be426aecee50256bfb587ca4da
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libopus.framework/_CodeSignature/CodeResources
+        artifact_id: art_dc14feb53b793170cdf31e59ebce949682ed110322d9be73c25f228306f5b8ed
+        sha256: c8fdde819e8471ebffe959c1f1c93197c3a2fd5df977c5d5d6440d48eba59bee
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libplacebo.framework/_CodeSignature/CodeResources
+        artifact_id: art_30c64eb38ce6d03593ead982d3035dcab8563e80ba88433dab0b7ff4192e40b8
+        sha256: fe659e2c29c432bb61282f997bcd1260538089bc4fab0e722d7d0fb636585eea
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libsrt.framework/_CodeSignature/CodeResources
+        artifact_id: art_a7ad81d49c4354af891ea80bb2f4f213dca81ac164728524d0cb41dead6011ac
+        sha256: 1578daac1a4cb6e4609b119e0980443805e0d1233ff24dfb8987c1cd8d1931a2
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libssl.framework/_CodeSignature/CodeResources
+        artifact_id: art_09acd7fb880579e0f0a6368e76d008927928851c9c6e6661b91b7495d8eade81
+        sha256: a0464b7aefa0d3dc0e9d1b2842b0bcfca302c6117badbcdc84a04bbb39d6189b
+        format: plist
+      - path: Payload/EplayerX.app/Frameworks/libzvbi.framework/_CodeSignature/CodeResources
+        artifact_id: art_8e1fb1f81ebfa503af6bf1fee71f78cd4776a5ee48a4806ad28dddd9564c17c0
+        sha256: 586a044967166cd5fe2bf0242347b9e88ff8dab83905c6b3130f4e407839e196
+        format: plist
+      - path: Payload/EplayerX.app/_CodeSignature/CodeResources
+        artifact_id: art_4bf7d3fe7d72994fdee08baadf23c2d13ab1e25c4dbef427ee685ba147435f3b
+        sha256: 69b4f8417bca91bd3638d5d676c09efe1d52ad339961a68f4a31aea04c609fb5
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_4f0cfa4a521fe2e28316872e2515844fed9797f0368d780cf5b23d157f42ed70

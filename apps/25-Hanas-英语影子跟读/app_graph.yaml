@@ -1,0 +1,687 @@
+evidence_id: ev_641b476cb8e5461b865a447965f14648cffac7648f5cf171557133e401792e92
+subject:
+  name: 6757870272_dec.ipa
+  digest:
+    sha256: 7f80ffb19937acd51f66add7794f03c8f8819d3caa57cfd59683760218a9ae56
+  local_path: /opt/data/downloads/batch20/6757870272_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_930cc84ff9ac3e2dba308896686cb3a4e5502dbf22a9c4c11806458320d39d82
+raw_result: null
+normalized_result:
+  projection_id: aap_35042198660826d30a7455286f58db50fc79bfd59c7361ce57f0538f294a547c
+  root_sha256: 7f80ffb19937acd51f66add7794f03c8f8819d3caa57cfd59683760218a9ae56
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_930cc84ff9ac3e2dba308896686cb3a4e5502dbf22a9c4c11806458320d39d82
+  application_roots:
+    - Payload/Hanas.app
+  bundles:
+    - path: Payload/Hanas.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Info.plist
+      executable_candidates:
+        - Payload/Hanas.app/Hanas
+      signing_paths:
+        - Payload/Hanas.app/_CodeSignature/CodeResources
+    - path: Payload/Hanas.app/AppAuthCore_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/AppAuthCore_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/EXConstants.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/EXConstants.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/EXUpdates.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/EXUpdates.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/ExpoApplication_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/ExpoApplication_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/ExpoConstants_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/ExpoConstants_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/ExpoFileSystem_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/ExpoFileSystem_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/ExpoLocalization_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/ExpoLocalization_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/ExpoNotifications_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/ExpoNotifications_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/ExpoSystemUI_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/ExpoSystemUI_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/FBLPromises_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/FBLPromises_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/FirebaseCoreInternal_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/FirebaseCoreInternal_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/FirebaseCore_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/FirebaseCore_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/FirebaseInstallations_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/FirebaseInstallations_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/Frameworks/React.framework
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Frameworks/React.framework/Info.plist
+      executable_candidates:
+        - Payload/Hanas.app/Frameworks/React.framework/React
+      signing_paths:
+        - Payload/Hanas.app/Frameworks/React.framework/_CodeSignature/CodeResources
+    - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/Info.plist
+      executable_candidates:
+        - Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies
+      signing_paths:
+        - Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/_CodeSignature/CodeResources
+    - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle
+      parent_path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle
+      parent_path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle
+      parent_path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/Frameworks/hermes.framework
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: framework
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Frameworks/hermes.framework/Info.plist
+      executable_candidates:
+        - Payload/Hanas.app/Frameworks/hermes.framework/hermes
+      signing_paths:
+        - Payload/Hanas.app/Frameworks/hermes.framework/_CodeSignature/CodeResources
+    - path: Payload/Hanas.app/GTMAppAuth_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/GTMAppAuth_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/GTMSessionFetcher_Core_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/GTMSessionFetcher_Core_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/GoogleSignIn.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/GoogleSignIn.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/GoogleUtilities_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/GoogleUtilities_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/PlugIns/HanasLiveActivity.appex
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/PlugIns/HanasLiveActivity.appex/Info.plist
+      executable_candidates:
+        - Payload/Hanas.app/PlugIns/HanasLiveActivity.appex/HanasLiveActivity
+      signing_paths:
+        - Payload/Hanas.app/PlugIns/HanasLiveActivity.appex/_CodeSignature/CodeResources
+    - path: Payload/Hanas.app/Promises_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/Promises_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/PurchasesHybridCommon.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/PurchasesHybridCommon.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/RNCAsyncStorage_resources.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/RNCAsyncStorage_resources.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/RNSVGFilters.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/RNSVGFilters.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/ReachabilitySwift.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/ReachabilitySwift.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/React-Core_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/React-Core_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/React-cxxreact_privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/React-cxxreact_privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/RevenueCat.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/RevenueCat.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/SDWebImage.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/SDWebImage.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Hanas.app/nanopb_Privacy.bundle
+      parent_path: Payload/Hanas.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Hanas.app/nanopb_Privacy.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+  components:
+    bundle_metadata:
+      - path: Payload/Hanas.app/AppAuthCore_Privacy.bundle/Info.plist
+        artifact_id: art_695ddcf358097e09d7b9418c2ae7e7965f9074ac445df8ab50dffaeaf9b4eb2b
+        sha256: 89b5ca8bfecc2ad4458739c3f33185cf8e1d99c7239742a0f0f463a7c2fd6864
+        format: plist
+      - path: Payload/Hanas.app/EXConstants.bundle/Info.plist
+        artifact_id: art_9ba03cea9da012e4195e2539e9c727a964f11691a1c7daa31656d647eca5c7e7
+        sha256: 3058b75a24b20134862e931033d12dd69c7594bfe8259fd9a42bb25170af1f7a
+        format: plist
+      - path: Payload/Hanas.app/EXUpdates.bundle/Info.plist
+        artifact_id: art_067c0d6a86b9677a1ff3e80710f71200cef0e58c6ed710e4f7b761725a89a5de
+        sha256: 034786cf277475bdadb81ad84227b3d93a88693c594814a2c555b5f92b9422ea
+        format: plist
+      - path: Payload/Hanas.app/ExpoApplication_privacy.bundle/Info.plist
+        artifact_id: art_a40e6ccedc099a17d896a3377e3ccf7cc863ccd1625a5649a18691e4694d489a
+        sha256: b1bf79bd468d2af37a4ba9cd834d3eef2048041e512d73936ebc22e736149d36
+        format: plist
+      - path: Payload/Hanas.app/ExpoConstants_privacy.bundle/Info.plist
+        artifact_id: art_b6f731a2f4f0ff5b83c26f6ef938d37d1415ef1538a97e123ad19179a29f50af
+        sha256: 928b19025e74524d9f0658a57514bf82996c93e4f62da2c1958148b515cf0427
+        format: plist
+      - path: Payload/Hanas.app/ExpoFileSystem_privacy.bundle/Info.plist
+        artifact_id: art_ebd35031d02b6be3ff8078c778920eb2d77967c5a9ae85eee215ccc569371fb3
+        sha256: 7ef0e5b831e30b501e05e811eeb3a82fad55c38da24d5b07c574eb2a624c716e
+        format: plist
+      - path: Payload/Hanas.app/ExpoLocalization_privacy.bundle/Info.plist
+        artifact_id: art_815b1d910309e00874a46baeec19569286172884211edf640b1c0ca3f0a5e2ad
+        sha256: d0ded9118b242e6c6926b80af9ae5e452a041786bfd21c055ea7d70069bfb009
+        format: plist
+      - path: Payload/Hanas.app/ExpoNotifications_privacy.bundle/Info.plist
+        artifact_id: art_8422b05af53b9916930b9402546b63209a12c25176327bb03f2651f94096f6de
+        sha256: b4989b72772edf48c6c3a270278ad888dcccf5a550b1bd846eff0b27a24ffd02
+        format: plist
+      - path: Payload/Hanas.app/ExpoSystemUI_privacy.bundle/Info.plist
+        artifact_id: art_8f9beb833bc88e6ec891bcd7b64d2f6b8095ab66d2b2d4cc28f7539eb1cf90c6
+        sha256: f5aed0cfa5ab5a5475a2a09140a6cd6f905e8fcbc421c0f12edd5fa981593679
+        format: plist
+      - path: Payload/Hanas.app/FBLPromises_Privacy.bundle/Info.plist
+        artifact_id: art_1eeb9a6db47fa19f6ec2b52ce3261c82e1d99dc5fd69c1a7ba433c72422b2680
+        sha256: eea2d94a81725d3d77e33f48052457de51fdc4d562f37c375bb80dddfcc44bff
+        format: plist
+      - path: Payload/Hanas.app/FirebaseCoreInternal_Privacy.bundle/Info.plist
+        artifact_id: art_add986c9f215d2ac1a01c2e7afacad59efaa9505704de821ff8aedb930d495fe
+        sha256: c3211911d469ff5298a26adbda0bd5898ae2ba0b97a7ca7d6419c63facc072c5
+        format: plist
+      - path: Payload/Hanas.app/FirebaseCore_Privacy.bundle/Info.plist
+        artifact_id: art_d9ea712b04762b285eae95c20383b6fa14d6f5a979536d9cccbde3b4b716aa23
+        sha256: 3fb0e99466d5b619ec94fef4baa11865e326131a180e4b51bd02cc5d5caebdcd
+        format: plist
+      - path: Payload/Hanas.app/FirebaseInstallations_Privacy.bundle/Info.plist
+        artifact_id: art_48d05a36471ee2962cd8242ee8ab1a2e34044f49cd4f6997c058ce21d1d445e1
+        sha256: c8a92426e807b8a79749d1c4c6b294f672f0f83ffd5e5d3e5750a2cc8e6bf171
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/React.framework/Info.plist
+        artifact_id: art_992ec3ee03c75b2a914885f496960c9bf3920941b98135621513732b40274f3c
+        sha256: 9802c97d630725bcf28ea88b8730ee5f6f4799a5ccfd991b9cb268de3ba6d692
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/Info.plist
+        artifact_id: art_fe5490da4c8f5e6844e9d8535e0884ff1c2412ff579cfe499a06cc8222542177
+        sha256: 777f0ff9cb1c88a02874646ab77d0d3a28c15013c72f0100f28dedbfee184cbb
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/Info.plist
+        artifact_id: art_3c3d3d96e26991a2a8a1d9f8fb773aaeeabe5a729075304a966e87e9395dfa58
+        sha256: f7f84dbe26d345146e985e85d716b5d95c549455b11756cf485cc642c634d63f
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/Info.plist
+        artifact_id: art_b622354e96fe83b71dad03ac86781cfee5ba4330b30970c6dcd6452bd1c4798f
+        sha256: 3770f4e1d5783115f98c0e41433a5b431cde62ee4fd85923e8519f6fd1018f51
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/Info.plist
+        artifact_id: art_a319c2146c5d18177c66ae7e934b1da3734663a12cdce3b10a71b15f59554488
+        sha256: a54d31cbc493fd5fbcd127f3c7d8181eec8df41eb63838eb28686e0cbc0d44be
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/Info.plist
+        artifact_id: art_05f9399740e8d5d161097e7c9a8c16290d2e99a47640e18f3dea1b142c0341c4
+        sha256: c7871b4e57a3c5c2f5ff528465eb506b9996bfa16f70bcd63eb3cfa7db8a0ab9
+        format: plist
+      - path: Payload/Hanas.app/GTMAppAuth_Privacy.bundle/Info.plist
+        artifact_id: art_ee6a40a2dd1770f3b95dda25815e3f647bdc229a7f6992340b7e009dcecb732c
+        sha256: 6b65c94d4c5628a84e99d90bfdbe1128f43bee908d252a1761ac61f4013f3426
+        format: plist
+      - path: Payload/Hanas.app/GTMSessionFetcher_Core_Privacy.bundle/Info.plist
+        artifact_id: art_52b578b2b8fed75120488efdfd4e54ae1740b93f7f85bd5c59545379dd771c1b
+        sha256: c15a9d3ba9e2474a9fd1a37a1e59be5fa3f4b32288df6b3fc8b72eff1b4d2d5d
+        format: plist
+      - path: Payload/Hanas.app/GoogleSignIn.bundle/Info.plist
+        artifact_id: art_398c4fdc877811d8812d6a302e69e53e48890202437be70672924ce425836fde
+        sha256: bcc6a6ea0df8f1eb4baa13079df5530e73927103cbdbd40aadbfe50b37fedef2
+        format: plist
+      - path: Payload/Hanas.app/GoogleUtilities_Privacy.bundle/Info.plist
+        artifact_id: art_220a8aab1d936836b043ad7cac49c1a1986c350eb28e10343c8e62f657e2a221
+        sha256: 6264ffa21f28379160e28f3d887afa6e152e1629ea0934ffb0833c9f165319ae
+        format: plist
+      - path: Payload/Hanas.app/Info.plist
+        artifact_id: art_3ab59ec491f15329cedcdc4ccfcd36a80f34022d02686ba3ced8be29b447ad26
+        sha256: 669637aac91f6e8e81e17b77c6f1d785150c1a78aa9ebea53f23aefd388a8f89
+        format: plist
+      - path: Payload/Hanas.app/PlugIns/HanasLiveActivity.appex/Info.plist
+        artifact_id: art_5e879cab412b107cac0416b0d5de22994326c567449086cd8e5c51f416cf06bb
+        sha256: ae0b6a11538fe8a4a69bce2fb9e6dbacf58f79f84468df4b375232335836e2b5
+        format: plist
+      - path: Payload/Hanas.app/Promises_Privacy.bundle/Info.plist
+        artifact_id: art_4b3bb408aa5ed54a9d2a30d43b940cc6125ad32718017bba54dc0bce0345c2d3
+        sha256: 662e756ba06d8cfa1331f92f71429c6e0e005682b32f1a8ea5dee9b0bd645173
+        format: plist
+      - path: Payload/Hanas.app/PurchasesHybridCommon.bundle/Info.plist
+        artifact_id: art_b7091dfd24be7f2a7eb4f45cb0e6ecb425da62fe69baf2d5349810b2a593d544
+        sha256: b40b51daa374f44c5614d50a39738bf135b193b89a4e2b2a9c64cd5ae55d96a9
+        format: plist
+      - path: Payload/Hanas.app/RNCAsyncStorage_resources.bundle/Info.plist
+        artifact_id: art_63695296760c7c96b03dca87a9a26778927d5abd0fe726d6ed4265f1625e6c3f
+        sha256: aa6f8cfe0779a043854b7ccd6c03b269e962b9406166fbb1ff0906453885a036
+        format: plist
+      - path: Payload/Hanas.app/RNSVGFilters.bundle/Info.plist
+        artifact_id: art_0a32b4729aca5da0e3d65495f8cb4760922864889c31f70aed3bac4a245e8d02
+        sha256: 45234df912a05e3050dccbcd14cf3a9fc45737723a4e2a72b361f2e8eb851f3c
+        format: plist
+      - path: Payload/Hanas.app/ReachabilitySwift.bundle/Info.plist
+        artifact_id: art_eb8453ac8a57cb4ebb98380331774b6947563ded21852c23bd67fa562b7611c3
+        sha256: f40013f67459dab07d15c3e4b010d300288ba702314f7d60bbb7b658a4fe6ee3
+        format: plist
+      - path: Payload/Hanas.app/React-Core_privacy.bundle/Info.plist
+        artifact_id: art_f8e0fbd357f69a5bc997ce643f6c657bacc185960f6310c24d231fc6f07367cc
+        sha256: 0778ddd2c22eb0b4dffb857472eea49db203a4be8cf2c58a0b43a0dfb13ab1cb
+        format: plist
+      - path: Payload/Hanas.app/React-cxxreact_privacy.bundle/Info.plist
+        artifact_id: art_92cfe32034b678e890c0a4a003b07b49af8762ff572224699c09342dc67d71d8
+        sha256: 839e448366b0afde71cf32c0674391344689d25f5c07b0786d5b60818d331472
+        format: plist
+      - path: Payload/Hanas.app/RevenueCat.bundle/Info.plist
+        artifact_id: art_e48e6bee61aa21cf0ac6431d05dfa4e8883d1b134e5ee90d9ba53a519b082613
+        sha256: eb10618d9e444a87c0a5dab772d0e73e3caf33bed5d60f1fd66b943eddcc4427
+        format: plist
+      - path: Payload/Hanas.app/SDWebImage.bundle/Info.plist
+        artifact_id: art_06affd5371b79badc0e430e8c3d4f73c8042fb18424ae8b8be6c339429f69161
+        sha256: f6b06902e6d048e215dd709cfad97da0d0e0014bc0a1c5b88b6cb6c85d91c6ae
+        format: plist
+      - path: Payload/Hanas.app/SplashScreen.storyboardc/Info.plist
+        artifact_id: art_1274aa2674ce3fa634223c20dc718f1e6e7fdf5411823c46458474cca700829e
+        sha256: 74dbceed6cf0a5e5c69834793328c9783ecab1de482d4954e257ca2132b743af
+        format: plist
+      - path: Payload/Hanas.app/nanopb_Privacy.bundle/Info.plist
+        artifact_id: art_bfe60d233d8c9bf1af6085948a3ba08c3ab6e4c13f6bb9bfac13498e961c1a26
+        sha256: 98f164dbdc9cdabfdf60294db4ba074fb7b1aea8d1160e755fc99eeda694ce90
+        format: plist
+    executables:
+      - path: Payload/Hanas.app/Frameworks/React.framework/React
+        artifact_id: art_66fec35c1202cca141b3fd802ff8c2a9932f81344afe7202a2194d0675775ab2
+        sha256: c7f9d05da90c080d5d06ab0500cdca2358d06fc509dc7231249b9833cd2af729
+        format: mach-o
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies
+        artifact_id: art_a79e232dd511f84702576bb00e9d9e413299ce675b17db0f86b543e1d3dcb2c0
+        sha256: 8628cc452c610fb97562d92514fe9c3b5774f965c1f6b0591b352e1f224a03ab
+        format: mach-o
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/hermes
+        artifact_id: art_e08641826c4710bdeeff653de9aa8f3e2c71277a539f249dc67174a1ef23ad79
+        sha256: 6e464fb9eaad22a5a8f2d56e369a487e1585a7757c85c78546d1bd2794b27f8f
+        format: mach-o
+      - path: Payload/Hanas.app/Hanas
+        artifact_id: art_cad97a23acead636114b060d4e5ded5aa4e592f5c6c1d9c0d938732bb07912f2
+        sha256: 06e59169fae496b7020ea6bb5513b6e69d4b92c1d035df8f7c919cdc0a9d1376
+        format: mach-o
+      - path: Payload/Hanas.app/PlugIns/HanasLiveActivity.appex/HanasLiveActivity
+        artifact_id: art_1b5a664fc503614e50590afc563e8d5a6ce4cade2417dbb7bcfa0d6e8b28c8d5
+        sha256: 0e892310917e6c473ce06fc6d85f0e18e6ebdc24b46b643b722ef23e157d3616
+        format: mach-o
+    frameworks:
+      - path: Payload/Hanas.app/Frameworks/React.framework/Info.plist
+        artifact_id: art_992ec3ee03c75b2a914885f496960c9bf3920941b98135621513732b40274f3c
+        sha256: 9802c97d630725bcf28ea88b8730ee5f6f4799a5ccfd991b9cb268de3ba6d692
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/React.framework/React
+        artifact_id: art_66fec35c1202cca141b3fd802ff8c2a9932f81344afe7202a2194d0675775ab2
+        sha256: c7f9d05da90c080d5d06ab0500cdca2358d06fc509dc7231249b9833cd2af729
+        format: mach-o
+      - path: Payload/Hanas.app/Frameworks/React.framework/SC_Info/React.supf
+        artifact_id: art_9b3099de601a78538aba0d27b60f873c63d8c25c730de88b354cb83b141c1644
+        sha256: 3901fee798a3af345a35226e9c59a18e25a76facc2ff40faecb1e1f6b3d541d2
+        format: file
+      - path: Payload/Hanas.app/Frameworks/React.framework/SC_Info/React.supp
+        artifact_id: art_79d39c18f5bbb5153f531e3cbdddca92361019939a4bd746ffd54218a50b145c
+        sha256: 4d8bce5f6e81c03023747dc8fa6c9b433c2f3a40cbb5076200e26d2683675323
+        format: file
+      - path: Payload/Hanas.app/Frameworks/React.framework/SC_Info/React.supx
+        artifact_id: art_4a8f953e2ddac2697712402713e269f3d4e4cfae1173da988771a99bb785fb47
+        sha256: 40b6bc2f30d99066aaefeb2a7ca8773ce3e1bd1f8c8fefad0568da13efeb4eb4
+        format: file
+      - path: Payload/Hanas.app/Frameworks/React.framework/SC_Info/React.v4.supp
+        artifact_id: art_6b68d9719cfe55150b68765ab3a47627719b09efa0a95c9fd30f56f02c30bb4d
+        sha256: e796b4f9ebef1e5904b37e3eca7dceb87761e71359642c65d6a5cfede90c0f83
+        format: file
+      - path: Payload/Hanas.app/Frameworks/React.framework/SC_Info/React.v5.supf
+        artifact_id: art_30dd9b72347b961cd3601dd316f1d06d4e466da42ab92ec4fcb476610a93c5ba
+        sha256: 29bec475a5580321ea47db9e7cd6904057d7a058dba00235e6135e0ca79700cf
+        format: file
+      - path: Payload/Hanas.app/Frameworks/React.framework/_CodeSignature/CodeResources
+        artifact_id: art_e1229b40b3a42d0b56629b996d7bef8050920d0f7695a98fa93aee7b751bf8bf
+        sha256: b03ffe11f2a605505a2c8e8c6bbc9649d6bb3538bef08462de012f4f1fe4ab83
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/Info.plist
+        artifact_id: art_fe5490da4c8f5e6844e9d8535e0884ff1c2412ff579cfe499a06cc8222542177
+        sha256: 777f0ff9cb1c88a02874646ab77d0d3a28c15013c72f0100f28dedbfee184cbb
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies
+        artifact_id: art_a79e232dd511f84702576bb00e9d9e413299ce675b17db0f86b543e1d3dcb2c0
+        sha256: 8628cc452c610fb97562d92514fe9c3b5774f965c1f6b0591b352e1f224a03ab
+        format: mach-o
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/Info.plist
+        artifact_id: art_3c3d3d96e26991a2a8a1d9f8fb773aaeeabe5a729075304a966e87e9395dfa58
+        sha256: f7f84dbe26d345146e985e85d716b5d95c549455b11756cf485cc642c634d63f
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_boost.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_6c0aa81227896bff582faad2f1c522a293a2ac9af72323926a65b0fe4e9de79c
+        sha256: d3559c988dff940d4f758f37a0ba1863208304e33ab0b97c0e3dd5d3762f5f1d
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/Info.plist
+        artifact_id: art_b622354e96fe83b71dad03ac86781cfee5ba4330b30970c6dcd6452bd1c4798f
+        sha256: 3770f4e1d5783115f98c0e41433a5b431cde62ee4fd85923e8519f6fd1018f51
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_folly.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_7157b92cb04895cd60f77b9757e7035f3094da1383998ce922dfb0e5f38dce69
+        sha256: 0587d155c56a6f4f0647ebc6b6a0bd026615cd610ee8f209a9786b79a96ad335
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/Info.plist
+        artifact_id: art_a319c2146c5d18177c66ae7e934b1da3734663a12cdce3b10a71b15f59554488
+        sha256: a54d31cbc493fd5fbcd127f3c7d8181eec8df41eb63838eb28686e0cbc0d44be
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/ReactNativeDependencies_glog.bundle/PrivacyInfo.xcprivacy
+        artifact_id: art_7157b92cb04895cd60f77b9757e7035f3094da1383998ce922dfb0e5f38dce69
+        sha256: 0587d155c56a6f4f0647ebc6b6a0bd026615cd610ee8f209a9786b79a96ad335
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.supf
+        artifact_id: art_9f36d21085b4a4660ac6af017400e12d1150bf788d0bcd762e5723f889f9681d
+        sha256: b015e5bfca814856134b13393ec2d60406ee2512db9107bb4e9fb9c28e2c010f
+        format: file
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.supp
+        artifact_id: art_473adc03b49a0be490976fff38e4e512e16535c391104bee65be4fa7a996c2f6
+        sha256: 1046e1ffeda6388adff74b3932b5f3c1f07223c447929af87ee2d491e591b821
+        format: file
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.supx
+        artifact_id: art_4a8f953e2ddac2697712402713e269f3d4e4cfae1173da988771a99bb785fb47
+        sha256: 40b6bc2f30d99066aaefeb2a7ca8773ce3e1bd1f8c8fefad0568da13efeb4eb4
+        format: file
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.v4.supp
+        artifact_id: art_320abc3e1f235f3babfb7e9f178c5a3036a5b6c724c6320082d73513086abc7d
+        sha256: bd4210a73910d705264f461beff513bc0d1b8294b1fdc3f0649ee5fbead2b4de
+        format: file
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/SC_Info/ReactNativeDependencies.v5.supf
+        artifact_id: art_f1d3b62e41131acd88f459b9bac5ddbd7ce33f6ffca0122c99e2e0a38f0ce7c8
+        sha256: 918dc31454fe737da54f899ffa86a2122faad53479650ea8dbbf00647030117e
+        format: file
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/_CodeSignature/CodeResources
+        artifact_id: art_537750c5af6809680afe83cc9f6e5d40a10aef3fb6357ed818f0c62bcd215b2d
+        sha256: fd94c7472280ddcb3aeb4c4364425bcdc58aae040abb379943393453797839a1
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/Info.plist
+        artifact_id: art_05f9399740e8d5d161097e7c9a8c16290d2e99a47640e18f3dea1b142c0341c4
+        sha256: c7871b4e57a3c5c2f5ff528465eb506b9996bfa16f70bcd63eb3cfa7db8a0ab9
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/SC_Info/hermes.supf
+        artifact_id: art_a69f5dbe096618554e1eae5146cee83bae128ca62ab86e4fa827dbdebc283d72
+        sha256: d4a52f24b6d34d472d40f5cacf726cfb4324fbad2f5ea811479806ffdf8c78d6
+        format: file
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/SC_Info/hermes.supp
+        artifact_id: art_41cd3652504cb6768051375fb78feb0c36f70a3c2f7dd9bf457e57502013984d
+        sha256: c47cf52873c57fadb711afd55eb20049aa4e852e97bf4d653d47f0d659d3afb1
+        format: file
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/SC_Info/hermes.supx
+        artifact_id: art_4a8f953e2ddac2697712402713e269f3d4e4cfae1173da988771a99bb785fb47
+        sha256: 40b6bc2f30d99066aaefeb2a7ca8773ce3e1bd1f8c8fefad0568da13efeb4eb4
+        format: file
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/SC_Info/hermes.v4.supp
+        artifact_id: art_b41f8612946369cf24e41146407faf481acf56fd02dde27c80b5ca32ea5f65c5
+        sha256: 614f3f46db93537960e264bfdea5562b7ca5aa361c2f0548519c9dbc0618d617
+        format: file
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/SC_Info/hermes.v5.supf
+        artifact_id: art_8636704a99e5e1b9cfea33f1bc3b20a4c6fd928e53cc6029803f4157396039af
+        sha256: 32cc8cc4e363a7266cb3d34d25cd19086ea11d2def5fa37779d2f1b743b8b102
+        format: file
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/_CodeSignature/CodeResources
+        artifact_id: art_461a59075cdca4c9482c26628f8da6e7eb9eb2a27fb7dc5199ea554898a9aee2
+        sha256: 52e3a280e55769ddef4947977eca0416fc91f7e4b66a89078af9ab21a98d26df
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/hermes
+        artifact_id: art_e08641826c4710bdeeff653de9aa8f3e2c71277a539f249dc67174a1ef23ad79
+        sha256: 6e464fb9eaad22a5a8f2d56e369a487e1585a7757c85c78546d1bd2794b27f8f
+        format: mach-o
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/Hanas.app/Frameworks/React.framework/_CodeSignature/CodeResources
+        artifact_id: art_e1229b40b3a42d0b56629b996d7bef8050920d0f7695a98fa93aee7b751bf8bf
+        sha256: b03ffe11f2a605505a2c8e8c6bbc9649d6bb3538bef08462de012f4f1fe4ab83
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/ReactNativeDependencies.framework/_CodeSignature/CodeResources
+        artifact_id: art_537750c5af6809680afe83cc9f6e5d40a10aef3fb6357ed818f0c62bcd215b2d
+        sha256: fd94c7472280ddcb3aeb4c4364425bcdc58aae040abb379943393453797839a1
+        format: plist
+      - path: Payload/Hanas.app/Frameworks/hermes.framework/_CodeSignature/CodeResources
+        artifact_id: art_461a59075cdca4c9482c26628f8da6e7eb9eb2a27fb7dc5199ea554898a9aee2
+        sha256: 52e3a280e55769ddef4947977eca0416fc91f7e4b66a89078af9ab21a98d26df
+        format: plist
+      - path: Payload/Hanas.app/PlugIns/HanasLiveActivity.appex/_CodeSignature/CodeResources
+        artifact_id: art_c7790533bffec5d0a3b0f8683ed49d0fc12147d43f65982375d38d9fb2c3c750
+        sha256: 8467e3026f9c7e6c9c4628cb3e2a9472ccd14eba455dd4831aa85d79eccfb700
+        format: plist
+      - path: Payload/Hanas.app/_CodeSignature/CodeResources
+        artifact_id: art_a1da56197888c8a389e6d6a7a4ff0e17320afbb6aa1865de2636ae146a5a5286
+        sha256: 469d7dadf7b557ef54cab86e66fc015ea6590a8474a4cb6affd260b5245b39e3
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+    - react-native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_930cc84ff9ac3e2dba308896686cb3a4e5502dbf22a9c4c11806458320d39d82

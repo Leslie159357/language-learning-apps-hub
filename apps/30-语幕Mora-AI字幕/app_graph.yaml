@@ -1,0 +1,186 @@
+evidence_id: ev_3e3c08a21e6329b915da0070452fe6a51f184c5b55751397619d9077afbb7262
+subject:
+  name: 6797167212_dec.ipa
+  digest:
+    sha256: 7fba675520cefa0244df802c6552e26765a1a423b548a6333bdbccb226733d4d
+  local_path: /opt/data/downloads/batch20/6797167212_dec.ipa
+  format: ipa
+  architecture: null
+provider:
+  id: rea-apple-application
+  name: REA Apple application workflows
+  version: "1"
+analysis_profile: null
+predicate_type: rea.apple-application-graph
+operation: project_apple_application_graph
+parameters:
+  inventory_evidence_ids:
+    - ev_77bc569cf81ae94d94da1311da92f8f209e101b6779bf8c6e50d574e74c8599e
+raw_result: null
+normalized_result:
+  projection_id: aap_bcaf05859dd9770bc3953d16b549ac06dde55a4d3cba0c11cd6880ccc27ba6d6
+  root_sha256: 7fba675520cefa0244df802c6552e26765a1a423b548a6333bdbccb226733d4d
+  root_format: ipa
+  platforms:
+    - ios
+  source_evidence_ids:
+    - ev_77bc569cf81ae94d94da1311da92f8f209e101b6779bf8c6e50d574e74c8599e
+  application_roots:
+    - Payload/Mora.app
+  bundles:
+    - path: Payload/Mora.app
+      parent_path: null
+      layout: shallow
+      role: application
+      role_basis: path-convention
+      info_plist_path: Payload/Mora.app/Info.plist
+      executable_candidates:
+        - Payload/Mora.app/Mora
+      signing_paths:
+        - Payload/Mora.app/_CodeSignature/CodeResources
+    - path: Payload/Mora.app/Alamofire_Alamofire.bundle
+      parent_path: Payload/Mora.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Mora.app/Alamofire_Alamofire.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Mora.app/GRDB_GRDB.bundle
+      parent_path: Payload/Mora.app
+      layout: shallow
+      role: bundle
+      role_basis: path-convention
+      info_plist_path: Payload/Mora.app/GRDB_GRDB.bundle/Info.plist
+      executable_candidates: []
+      signing_paths: []
+    - path: Payload/Mora.app/PlugIns/VideoTransAction.appex
+      parent_path: Payload/Mora.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Mora.app/PlugIns/VideoTransAction.appex/Info.plist
+      executable_candidates:
+        - Payload/Mora.app/PlugIns/VideoTransAction.appex/VideoTransAction
+      signing_paths:
+        - Payload/Mora.app/PlugIns/VideoTransAction.appex/_CodeSignature/CodeResources
+    - path: Payload/Mora.app/PlugIns/VideoTransShare.appex
+      parent_path: Payload/Mora.app
+      layout: shallow
+      role: app-extension
+      role_basis: path-convention
+      info_plist_path: Payload/Mora.app/PlugIns/VideoTransShare.appex/Info.plist
+      executable_candidates:
+        - Payload/Mora.app/PlugIns/VideoTransShare.appex/VideoTransShare
+      signing_paths:
+        - Payload/Mora.app/PlugIns/VideoTransShare.appex/_CodeSignature/CodeResources
+  components:
+    bundle_metadata:
+      - path: Payload/Mora.app/Alamofire_Alamofire.bundle/Info.plist
+        artifact_id: art_40ff065911c05ebcf62f805402a3a6caff30275067f05736ca46bb1ad86caf1b
+        sha256: 5c771517a93d3ef6ae5bbe31fbbe566858c31aaf0150aa7a884a77857f1663ff
+        format: plist
+      - path: Payload/Mora.app/GRDB_GRDB.bundle/Info.plist
+        artifact_id: art_5e344cb7bab3ddd1368c781843de0cc452592f985c918aa87b8fb9aa2cd60811
+        sha256: f5763ec8ca5531690f289090182f7859a536d9cbf4181821e09d8440e953fe37
+        format: plist
+      - path: Payload/Mora.app/Info.plist
+        artifact_id: art_4d20a6c295e9946ea4e4f84ab3d276a80182ee3bb1e0f1e909bdaf2505413cca
+        sha256: 06279438ba2fca65014f17706c1ba15bfda75626d0e97ec7d6398ba2a32cf4e8
+        format: plist
+      - path: Payload/Mora.app/LaunchScreen.storyboardc/Info.plist
+        artifact_id: art_bde55c83cbf21d9c6c9913c59030d7bdb74fa3b34f84b3834aa613c1a3b95215
+        sha256: 388837a9297f9ded29b145fa8c0fe3000550a7e71ef1b3b164452c93152ee669
+        format: plist
+      - path: Payload/Mora.app/PlugIns/VideoTransAction.appex/Info.plist
+        artifact_id: art_4d0ced9234b3deba15823e2fd934eba88a24033f925321a27a127315c7e90981
+        sha256: 0a0329b2d3565a3b5aa5045e35c6311f358188676fcb59a86ad0c0037ff4a6b6
+        format: plist
+      - path: Payload/Mora.app/PlugIns/VideoTransShare.appex/Info.plist
+        artifact_id: art_67350aa0c06e943403d3103321eec31e414645e39c4386ffd622d02da054255d
+        sha256: 6134a964dc7aac3cf6f5b34f8937523e17c97df75f2b15f25f1b1952479ab210
+        format: plist
+    executables:
+      - path: Payload/Mora.app/Mora
+        artifact_id: art_d5c0f1c6f80bf68f938c2e6c17dc826758094506e243a720d131ee0f5aad2d86
+        sha256: f0c60167dbf56c8f04c98dafbfd8a8f1dc1fce7a28364bc05cef26236096ee68
+        format: mach-o
+      - path: Payload/Mora.app/PlugIns/VideoTransAction.appex/VideoTransAction
+        artifact_id: art_933d87d3a79e998c93262655aea288863adfa846516f7d65cff416dc0c248fb0
+        sha256: 70030bba6cd79732a3af266df19d4fb5ac8191a1dd554df96ac2a822cb5baf33
+        format: mach-o
+      - path: Payload/Mora.app/PlugIns/VideoTransShare.appex/VideoTransShare
+        artifact_id: art_f21a610905b7139340c3822fb7a18669f383dc8f1e074476d27874ccfec3e15e
+        sha256: e19d155380a7cdc638f37262566775f292ac2dd843cd5200679f6ec618f00533
+        format: mach-o
+    frameworks: []
+    native_libraries: []
+    javascript: []
+    signing:
+      - path: Payload/Mora.app/PlugIns/VideoTransAction.appex/_CodeSignature/CodeResources
+        artifact_id: art_4bfcf2fa680ca88730c7f2d8dc48b6e390bddf48864a2a1d6ebd140ac20a35e5
+        sha256: 4505c550651d4254731a59b0cf2e219002a6cbfa1256071fc9ccd638f14bf643
+        format: plist
+      - path: Payload/Mora.app/PlugIns/VideoTransShare.appex/_CodeSignature/CodeResources
+        artifact_id: art_135fe5f59dc4dd2d67e2c9691454cde1b1167e7550d083c31d7d50baf8870f61
+        sha256: b8ee46dafe296e0a321f8ca8aa9a54909381678829a875b70a5dd59cea36d8e8
+        format: plist
+      - path: Payload/Mora.app/_CodeSignature/CodeResources
+        artifact_id: art_bf1955d82f98f44917380db904b07b66ec2e079645f2cede2fc3e68cff5fb782
+        sha256: c6457ff5984c144e93d22a008e6359af8a81bbde23a697baa34dc33b06d2b37a
+        format: plist
+    privileged_helpers: []
+    launchd_plists: []
+    helpers: []
+  unavailable_components: []
+  symlinks: []
+  runtime_families:
+    - native
+  bridge_candidates: []
+  bridge_candidate_coverage:
+    status: complete
+    total_candidates: 0
+    emitted_candidates: 0
+    omitted_candidates: 0
+  coverage:
+    status: complete-within-inventory
+    inventory_complete: true
+  limitations:
+    - ZIP inventory lists central-directory entries only. Non-entry bytes,
+      including leading bytes before the first entry such as a self-extractor
+      stub, an APK Signing Block before the central directory or a ZIP comment
+      after it, are not occurrences.
+    - Bundle roles follow path conventions. Read each info_plist_path with
+      inspect_plist for CFBundleExecutable, identifiers, and declared services.
+    - Bundle identifiers and signing claims require dedicated plist and CMS
+      parsing; this projection reports only exact paths and hashes.
+    - Runtime families are inferred from inventory formats and bounded framework
+      path conventions, not observed runtime loading.
+    - Generic framework and dylib paths do not establish Swift or Objective-C;
+      this inventory projection does not decode language metadata.
+    - Bridge candidates are path-based hypotheses, not observed runtime calls.
+    - A bridge basis is inferred from the native path and is repeated for every
+      managed component.
+confidence: inferred
+authority: analyst-inference
+environment: null
+limitations:
+  - ZIP inventory lists central-directory entries only. Non-entry bytes,
+    including leading bytes before the first entry such as a self-extractor
+    stub, an APK Signing Block before the central directory or a ZIP comment
+    after it, are not occurrences.
+  - Bundle roles follow path conventions. Read each info_plist_path with
+    inspect_plist for CFBundleExecutable, identifiers, and declared services.
+  - Bundle identifiers and signing claims require dedicated plist and CMS
+    parsing; this projection reports only exact paths and hashes.
+  - Runtime families are inferred from inventory formats and bounded framework
+    path conventions, not observed runtime loading.
+  - Generic framework and dylib paths do not establish Swift or Objective-C;
+    this inventory projection does not decode language metadata.
+  - Bridge candidates are path-based hypotheses, not observed runtime calls.
+  - A bridge basis is inferred from the native path and is repeated for every
+    managed component.
+relationship_coverage: null
+locations: []
+evidence_links:
+  - ev_77bc569cf81ae94d94da1311da92f8f209e101b6779bf8c6e50d574e74c8599e
