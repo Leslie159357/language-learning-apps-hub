@@ -1,0 +1,15 @@
+http://crl.apple.com/root.crl0
+http://ocsp.apple.com/ocsp03-aipca040
+http://ocsp.apple.com/ocsp03-applerootca0.
+http://www.apple.com/DTDs/PropertyList-1.0.dtd
+https://firebaseinstallations.googleapis.com/v1
+https://firebaseremoteconfig.googleapis.com/v1
+https://github.com/grpc/grpc-java/issues/1901
+https://identitytoolkit.googleapis.com
+https://jmt17.google.com/log
+https://play.googleapis.com/log
+https://play.googleapis.com/log/batch
+https://www.apple.com/appleca/0
+https://www.googleapis.com/experimentsandconfigs/v1/getExperimentsAndConfigs
+https://www.tensorflow.org/lite/guide/ops_custom
+https://www.tensorflow.org/lite/guide/ops_select

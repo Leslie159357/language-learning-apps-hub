@@ -1,0 +1,7 @@
+BREdgeTTSSpeechDataFetchOperation.swift
+BRMicrosoftAPISpeechSynthesizer.swift
+BRTingYueAIServiceImpl.swift
+FoundationExtensions.swift
+HTTPFields.swift
+URLExtensions.swift
+Unkeyed.swift

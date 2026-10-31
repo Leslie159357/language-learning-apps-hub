@@ -1,0 +1,6 @@
+http://crl.apple.com/root.crl0
+http://ocsp.apple.com/ocsp03-aipca040
+http://ocsp.apple.com/ocsp03-applerootca0.
+http://www.apple.com/DTDs/PropertyList-1.0.dtd
+https://echotter.com
+https://www.apple.com/appleca/0
