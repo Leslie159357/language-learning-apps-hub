@@ -1,0 +1,156 @@
+[
+ {
+  "path": "OneBook",
+  "size_mb": 57.24,
+  "cryptid": 0,
+  "symtab": 5395,
+  "sections": {
+   "__const": 1369392,
+   "__objc_methname": 95317,
+   "__swift5_fieldmd": 202868,
+   "__swift5_proto": 20428,
+   "__swift5_types": 10724,
+   "__cstring": 1999353,
+   "__objc_classlist": 4456
+  }
+ },
+ {
+  "path": "Frameworks/CLiteRTLM.framework/CLiteRTLM",
+  "size_mb": 42.24,
+  "cryptid": 0,
+  "symtab": 123703,
+  "sections": {
+   "__const": 861960,
+   "__cstring": 847490,
+   "__objc_methname": 3026,
+   "__objc_classlist": 8
+  }
+ },
+ {
+  "path": "Frameworks/libavcodec.framework/libavcodec",
+  "size_mb": 7.74,
+  "cryptid": 0,
+  "symtab": 831,
+  "sections": {
+   "__cstring": 289630,
+   "__const": 353816
+  }
+ },
+ {
+  "path": "Frameworks/libavformat.framework/libavformat",
+  "size_mb": 3.33,
+  "cryptid": 0,
+  "symtab": 984,
+  "sections": {
+   "__cstring": 312062,
+   "__const": 243184
+  }
+ },
+ {
+  "path": "Frameworks/libavfilter.framework/libavfilter",
+  "size_mb": 2.35,
+  "cryptid": 0,
+  "symtab": 644,
+  "sections": {
+   "__cstring": 135869,
+   "__const": 442808
+  }
+ },
+ {
+  "path": "Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit",
+  "size_mb": 1.53,
+  "cryptid": 0,
+  "symtab": 5842,
+  "sections": {
+   "__const": 27856,
+   "__objc_methname": 9094,
+   "__swift5_fieldmd": 12292,
+   "__cstring": 18377,
+   "__swift5_proto": 1396,
+   "__swift5_types": 792,
+   "__objc_classlist": 720
+  }
+ },
+ {
+  "path": "Frameworks/ffmpegkit.framework/ffmpegkit",
+  "size_mb": 0.54,
+  "cryptid": 0,
+  "symtab": 3831,
+  "sections": {
+   "__const": 6776,
+   "__objc_methname": 6530,
+   "__cstring": 55181,
+   "__objc_classlist": 144
+  }
+ },
+ {
+  "path": "Frameworks/libavutil.framework/libavutil",
+  "size_mb": 0.43,
+  "cryptid": 0,
+  "symtab": 740,
+  "sections": {
+   "__const": 42576,
+   "__cstring": 16738
+  }
+ },
+ {
+  "path": "Frameworks/libswscale.framework/libswscale",
+  "size_mb": 0.36,
+  "cryptid": 0,
+  "symtab": 76,
+  "sections": {
+   "__const": 3856,
+   "__cstring": 6653
+  }
+ },
+ {
+  "path": "Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit",
+  "size_mb": 0.24,
+  "cryptid": 0,
+  "symtab": 1047,
+  "sections": {
+   "__const": 3856,
+   "__objc_methname": 712,
+   "__swift5_fieldmd": 1648,
+   "__cstring": 2412,
+   "__swift5_proto": 172,
+   "__swift5_types": 100,
+   "__objc_classlist": 56
+  }
+ },
+ {
+  "path": "Frameworks/libswresample.framework/libswresample",
+  "size_mb": 0.12,
+  "cryptid": 0,
+  "symtab": 67,
+  "sections": {
+   "__cstring": 8249,
+   "__const": 6888
+  }
+ },
+ {
+  "path": "PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension",
+  "size_mb": 0.11,
+  "cryptid": 0,
+  "symtab": 217,
+  "sections": {
+   "__const": 1096,
+   "__swift5_fieldmd": 220,
+   "__cstring": 378,
+   "__swift5_proto": 80,
+   "__swift5_types": 28
+  }
+ },
+ {
+  "path": "Frameworks/libavdevice.framework/libavdevice",
+  "size_mb": 0.1,
+  "cryptid": 0,
+  "symtab": 205,
+  "sections": {
+   "__const": 1432,
+   "__cstring": 5236,
+   "__objc_methname": 782,
+   "__objc_classlist": 16
+  }
+ }
+]

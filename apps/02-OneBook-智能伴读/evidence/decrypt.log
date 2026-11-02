@@ -1,0 +1,14 @@
+01/13 pages=6316 Payload/OneBook.app/Frameworks/CLiteRTLM.framework/CLiteRTLM
+02/13 pages=28 Payload/OneBook.app/Frameworks/OnDeviceGemmaKit.framework/OnDeviceGemmaKit
+03/13 pages=272 Payload/OneBook.app/Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+04/13 pages=76 Payload/OneBook.app/Frameworks/ffmpegkit.framework/ffmpegkit
+05/13 pages=1804 Payload/OneBook.app/Frameworks/libavcodec.framework/libavcodec
+06/13 pages=8 Payload/OneBook.app/Frameworks/libavdevice.framework/libavdevice
+07/13 pages=448 Payload/OneBook.app/Frameworks/libavfilter.framework/libavfilter
+08/13 pages=736 Payload/OneBook.app/Frameworks/libavformat.framework/libavformat
+09/13 pages=76 Payload/OneBook.app/Frameworks/libavutil.framework/libavutil
+10/13 pages=16 Payload/OneBook.app/Frameworks/libswresample.framework/libswresample
+11/13 pages=76 Payload/OneBook.app/Frameworks/libswscale.framework/libswscale
+12/13 pages=8 Payload/OneBook.app/PlugIns/OneBookSleepTimerWidgetExtension.appex/OneBookSleepTimerWidgetExtension
+13/13 pages=13320 Payload/OneBook.app/OneBook
+decrypted-binaries=13 pages=23184 output=sample/dec.ipa

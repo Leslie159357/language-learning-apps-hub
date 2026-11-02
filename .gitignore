@@ -1,0 +1,17 @@
+# 大样本与中间产物不入库（2026-11-02）
+# 样本与解包基准只在本机留档，入库会撑爆仓库
+apps/*/sample/
+apps/*/baseline/
+*.ipa
+
+# IDA 数据库与列表（体积巨大，可用 idat -B 重建）
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.asm
+
+# 分析中间件
+apps/*/evidence/*.err

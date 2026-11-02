@@ -1,0 +1,3137 @@
+{
+ "modules": {
+  "<objc/other>": [
+   "ASWebAuthenticationPresentationContextProviding",
+   "AVAssetResourceLoaderDelegate",
+   "AVAsynchronousKeyValueLoading",
+   "AVAudioPlayerDelegate",
+   "AVAudioRecorderDelegate",
+   "AVSpeechSynthesizerDelegate",
+   "CKRecordValue",
+   "CoreMLExecution",
+   "ForceLinkPython",
+   "GRDB",
+   "MLFeatureProvider",
+   "MTKViewDelegate",
+   "MTLAllocation",
+   "MTLBuffer",
+   "MTLCommandQueue",
+   "MTLDevice",
+   "MTLRenderPipelineState",
+   "MTLResource",
+   "NSCopying",
+   "NSItemProviderReading",
+   "NSLocking",
+   "NSObject",
+   "NSURLSessionDataDelegate",
+   "NSURLSessionDelegate",
+   "NSURLSessionDownloadDelegate",
+   "NSURLSessionTaskDelegate",
+   "NSXMLParserDelegate",
+   "OS_dispatch_source",
+   "OS_dispatch_source_timer",
+   "OneBook",
+   "OneBook1",
+   "OneBook2",
+   "OneBook3",
+   "OneBook4",
+   "PKCanvasViewDelegate",
+   "QLPreviewControllerDataSource",
+   "UIActivityItemSource",
+   "UIApplicationDelegate",
+   "UIDocumentPickerDelegate",
+   "UIEditMenuInteractionDelegate",
+   "UIGestureRecognizerDelegate",
+   "UIInteraction",
+   "UIScrollViewDelegate",
+   "UITextViewDelegate",
+   "VNDocumentCameraViewControllerDelegate",
+   "WKDownloadDelegate",
+   "WKNavigationDelegate",
+   "WKScriptMessageHandler",
+   "WKUIDelegate",
+   "WKURLSchemeHandler",
+   "_TtCC13ZIPFoundation7Archive10MemoryFile",
+   "_TtCC21StreamingTtsPlayerKit15SimpleXMLParser4Node",
+   "_TtCC4GRDB16DatabaseFunctionP33_1F1016B0E130FBD1433DD56AD149CDA816AggregateContext",
+   "_TtCC4GRDB16DatabaseFunctionP33_1F1016B0E130FBD1433DD56AD149CDA818FunctionDefinition",
+   "_TtCC4GRDB16DatabaseFunctionP33_1F1016B0E130FBD1433DD56AD149CDA819AggregateDefinition",
+   "_TtCC4GRDB8DatabaseP33_911CCF25E612216379C6DA679161806D23FTS5RegisteredTokenizer",
+   "_TtCC4GRDB8DatabaseP33_DCCDE8E24C9C579E969A6987B254907E24FTS5TokenizerConstructor",
+   "_TtCC7OneBook27M4BAudiobookPlayerViewModel17UserAudioDelegate",
+   "_TtCC7Swifter10HttpRouterP33_637B017884C8B9FB4FB0DD28CF3951114Node",
+   "_TtCC7Swifter16WebSocketSession5Frame",
+   "_TtCC9SwiftSoup11CssSelectorP33_7CE4ED65CAC5A24FDBBAED05F80905FD13SelectorCache",
+   "_TtCC9SwiftSoup11CssSelectorP33_7CE4ED65CAC5A24FDBBAED05F80905FD14FastQueryCache",
+   "_TtCC9SwiftSoup11QueryParser12DefaultCache",
+   "_TtCC9SwiftSoup18CombiningEvaluator2Or",
+   "_TtCC9SwiftSoup18CombiningEvaluator3And",
+   "_TtCC9SwiftSoup19SelectorResultCache6LRUMap",
+   "_TtCC9SwiftSoup19SelectorResultCache7LRUNode",
+   "_TtCC9SwiftSoup19StructuralEvaluator15ImmediateParent",
+   "_TtCC9SwiftSoup19StructuralEvaluator15PreviousSibling",
+   "_TtCC9SwiftSoup19StructuralEvaluator24ImmediatePreviousSibling",
+   "_TtCC9SwiftSoup19StructuralEvaluator3Has",
+   "_TtCC9SwiftSoup19StructuralEvaluator3Not",
+   "_TtCC9SwiftSoup19StructuralEvaluator4Root",
+   "_TtCC9SwiftSoup19StructuralEvaluator6Parent",
+   "_TtCC9SwiftSoup3TagP33_E3A36DD41231F4C95D3E061500AA2FE315UnknownTagCache",
+   "_TtCC9SwiftSoup4NodeP33_88DB12878250A47CDE78A89F4976DAEE16OuterHtmlVisitor",
+   "_TtCC9SwiftSoup5Token3EOF",
+   "_TtCC9SwiftSoup5Token3Tag",
+   "_TtCC9SwiftSoup5Token4Char",
+   "_TtCC9SwiftSoup5Token6EndTag",
+   "_TtCC9SwiftSoup5Token7Comment",
+   "_TtCC9SwiftSoup5Token7Doctype",
+   "_TtCC9SwiftSoup5Token8StartTag",
+   "_TtCC9SwiftSoup7CleanerP33_5317F0682B4E906D149C263CC658A14715CleaningVisitor",
+   "_TtCC9SwiftSoup7Element15TextNodeVisitor",
+   "_TtCC9SwiftSoup7Element19IndexBuilderVisitor",
+   "_TtCC9SwiftSoup8Entities10EscapeMode",
+   "_TtCC9SwiftSoup9Evaluator10IsNthChild",
+   "_TtCC9SwiftSoup9Evaluator10MatchesOwn",
+   "_TtCC9SwiftSoup9Evaluator11AllElements",
+   "_TtCC9SwiftSoup9Evaluator11IndexEquals",
+   "_TtCC9SwiftSoup9Evaluator11IsLastChild",
+   "_TtCC9SwiftSoup9Evaluator11IsNthOfType",
+   "_TtCC9SwiftSoup9Evaluator11IsOnlyChild",
+   "_TtCC9SwiftSoup9Evaluator11TagEndsWith",
+   "_TtCC9SwiftSoup9Evaluator12ContainsData",
+   "_TtCC9SwiftSoup9Evaluator12ContainsText",
+   "_TtCC9SwiftSoup9Evaluator12IsFirstChild",
+   "_TtCC9SwiftSoup9Evaluator12IsLastOfType",
+   "_TtCC9SwiftSoup9Evaluator12IsOnlyOfType",
+   "_TtCC9SwiftSoup9Evaluator13IndexLessThan",
+   "_TtCC9SwiftSoup9Evaluator13IsFirstOfType",
+   "_TtCC9SwiftSoup9Evaluator14IndexEvaluator",
+   "_TtCC9SwiftSoup9Evaluator14IsNthLastChild",
+   "_TtCC9SwiftSoup9Evaluator15ContainsOwnText",
+   "_TtCC9SwiftSoup9Evaluator15CssNthEvaluator",
+   "_TtCC9SwiftSoup9Evaluator15IsNthLastOfType",
+   "_TtCC9SwiftSoup9Evaluator16AttributeKeyPair",
+   "_TtCC9SwiftSoup9Evaluator16IndexGreaterThan",
+   "_TtCC9SwiftSoup9Evaluator17AttributeStarting",
+   "_TtCC9SwiftSoup9Evaluator18AttributeWithValue",
+   "_TtCC9SwiftSoup9Evaluator21AttributeWithValueNot",
+   "_TtCC9SwiftSoup9Evaluator24AttributeWithValueEnding",
+   "_TtCC9SwiftSoup9Evaluator26AttributeWithValueMatching",
+   "_TtCC9SwiftSoup9Evaluator26AttributeWithValueStarting",
+   "_TtCC9SwiftSoup9Evaluator28AttributeWithValueContaining",
+   "_TtCC9SwiftSoup9Evaluator2Id",
+   "_TtCC9SwiftSoup9Evaluator3Tag",
+   "_TtCC9SwiftSoup9Evaluator5Class",
+   "_TtCC9SwiftSoup9Evaluator6IsRoot",
+   "_TtCC9SwiftSoup9Evaluator7IsEmpty",
+   "_TtCC9SwiftSoup9Evaluator7Matches",
+   "_TtCC9SwiftSoup9Evaluator9Attribute",
+   "_TtCE7SwifterSS4File",
+   "_TtCFC9SwiftSoup4Node10setBaseUriFzGSaVs5UInt8_T_L_11nodeVisitor",
+   "_TtCO7OneBook28HTMLReaderAnnotationInjector10CacheState",
+   "_TtCO9SwiftSoup20HtmlTreeBuilderStateP33_090F85A601BF8BE9336C94B50C6F80D89Constants",
+   "_TtCV14StoryAlignCore13EpubNavParser17NavParserDelegate",
+   "_TtCV14StoryAlignCore13EpubNcxParser16NcxParseDelegate",
+   "_TtCV14StoryAlignCore15EpubSpineParser19SpineParserDelegate",
+   "_TtCV14StoryAlignCore16Epub2GuideParser19GuideParserDelegate",
+   "_TtCV14StoryAlignCore18EpubMetaInfoParser25OPFMetaInfoParserDelegate",
+   "_TtCV14StoryAlignCore19EpubContainerParser26ContainerXMLParserDelegate",
+   "_TtCV14StoryAlignCore19EpubXhtmlTextParser21XmlTextParserDelegate",
+   "_TtCV14StoryAlignCore21EpubOpfManifestParser22ManifestParserDelegate",
+   "_TtCV5Unrar7Archive8Callback",
+   "_TtCV7OneBook11ImagePicker11Coordinator",
+   "_TtCV7OneBook12RubyTextView11Coordinator",
+   "_TtCV7OneBook15PDF3KitHostView11Coordinator",
+   "_TtCV7OneBook15PhotoPickerView11Coordinator",
+   "_TtCV7OneBook17CustomVideoPlayer19PlayerContainerView",
+   "_TtCV7OneBook17HTMLReaderAdapter11Coordinator",
+   "_TtCV7OneBook18DocumentPickerView11Coordinator",
+   "_TtCV7OneBook19LiveTextScannerView11Coordinator",
+   "_TtCV7OneBook19ReaderSettingsSheet24DownloadProgressDelegate",
+   "_TtCV7OneBook20FoliateReaderAdapter11Coordinator",
+   "_TtCV7OneBook20MdxDefinitionWebView11Coordinator",
+   "_TtCV7OneBook20MdxDefinitionWebView21ResourceSchemeHandler",
+   "_TtCV7OneBook20TappableSentenceText11Coordinator",
+   "_TtCV7OneBook22BookFileDocumentPicker11Coordinator",
+   "_TtCV7OneBook22YouTubeEmbedPlayerView11Coordinator",
+   "_TtCV7OneBook23ExportFileQuickLookView11Coordinator",
+   "_TtCV7OneBook27ImmersiveWordTagsScrollHost11Coordinator",
+   "_TtCV7OneBook31ReaderInkSideNotebookCanvasView11Coordinator",
+   "_TtCV7OneBook31WebDownloadWebViewRepresentable11Coordinator",
+   "_TtCV7OneBook32ExternalDictionaryDocumentPicker11Coordinator",
+   "_TtCV7OneBook34SubtitleScrollUserInteractionProbe11Coordinator",
+   "_TtCV7OneBookP33_B73C963C9962FB286FBCFFF98ADE61EF19BilibiliSiteWebView11Coordinator",
+   "_TtCV7OneBookP33_C9535C141D390622665475D7DE3FA86318YouTubeSiteWebView11Coordinator",
+   "whisper_encoder_impl",
+   "whisper_encoder_implInput",
+   "whisper_encoder_implOutput"
+  ],
+  "SwiftWhisper": [
+   "Whisper",
+   "WhisperParams"
+  ],
+  "PythonSupport": [
+   "PythonSupport"
+  ],
+  "ZIPFoundation": [
+   "Archive",
+   "ZIPFoundation"
+  ],
+  "StoryAlignCore": [
+   "AlignmentReportBuilder",
+   "AlignmentSession",
+   "ErrorAlignBacktraceNode",
+   "ProgressTracker",
+   "SafeDispatchQueue",
+   "SentenceRange",
+   "UsedOffets",
+   "WordNormalizer"
+  ],
+  "StreamingTtsPlayerKit": [
+   "AudioPlaybackService",
+   "EPUBParser",
+   "LanguageSpeakerMapper",
+   "NativeTTSPlayer",
+   "NativeTTSService",
+   "OnlineTTSEngineService",
+   "OnlineTTSPPCMPreviewPlayer",
+   "SegmentPreGenerationManager",
+   "SherpaTTSEngineService",
+   "SimpleXMLParser",
+   "SpeechRecognitionService",
+   "StreamingTtsPlayerKit",
+   "StreamingTtsPlayerViewModel",
+   "TTSEnvironmentCoordinator",
+   "TTSModelManager",
+   "TTSPlaybackOrchestrator",
+   "TTSSentenceAudioStore",
+   "TTSSpeakerMapper"
+  ],
+  "FSRS": [
+   "AbstractScheduler",
+   "BasicScheduler",
+   "FSRS",
+   "FSRSAlea",
+   "FSRSAlgorithm",
+   "FSRSDefaults",
+   "FSRSHelper",
+   "FSRSReschedule",
+   "LongTermScheduler"
+  ],
+  "GRDB": [
+   "AnyDatabaseCancellable",
+   "AnyDatabaseReader",
+   "AnyDatabaseWriter",
+   "ColumnDefinition",
+   "Database",
+   "DatabaseCollation",
+   "DatabaseFunction",
+   "DatabaseObservationBroker",
+   "DatabasePool",
+   "DatabaseQueue",
+   "DatabaseSnapshot",
+   "DatabaseSnapshotPool",
+   "FTS3TableDefinition",
+   "FTS4ColumnDefinition",
+   "FTS4TableDefinition",
+   "FTS5ColumnDefinition",
+   "FTS5TableDefinition",
+   "FetchableRecordDecoder",
+   "ForeignKeyDefinition",
+   "GRDB",
+   "Record",
+   "Row",
+   "RowCursor",
+   "SQLGenerationContext",
+   "SQLStatementCursor",
+   "SavepointStack",
+   "SchedulingWatchdog",
+   "SerializedDatabase",
+   "Statement",
+   "StatementArgumentsSink",
+   "StatementAuthorizer",
+   "StatementCursor",
+   "TableAlias",
+   "TableAlteration",
+   "TableDefinition",
+   "TransactionObservation",
+   "WALSnapshot",
+   "WALSnapshotTransaction"
+  ],
+  "OneBook": [
+   "AIGatewayConfigStore",
+   "AboutOneBookLoader",
+   "AnalysisChatStore",
+   "AppDatabase",
+   "AppLanguageManager",
+   "AppleNaturalLanguageEmbedding",
+   "ApplePodcastHeadlessFetcher",
+   "ApplePodcastImportService",
+   "AppleTranslationManager",
+   "AppleTranslationPrepareRequest",
+   "ArticleFullTextService",
+   "ArticleReaderContentResolver",
+   "AudioRecorderManager",
+   "BERTTokenizer",
+   "BaiduNetdiskBackupCoordinator",
+   "BaiduNetdiskBackupService",
+   "BaiduNetdiskOAuthService",
+   "BaiduNetdiskTokenStore",
+   "BaiduShelfAPIClient",
+   "BaiduShelfAudioOnDemandActivity",
+   "BaiduShelfAudioOnDemandFetcher",
+   "BaiduShelfBookIntroViewModel",
+   "BaiduShelfDownloadQueue",
+   "BaiduShelfDownloadService",
+   "BaiduShelfMySubmissionsViewModel",
+   "BaiduShelfRecommendViewModel",
+   "BaiduShelfSubmissionAPIClient",
+   "BaiduShelfSubmitViewModel",
+   "BaiduShelfTextLayerPackageBuilder",
+   "BaiduVideoShelfAPIClient",
+   "BaiduVideoShelfDownloadService",
+   "BaiduVideoShelfRecommendViewModel",
+   "BilibiliParser",
+   "BookBackgroundDownloadCoordinator",
+   "BookBackgroundDownloadManager",
+   "BookCoverThumbnailService",
+   "BookDownloadService",
+   "BookImportService",
+   "BookManager",
+   "BookPageScannerService",
+   "BookPageScannerViewModel",
+   "BookPlaybackSleepTimer",
+   "BookSelectionViewModel",
+   "BookSleepTimerLiveActivityManager",
+   "BookSourceHubModeStore",
+   "BookSourceStore",
+   "BookSourceViewModel",
+   "CBRToCBZConverter",
+   "CacheManager",
+   "CatalogRemoteImageCache",
+   "ClaudeProvider",
+   "ClipboardVideoImportPromptStore",
+   "CloudSyncAPIClient",
+   "CloudSyncCoordinator",
+   "ComicPageImageLoader",
+   "ComicPageOCRProvider",
+   "CommunityViewModel",
+   "ContactMeLoader",
+   "ContextPhraseSectionViewModel",
+   "CoreMLEmbeddingProvider",
+   "CoreMLTranslationService",
+   "CustomTextView",
+   "DBManager",
+   "DeveloperWorksLoader",
+   "DialogueViewModel",
+   "DictionaryService",
+   "DocxToEPUBConverter",
+   "DocxXMLParser",
+   "DouyinParser",
+   "DouyinShareWebFetcher",
+   "DownloadProgressDelegate",
+   "EPUB3NavigationParser",
+   "EPUB3OPFParser",
+   "EPUB3Parser",
+   "EPUB3SMILParser",
+   "EPUBChapterTextExtractionCache",
+   "EPUBImportService",
+   "EPUBPackageContainerParser",
+   "EPUBPackageNCXParser",
+   "EPUBPackageOPFParser",
+   "EPUBPackageService",
+   "EPUBReaderWebViewPrewarmService",
+   "EmbeddingService",
+   "EvaluationEngine",
+   "ExclusiveMediaPlaybackCoordinator",
+   "ExternalDictionaryStore",
+   "FoliateBookMetadataService",
+   "FoliateEPUBZipAssetStore",
+   "FoliateImportSectionSplitService",
+   "FoliateReaderWebView",
+   "FoliateURLSchemeHandler",
+   "GeminiProvider",
+   "GradedWordSuppressionStore",
+   "HTMLReaderLiveAppearanceController",
+   "HTMLReaderSchemeHandler",
+   "HeadlessSubtitleFetcher",
+   "ITunesPodcastSearchService",
+   "ImageCacheService",
+   "ImageOCRBoxProvider",
+   "ImmersiveWordTagsScrollViewController",
+   "ImportedReaderFontStore",
+   "IncomingBookImportService",
+   "KeychainHelper",
+   "LLMGatewayResolvedModelStore",
+   "LLMProviderFactory",
+   "LastContinueOpenCoordinator",
+   "LastContinueStore",
+   "LearnCommunicateSession",
+   "LearnTalkLiveOrbRenderer",
+   "LocalGemmaInferenceService",
+   "LocalGemmaModelManager",
+   "LocalGemmaProvider",
+   "LocalPhraseLexiconService",
+   "LocalRAGEngine",
+   "M4BAudiobookPlayerViewModel",
+   "MainContentVerticalScrollMonitor",
+   "ManualGuideLoader",
+   "MediaOfflineCacheService",
+   "MediaPlaybackCacheRangeFetcher",
+   "MediaPlaybackCacheResourceLoader",
+   "MediaWatchStore",
+   "MockQwenService",
+   "MyBooksViewModel",
+   "NarratedEpubAlignLogger",
+   "NarratedEpubAlignmentViewModel",
+   "NativeAudioTextParser",
+   "NativeAudioTextParserStack",
+   "NetworkConnectivitySnapshot",
+   "NewsFeedStorage",
+   "NewsListViewModel",
+   "NewsRSSService",
+   "NewsReadStore",
+   "NewsThumbnailImageCache",
+   "NonGradedWordHighlightStore",
+   "ONNXTranslationService",
+   "OPDSCatalogService",
+   "OneBook",
+   "OneBookAppDelegate",
+   "OneBookAuthStore",
+   "OneBookGatewayAuth",
+   "OneBookQuotaStore",
+   "OnlineDictionaryService",
+   "OnlineTTSPreviewService",
+   "OnlineTTSProfileStore",
+   "OpenAIProvider",
+   "PDF3ReaderViewModel",
+   "PDFEmbeddedAudioPlaybackService",
+   "PDFExclusionZoneCanvasController",
+   "PDFImportService",
+   "PDFOCRBoxProvider",
+   "PDFOCRIndexingProgress",
+   "PDFReaderInkCanvasAdapter",
+   "PDFReaderInkViewportTracker",
+   "PDFToEPUBConverter",
+   "PlayableUITextView",
+   "PodcastLanguageGridViewModel",
+   "PodcastLanguageRecommendViewModel",
+   "PodcastRSSService",
+   "PodcastRecommendCatalogStore",
+   "ProfileViewModel",
+   "PythonManager",
+   "ReadWorldAuthStore",
+   "ReaderInkCanvasHost",
+   "ReaderInkPageStore",
+   "ReaderInkPencilOnlyCanvasView",
+   "ReaderInkSideNotebookStore",
+   "ReaderInkViewportSyncScheduler",
+   "ReaderSentenceActionViewModel",
+   "ReaderSettings",
+   "ReaderWordDetailViewModel",
+   "ReadingActivityService",
+   "ReadiumContainerParser",
+   "ReadiumDeobfuscator",
+   "ReadiumEncryptionParser",
+   "ReadiumOPFParser",
+   "ReadiumTOCParser",
+   "RecommendedBundledCatalogService",
+   "RecommendedChannelsService",
+   "RemoteAboutService",
+   "RemoteAnalysisService",
+   "RemoteAssetService",
+   "RemoteBGMService",
+   "RemoteCatalogLocalPresence",
+   "RemoteContactService",
+   "RemoteDeveloperWorksService",
+   "RemoteManualGuideService",
+   "RubyUIView",
+   "SavedLLMProfileStore",
+   "ScanPageSentenceActionViewModel",
+   "ScanPageService",
+   "ScanPageViewModel",
+   "ScanViewModel",
+   "ScannedPageDetailViewModel",
+   "ScreenAnnotationTapGestureRecognizer",
+   "SentenceAnalysisService",
+   "ShadowingAudioPlayer",
+   "ShareActivityItemSource",
+   "SiliconFlowService",
+   "SmartTextAnalyzer",
+   "SpeechHelper",
+   "SpeechRecognizer",
+   "SqliteVecManager",
+   "StorageInspector",
+   "SubscriptionStore",
+   "SubtitlePDFExporter",
+   "SystemSpeechTranscriptionService",
+   "TTSBackgroundMusicManager",
+   "TTSManager",
+   "TTSObserver",
+   "TTSSettingsManager",
+   "TencentTranslationService",
+   "TranslationConfig",
+   "TranslationManager",
+   "TxtToEPUBConverter",
+   "UniversalReaderViewModel",
+   "VectorKnowledgeBase",
+   "VideoDatabaseMigrationService",
+   "VideoDownloadService",
+   "VideoImportService",
+   "VideoPlayerViewModel",
+   "VideoShadowReaderViewModel",
+   "VideoTranscriptionService",
+   "VocabularyContextEnrichmentGate",
+   "VocabularyExportViewModel",
+   "VocabularyPDFExportService",
+   "VocabularySentenceTranslateModel",
+   "VocabularyViewModel",
+   "WebArticleParser",
+   "WebDAVAutoBackupScheduler",
+   "WebDAVBackgroundUploadCoordinator",
+   "WebDAVBackgroundUploadManager",
+   "WebDAVBackupConfig",
+   "WebDAVBackupHistoryStore",
+   "WebDAVBackupOrchestrator",
+   "WebDAVBackupRecoveryManager",
+   "WebDAVBackupService",
+   "WebDAVBackupSnapshotPreparer",
+   "WebDAVRestoreService",
+   "WebDownloadBookmarkStore",
+   "WebDownloadRecommendStore",
+   "WebToEPUBConverter",
+   "WhisperKitAlignTranscriber",
+   "WhisperModelManager",
+   "WiFiTransferService",
+   "WordAnnotationService",
+   "WordLookupUserFocusTipsStore",
+   "XiaohongshuParser",
+   "YTDLPWrapper",
+   "YouTubeEmbedContainerView",
+   "YouTubeEmbedPlaybackSession",
+   "YouTubeEmbedWebHost",
+   "YouTubeStreamCache",
+   "YoudaoTranslationProvider",
+   "YoutubeDirectImportService",
+   "YoutubeRSSService",
+   "YoutubeRSSViewModel",
+   "YoutubeVideoMetadataService"
+  ],
+  "Swifter": [
+   "Errno",
+   "HttpParser",
+   "HttpRequest",
+   "HttpRouter",
+   "HttpServer",
+   "HttpServerIO",
+   "Process",
+   "Socket",
+   "WebSocketSession"
+  ],
+  "SwiftSoup": [
+   "Attribute",
+   "AttributeKey",
+   "AttributeValue",
+   "Attributes",
+   "BooleanAttribute",
+   "ByteStorage",
+   "CSSPropertyName",
+   "CharacterReader",
+   "Cleaner",
+   "Collector",
+   "CombiningEvaluator",
+   "Comment",
+   "CssSelector",
+   "DataNode",
+   "Document",
+   "DocumentType",
+   "Element",
+   "Elements",
+   "Entities",
+   "Evaluator",
+   "FormElement",
+   "HtmlTreeBuilder",
+   "Matcher",
+   "MutableTrieNode",
+   "Mutex",
+   "Node",
+   "NodeTraversor",
+   "OutputSettings",
+   "ParseError",
+   "ParseErrorList",
+   "ParseSettings",
+   "Parser",
+   "Protocol",
+   "QueryParser",
+   "SelectorQueryStats",
+   "SelectorResultCache",
+   "SourceBuffer",
+   "StreamReader",
+   "StringBuilder",
+   "StringUtil",
+   "StructuralEvaluator",
+   "SwiftSoup",
+   "Tag",
+   "TagName",
+   "TextNode",
+   "Token",
+   "TokenQueue",
+   "Tokeniser",
+   "TokeniserStateVars",
+   "TreeBuilder",
+   "TrieNode",
+   "TypedValue",
+   "Whitelist",
+   "XmlDeclaration",
+   "XmlTreeBuilder"
+  ]
+ },
+ "module_counts": {
+  "<objc/other>": 162,
+  "SwiftWhisper": 2,
+  "PythonSupport": 1,
+  "ZIPFoundation": 2,
+  "StoryAlignCore": 8,
+  "StreamingTtsPlayerKit": 18,
+  "FSRS": 9,
+  "GRDB": 38,
+  "OneBook": 257,
+  "Swifter": 9,
+  "SwiftSoup": 55
+ },
+ "app_classes": [
+  {
+   "raw": "_TtC7OneBook10RubyUIView",
+   "module": "OneBook",
+   "type": "RubyUIView",
+   "kind": "class",
+   "nested": [
+    "RubyUIView"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook10TTSManager",
+   "module": "OneBook",
+   "type": "TTSManager",
+   "kind": "class",
+   "nested": [
+    "TTSManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook11AppDatabase",
+   "module": "OneBook",
+   "type": "AppDatabase",
+   "kind": "class",
+   "nested": [
+    "AppDatabase"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook11BookManager",
+   "module": "OneBook",
+   "type": "BookManager",
+   "kind": "class",
+   "nested": [
+    "BookManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook11EPUB3Parser",
+   "module": "OneBook",
+   "type": "EPUB3Parser",
+   "kind": "class",
+   "nested": [
+    "EPUB3Parser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook11TTSObserver",
+   "module": "OneBook",
+   "type": "TTSObserver",
+   "kind": "class",
+   "nested": [
+    "TTSObserver"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook12CacheManager",
+   "module": "OneBook",
+   "type": "CacheManager",
+   "kind": "class",
+   "nested": [
+    "CacheManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook12DouyinParser",
+   "module": "OneBook",
+   "type": "DouyinParser",
+   "kind": "class",
+   "nested": [
+    "DouyinParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook12SpeechHelper",
+   "module": "OneBook",
+   "type": "SpeechHelper",
+   "kind": "class",
+   "nested": [
+    "SpeechHelper"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook12YTDLPWrapper",
+   "module": "OneBook",
+   "type": "YTDLPWrapper",
+   "kind": "class",
+   "nested": [
+    "YTDLPWrapper"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook13BERTTokenizer",
+   "module": "OneBook",
+   "type": "BERTTokenizer",
+   "kind": "class",
+   "nested": [
+    "BERTTokenizer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook13DocxXMLParser",
+   "module": "OneBook",
+   "type": "DocxXMLParser",
+   "kind": "class",
+   "nested": [
+    "DocxXMLParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook13NewsReadStore",
+   "module": "OneBook",
+   "type": "NewsReadStore",
+   "kind": "class",
+   "nested": [
+    "NewsReadStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook13PythonManager",
+   "module": "OneBook",
+   "type": "PythonManager",
+   "kind": "class",
+   "nested": [
+    "PythonManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook13ScanViewModel",
+   "module": "OneBook",
+   "type": "ScanViewModel",
+   "kind": "class",
+   "nested": [
+    "ScanViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14BilibiliParser",
+   "module": "OneBook",
+   "type": "BilibiliParser",
+   "kind": "class",
+   "nested": [
+    "BilibiliParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14ClaudeProvider",
+   "module": "OneBook",
+   "type": "ClaudeProvider",
+   "kind": "class",
+   "nested": [
+    "ClaudeProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14CustomTextView",
+   "module": "OneBook",
+   "type": "CustomTextView",
+   "kind": "class",
+   "nested": [
+    "CustomTextView"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14EPUB3OPFParser",
+   "module": "OneBook",
+   "type": "EPUB3OPFParser",
+   "kind": "class",
+   "nested": [
+    "EPUB3OPFParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14GeminiProvider",
+   "module": "OneBook",
+   "type": "GeminiProvider",
+   "kind": "class",
+   "nested": [
+    "GeminiProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14KeychainHelper",
+   "module": "OneBook",
+   "type": "KeychainHelper",
+   "kind": "class",
+   "nested": [
+    "KeychainHelper"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14LocalRAGEngine",
+   "module": "OneBook",
+   "type": "LocalRAGEngine",
+   "kind": "class",
+   "nested": [
+    "LocalRAGEngine"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14NewsRSSService",
+   "module": "OneBook",
+   "type": "NewsRSSService",
+   "kind": "class",
+   "nested": [
+    "NewsRSSService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14OpenAIProvider",
+   "module": "OneBook",
+   "type": "OpenAIProvider",
+   "kind": "class",
+   "nested": [
+    "OpenAIProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook14ReaderSettings",
+   "module": "OneBook",
+   "type": "ReaderSettings",
+   "kind": "class",
+   "nested": [
+    "ReaderSettings"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook15BookSourceStore",
+   "module": "OneBook",
+   "type": "BookSourceStore",
+   "kind": "class",
+   "nested": [
+    "BookSourceStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook15ContactMeLoader",
+   "module": "OneBook",
+   "type": "ContactMeLoader",
+   "kind": "class",
+   "nested": [
+    "ContactMeLoader"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook15EPUB3SMILParser",
+   "module": "OneBook",
+   "type": "EPUB3SMILParser",
+   "kind": "class",
+   "nested": [
+    "EPUB3SMILParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook15MediaWatchStore",
+   "module": "OneBook",
+   "type": "MediaWatchStore",
+   "kind": "class",
+   "nested": [
+    "MediaWatchStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook15MockQwenService",
+   "module": "OneBook",
+   "type": "MockQwenService",
+   "kind": "class",
+   "nested": [
+    "MockQwenService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook15NewsFeedStorage",
+   "module": "OneBook",
+   "type": "NewsFeedStorage",
+   "kind": "class",
+   "nested": [
+    "NewsFeedStorage"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook15ScanPageService",
+   "module": "OneBook",
+   "type": "ScanPageService",
+   "kind": "class",
+   "nested": [
+    "ScanPageService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16EmbeddingService",
+   "module": "OneBook",
+   "type": "EmbeddingService",
+   "kind": "class",
+   "nested": [
+    "EmbeddingService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16EvaluationEngine",
+   "module": "OneBook",
+   "type": "EvaluationEngine",
+   "kind": "class",
+   "nested": [
+    "EvaluationEngine"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16MyBooksViewModel",
+   "module": "OneBook",
+   "type": "MyBooksViewModel",
+   "kind": "class",
+   "nested": [
+    "MyBooksViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16OneBookAuthStore",
+   "module": "OneBook",
+   "type": "OneBookAuthStore",
+   "kind": "class",
+   "nested": [
+    "OneBookAuthStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16PDFImportService",
+   "module": "OneBook",
+   "type": "PDFImportService",
+   "kind": "class",
+   "nested": [
+    "PDFImportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16ProfileViewModel",
+   "module": "OneBook",
+   "type": "ProfileViewModel",
+   "kind": "class",
+   "nested": [
+    "ProfileViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16ReadiumOPFParser",
+   "module": "OneBook",
+   "type": "ReadiumOPFParser",
+   "kind": "class",
+   "nested": [
+    "ReadiumOPFParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16ReadiumTOCParser",
+   "module": "OneBook",
+   "type": "ReadiumTOCParser",
+   "kind": "class",
+   "nested": [
+    "ReadiumTOCParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16RemoteBGMService",
+   "module": "OneBook",
+   "type": "RemoteBGMService",
+   "kind": "class",
+   "nested": [
+    "RemoteBGMService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16SpeechRecognizer",
+   "module": "OneBook",
+   "type": "SpeechRecognizer",
+   "kind": "class",
+   "nested": [
+    "SpeechRecognizer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16SqliteVecManager",
+   "module": "OneBook",
+   "type": "SqliteVecManager",
+   "kind": "class",
+   "nested": [
+    "SqliteVecManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16StorageInspector",
+   "module": "OneBook",
+   "type": "StorageInspector",
+   "kind": "class",
+   "nested": [
+    "StorageInspector"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook16WebArticleParser",
+   "module": "OneBook",
+   "type": "WebArticleParser",
+   "kind": "class",
+   "nested": [
+    "WebArticleParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17AnalysisChatStore",
+   "module": "OneBook",
+   "type": "AnalysisChatStore",
+   "kind": "class",
+   "nested": [
+    "AnalysisChatStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17BookImportService",
+   "module": "OneBook",
+   "type": "BookImportService",
+   "kind": "class",
+   "nested": [
+    "BookImportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17CBRToCBZConverter",
+   "module": "OneBook",
+   "type": "CBRToCBZConverter",
+   "kind": "class",
+   "nested": [
+    "CBRToCBZConverter"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17DialogueViewModel",
+   "module": "OneBook",
+   "type": "DialogueViewModel",
+   "kind": "class",
+   "nested": [
+    "DialogueViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17DictionaryService",
+   "module": "OneBook",
+   "type": "DictionaryService",
+   "kind": "class",
+   "nested": [
+    "DictionaryService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17EPUBImportService",
+   "module": "OneBook",
+   "type": "EPUBImportService",
+   "kind": "class",
+   "nested": [
+    "EPUBImportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17ImageCacheService",
+   "module": "OneBook",
+   "type": "ImageCacheService",
+   "kind": "class",
+   "nested": [
+    "ImageCacheService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17LastContinueStore",
+   "module": "OneBook",
+   "type": "LastContinueStore",
+   "kind": "class",
+   "nested": [
+    "LastContinueStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17ManualGuideLoader",
+   "module": "OneBook",
+   "type": "ManualGuideLoader",
+   "kind": "class",
+   "nested": [
+    "ManualGuideLoader"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17NewsListViewModel",
+   "module": "OneBook",
+   "type": "NewsListViewModel",
+   "kind": "class",
+   "nested": [
+    "NewsListViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17OneBookQuotaStore",
+   "module": "OneBook",
+   "type": "OneBookQuotaStore",
+   "kind": "class",
+   "nested": [
+    "OneBookQuotaStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17PDFOCRBoxProvider",
+   "module": "OneBook",
+   "type": "PDFOCRBoxProvider",
+   "kind": "class",
+   "nested": [
+    "PDFOCRBoxProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17PodcastRSSService",
+   "module": "OneBook",
+   "type": "PodcastRSSService",
+   "kind": "class",
+   "nested": [
+    "PodcastRSSService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17ScanPageViewModel",
+   "module": "OneBook",
+   "type": "ScanPageViewModel",
+   "kind": "class",
+   "nested": [
+    "ScanPageViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17SmartTextAnalyzer",
+   "module": "OneBook",
+   "type": "SmartTextAnalyzer",
+   "kind": "class",
+   "nested": [
+    "SmartTextAnalyzer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17SubscriptionStore",
+   "module": "OneBook",
+   "type": "SubscriptionStore",
+   "kind": "class",
+   "nested": [
+    "SubscriptionStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17TranslationConfig",
+   "module": "OneBook",
+   "type": "TranslationConfig",
+   "kind": "class",
+   "nested": [
+    "TranslationConfig"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17XiaohongshuParser",
+   "module": "OneBook",
+   "type": "XiaohongshuParser",
+   "kind": "class",
+   "nested": [
+    "XiaohongshuParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook17YoutubeRSSService",
+   "module": "OneBook",
+   "type": "YoutubeRSSService",
+   "kind": "class",
+   "nested": [
+    "YoutubeRSSService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18AboutOneBookLoader",
+   "module": "OneBook",
+   "type": "AboutOneBookLoader",
+   "kind": "class",
+   "nested": [
+    "AboutOneBookLoader"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18AppLanguageManager",
+   "module": "OneBook",
+   "type": "AppLanguageManager",
+   "kind": "class",
+   "nested": [
+    "AppLanguageManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18CloudSyncAPIClient",
+   "module": "OneBook",
+   "type": "CloudSyncAPIClient",
+   "kind": "class",
+   "nested": [
+    "CloudSyncAPIClient"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18CommunityViewModel",
+   "module": "OneBook",
+   "type": "CommunityViewModel",
+   "kind": "class",
+   "nested": [
+    "CommunityViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18EPUBPackageService",
+   "module": "OneBook",
+   "type": "EPUBPackageService",
+   "kind": "class",
+   "nested": [
+    "EPUBPackageService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18LLMProviderFactory",
+   "module": "OneBook",
+   "type": "LLMProviderFactory",
+   "kind": "class",
+   "nested": [
+    "LLMProviderFactory"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18LocalGemmaProvider",
+   "module": "OneBook",
+   "type": "LocalGemmaProvider",
+   "kind": "class",
+   "nested": [
+    "LocalGemmaProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18OPDSCatalogService",
+   "module": "OneBook",
+   "type": "OPDSCatalogService",
+   "kind": "class",
+   "nested": [
+    "OPDSCatalogService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18OneBookAppDelegate",
+   "module": "OneBook",
+   "type": "OneBookAppDelegate",
+   "kind": "class",
+   "nested": [
+    "OneBookAppDelegate"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18OneBookGatewayAuth",
+   "module": "OneBook",
+   "type": "OneBookGatewayAuth",
+   "kind": "class",
+   "nested": [
+    "OneBookGatewayAuth"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18PDFToEPUBConverter",
+   "module": "OneBook",
+   "type": "PDFToEPUBConverter",
+   "kind": "class",
+   "nested": [
+    "PDFToEPUBConverter"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18PlayableUITextView",
+   "module": "OneBook",
+   "type": "PlayableUITextView",
+   "kind": "class",
+   "nested": [
+    "PlayableUITextView"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18ReadWorldAuthStore",
+   "module": "OneBook",
+   "type": "ReadWorldAuthStore",
+   "kind": "class",
+   "nested": [
+    "ReadWorldAuthStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18ReaderInkPageStore",
+   "module": "OneBook",
+   "type": "ReaderInkPageStore",
+   "kind": "class",
+   "nested": [
+    "ReaderInkPageStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18RemoteAboutService",
+   "module": "OneBook",
+   "type": "RemoteAboutService",
+   "kind": "class",
+   "nested": [
+    "RemoteAboutService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18RemoteAssetService",
+   "module": "OneBook",
+   "type": "RemoteAssetService",
+   "kind": "class",
+   "nested": [
+    "RemoteAssetService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18SiliconFlowService",
+   "module": "OneBook",
+   "type": "SiliconFlowService",
+   "kind": "class",
+   "nested": [
+    "SiliconFlowService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18TTSSettingsManager",
+   "module": "OneBook",
+   "type": "TTSSettingsManager",
+   "kind": "class",
+   "nested": [
+    "TTSSettingsManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18TranslationManager",
+   "module": "OneBook",
+   "type": "TranslationManager",
+   "kind": "class",
+   "nested": [
+    "TranslationManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18TxtToEPUBConverter",
+   "module": "OneBook",
+   "type": "TxtToEPUBConverter",
+   "kind": "class",
+   "nested": [
+    "TxtToEPUBConverter"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18VideoImportService",
+   "module": "OneBook",
+   "type": "VideoImportService",
+   "kind": "class",
+   "nested": [
+    "VideoImportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18WebDAVBackupConfig",
+   "module": "OneBook",
+   "type": "WebDAVBackupConfig",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackupConfig"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18WebToEPUBConverter",
+   "module": "OneBook",
+   "type": "WebToEPUBConverter",
+   "kind": "class",
+   "nested": [
+    "WebToEPUBConverter"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook18YouTubeStreamCache",
+   "module": "OneBook",
+   "type": "YouTubeStreamCache",
+   "kind": "class",
+   "nested": [
+    "YouTubeStreamCache"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19BaiduShelfAPIClient",
+   "module": "OneBook",
+   "type": "BaiduShelfAPIClient",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfAPIClient"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19BookDownloadService",
+   "module": "OneBook",
+   "type": "BookDownloadService",
+   "kind": "class",
+   "nested": [
+    "BookDownloadService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19BookSourceViewModel",
+   "module": "OneBook",
+   "type": "BookSourceViewModel",
+   "kind": "class",
+   "nested": [
+    "BookSourceViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19DocxToEPUBConverter",
+   "module": "OneBook",
+   "type": "DocxToEPUBConverter",
+   "kind": "class",
+   "nested": [
+    "DocxToEPUBConverter"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19ImageOCRBoxProvider",
+   "module": "OneBook",
+   "type": "ImageOCRBoxProvider",
+   "kind": "class",
+   "nested": [
+    "ImageOCRBoxProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19PDF3ReaderViewModel",
+   "module": "OneBook",
+   "type": "PDF3ReaderViewModel",
+   "kind": "class",
+   "nested": [
+    "PDF3ReaderViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19ReaderInkCanvasHost",
+   "module": "OneBook",
+   "type": "ReaderInkCanvasHost",
+   "kind": "class",
+   "nested": [
+    "ReaderInkCanvasHost"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19ReadiumDeobfuscator",
+   "module": "OneBook",
+   "type": "ReadiumDeobfuscator",
+   "kind": "class",
+   "nested": [
+    "ReadiumDeobfuscator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19SubtitlePDFExporter",
+   "module": "OneBook",
+   "type": "SubtitlePDFExporter",
+   "kind": "class",
+   "nested": [
+    "SubtitlePDFExporter"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19VectorKnowledgeBase",
+   "module": "OneBook",
+   "type": "VectorKnowledgeBase",
+   "kind": "class",
+   "nested": [
+    "VectorKnowledgeBase"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19VocabularyViewModel",
+   "module": "OneBook",
+   "type": "VocabularyViewModel",
+   "kind": "class",
+   "nested": [
+    "VocabularyViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19WebDAVBackupService",
+   "module": "OneBook",
+   "type": "WebDAVBackupService",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackupService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19WhisperModelManager",
+   "module": "OneBook",
+   "type": "WhisperModelManager",
+   "kind": "class",
+   "nested": [
+    "WhisperModelManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19WiFiTransferService",
+   "module": "OneBook",
+   "type": "WiFiTransferService",
+   "kind": "class",
+   "nested": [
+    "WiFiTransferService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19YouTubeEmbedWebHost",
+   "module": "OneBook",
+   "type": "YouTubeEmbedWebHost",
+   "kind": "class",
+   "nested": [
+    "YouTubeEmbedWebHost"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook19YoutubeRSSViewModel",
+   "module": "OneBook",
+   "type": "YoutubeRSSViewModel",
+   "kind": "class",
+   "nested": [
+    "YoutubeRSSViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20AIGatewayConfigStore",
+   "module": "OneBook",
+   "type": "AIGatewayConfigStore",
+   "kind": "class",
+   "nested": [
+    "AIGatewayConfigStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20AudioRecorderManager",
+   "module": "OneBook",
+   "type": "AudioRecorderManager",
+   "kind": "class",
+   "nested": [
+    "AudioRecorderManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20CloudSyncCoordinator",
+   "module": "OneBook",
+   "type": "CloudSyncCoordinator",
+   "kind": "class",
+   "nested": [
+    "CloudSyncCoordinator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20ComicPageImageLoader",
+   "module": "OneBook",
+   "type": "ComicPageImageLoader",
+   "kind": "class",
+   "nested": [
+    "ComicPageImageLoader"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20ComicPageOCRProvider",
+   "module": "OneBook",
+   "type": "ComicPageOCRProvider",
+   "kind": "class",
+   "nested": [
+    "ComicPageOCRProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20DeveloperWorksLoader",
+   "module": "OneBook",
+   "type": "DeveloperWorksLoader",
+   "kind": "class",
+   "nested": [
+    "DeveloperWorksLoader"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20EPUBPackageNCXParser",
+   "module": "OneBook",
+   "type": "EPUBPackageNCXParser",
+   "kind": "class",
+   "nested": [
+    "EPUBPackageNCXParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20EPUBPackageOPFParser",
+   "module": "OneBook",
+   "type": "EPUBPackageOPFParser",
+   "kind": "class",
+   "nested": [
+    "EPUBPackageOPFParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20FoliateReaderWebView",
+   "module": "OneBook",
+   "type": "FoliateReaderWebView",
+   "kind": "class",
+   "nested": [
+    "FoliateReaderWebView"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20RemoteContactService",
+   "module": "OneBook",
+   "type": "RemoteContactService",
+   "kind": "class",
+   "nested": [
+    "RemoteContactService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20SavedLLMProfileStore",
+   "module": "OneBook",
+   "type": "SavedLLMProfileStore",
+   "kind": "class",
+   "nested": [
+    "SavedLLMProfileStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20ShadowingAudioPlayer",
+   "module": "OneBook",
+   "type": "ShadowingAudioPlayer",
+   "kind": "class",
+   "nested": [
+    "ShadowingAudioPlayer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20VideoDownloadService",
+   "module": "OneBook",
+   "type": "VideoDownloadService",
+   "kind": "class",
+   "nested": [
+    "VideoDownloadService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20VideoPlayerViewModel",
+   "module": "OneBook",
+   "type": "VideoPlayerViewModel",
+   "kind": "class",
+   "nested": [
+    "VideoPlayerViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook20WebDAVRestoreService",
+   "module": "OneBook",
+   "type": "WebDAVRestoreService",
+   "kind": "class",
+   "nested": [
+    "WebDAVRestoreService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook21DouyinShareWebFetcher",
+   "module": "OneBook",
+   "type": "DouyinShareWebFetcher",
+   "kind": "class",
+   "nested": [
+    "DouyinShareWebFetcher"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook21EPUB3NavigationParser",
+   "module": "OneBook",
+   "type": "EPUB3NavigationParser",
+   "kind": "class",
+   "nested": [
+    "EPUB3NavigationParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook21NativeAudioTextParser",
+   "module": "OneBook",
+   "type": "NativeAudioTextParser",
+   "kind": "class",
+   "nested": [
+    "NativeAudioTextParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook21OnlineTTSProfileStore",
+   "module": "OneBook",
+   "type": "OnlineTTSProfileStore",
+   "kind": "class",
+   "nested": [
+    "OnlineTTSProfileStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook21RemoteAnalysisService",
+   "module": "OneBook",
+   "type": "RemoteAnalysisService",
+   "kind": "class",
+   "nested": [
+    "RemoteAnalysisService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook21WordAnnotationService",
+   "module": "OneBook",
+   "type": "WordAnnotationService",
+   "kind": "class",
+   "nested": [
+    "WordAnnotationService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22ArticleFullTextService",
+   "module": "OneBook",
+   "type": "ArticleFullTextService",
+   "kind": "class",
+   "nested": [
+    "ArticleFullTextService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22BaiduNetdiskTokenStore",
+   "module": "OneBook",
+   "type": "BaiduNetdiskTokenStore",
+   "kind": "class",
+   "nested": [
+    "BaiduNetdiskTokenStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22BookPageScannerService",
+   "module": "OneBook",
+   "type": "BookPageScannerService",
+   "kind": "class",
+   "nested": [
+    "BookPageScannerService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22BookPlaybackSleepTimer",
+   "module": "OneBook",
+   "type": "BookPlaybackSleepTimer",
+   "kind": "class",
+   "nested": [
+    "BookPlaybackSleepTimer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22BookSelectionViewModel",
+   "module": "OneBook",
+   "type": "BookSelectionViewModel",
+   "kind": "class",
+   "nested": [
+    "BookSelectionViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22BookSourceHubModeStore",
+   "module": "OneBook",
+   "type": "BookSourceHubModeStore",
+   "kind": "class",
+   "nested": [
+    "BookSourceHubModeStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22LocalGemmaModelManager",
+   "module": "OneBook",
+   "type": "LocalGemmaModelManager",
+   "kind": "class",
+   "nested": [
+    "LocalGemmaModelManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22ONNXTranslationService",
+   "module": "OneBook",
+   "type": "ONNXTranslationService",
+   "kind": "class",
+   "nested": [
+    "ONNXTranslationService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22PDFOCRIndexingProgress",
+   "module": "OneBook",
+   "type": "PDFOCRIndexingProgress",
+   "kind": "class",
+   "nested": [
+    "PDFOCRIndexingProgress"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22ReadingActivityService",
+   "module": "OneBook",
+   "type": "ReadingActivityService",
+   "kind": "class",
+   "nested": [
+    "ReadingActivityService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook22ReadiumContainerParser",
+   "module": "OneBook",
+   "type": "ReadiumContainerParser",
+   "kind": "class",
+   "nested": [
+    "ReadiumContainerParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23AppleTranslationManager",
+   "module": "OneBook",
+   "type": "AppleTranslationManager",
+   "kind": "class",
+   "nested": [
+    "AppleTranslationManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23BaiduShelfDownloadQueue",
+   "module": "OneBook",
+   "type": "BaiduShelfDownloadQueue",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfDownloadQueue"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23CatalogRemoteImageCache",
+   "module": "OneBook",
+   "type": "CatalogRemoteImageCache",
+   "kind": "class",
+   "nested": [
+    "CatalogRemoteImageCache"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23CoreMLEmbeddingProvider",
+   "module": "OneBook",
+   "type": "CoreMLEmbeddingProvider",
+   "kind": "class",
+   "nested": [
+    "CoreMLEmbeddingProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23ExternalDictionaryStore",
+   "module": "OneBook",
+   "type": "ExternalDictionaryStore",
+   "kind": "class",
+   "nested": [
+    "ExternalDictionaryStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23FoliateURLSchemeHandler",
+   "module": "OneBook",
+   "type": "FoliateURLSchemeHandler",
+   "kind": "class",
+   "nested": [
+    "FoliateURLSchemeHandler"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23HTMLReaderSchemeHandler",
+   "module": "OneBook",
+   "type": "HTMLReaderSchemeHandler",
+   "kind": "class",
+   "nested": [
+    "HTMLReaderSchemeHandler"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23HeadlessSubtitleFetcher",
+   "module": "OneBook",
+   "type": "HeadlessSubtitleFetcher",
+   "kind": "class",
+   "nested": [
+    "HeadlessSubtitleFetcher"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23ImportedReaderFontStore",
+   "module": "OneBook",
+   "type": "ImportedReaderFontStore",
+   "kind": "class",
+   "nested": [
+    "ImportedReaderFontStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23LearnCommunicateSession",
+   "module": "OneBook",
+   "type": "LearnCommunicateSession",
+   "kind": "class",
+   "nested": [
+    "LearnCommunicateSession"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23NarratedEpubAlignLogger",
+   "module": "OneBook",
+   "type": "NarratedEpubAlignLogger",
+   "kind": "class",
+   "nested": [
+    "NarratedEpubAlignLogger"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23NewsThumbnailImageCache",
+   "module": "OneBook",
+   "type": "NewsThumbnailImageCache",
+   "kind": "class",
+   "nested": [
+    "NewsThumbnailImageCache"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23OnlineDictionaryService",
+   "module": "OneBook",
+   "type": "OnlineDictionaryService",
+   "kind": "class",
+   "nested": [
+    "OnlineDictionaryService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23OnlineTTSPreviewService",
+   "module": "OneBook",
+   "type": "OnlineTTSPreviewService",
+   "kind": "class",
+   "nested": [
+    "OnlineTTSPreviewService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23ReadiumEncryptionParser",
+   "module": "OneBook",
+   "type": "ReadiumEncryptionParser",
+   "kind": "class",
+   "nested": [
+    "ReadiumEncryptionParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23SentenceAnalysisService",
+   "module": "OneBook",
+   "type": "SentenceAnalysisService",
+   "kind": "class",
+   "nested": [
+    "SentenceAnalysisService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook23ShareActivityItemSource",
+   "module": "OneBook",
+   "type": "ShareActivityItemSource",
+   "kind": "class",
+   "nested": [
+    "ShareActivityItemSource"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24BaiduNetdiskOAuthService",
+   "module": "OneBook",
+   "type": "BaiduNetdiskOAuthService",
+   "kind": "class",
+   "nested": [
+    "BaiduNetdiskOAuthService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24BaiduVideoShelfAPIClient",
+   "module": "OneBook",
+   "type": "BaiduVideoShelfAPIClient",
+   "kind": "class",
+   "nested": [
+    "BaiduVideoShelfAPIClient"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24BookPageScannerViewModel",
+   "module": "OneBook",
+   "type": "BookPageScannerViewModel",
+   "kind": "class",
+   "nested": [
+    "BookPageScannerViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24CoreMLTranslationService",
+   "module": "OneBook",
+   "type": "CoreMLTranslationService",
+   "kind": "class",
+   "nested": [
+    "CoreMLTranslationService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24DownloadProgressDelegate",
+   "module": "OneBook",
+   "type": "DownloadProgressDelegate",
+   "kind": "class",
+   "nested": [
+    "DownloadProgressDelegate"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24FoliateEPUBZipAssetStore",
+   "module": "OneBook",
+   "type": "FoliateEPUBZipAssetStore",
+   "kind": "class",
+   "nested": [
+    "FoliateEPUBZipAssetStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24LearnTalkLiveOrbRenderer",
+   "module": "OneBook",
+   "type": "LearnTalkLiveOrbRenderer",
+   "kind": "class",
+   "nested": [
+    "LearnTalkLiveOrbRenderer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24MediaOfflineCacheService",
+   "module": "OneBook",
+   "type": "MediaOfflineCacheService",
+   "kind": "class",
+   "nested": [
+    "MediaOfflineCacheService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24RemoteManualGuideService",
+   "module": "OneBook",
+   "type": "RemoteManualGuideService",
+   "kind": "class",
+   "nested": [
+    "RemoteManualGuideService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24UniversalReaderViewModel",
+   "module": "OneBook",
+   "type": "UniversalReaderViewModel",
+   "kind": "class",
+   "nested": [
+    "UniversalReaderViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24WebDAVBackupHistoryStore",
+   "module": "OneBook",
+   "type": "WebDAVBackupHistoryStore",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackupHistoryStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24WebDAVBackupOrchestrator",
+   "module": "OneBook",
+   "type": "WebDAVBackupOrchestrator",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackupOrchestrator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook24WebDownloadBookmarkStore",
+   "module": "OneBook",
+   "type": "WebDownloadBookmarkStore",
+   "kind": "class",
+   "nested": [
+    "WebDownloadBookmarkStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25ApplePodcastImportService",
+   "module": "OneBook",
+   "type": "ApplePodcastImportService",
+   "kind": "class",
+   "nested": [
+    "ApplePodcastImportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25BaiduNetdiskBackupService",
+   "module": "OneBook",
+   "type": "BaiduNetdiskBackupService",
+   "kind": "class",
+   "nested": [
+    "BaiduNetdiskBackupService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25BaiduShelfDownloadService",
+   "module": "OneBook",
+   "type": "BaiduShelfDownloadService",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfDownloadService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25BaiduShelfSubmitViewModel",
+   "module": "OneBook",
+   "type": "BaiduShelfSubmitViewModel",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfSubmitViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25BookCoverThumbnailService",
+   "module": "OneBook",
+   "type": "BookCoverThumbnailService",
+   "kind": "class",
+   "nested": [
+    "BookCoverThumbnailService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25IncomingBookImportService",
+   "module": "OneBook",
+   "type": "IncomingBookImportService",
+   "kind": "class",
+   "nested": [
+    "IncomingBookImportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25LocalPhraseLexiconService",
+   "module": "OneBook",
+   "type": "LocalPhraseLexiconService",
+   "kind": "class",
+   "nested": [
+    "LocalPhraseLexiconService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25PDFReaderInkCanvasAdapter",
+   "module": "OneBook",
+   "type": "PDFReaderInkCanvasAdapter",
+   "kind": "class",
+   "nested": [
+    "PDFReaderInkCanvasAdapter"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25ReaderWordDetailViewModel",
+   "module": "OneBook",
+   "type": "ReaderWordDetailViewModel",
+   "kind": "class",
+   "nested": [
+    "ReaderWordDetailViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25TTSBackgroundMusicManager",
+   "module": "OneBook",
+   "type": "TTSBackgroundMusicManager",
+   "kind": "class",
+   "nested": [
+    "TTSBackgroundMusicManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25TencentTranslationService",
+   "module": "OneBook",
+   "type": "TencentTranslationService",
+   "kind": "class",
+   "nested": [
+    "TencentTranslationService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25VideoTranscriptionService",
+   "module": "OneBook",
+   "type": "VideoTranscriptionService",
+   "kind": "class",
+   "nested": [
+    "VideoTranscriptionService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25VocabularyExportViewModel",
+   "module": "OneBook",
+   "type": "VocabularyExportViewModel",
+   "kind": "class",
+   "nested": [
+    "VocabularyExportViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25WebDAVAutoBackupScheduler",
+   "module": "OneBook",
+   "type": "WebDAVAutoBackupScheduler",
+   "kind": "class",
+   "nested": [
+    "WebDAVAutoBackupScheduler"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25WebDownloadRecommendStore",
+   "module": "OneBook",
+   "type": "WebDownloadRecommendStore",
+   "kind": "class",
+   "nested": [
+    "WebDownloadRecommendStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25YouTubeEmbedContainerView",
+   "module": "OneBook",
+   "type": "YouTubeEmbedContainerView",
+   "kind": "class",
+   "nested": [
+    "YouTubeEmbedContainerView"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook25YoudaoTranslationProvider",
+   "module": "OneBook",
+   "type": "YoudaoTranslationProvider",
+   "kind": "class",
+   "nested": [
+    "YoudaoTranslationProvider"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26EPUBPackageContainerParser",
+   "module": "OneBook",
+   "type": "EPUBPackageContainerParser",
+   "kind": "class",
+   "nested": [
+    "EPUBPackageContainerParser"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26FoliateBookMetadataService",
+   "module": "OneBook",
+   "type": "FoliateBookMetadataService",
+   "kind": "class",
+   "nested": [
+    "FoliateBookMetadataService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26GradedWordSuppressionStore",
+   "module": "OneBook",
+   "type": "GradedWordSuppressionStore",
+   "kind": "class",
+   "nested": [
+    "GradedWordSuppressionStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26ITunesPodcastSearchService",
+   "module": "OneBook",
+   "type": "ITunesPodcastSearchService",
+   "kind": "class",
+   "nested": [
+    "ITunesPodcastSearchService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26LocalGemmaInferenceService",
+   "module": "OneBook",
+   "type": "LocalGemmaInferenceService",
+   "kind": "class",
+   "nested": [
+    "LocalGemmaInferenceService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26NativeAudioTextParserStack",
+   "module": "OneBook",
+   "type": "NativeAudioTextParserStack",
+   "kind": "class",
+   "nested": [
+    "NativeAudioTextParserStack"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26ReaderInkSideNotebookStore",
+   "module": "OneBook",
+   "type": "ReaderInkSideNotebookStore",
+   "kind": "class",
+   "nested": [
+    "ReaderInkSideNotebookStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26RecommendedChannelsService",
+   "module": "OneBook",
+   "type": "RecommendedChannelsService",
+   "kind": "class",
+   "nested": [
+    "RecommendedChannelsService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26RemoteCatalogLocalPresence",
+   "module": "OneBook",
+   "type": "RemoteCatalogLocalPresence",
+   "kind": "class",
+   "nested": [
+    "RemoteCatalogLocalPresence"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26ScannedPageDetailViewModel",
+   "module": "OneBook",
+   "type": "ScannedPageDetailViewModel",
+   "kind": "class",
+   "nested": [
+    "ScannedPageDetailViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26VideoShadowReaderViewModel",
+   "module": "OneBook",
+   "type": "VideoShadowReaderViewModel",
+   "kind": "class",
+   "nested": [
+    "VideoShadowReaderViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26VocabularyPDFExportService",
+   "module": "OneBook",
+   "type": "VocabularyPDFExportService",
+   "kind": "class",
+   "nested": [
+    "VocabularyPDFExportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26WhisperKitAlignTranscriber",
+   "module": "OneBook",
+   "type": "WhisperKitAlignTranscriber",
+   "kind": "class",
+   "nested": [
+    "WhisperKitAlignTranscriber"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook26YoutubeDirectImportService",
+   "module": "OneBook",
+   "type": "YoutubeDirectImportService",
+   "kind": "class",
+   "nested": [
+    "YoutubeDirectImportService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27ApplePodcastHeadlessFetcher",
+   "module": "OneBook",
+   "type": "ApplePodcastHeadlessFetcher",
+   "kind": "class",
+   "nested": [
+    "ApplePodcastHeadlessFetcher"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27LastContinueOpenCoordinator",
+   "module": "OneBook",
+   "type": "LastContinueOpenCoordinator",
+   "kind": "class",
+   "nested": [
+    "LastContinueOpenCoordinator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27M4BAudiobookPlayerViewModel",
+   "module": "OneBook",
+   "type": "M4BAudiobookPlayerViewModel",
+   "kind": "class",
+   "nested": [
+    "M4BAudiobookPlayerViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27NetworkConnectivitySnapshot",
+   "module": "OneBook",
+   "type": "NetworkConnectivitySnapshot",
+   "kind": "class",
+   "nested": [
+    "NetworkConnectivitySnapshot"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27NonGradedWordHighlightStore",
+   "module": "OneBook",
+   "type": "NonGradedWordHighlightStore",
+   "kind": "class",
+   "nested": [
+    "NonGradedWordHighlightStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27PDFReaderInkViewportTracker",
+   "module": "OneBook",
+   "type": "PDFReaderInkViewportTracker",
+   "kind": "class",
+   "nested": [
+    "PDFReaderInkViewportTracker"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27RemoteDeveloperWorksService",
+   "module": "OneBook",
+   "type": "RemoteDeveloperWorksService",
+   "kind": "class",
+   "nested": [
+    "RemoteDeveloperWorksService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27WebDAVBackupRecoveryManager",
+   "module": "OneBook",
+   "type": "WebDAVBackupRecoveryManager",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackupRecoveryManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27YouTubeEmbedPlaybackSession",
+   "module": "OneBook",
+   "type": "YouTubeEmbedPlaybackSession",
+   "kind": "class",
+   "nested": [
+    "YouTubeEmbedPlaybackSession"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook27YoutubeVideoMetadataService",
+   "module": "OneBook",
+   "type": "YoutubeVideoMetadataService",
+   "kind": "class",
+   "nested": [
+    "YoutubeVideoMetadataService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28ArticleReaderContentResolver",
+   "module": "OneBook",
+   "type": "ArticleReaderContentResolver",
+   "kind": "class",
+   "nested": [
+    "ArticleReaderContentResolver"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28BaiduShelfBookIntroViewModel",
+   "module": "OneBook",
+   "type": "BaiduShelfBookIntroViewModel",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfBookIntroViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28BaiduShelfRecommendViewModel",
+   "module": "OneBook",
+   "type": "BaiduShelfRecommendViewModel",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfRecommendViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28LLMGatewayResolvedModelStore",
+   "module": "OneBook",
+   "type": "LLMGatewayResolvedModelStore",
+   "kind": "class",
+   "nested": [
+    "LLMGatewayResolvedModelStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28PodcastLanguageGridViewModel",
+   "module": "OneBook",
+   "type": "PodcastLanguageGridViewModel",
+   "kind": "class",
+   "nested": [
+    "PodcastLanguageGridViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28PodcastRecommendCatalogStore",
+   "module": "OneBook",
+   "type": "PodcastRecommendCatalogStore",
+   "kind": "class",
+   "nested": [
+    "PodcastRecommendCatalogStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28WebDAVBackupSnapshotPreparer",
+   "module": "OneBook",
+   "type": "WebDAVBackupSnapshotPreparer",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackupSnapshotPreparer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook28WordLookupUserFocusTipsStore",
+   "module": "OneBook",
+   "type": "WordLookupUserFocusTipsStore",
+   "kind": "class",
+   "nested": [
+    "WordLookupUserFocusTipsStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29AppleNaturalLanguageEmbedding",
+   "module": "OneBook",
+   "type": "AppleNaturalLanguageEmbedding",
+   "kind": "class",
+   "nested": [
+    "AppleNaturalLanguageEmbedding"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29BaiduNetdiskBackupCoordinator",
+   "module": "OneBook",
+   "type": "BaiduNetdiskBackupCoordinator",
+   "kind": "class",
+   "nested": [
+    "BaiduNetdiskBackupCoordinator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29BaiduShelfSubmissionAPIClient",
+   "module": "OneBook",
+   "type": "BaiduShelfSubmissionAPIClient",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfSubmissionAPIClient"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29BookBackgroundDownloadManager",
+   "module": "OneBook",
+   "type": "BookBackgroundDownloadManager",
+   "kind": "class",
+   "nested": [
+    "BookBackgroundDownloadManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29ContextPhraseSectionViewModel",
+   "module": "OneBook",
+   "type": "ContextPhraseSectionViewModel",
+   "kind": "class",
+   "nested": [
+    "ContextPhraseSectionViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29ReaderInkPencilOnlyCanvasView",
+   "module": "OneBook",
+   "type": "ReaderInkPencilOnlyCanvasView",
+   "kind": "class",
+   "nested": [
+    "ReaderInkPencilOnlyCanvasView"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29ReaderSentenceActionViewModel",
+   "module": "OneBook",
+   "type": "ReaderSentenceActionViewModel",
+   "kind": "class",
+   "nested": [
+    "ReaderSentenceActionViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29VideoDatabaseMigrationService",
+   "module": "OneBook",
+   "type": "VideoDatabaseMigrationService",
+   "kind": "class",
+   "nested": [
+    "VideoDatabaseMigrationService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook29WebDAVBackgroundUploadManager",
+   "module": "OneBook",
+   "type": "WebDAVBackgroundUploadManager",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackgroundUploadManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook30AppleTranslationPrepareRequest",
+   "module": "OneBook",
+   "type": "AppleTranslationPrepareRequest",
+   "kind": "class",
+   "nested": [
+    "AppleTranslationPrepareRequest"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook30BaiduShelfAudioOnDemandFetcher",
+   "module": "OneBook",
+   "type": "BaiduShelfAudioOnDemandFetcher",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfAudioOnDemandFetcher"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook30BaiduVideoShelfDownloadService",
+   "module": "OneBook",
+   "type": "BaiduVideoShelfDownloadService",
+   "kind": "class",
+   "nested": [
+    "BaiduVideoShelfDownloadService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook30EPUBChapterTextExtractionCache",
+   "module": "OneBook",
+   "type": "EPUBChapterTextExtractionCache",
+   "kind": "class",
+   "nested": [
+    "EPUBChapterTextExtractionCache"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook30MediaPlaybackCacheRangeFetcher",
+   "module": "OneBook",
+   "type": "MediaPlaybackCacheRangeFetcher",
+   "kind": "class",
+   "nested": [
+    "MediaPlaybackCacheRangeFetcher"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook30NarratedEpubAlignmentViewModel",
+   "module": "OneBook",
+   "type": "NarratedEpubAlignmentViewModel",
+   "kind": "class",
+   "nested": [
+    "NarratedEpubAlignmentViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook30ReaderInkViewportSyncScheduler",
+   "module": "OneBook",
+   "type": "ReaderInkViewportSyncScheduler",
+   "kind": "class",
+   "nested": [
+    "ReaderInkViewportSyncScheduler"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook31BaiduShelfAudioOnDemandActivity",
+   "module": "OneBook",
+   "type": "BaiduShelfAudioOnDemandActivity",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfAudioOnDemandActivity"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook31ClipboardVideoImportPromptStore",
+   "module": "OneBook",
+   "type": "ClipboardVideoImportPromptStore",
+   "kind": "class",
+   "nested": [
+    "ClipboardVideoImportPromptStore"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook31EPUBReaderWebViewPrewarmService",
+   "module": "OneBook",
+   "type": "EPUBReaderWebViewPrewarmService",
+   "kind": "class",
+   "nested": [
+    "EPUBReaderWebViewPrewarmService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook31PDFEmbeddedAudioPlaybackService",
+   "module": "OneBook",
+   "type": "PDFEmbeddedAudioPlaybackService",
+   "kind": "class",
+   "nested": [
+    "PDFEmbeddedAudioPlaybackService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook31ScanPageSentenceActionViewModel",
+   "module": "OneBook",
+   "type": "ScanPageSentenceActionViewModel",
+   "kind": "class",
+   "nested": [
+    "ScanPageSentenceActionViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook31VocabularyContextEnrichmentGate",
+   "module": "OneBook",
+   "type": "VocabularyContextEnrichmentGate",
+   "kind": "class",
+   "nested": [
+    "VocabularyContextEnrichmentGate"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32BaiduShelfMySubmissionsViewModel",
+   "module": "OneBook",
+   "type": "BaiduShelfMySubmissionsViewModel",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfMySubmissionsViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32FoliateImportSectionSplitService",
+   "module": "OneBook",
+   "type": "FoliateImportSectionSplitService",
+   "kind": "class",
+   "nested": [
+    "FoliateImportSectionSplitService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32MainContentVerticalScrollMonitor",
+   "module": "OneBook",
+   "type": "MainContentVerticalScrollMonitor",
+   "kind": "class",
+   "nested": [
+    "MainContentVerticalScrollMonitor"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32MediaPlaybackCacheResourceLoader",
+   "module": "OneBook",
+   "type": "MediaPlaybackCacheResourceLoader",
+   "kind": "class",
+   "nested": [
+    "MediaPlaybackCacheResourceLoader"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32PDFExclusionZoneCanvasController",
+   "module": "OneBook",
+   "type": "PDFExclusionZoneCanvasController",
+   "kind": "class",
+   "nested": [
+    "PDFExclusionZoneCanvasController"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32RecommendedBundledCatalogService",
+   "module": "OneBook",
+   "type": "RecommendedBundledCatalogService",
+   "kind": "class",
+   "nested": [
+    "RecommendedBundledCatalogService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32SystemSpeechTranscriptionService",
+   "module": "OneBook",
+   "type": "SystemSpeechTranscriptionService",
+   "kind": "class",
+   "nested": [
+    "SystemSpeechTranscriptionService"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook32VocabularySentenceTranslateModel",
+   "module": "OneBook",
+   "type": "VocabularySentenceTranslateModel",
+   "kind": "class",
+   "nested": [
+    "VocabularySentenceTranslateModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook33BaiduShelfTextLayerPackageBuilder",
+   "module": "OneBook",
+   "type": "BaiduShelfTextLayerPackageBuilder",
+   "kind": "class",
+   "nested": [
+    "BaiduShelfTextLayerPackageBuilder"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook33BaiduVideoShelfRecommendViewModel",
+   "module": "OneBook",
+   "type": "BaiduVideoShelfRecommendViewModel",
+   "kind": "class",
+   "nested": [
+    "BaiduVideoShelfRecommendViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook33BookBackgroundDownloadCoordinator",
+   "module": "OneBook",
+   "type": "BookBackgroundDownloadCoordinator",
+   "kind": "class",
+   "nested": [
+    "BookBackgroundDownloadCoordinator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook33BookSleepTimerLiveActivityManager",
+   "module": "OneBook",
+   "type": "BookSleepTimerLiveActivityManager",
+   "kind": "class",
+   "nested": [
+    "BookSleepTimerLiveActivityManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook33ExclusiveMediaPlaybackCoordinator",
+   "module": "OneBook",
+   "type": "ExclusiveMediaPlaybackCoordinator",
+   "kind": "class",
+   "nested": [
+    "ExclusiveMediaPlaybackCoordinator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook33PodcastLanguageRecommendViewModel",
+   "module": "OneBook",
+   "type": "PodcastLanguageRecommendViewModel",
+   "kind": "class",
+   "nested": [
+    "PodcastLanguageRecommendViewModel"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook33WebDAVBackgroundUploadCoordinator",
+   "module": "OneBook",
+   "type": "WebDAVBackgroundUploadCoordinator",
+   "kind": "class",
+   "nested": [
+    "WebDAVBackgroundUploadCoordinator"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook34HTMLReaderLiveAppearanceController",
+   "module": "OneBook",
+   "type": "HTMLReaderLiveAppearanceController",
+   "kind": "class",
+   "nested": [
+    "HTMLReaderLiveAppearanceController"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook36ScreenAnnotationTapGestureRecognizer",
+   "module": "OneBook",
+   "type": "ScreenAnnotationTapGestureRecognizer",
+   "kind": "class",
+   "nested": [
+    "ScreenAnnotationTapGestureRecognizer"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook37ImmersiveWordTagsScrollViewController",
+   "module": "OneBook",
+   "type": "ImmersiveWordTagsScrollViewController",
+   "kind": "class",
+   "nested": [
+    "ImmersiveWordTagsScrollViewController"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBook9DBManager",
+   "module": "OneBook",
+   "type": "DBManager",
+   "kind": "class",
+   "nested": [
+    "DBManager"
+   ]
+  },
+  {
+   "raw": "_TtC7OneBookP33_0F3E94E46623B442DA671F05984839F613NewsRSSParser",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_1CA0F6E1A91DD479C422CAA7B546218E29InsecureSSLURLSessionDelegate",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_30B94070F8ACEF68DC3AB8083DC5F17124ExclusionZoneOverlayView",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_3E297D7A01A4A348551FC6C7888CC42714AtomOPDSParser",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_3E297D7A01A4A348551FC6C7888CC42722OPDSNextPageLinkParser",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_405235B548644CFA65079891250581A219ResourceBundleClass",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_4C609165F51BE7815B3639EAB9D842A628SubtitleScrollInteractionBox",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_508BFF5ED2267BB775E18FF2158DBAE018WebKitJSONFetchBox",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_5A693899B6A7961EFB2D73D16E7057CA36SubtitleRegenerationDownloadDelegate",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_6036F91A277F7CC372A9652522D1148214DownloadBridge",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_67EC4933F29B214318AFA312F4E7EE4C15RSSParseSession",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_6F0B91EDCDA2004F2E8F351F4352F77C27AudioOnDemandDownloadBridge",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_71E09BB4D28753C73F606DE70CF501E217ExtractionSession",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_79EA3FDA03B48981C6640DC11014748826EphemeralHTMLWebViewLoader",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_863BEBE486719E34CEE21B0CC58A700E15ContainerParser",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_863BEBE486719E34CEE21B0CC58A700E9OPFParser",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_89603BBA5AE4B8D432B8B2718F96E2A324ChunkUploadProgressState",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_AEC33363B5CF9457E039B8B47CFFEAF224HorizontalLockScrollView",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_B1B7331214C6589D6A117E9B3745ABBB27PDFReaderHostViewController",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_B491607594FB7299D0255813F3CC8EBE22UploadProgressDelegate",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_B73C963C9962FB286FBCFFF98ADE61EF19InAppScreenRecorder",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_B73C963C9962FB286FBCFFF98ADE61EF22BilibiliWKWebViewStore",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_BF8FD664A5927E2CAB87DEB62D05BF2730YouTubeEmbedScriptMessageProxy",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_C6D8B7F9105D4956766B4F32ABA02A6224SectionHTMLExportSession",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_C6F5BC5E0D685662E9DC1A52693F985E17ZipProgressBridge",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_DC8CAAF4706D835F5CF87C77E948859F22ImportedFontApplyCache",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_DE8E44EE33B57E977DFE900BE1A3EFAD18SplitImportSession",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_DE8E44EE33B57E977DFE900BE1A3EFAD21TextExtractionSession",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_DF1E42C3169C2CBBBB651905B32C6E9426NarratedEpubProgressBridge",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_DF74D742C4D7091600E8433E1B8C5EA016YoutubeRSSParser",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtC7OneBookP33_E4ACB486F3A80ECD71D601A32E928F0123IntrinsicHeightTextView",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "class",
+   "nested": []
+  },
+  {
+   "raw": "_TtP7OneBookP33_0D3FD83FE878549C813E53B7769FE56634OBOnDeviceWhisperKitBridgeProtocol_",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "protocol",
+   "nested": []
+  },
+  {
+   "raw": "_TtP7OneBookP33_1BE120FDA79E4D0EB8571A34113C1DFA29OBOnDeviceGemmaBridgeProtocol_",
+   "module": "OneBook",
+   "type": "OneBook",
+   "kind": "protocol",
+   "nested": []
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "python-runtime": {
+  "hits": 8,
+  "matched_patterns": [
+   "Py_Initialize",
+   "kivy",
+   "python3\\.\\d+"
+  ]
+ },
+ "epub-media-overlay": {
+  "hits": 69,
+  "matched_patterns": [
+   "media-overlay",
+   "mediaOverlay",
+   "SMIL",
+   "smil",
+   "epub:type",
+   "nav\\.xhtml"
+  ]
+ },
+ "mobi-kindle": {
+  "hits": 2,
+  "matched_patterns": [
+   "MOBI"
+  ]
+ },
+ "comic-archive": {
+  "hits": 300,
+  "matched_patterns": [
+   "CBZ",
+   "CBR",
+   "comicbook",
+   "rar"
+  ]
+ },
+ "mdx-dictionary": {
+  "hits": 86,
+  "matched_patterns": [
+   "MDX",
+   "MDD",
+   "mdict",
+   "\\.mdx",
+   "\\.mdd"
+  ]
+ },
+ "whisper": {
+  "hits": 382,
+  "matched_patterns": [
+   "WhisperKit",
+   "whisper",
+   "WhisperBeamSearch",
+   "ggml",
+   "mel"
+  ]
+ },
+ "gemma-llm": {
+  "hits": 103,
+  "matched_patterns": [
+   "Gemma",
+   "gemma",
+   "litert",
+   "LiteRT",
+   "llm",
+   "LLM"
+  ]
+ },
+ "ffmpeg": {
+  "hits": 9,
+  "matched_patterns": [
+   "swresample",
+   "ffmpegkit",
+   "FFmpegKit"
+  ]
+ },
+ "cloudkit": {
+  "hits": 28,
+  "matched_patterns": [
+   "CloudKit",
+   "CKRecord"
+  ]
+ },
+ "tts": {
+  "hits": 782,
+  "matched_patterns": [
+   "AVSpeechSynthesizer",
+   "SpeechSynthesizer",
+   "tts",
+   "TTS",
+   "azure"
+  ]
+ },
+ "translation": {
+  "hits": 212,
+  "matched_patterns": [
+   "Translation",
+   "deepl"
+  ]
+ },
+ "speech-recognition": {
+  "hits": 15,
+  "matched_patterns": [
+   "SFSpeechRecognizer",
+   "Speech\\.framework",
+   "speechRecognizer"
+  ]
+ },
+ "pdf": {
+  "hits": 32,
+  "matched_patterns": [
+   "PDFDocument",
+   "PDFKit",
+   "CGPDFDocument"
+  ]
+ },
+ "sync-webdav": {
+  "hits": 81,
+  "matched_patterns": [
+   "WebDAV",
+   "webdav",
+   "MKCOL"
+  ]
+ },
+ "baidu-pan": {
+  "hits": 22,
+  "matched_patterns": [
+   "pan\\.baidu\\.com",
+   "BaiduNetdisk"
+  ]
+ },
+ "ai-provider": {
+  "hits": 39,
+  "matched_patterns": [
+   "siliconflow",
+   "openai",
+   "OpenAI",
+   "gemini",
+   "anthropic"
+  ]
+ },
+ "storekit": {
+  "hits": 68,
+  "matched_patterns": [
+   "StoreKit"
+  ]
+ },
+ "charts": {
+  "hits": 0,
+  "matched_patterns": []
+ },
+ "anki-export": {
+  "hits": 4,
+  "matched_patterns": [
+   "anki"
+  ]
+ },
+ "srs": {
+  "hits": 45,
+  "matched_patterns": [
+   "FSRS",
+   "fsrs"
+  ]
+ }
+}
+
+big files (>1MB):
+     57.2 MB  OneBook
+     42.2 MB  Frameworks/CLiteRTLM.framework/CLiteRTLM
+     38.0 MB  dictionary.sqlite.lzfse
+      8.1 MB  SherpaOnnxModels/espeak-ng-data.bundle/ru_dict
+      7.7 MB  Frameworks/libavcodec.framework/libavcodec
+      4.4 MB  phrase_lexicon.sqlite
+      4.0 MB  Python-iOS_PythonSupport.bundle/lib/python310.zip
+      3.3 MB  Frameworks/libavformat.framework/libavformat
+      2.5 MB  Assets.car
+      2.4 MB  Frameworks/libavfilter.framework/libavfilter
+      1.8 MB  FastSans.ttf
+      1.5 MB  SherpaOnnxModels/espeak-ng-data.bundle/cmn_dict
+      1.5 MB  Frameworks/OnDeviceWhisperKit.framework/OnDeviceWhisperKit
+      1.0 MB  Merriweather_24pt_SemiCondensed-Regular.ttf
+
+ext counts: {'.py': 1269, '': 436, '.h': 187, '.strings': 91, '.supf': 26, '.supp': 26, '.plist': 18, '.json': 18, '.supx': 13, '.txt': 11, '.ttf': 10, '.js': 5, '.typed': 5, '.modulemap': 4, '.png': 2, '.xcprivacy': 2, '.pem': 2, '.swiftmodule': 2, '.swiftdoc': 2, '.car': 1}
+
+total bundle size MB: 214.7
